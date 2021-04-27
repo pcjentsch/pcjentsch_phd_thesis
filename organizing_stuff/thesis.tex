@@ -162,13 +162,13 @@
 % Being a large document, it is a good idea to divide your thesis into several files, each one containing one chapter or other significant chunk of content, so you can easily shuffle things around later if desired.
 %======================================================================
 \begin{document}
-%------------------------------------
-----------------------------------
+
+%----------------------------------------------------------------------
 % FRONT MATERIAL
 % title page,declaration, borrowers' page, abstract, acknowledgements,
 % dedication, table of contents, list of tables, list of figures, nomenclature, etc.
 %----------------------------------------------------------------------
-\input{front_matter/uw-ethesis-frontpgs} 
+\input{uw-ethesis-frontpgs} 
 
 %----------------------------------------------------------------------
 % MAIN BODY
@@ -178,14 +178,10 @@
 % Tip: Putting each sentence on a new line is a way to simplify later editing.
 %----------------------------------------------------------------------
 \input{chapter_1/chapter-introduction.tex}
-\input{chapter_1/chapter-observations.tex}
 
 \input{chapter_2/chapter-introduction.tex}
-\input{chapter_2/chapter-observations.tex}
 
 \input{chapter_3/chapter-introduction.tex}
-\input{chapter_3/chapter-observations.tex}
-
 
 %----------------------------------------------------------------------
 % END MATERIAL
@@ -208,7 +204,7 @@
 % Add the References to the Table of Contents
 \addcontentsline{toc}{chapter}{\textbf{References}}
 
-\bibliography{thesis}
+\bibliography{uw-ethesis}
 % Tip: You can create multiple .bib files to organize your references. 
 % Just list them all in the \bibliogaphy command, separated by commas (no spaces).
 
@@ -225,7 +221,7 @@
 \chapter*{APPENDICES}
 \addcontentsline{toc}{chapter}{APPENDICES}
 % Appendices are just more chapters, with different labeling (letters instead of numbers).
-% \input{appendix-matlab_plots.tex}
+\input{appendix-matlab_plots.tex}
 
 % GLOSSARIES (Lists of definitions, abbreviations, symbols, etc. provided by the glossaries-extra package)
 % -----------------------------

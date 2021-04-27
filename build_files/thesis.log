@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 00:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,9 +519,7 @@ LaTeX Info: Redefining \nameref on input line 164.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write8
- (./front_matter/uw-ethesis-frontpgs.tex [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+ (./uw-ethesis-frontpgs.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
@@ -533,15 +531,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.47 \end{titlepage}
-                     [1
+) [1
 
 
-] [2
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
 ] [3
@@ -585,73 +579,56 @@ Chapter 1.
 
 
 
-]) (./chapter_1/chapter-observations.tex [2] [3]
+]) [2] (./chapter_2/chapter-introduction.tex [3]
 Chapter 2.
-
-LaTeX Warning: Reference `AppendixA' on page 4 undefined on input line 26.
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-7.
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
- [4
+[4
 
 
-])
-(./chapter_2/chapter-introduction.tex [5]
+]) [5] (./chapter_3/chapter-introduction.tex [6]
 Chapter 3.
-[6
+[7
 
 
-]) (./chapter_2/chapter-observations.tex [7] [8]
-Chapter 4.
+]) [8] [9] (./thesis.bbl
 
-LaTeX Warning: Reference `AppendixA' on page 9 undefined on input line 26.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-[9
-
-
-]) (./chapter_3/chapter-introduction.tex [10]
-Chapter 5.
-[11
+) [10
 
 
-]) (./chapter_3/chapter-observations.tex [12] [13]
-Chapter 6.
-
-LaTeX Warning: Reference `AppendixA' on page 14 undefined on input line 26.
-
-[14
 
 
-]) [15] (./thesis.bbl) [16
-
-
+] (./appendix-matlab_plots.tex [11
 
 
 ]
+Appendix A.
+[12
+
+
+]
+Overfull \hbox (2.40399pt too wide) in paragraph at lines 26--26
+[]\OT1/cmtt/m/n/12 set(gcf,'Position',[0,0,6,4]) % Set figure width (6 in.) and
+ height (4 in.)[] 
+ []
+
+)
 No file thesis.gls.
 
-Package glossaries-extra Warning: Glossary `main' is missing on input line 232.
+Package glossaries-extra Warning: Glossary `main' is missing on input line 228.
 
 
-[17
-
-
-]
+[13]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
-r check TeX's shell escape allows you to run makeindex on input line 232.
+r check TeX's shell escape allows you to run makeindex on input line 228.
 
 No file thesis.gls-abr.
 
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
-line 232.
+line 228.
 
-[18
+[14
 
 
 
@@ -660,14 +637,14 @@ line 232.
 
 Package glossaries-extra Warning: Rerun required to build the glossary `abbrevi
 ations' or check TeX's shell escape allows you to run makeindex on input line 2
-32.
+28.
 
 No file thesis.nomenclature-gls.
 
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
-ine 232.
+ine 228.
 
-[19
+[15
 
 
 
@@ -675,15 +652,15 @@ ine 232.
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `nomencl
-ature' or check TeX's shell escape allows you to run makeindex on input line 23
-2.
+ature' or check TeX's shell escape allows you to run makeindex on input line 22
+8.
 
 No file thesis.symbols-gls.
 
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
-32.
+28.
 
-[20
+[16
 
 
 
@@ -691,32 +668,29 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
-' or check TeX's shell escape allows you to run makeindex on input line 232.
+' or check TeX's shell escape allows you to run makeindex on input line 228.
 
-[21
+[17
 
 
 
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4F8C631ED346676E877D4446306E9F76;1073.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 08A862C0D9F3BE6EA19C480728E32051;1138.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12244 strings out of 479383
- 194607 string characters out of 5875830
- 602418 words of memory out of 5000000
- 28997 multiletter control sequences out of 15000+600000
- 418907 words of font info for 86 fonts, out of 8000000 for 9000
+ 12191 strings out of 479383
+ 193757 string characters out of 5875830
+ 602365 words of memory out of 5000000
+ 28972 multiletter control sequences out of 15000+600000
+ 417694 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,111p,1001b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,8n,111p,1001b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:dingledorf} has been referenced but does not 
 exist, replaced by a fixed one
 
@@ -730,23 +704,18 @@ pdfTeX warning (dest): name{glo:computer} has been referenced but does not exis
 t, replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.
-pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (33 pages, 202139 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (28 pages, 136576 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
  161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
