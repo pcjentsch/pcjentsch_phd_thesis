@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis
 (./thesis.tex
 LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-12-03> xparse <2020-03-03>
-(/usr/share/texmf-dist/tex/latex/base/book.cls
+L3 programming layer <2020-12-03> xparse <2020-03-03> (/usr/share/texmf-dist/te
+x/latex/base/book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
@@ -23,28 +23,20 @@ File: bk12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
-
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen139
-))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
-)
-(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count186
@@ -84,10 +76,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -95,85 +85,66 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-)
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-)
-(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
 (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+) (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-)
-(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
 (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen150
 \Hy@linkcounter=\count198
 \Hy@pagecounter=\count199
-
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count266
@@ -187,17 +158,14 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
 LaTeX Info: Redefining \href on input line 4987.
 \c@Hy@tempcnt=\count267
-
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen151
-
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
 (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
@@ -214,7 +182,6 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-
 (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
@@ -225,10 +192,8 @@ with kernel methods
 \c@Hfootnote=\count271
 )
 Package hyperref Info: Driver: hpdftex.
-
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-
 (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
@@ -236,10 +201,8 @@ with kernel methods
 )
 \Fld@listcount=\count272
 \c@bookmark@seq@number=\count273
-
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
 (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -248,65 +211,51 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 108.
-Package hyperref Info: Option `unicode' set `false' on input line 108.
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 108.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 108.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 108.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 108.
-Package hyperref Info: Option `colorlinks' set `true' on input line 108.
-
+Package hyperref Info: Option `plainpages' set `false' on input line 111.
+Package hyperref Info: Option `unicode' set `false' on input line 111.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 111.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 111.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 111.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
+Package hyperref Info: Option `colorlinks' set `true' on input line 111.
 (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
 Package: glossaries-extra 2020/04/01 v1.45 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/t
+ex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks21
 \XKV@tempa@toks=\toks22
 )
 \XKV@depth=\count274
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
-)
-(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+) (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2020/03/19 v4.46 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 \@glsmfirst=\toks23
 \@glsmrest=\toks24
-)
-(/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+) (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
+) (/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
+) (/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count276
-)
-(/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
+) (/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/usr/share/texmf-dist/tex/latex/fp/defpattern.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/sha
+re/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count277
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count278
 \FP@xia=\count279
@@ -317,33 +266,24 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count284
 \FP@regs=\count285
 \FP@times=\count286
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count287
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
-)
-(/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
+) (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks25
@@ -355,8 +295,8 @@ Package: fp-eval 1995/04/03
 \dtl@codeA=\count292
 \dtl@codeB=\count293
 \@dtl@foreach@level=\count294
-)
-(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+) (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.st
+y
 Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 )
 \gls@level=\count295
@@ -368,14 +308,11 @@ Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 \glslongtok=\toks30
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
-)
-(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2020/03/19 v4.46 (NLCT)
 \glslistdottedwidth=\skip55
-)
-(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2020/03/19 v4.46 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip56
@@ -396,10 +333,8 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 )
 \glsdescwidth=\skip60
 \glspagelistwidth=\skip61
-)
-(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2020/03/19 v4.46 (NLCT)
-
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count301
@@ -417,8 +352,7 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@toadd=\dimen163
 \ST@dimen=\dimen164
 \ST@pbox=\box53
-))
-(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+)) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \glstreeindent=\skip65
 ))
@@ -427,21 +361,19 @@ Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \@glsxtrnewgls@inner=\count304
 \glsshortpltok=\toks32
 \glslongpltok=\toks33
-)
-(./glossaries.tex)
+) (./glossaries.tex)
 \glswrite=\write3
 \glo@main@file=\write4
-Package glossaries Info: Writing glossary file thesis.glo on input line 158.
+Package glossaries Info: Writing glossary file thesis.glo on input line 161.
 \glo@abbreviations@file=\write5
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 158
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 161
 .
 \glo@nomenclature@file=\write6
 Package glossaries Info: Writing glossary file thesis.nomenclature-glo on input
- line 158.
+ line 161.
 \glo@symbols@file=\write7
 Package glossaries Info: Writing glossary file thesis.symbols-glo on input line
- 158.
-
+ 161.
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count305
@@ -450,27 +382,24 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `eqn_pi' multiply defined.
 
-
-LaTeX Warning: Label `eqn_pi' multiply defined.
-
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
- (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
 \scratchdimen=\dimen165
@@ -487,47 +416,38 @@ LaTeX Font Info:    ... okay on input line 164.
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+)) (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 164.
-
+Package hyperref Info: Link coloring ON on input line 167.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
 (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 164.
-LaTeX Info: Redefining \pageref on input line 164.
-LaTeX Info: Redefining \nameref on input line 164.
-
+LaTeX Info: Redefining \ref on input line 167.
+LaTeX Info: Redefining \pageref on input line 167.
+LaTeX Info: Redefining \nameref on input line 167.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write8
- (./uw-ethesis-frontpgs.tex
+(./uw-ethesis-frontpgs.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
-
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
-
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -557,53 +477,185 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ])
 \tf@toc=\write9
- [9]
-(./thesis.lof)
+[9] (./thesis.lof [10
+
+
+
+
+])
 \tf@lof=\write10
- [10
-
-
-
-
-] (./thesis.lot)
+[11] (./thesis.lot)
 \tf@lot=\write11
- [11
+[12
 
 
 
 
-]) (./chapter_1/chapter-introduction.tex
+]) (./chapter_1/main.tex
 Chapter 1.
 [1
 
 
 
 
-]) [2] (./chapter_2/chapter-introduction.tex [3]
+] [2] [3] [4] [5] [6]
+Overfull \hbox (2.47116pt too wide) in paragraph at lines 84--85
+\OT1/cmr/m/n/12 patch in the sys-tem, we sub-tract the cor-re-spond-ing term fo
+r leav-ing wood, $\OML/cmm/m/it/12 d [][] P[]\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/1
+2 ^^@
+ []
+
+[7]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.113   \hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 127--127
+\OT1/cmr/m/n/8 per susceptible-infested
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[]\OT1/cmr/m/n/8 Strategy changes per
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 183--188
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
+
+ []
+
+[10]
+<chapter_1/core_graph_plot.png, id=409, 844.8363pt x 597.432pt>
+File: chapter_1/core_graph_plot.png Graphic file (type png)
+<use chapter_1/core_graph_plot.png>
+Package pdftex.def Info: chapter_1/core_graph_plot.png  used on input line 223.
+
+(pdftex.def)             Requested size: 301.1261pt x 212.9422pt.
+[11 <./chapter_1/core_graph_plot.png>] [12]
+<chapter_1/timeseries.png, id=450, 1300.86pt x 1156.32pt>
+File: chapter_1/timeseries.png Graphic file (type png)
+<use chapter_1/timeseries.png>
+Package pdftex.def Info: chapter_1/timeseries.png  used on input line 260.
+(pdftex.def)             Requested size: 460.72124pt x 409.51723pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13]
+
+LaTeX Warning: Text page 14 contains only floats.
+
+
+Overfull \vbox (5.45538pt too high) has occurred while \output is active []
+
+[14 <./chapter_1/timeseries.png>]
+<chapter_1/ct_v_ce_plane.png, id=475, 1734.48pt x 578.16pt>
+File: chapter_1/ct_v_ce_plane.png Graphic file (type png)
+<use chapter_1/ct_v_ce_plane.png>
+Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
+(pdftex.def)             Requested size: 460.72124pt x 153.57336pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_1/p1.jpg, id=476, 963.6pt x 542.025pt>
+File: chapter_1/p1.jpg Graphic file (type jpg)
+<use chapter_1/p1.jpg>
+Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
+(pdftex.def)             Requested size: 460.72124pt x 259.15175pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_1/A_v_time.png, id=477, 1228.59pt x 578.16pt>
+File: chapter_1/A_v_time.png Graphic file (type png)
+<use chapter_1/A_v_time.png>
+Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
+(pdftex.def)             Requested size: 460.72124pt x 216.80946pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_1/A_v_ct_v_d_marginal_gain.png, id=478, 2168.1pt x 578.16pt>
+File: chapter_1/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
+<use chapter_1/A_v_ct_v_d_marginal_gain.png>
+Package pdftex.def Info: chapter_1/A_v_ct_v_d_marginal_gain.png  used on input 
+line 299.
+(pdftex.def)             Requested size: 460.72124pt x 122.85516pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15]
+<chapter_1/node_quarantine_plot_1.0.png, id=490, 1734.48pt x 578.16pt>
+File: chapter_1/node_quarantine_plot_1.0.png Graphic file (type png)
+<use chapter_1/node_quarantine_plot_1.0.png>
+Package pdftex.def Info: chapter_1/node_quarantine_plot_1.0.png  used on input 
+line 310.
+(pdftex.def)             Requested size: 460.72124pt x 153.57336pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_1/node_quarantine_plot_2.0.png, id=491, 1734.48pt x 578.16pt>
+File: chapter_1/node_quarantine_plot_2.0.png Graphic file (type png)
+<use chapter_1/node_quarantine_plot_2.0.png>
+Package pdftex.def Info: chapter_1/node_quarantine_plot_2.0.png  used on input 
+line 317.
+(pdftex.def)             Requested size: 460.72124pt x 153.57336pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./chapter_1/ct_v_ce_plane.png>] [17 <./chapter_1/p1.jpg>] [18 <./chapter_1
+/A_v_time.png> <./chapter_1/A_v_ct_v_d_marginal_gain.png>] [19 <./chapter_1/nod
+e_quarantine_plot_1.0.png> <./chapter_1/node_quarantine_plot_2.0.png>] [20]) (.
+/chapter_2/chapter-introduction.tex [21]
 Chapter 2.
-[4
+[22
 
 
-]) [5] (./chapter_3/chapter-introduction.tex [6]
+]) [23] (./chapter_3/chapter-introduction.tex [24]
 Chapter 3.
-[7
+[25
 
 
-]) [8] [9] (./thesis.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [10
+]) [26] [27] (./thesis.bbl [28
 
 
 
 
-] (./appendix-matlab_plots.tex [11
+] [29]
+Overfull \hbox (13.90071pt too wide) in paragraph at lines 167--171
+[]\OT1/cmr/m/n/12 Canadian Food In-spec-tion Agency (CFIA).  https://www.inspec
+tion.gc.ca/plants/plant-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
+\OT1/cmr/m/n/12 pests-invasive-species/insects/emerald-ash-borer/areas-
+ []
+
+[30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]) [41] (./appendix-matlab
+_plots.tex [42
 
 
 ]
 Appendix A.
-[12
+[43
 
 
 ]
@@ -615,20 +667,20 @@ Overfull \hbox (2.40399pt too wide) in paragraph at lines 26--26
 )
 No file thesis.gls.
 
-Package glossaries-extra Warning: Glossary `main' is missing on input line 228.
+Package glossaries-extra Warning: Glossary `main' is missing on input line 231.
 
 
-[13]
+[44]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
-r check TeX's shell escape allows you to run makeindex on input line 228.
+r check TeX's shell escape allows you to run makeindex on input line 231.
 
 No file thesis.gls-abr.
 
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
-line 228.
+line 231.
 
-[14
+[45
 
 
 
@@ -637,14 +689,14 @@ line 228.
 
 Package glossaries-extra Warning: Rerun required to build the glossary `abbrevi
 ations' or check TeX's shell escape allows you to run makeindex on input line 2
-28.
+31.
 
 No file thesis.nomenclature-gls.
 
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
-ine 228.
+ine 231.
 
-[15
+[46
 
 
 
@@ -652,15 +704,15 @@ ine 228.
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `nomencl
-ature' or check TeX's shell escape allows you to run makeindex on input line 22
-8.
+ature' or check TeX's shell escape allows you to run makeindex on input line 23
+1.
 
 No file thesis.symbols-gls.
 
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
-28.
+31.
 
-[16
+[47
 
 
 
@@ -668,29 +720,28 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
-' or check TeX's shell escape allows you to run makeindex on input line 228.
+' or check TeX's shell escape allows you to run makeindex on input line 231.
 
-[17
+[48
 
 
 
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 08A862C0D9F3BE6EA19C480728E32051;1138.
-
+(rerunfilecheck)             Checksum: B35778F6076B4D184C6EAE560BFFA9FF;1008.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12191 strings out of 479383
- 193757 string characters out of 5875830
- 602365 words of memory out of 5000000
- 28972 multiletter control sequences out of 15000+600000
- 417694 words of font info for 82 fonts, out of 8000000 for 9000
+ 12626 strings out of 479383
+ 202251 string characters out of 5875830
+ 634830 words of memory out of 5000000
+ 29188 multiletter control sequences out of 15000+600000
+ 418646 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,111p,1001b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,15n,111p,2721b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:dingledorf} has been referenced but does not 
 exist, replaced by a fixed one
 
@@ -705,17 +756,25 @@ t, replaced by a fixed one
 
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (28 pages, 136576 bytes).
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm1200.pfb>
+Output written on thesis.pdf (60 pages, 5041207 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 901 PDF objects out of 1000 (max. 8388607)
+ 797 compressed objects within 8 object streams
+ 275 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

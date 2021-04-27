@@ -1,19 +1,28 @@
 #!/bin/bash
-# definitely very brittle bash script that hopefully builds my thesis with minimal mess
+# very brittle bash script that hopefully builds my thesis with minimal mess
 rm -rf build_files
 mkdir build_files
 
 cp organizing_stuff/* build_files/
 cp -r -u front_matter/* build_files/
-cp -r -u chapter_1 build_files/chapter_1
-cp -r -u chapter_2 build_files/chapter_2
-cp -r -u chapter_3 build_files/chapter_3
 cp -r -u appendices/* build_files
+
+touch build_files/master_bibliography.bib
+for chapter_no in {1..3} 
+do
+    cp -r -u chapter_$chapter_no build_files/chapter_$chapter_no
+    if [ -f build_files/chapter_$chapter_no/ref.bib ]; then
+         cat build_files/chapter_$chapter_no/ref.bib >> build_files/master_bibliography.bib
+    fi
+done
+
+
+
 cd build_files
-pdflatex thesis 
-bibtex thesis
+pdflatex --interaction=batchmode thesis 
+bibtex -terse thesis
 #makeindex
-pdflatex thesis
-pdflatex thesis
+pdflatex --interaction=batchmode thesis
+pdflatex --interaction=batchmode thesis
 cd ..
 cp -u build_files/thesis.pdf thesis.pdf 

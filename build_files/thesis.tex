@@ -71,6 +71,9 @@
 %\newcommand{\texorpdfstring}[2]{#1} % does nothing, but defines the command
 % Anything defined here may be redefined by packages added below...
 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 % This package allows if-then-else control structures.
 \usepackage{ifthen}
 \newboolean{PrintVersion}
@@ -177,7 +180,7 @@
 % Only use \documentclass or \begin{document} and \end{document} commands in this master document.
 % Tip: Putting each sentence on a new line is a way to simplify later editing.
 %----------------------------------------------------------------------
-\input{chapter_1/chapter-introduction.tex}
+\input{chapter_1/main.tex}
 
 \input{chapter_2/chapter-introduction.tex}
 
@@ -204,7 +207,7 @@
 % Add the References to the Table of Contents
 \addcontentsline{toc}{chapter}{\textbf{References}}
 
-\bibliography{uw-ethesis}
+\bibliography{master_bibliography}
 % Tip: You can create multiple .bib files to organize your references. 
 % Just list them all in the \bibliogaphy command, separated by commas (no spaces).
 

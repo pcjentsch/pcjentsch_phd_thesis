@@ -2,51 +2,78 @@ This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
-I couldn't open database file uw-ethesis.bib
----line 50 of file thesis.aux
- : \bibdata{uw-ethesis
- :                    }
-I'm skipping whatever remains of this command
-I found no database files---while reading file thesis.aux
-You've used 0 entries,
+Database file #1: master_bibliography.bib
+Repeated entry---line 1033 of file master_bibliography.bib
+ : @article{simard2011mountain
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1099 of file master_bibliography.bib
+ : @article{buma2015disturbance
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1121 of file master_bibliography.bib
+ : @article{lewis2010structured
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1174 of file master_bibliography.bib
+ : @article{gilbert2004comparison
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1316 of file master_bibliography.bib
+ : @article{duncan2015model
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1336 of file master_bibliography.bib
+ : @article{bentz2010climate
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in nrcan
+Warning--empty author in nrcan
+Warning--empty journal in kaufmann2008status
+Warning--empty journal in lotan1985role
+Warning--empty journal in mckenney2012estimates
+Warning--empty journal in bcforests
+Warning--empty publisher in safranyik2001effects
+Warning--empty journal in coloforest
+You've used 146 entries,
             2118 wiz_defined-function locations,
-            497 strings with 3995 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1292 strings with 32333 characters,
+and the built_in function-call counts, 51090 in all, are:
+= -- 5002
+> -- 2736
+< -- 15
++ -- 1103
+- -- 932
+* -- 3975
+:= -- 8689
+add.period$ -- 435
+call.type$ -- 146
+change.case$ -- 883
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 154
+duplicate$ -- 1674
+empty$ -- 3683
+format.name$ -- 932
+if$ -- 10283
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 146
+missing$ -- 153
+newline$ -- 729
+num.names$ -- 290
+pop$ -- 760
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 748
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1189
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3391
+swap$ -- 233
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+type$ -- 560
+warning$ -- 8
+while$ -- 503
+width$ -- 149
+write$ -- 1573
+(There were 6 error messages)
