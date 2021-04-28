@@ -5,7 +5,6 @@ mkdir build_files
 
 cp organizing_stuff/* build_files/
 cp -r -u front_matter/* build_files/
-cp -r -u appendices/* build_files
 
 touch build_files/master_bibliography.bib
 for chapter_no in {1..3} 
@@ -15,8 +14,6 @@ do
          cat build_files/chapter_$chapter_no/ref.bib >> build_files/master_bibliography.bib
     fi
 done
-
-
 
 cd build_files
 pdflatex --interaction=batchmode thesis 

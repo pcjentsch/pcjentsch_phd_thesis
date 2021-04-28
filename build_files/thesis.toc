@@ -1,18 +1,34 @@
 \contentsline {chapter}{List of Figures}{x}{section*.2}%
-\contentsline {chapter}{List of Tables}{xii}{section*.4}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Introduction}{22}{chapter.2}%
-\contentsline {section}{\numberline {2.1}State of the Art}{22}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Some Meaningless Stuff}{22}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Introduction}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}State of the Art}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Some Meaningless Stuff}{25}{section.3.2}%
-\contentsline {chapter}{\textbf {References}}{28}{section*.18}%
-\contentsline {chapter}{APPENDICES}{42}{appendix*.20}%
-\contentsline {chapter}{\numberline {A}PDF Plots From Matlab}{43}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Using the Graphical User Interface}{43}{section.A.1}%
-\contentsline {section}{\numberline {A.2}From the Command Line}{43}{section.A.2}%
-\contentsline {chapter}{Glossary}{45}{section*.21}%
-\contentsline {chapter}{Abbreviations}{46}{section*.23}%
-\contentsline {chapter}{Nomenclature}{47}{section*.25}%
-\contentsline {chapter}{List of Symbols}{48}{section*.27}%
+\contentsline {chapter}{List of Tables}{xiii}{section*.4}%
+\contentsline {chapter}{\numberline {1}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Materials and methods}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Pest Spread Model}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Social Dynamics Model}{6}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Patch-quarantine strategies}{8}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Parameterization }{11}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}Assessing intervention efficacy}{12}{subsection.1.3.5}%
+\contentsline {section}{\numberline {1.4}Results}{13}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Conclusion}{16}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Acknowledgements}{21}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests}{22}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{22}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Methods}{24}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Model Description}{24}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{26}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Parameters and simulation design}{28}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Results}{29}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Dynamical regimes}{29}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{29}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Discussion}{32}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Model Overview}{43}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Results}{44}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{47}{section.3.4}%
+\contentsline {chapter}{\textbf {References}}{50}{section*.12}%
+\contentsline {chapter}{Glossary}{66}{section*.14}%
+\contentsline {chapter}{Abbreviations}{67}{section*.16}%
+\contentsline {chapter}{Nomenclature}{68}{section*.18}%
+\contentsline {chapter}{List of Symbols}{69}{section*.20}%

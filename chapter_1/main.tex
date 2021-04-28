@@ -1,12 +1,12 @@
-\chapter{Introduction}
+\chapter{Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}
 \vspace*{0.2in}
 
-\section*{Abstract}
+\section{Abstract}
 Invasive pests, such as emerald ash borer or Asian longhorn beetle, have been responsible for unprecedented ecological and economic damage in eastern North America. These and other wood-boring invasive insects can spread to new areas through human transport of untreated firewood. Behaviour, such as transport of firewood, is affected not only by immediate material benefits and costs, but also by social forces. Potential approaches to reduce the spread of wood-boring pests through firewood include raising awareness of the problem and increasing the social costs of the damages incurred by transporting firewood. In order to evaluate the efficacy of these measures, we create a coupled social-ecological model of firewood transport, pest spread, and social dynamics, on a geographical network of camper travel between recreational destinations. We also evaluate interventions aimed to slow the spread of invasive pests with untreated firewood, such as inspections at checkpoints to stop the movement of transported firewood and quarantine of high-risk locations. We find that public information and awareness programs can be effective only if the rate of spread of the pest between and within forested areas is slow. Direct intervention via inspections at checkpoints can only be successful if a high proportion of the infested firewood is intercepted. Patch quarantine is only effective if sufficiently many locations can be included in the quarantine and if the quarantine begins early. Our results indicate that the current, relatively low levels of public outreach activities and lack of adequate funding are likely to render inspections, quarantine and public outreach efforts ineffective.
 
 % \linenumbers
 
-\section*{Introduction}
+\section{Introduction}
 Invasive species pose a significant economic and ecological threat to Canada’s forest ecosystems \cite{wilson2009something,jacobi2011firewood}. In North America, significant funding has been allocated by federal, state and provincial agencies for large-scale control programs to prevent or mitigate these damages with mixed success \cite{tobin2008cost,nisc2007}. Controlling the spread of invasive pests can be difficult because the long-distance spread of invasive organisms is often assisted by human activities \cite{kolar2001progress,wilson2009something}. For example, introduction and spread of Emerald ash borer, a harmful forest pest in the North America \cite{kovacs2010cost,kovacs2014bioeconomic,poland2006emerald} has been attributed to human factors, such as vehicle transport \cite{buck2009hitchhiking} and recreational travel \cite{koch2014using}.  
 
 The growing problem of invasive species is broadly associated with human mobility, including recreational travel \cite{kolar2001progress,wilson2009something,liebhold2008population,prasad2010modeling}. Outdoor recreation is widespread in North America, and the extent of recreational activities is expected to increase \cite{cordell2008nature,cordell2008latest,cordell2012outdoor}. In North America, national, provincial and state parks, national forests, and state and Crown lands are common destinations for recreational activities \cite{eagles2002trends,siikamaki2011contributions}. In Canada, recreational activities, especially camper travel, often take place in forested areas and may contribute to spread of harmful invasive pests. In particular, the movement of untreated firewood by campers has been widely acknowledged as a potential introduction pathway for invasive forest pests \cite{barlow2014modelling,tobin2010does,peterson2012motivation,koch2014using,jacobi2011firewood}. Movement of untreated firewood has been linked to the spread of two harmful wood-boring pests, the Asian longhorned beetle (\textit{Anoplophora glabripennis} Motschulsky) and the emerald ash borer (\textit{Agrilus plannipennis} Fairmaire), in the United States and Canada (USaC) \cite{haack1997new,petrice2006effects}. 
@@ -22,7 +22,7 @@ Mechanistic models of forest invasions have been studied for decades \cite{tegne
 
 In this study we consider movement of infested firewood to multiple recreational destinations over a complex recreational travel network. We explore the efficacy of common measures aimed to stop the movement of untreated firewood by recreational travelers. To accomplish this, we propose a mechanistic differential equation model that combines human-mediated movement of forest pests through a camper travel network that includes nonlinear feedbacks from social factors, such as population response to strategies preventing the movement of untreated firewood. We identify three basic methods to stop or slow the spread of invasive pests by transport of infested firewood: public awareness campaigns, direct interception of transported firewood at checkpoints near recreational destinations, and quarantining recreational destination sites for movement of firewood. While the first option is more common, the latter has been implemented seldom over the past decade due to legal and liability constraints \cite{reid2017,weber2006,nearing2012, haack2010incidence}. We implement the options for intercepting the movement of firewood to slow the spread of invasive pests in a mechanistic metapopulation model, and use the replicator equation to represent social learning dynamics (see \cite{henderson2013carrot,barlow2014modelling,bauch2005imitation,hofbauer1998evolutionary}). We also evaluate local quarantine at recreational destinations as an alternative control method. Quarantine means closing the site to visitors for a length of time, in order to reduce the amount of transported firewood and slow spread of invasive organisms from other infested locations. Our implementation of quarantine measures follow common practices aimed to slow the spread of invasive species (such as the spread of emerald ash borer in USaC \cite{muirhead2006modelling,gottwald2001citrus}). We apply our mechanistic model to explore the effectiveness of these control measures to slow the spread of an idealized wood-boring invasive pest moved to a set of recreational destinations by recreational travelers transporting untreated firewood. We apply the model to a network of provincial parks and campgrounds in three provinces of central Canada - Manitoba, Ontario, and Quebec.
 
-\section*{Materials and methods}
+\section{Materials and methods}
 
 
 
@@ -33,7 +33,7 @@ Consider a patch $i$ with an enforcement intervention, such as firewood movement
 We also consider a public outreach campaign that can take place at a patch $i$. It is common that only a portion of campers visiting a patch $i$ may be aware of and decide to comply with the public outreach message. We model the social awareness campaign as an increase of the net social cost of transporting firewood. We further conduct sensitivity analyses to compare the efficacy of enforcement vs. outreach measures aimed to stop the movement of firewood and reduce the rates of infestation.
 
 
-\subsection*{Pest Spread Model}
+\subsection{Pest Spread Model}
 
  We begin with defining the equation for a population of susceptible host trees that may be attacked by an invasive pest. The pest can be introduced though untreated infested firewood. Variables, their interpretations, and corresponding baseline ranges are shown in Table \ref{t1}. We assume that a tree population that is susceptible to pest attack undergoes logistic growth in the absence of infestation to a carrying capacity $K$. The population of susceptible trees, $S_i(t)$, at a patch $i$ is being infested from firewood arriving with campers at $i$ at a rate $A$: 
 
@@ -61,7 +61,7 @@ $$d\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j$$
  
 The dynamics of $L_i$ (the number of local transporters in patch $i$), is modelled by a replicator dynamics model that is suitable for describing systems where social learning occurs \cite{bauch2005imitation,hofbauer1998evolutionary}, and is described in the section below. 
 
-\subsection*{Social Dynamics Model}
+\subsection{Social Dynamics Model}
 
 We model the proportion of visitors who choose to use local firewood, $L_i$ as a function of both the perceived threat of introduced pests, and the social cost of illegally transporting infested firewood. We refer to visitors who choose to use local firewood as local strategists, and visitors who do not use local firewood as transport strategists hereafter. Let $C_t$ be the cost of transporting firewood and $C_l$ the cost to obtain it locally (and therefore avoid moving invasive pests to a patch $i$). We adopt the social influence model from \cite{barlow2014modelling}, which is based on models of \cite{bauch2005imitation} and \cite{ hofbauer1998evolutionary}, which we will summarize below.
 We define the social utilities corresponding to the strategies of transporting firewood ($P_t$) and buying it locally ($P_l$) as 
@@ -159,7 +159,7 @@ Years  & Time between initial infestation and patch quarantine\\
 \label{t1}
 \end{table}
 
-\subsection*{Patch-quarantine strategies}
+\subsection{Patch-quarantine strategies}
 
 
 
@@ -213,7 +213,7 @@ If $i \notin V$,
 \normalsize
 
 In equations (\ref{i_eqn_modified_2}),(\ref{b_eqn_modified_2}) we split the summation term into two summations, one over all patches which are not under quarantine (i.e., not in the set $V$) and patches under quarantine in $V$. The latter summation is multiplied by a term, $H_c(t - t_0,\Delta t)$ which switches on and off the quarantine conditions.
-\subsection*{Parameterization \label{param_section}}
+\subsection{Parameterization \label{param_section}}
 We used data from \cite{koch2014using} and \cite{yemshanov2015optimal}, to quantify the risk of firewood transport to recreational destinations in Central Canada. The data documented the movements of campers to provincial campgrounds in Ontario, Quebec and Manitoba. Such data are maintained by provincial ministries of natural resources (MNRs). The dataset included a large number of potential origin sites (i.e., approximately 9000 locations). To reduce the computational burden, we reduced the size of the camper travel network by including all recreational destination locations but considering only the origin locations in the Canadian provinces of Ontario, Manitoba, and Quebec. We further reduced the size of the network by selecting most travelled routes. We selected the largest subgraph with a minimum degree of 10 (the 10-core of the graph) which considered only the most connected nodes, with largest impact on pest transmission. We implemented the procedure using the NetworkX library \cite{hagberg2008exploring}. The final camper travel network included 2250 sites (Fig \ref{coregraph}).
 
 
@@ -231,7 +231,7 @@ Because the model uses a large camper travel network it has a very large paramet
 We integrated equations (\ref{s_eqn}-\ref{l_eqn}) using code written in the Julia language, using the JuliaDiffEq library \cite{rackauckas2017differentialequations}. The integration was run on the Compute Canada clusters. Our primary focus was to explore the relative impacts of firewood enforcement versus public outreach and their abilities to reduce pest infestation rates across the camper travel network. We consider a hypothetical scenario where a harmful invasive pest is introduced in the largest urban center in eastern Canada with foreign imports (Greater Toronto Area, GTA) and assume that the bulk host tree population in the GTA is infested. This scenario is based on a history of past entries of invasive wood-boring pests to the GTA with foreign imports (such as introduction of Asian longhorned beetle in Toronto and Mississauga \cite{turgeon2015decade}).
 
 
-\subsection*{Assessing intervention efficacy}
+\subsection{Assessing intervention efficacy}
 
 The primary statistic we use to assess the total mortality of an infestation after $t$ years is the average cumulative infested population, $\frac{1}{N} \sum_{i=1}^N T_i(t)$. To calculate $T_i(t)$, the cumulative infested population at patch $i$ and time $t$, we solve the following equation in addition to the model equations.
 
@@ -247,7 +247,7 @@ Since it is difficult to determine what utility value $U$, which defines the soc
 
 
 % Results and Discussion can be combined.
-\section*{Results}
+\section{Results}
 
 In our baseline scenario (Fig \ref{ts}, parameters as in table \ref{t1}), the model shows a typical pest outbreak originating in the GTA infesting all campgrounds in Ontario, Manitoba and Quebec over 10-20 years. This agrees with the observed timescale of the recent infestation of emerald ash borer (EAB) which entered Ontario in 2002 and now has infested most major populated places in the province \cite{cfia_2019}.
 
@@ -320,7 +320,7 @@ We also explored the effectiveness of patch quarantine by replacing model equati
 \end{figure}
 
 
-\section*{Conclusion}
+\section{Conclusion}
 
 We presented a model coupling human social behaviour regarding transport of infested firewood through recreational travel with a model of the spread of an invasive forest pest. Our main focus was to compare, in relative terms, common measures for slowing the spread of invasive species with firewood transport, such as public outreach campaigns aimed to raise awareness about the problem, and enforcement measures, including inspections at checkpoints to control the movement of firewood, and location-specific quarantine. The model is parameterized with campground reservation data for provincial parks and campgrounds in the provinces of Ontario, Manitoba and Quebec, Canada and incorporated spatial information on the topology and geographical configuration of the camper travel network.
 
@@ -330,7 +330,7 @@ Given the typical cost limitations and logistics constraints faced by today’s 
 
 There are some shortcomings to our model that could be addressed in future work. The interventions we study do not have spatial or time specifications for individual locations in the camper travel network.  Deciding where and when, to deploy the outreach and enforcement measures in a particular location would be a major enhancement of the model. Second, our model depicted a general problem of an invasive pest spreading with untreated firewood moved by recreational travelers. To adapt the problem to a particular pest species, a more specialized spread model will be required. We simplified the model by assuming that each infested patch provides similar propagule pressure to recreational travellers leaving the infested site. This assumption was made because no data about the actual proportions of infested wood carried by recreational travellers leaving the infested sites were available. Also, our analysis did not offer much insight at the level of individual spatial locations in a camper travel network. A simpler mechanistic model that applies unique pest control decisions at individual spatial locations could potentially address that aspect. Another possible way to simplify the model would be to remove the tree growth dynamics —since it operates on a longer time scale than the infestation spread— and so an invasion model without the forest growth component could be a reasonable approximation for short-term planning horizons. This will be the focus of future efforts. 
 
-\section*{Acknowledgements}
+\section{Acknowledgements}
 The authors would like to thank Dr. Hanno Seebens and an anonymous reviewer for their contributions. Their detailed and thorough suggestions have significantly improved the quality of our paper.
 
 % \nolinenumbers

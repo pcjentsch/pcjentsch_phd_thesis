@@ -4,6 +4,13 @@
 Mountain pine beetle (factsheet).
 \newblock {\em Natural Resources Canada}, Feb 2017.
 
+\bibitem{agee1996influence}
+James~K Agee.
+\newblock The influence of forest structure on fire behavior.
+\newblock In {\em Proceedings of the 17th annual forest vegetation management
+  conference}, pages 52--68. University of California, Shasta County
+  Cooperative Extension Redding, CA, 1996.
+
 \bibitem{agne2016fire}
 Michelle~C Agne, Travis Woolley, and Stephen Fitzgerald.
 \newblock Fire severity and cumulative disturbance effects in the post-mountain
@@ -67,6 +74,13 @@ Jodi~N Axelson, Ren{\'e}~I Alfaro, and Brad~C Hawkes.
   lodgepole pine stands in british columbia, canada.
 \newblock {\em Forest Ecology and Management}, 257(9):1874--1882, 2009.
 
+\bibitem{axelson2010changes}
+Jodi~N Axelson, Ren{\'e}~I Alfaro, and Brad~C Hawkes.
+\newblock Changes in stand structure in uneven-aged lodgepole pine stands
+  impacted by mountain pine beetle epidemics and fires in central british
+  columbia.
+\newblock {\em The Forestry Chronicle}, 86(1):87--99, 2010.
+
 \bibitem{baker1990spruce}
 William~L Baker and Thomas~T Veblen.
 \newblock Spruce beetles and fires in the nineteenth-century subalpine forests
@@ -79,6 +93,11 @@ Lee-Ann Barlow, Jacob Cecile, Chris~T Bauch, and Madhur Anand.
   decisions regarding firewood transport restrictions.
 \newblock {\em PLoS One}, 9(4):e90511, 2014.
 
+\bibitem{barrett1982indian}
+Stephen~W Barrett and Stephen~F Arno.
+\newblock Indian fires as an ecological influence in the northern rockies.
+\newblock {\em Journal of Forestry}, 80(10):647--651, 1982.
+
 \bibitem{batllori2017cumulative}
 Enric Batllori, Miquel De~C{\'a}ceres, Llu{\'\i}s Brotons, David~D Ackerly,
   Max~A Moritz, and Francisco Lloret.
@@ -90,6 +109,15 @@ Chris~T Bauch.
 \newblock Imitation dynamics predict vaccinating behaviour.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   272(1573):1669--1675, 2005.
+
+\bibitem{bc2010state}
+{BC Ministry of Forests, Mines and Lands}.
+\newblock The state of british columbia’s forests, 3rd ed., 2010.
+
+\bibitem{beal1911food}
+Foster Ellenborough~Lascelles Beal.
+\newblock {\em Food of the woodpeckers of the United States}.
+\newblock Number~37. US Department of Agriculture, Biological Survey, 1911.
 
 \bibitem{bentz2010climate}
 Barbara~J Bentz, Jacques R{\'e}gni{\`e}re, Christopher~J Fettig, E~Matthew
@@ -139,6 +167,10 @@ Donald~J Bogucki, FH~Bormann, EO~Box, SP~Bratton, R~Dolan, CP~Dunn, RTT Forman,
 \newblock {\em Landscape heterogeneity and disturbance}, volume~64.
 \newblock Springer Science \& Business Media, 2012.
 
+\bibitem{boyd1999indians}
+Robert Boyd.
+\newblock Indians, fire and the land.
+
 \bibitem{bradley2001effects}
 Tim Bradley and Paul Tueller.
 \newblock Effects of fire on bark beetle presence on jeffrey pine in the lake
@@ -174,6 +206,11 @@ David Cappaert, Deborah~G McCullough, Therese~M Poland, and Nathan~W Siegert.
 \newblock Emerald ash borer in north america: a research and regulatory
   challenge.
 \newblock {\em American Entomologist. 51 (3): 152-165.}, 51(3), 2005.
+
+\bibitem{casagrandi1999minimal}
+Renato Casagrandi and Sergio Rinaldi.
+\newblock A minimal model for forest fire regimes.
+\newblock {\em The American Naturalist}, 153(5):527--539, 1999.
 
 \bibitem{chen2014model}
 B~Chen-Charpentier and MCA Leite.
@@ -217,6 +254,11 @@ Michael~G Crandall and Paul~H Rabinowitz.
 \newblock {\em Archive for Rational Mechanics and Analysis}, 52(2):161--180,
   1973.
 
+\bibitem{despain1991ecowgy}
+Don~G Despain and William~H Romme.
+\newblock Ecowgy and management of high-intensity fires in yelwwstone national
+  park.
+
 \bibitem{donato2013evaluating}
 Daniel~C Donato, Martin Simard, William~H Romme, Brian~J Harvey, and Monica~G
   Turner.
@@ -258,11 +300,28 @@ Paul~FJ Eagles.
 \newblock Trends in park tourism: Economics, finance and management.
 \newblock {\em Journal of sustainable tourism}, 10(2):132--153, 2002.
 
+\bibitem{edelstein1988mathematical}
+Leah Edelstein-Keshet.
+\newblock {\em Mathematical models in biology}, volume~46.
+\newblock SIAM, 1988.
+
+\bibitem{edworthy2011woodpeckers}
+Amanda~B Edworthy, Mark~C Drever, and Kathy Martin.
+\newblock Woodpeckers increase in abundance but maintain fecundity in response
+  to an outbreak of mountain pine bark beetles.
+\newblock {\em Forest Ecology and Management}, 261(2):203--210, 2011.
+
 \bibitem{elkin2005low}
 CM~Elkin and Mary~L Reid.
 \newblock Low energy reserves and energy allocation decisions affect
   reproduction by mountain pine beetles, dendroctonus ponderosae.
 \newblock {\em Functional Ecology}, 19(1):102--109, 2005.
+
+\bibitem{field2012demographic}
+SG~Field, AW~Schoettle, JG~Klutsch, SJ~Tavener, and MF~Antolin.
+\newblock Demographic projection of high-elevation white pines infected with
+  white pine blister rust: a nonlinear disease model.
+\newblock {\em Ecological Applications}, 22(1):166--183, 2012.
 
 \bibitem{fong1998dynamic}
 P~Fong and PW~Glynn.
@@ -323,6 +382,13 @@ Aric Hagberg, Pieter Swart, and Daniel S~Chult.
 \newblock Technical report, Los Alamos National Lab.(LANL), Los Alamos, NM
   (United States), 2008.
 
+\bibitem{hawksworth1964diseases}
+Frank~G Hawksworth.
+\newblock Diseases of lodgepole pine.
+\newblock {\em In: Proceedings, Society of American Foresters, Division of
+  Forest Management; Denver, Colorado; 1964. Society of American Foresters. p.
+  125-127.}, pages 125--127, 1964.
+
 \bibitem{henderson2013carrot}
 Kirsten~A Henderson, Madhur Anand, and Chris~T Bauch.
 \newblock Carrot or stick? modelling how landowner behavioural responses can
@@ -334,6 +400,11 @@ Daniel~A Herms and Deborah~G McCullough.
 \newblock Emerald ash borer invasion of north america: history, biology,
   ecology, impacts, and management.
 \newblock {\em Annual review of entomology}, 59:13--30, 2014.
+
+\bibitem{hethcote2000mathematics}
+Herbert~W Hethcote.
+\newblock The mathematics of infectious diseases.
+\newblock {\em SIAM review}, 42(4):599--653, 2000.
 
 \bibitem{hicke2012effects}
 Jeffrey~A Hicke, Morris~C Johnson, Jane~L Hayes, and Haiganoush~K Preisler.
@@ -374,6 +445,19 @@ Patrick James, Louis-Etienne Robert, B~Mike Wotton, David~L Martell, and
 \newblock Lagged cumulative spruce budworm defoliation affects the risk of fire
   ignition in ontario, canada.
 \newblock {\em Ecological applications}, 27(2):532--544, 2017.
+
+\bibitem{JENKINS200816}
+Michael~J. Jenkins, Elizabeth Hebertson, Wesley Page, and C.~Arik Jorgensen.
+\newblock Bark beetles, fuels, fires and implications for forest management in
+  the intermountain west.
+\newblock {\em Forest Ecology and Management}, 254(1):16--34, 2008.
+
+\bibitem{jenkins2012fuels}
+Michael~J Jenkins, Wesley~G Page, Elizabeth~G Hebertson, and Martin~E
+  Alexander.
+\newblock Fuels and fire behavior dynamics in bark beetle-attacked forests in
+  western north america and implications for fire management.
+\newblock {\em Forest Ecology and Management}, 275:23--34, 2012.
 
 \bibitem{kane2017characterizing}
 Jeffrey~M Kane, J~Morgan Varner, Margaret~R Metz, and Phillip~J van Mantgem.
@@ -428,6 +512,11 @@ Toshikazu Kuniya.
 \newblock Existence of a nontrivial periodic solution in an age-structured sir
   epidemic model with time periodic coefficients.
 \newblock {\em Applied Mathematics Letters}, 27:15--20, 2014.
+
+\bibitem{leatherman2012mountain}
+Dave Leatherman, I~Aguayo, and TM~Mehall.
+\newblock Mountain pine beetle.
+\newblock {\em Colorado Birds}, page~33, 2012.
 
 \bibitem{lewis2010structured}
 Mark~A Lewis, William Nelson, and Cailin Xu.
@@ -504,6 +593,12 @@ Gerard Meurant.
 \newblock {\em The ecology of natural disturbance and patch dynamics}.
 \newblock Academic press, 2012.
 
+\bibitem{moran2012mountain}
+Christopher~J Moran and Mark~A Cochrane.
+\newblock Do mountain pine beetle outbreaks change the probability of active
+  crown fire in lodgepole pine forests? comment.
+\newblock {\em Ecology}, 93(4):939--941, 2012.
+
 \bibitem{muirhead2006modelling}
 Jim~R Muirhead, Brian Leung, Colin van Overdijk, David~W Kelly, Kanavillil
   Nandakumar, Kenneth~R Marchant, and Hugh~J MacIsaac.
@@ -520,6 +615,19 @@ Jim~R Muirhead, Brian Leung, Colin van Overdijk, David~W Kelly, Kanavillil
 Brian Nearing.
 \newblock Checkpoint tries to halt wood traffic.
 \newblock {\em timesunion}, 2012.
+
+\bibitem{negron2017large}
+Jos{\'e}~F Negr{\'o}n, Kurt~K Allen, Angie Ambourn, Blaine Cook, and Kenneth
+  Marchand.
+\newblock Large-scale thinnings, ponderosa pine, and mountain pine beetle in
+  the black hills, usa.
+\newblock {\em Forest Science}, 63(5):529--536, 2017.
+
+\bibitem{norris2008mountain}
+Andrea~R Norris and Kathy Martin.
+\newblock Mountain pine beetle presence affects nest patch choice of
+  red-breasted nuthatches.
+\newblock {\em The Journal of Wildlife Management}, 72(3):733--737, 2008.
 
 \bibitem{nystrom2001spatial}
 Magnus Nystr{\"o}m and Carl Folke.
@@ -604,6 +712,12 @@ Therese~M Poland and Deborah~G McCullough.
   north america’s ash resource.
 \newblock {\em Journal of Forestry}, 104(3):118--124, 2006.
 
+\bibitem{powell2002measuring}
+Hugh~DW Powell, Sallie~J Hejl, and Diana~L Six.
+\newblock Measuring woodpecker food: a simple method for comparing wood-boring
+  beetle abundance among fire-killed trees.
+\newblock {\em Journal of Field Ornithology}, 73(2):130--140, 2002.
+
 \bibitem{powell2009connecting}
 James~A Powell and Barbara~J Bentz.
 \newblock Connecting phenological predictions with population growth rates for
@@ -652,6 +766,14 @@ Suzanne~L Robertson, Shandelle~M Henson, Timothy Robertson, and JM~Cushing.
 \newblock A matter of maturity: To delay or not to delay? continuous-time
   compartmental models of structured populations in the literature 2000--2016.
 \newblock {\em Natural Resource Modeling}, 2018.
+
+\bibitem{rota2014role}
+Christopher~T Rota, Joshua~J Millspaugh, Mark~A Rumble, Chad~P Lehman, and
+  Dylan~C Kesler.
+\newblock The role of wildfire, prescribed fire, and mountain pine beetle
+  infestations on the population dynamics of black-backed woodpeckers in the
+  black hills, south dakota.
+\newblock {\em PloS one}, 9(4), 2014.
 
 \bibitem{safranyik2003mountain}
 Les Safranyik et~al.
@@ -732,6 +854,12 @@ Martin Simard, William~H Romme, Jacob~M Griffin, and Monica~G Turner.
   crown fire in lodgepole pine forests?
 \newblock {\em Ecological Monographs}, 81(1):3--24, 2011.
 
+\bibitem{simard2012mountain}
+Martin Simard, William~H Romme, Jacob~M Griffin, and Monica~G Turner.
+\newblock Do mountain pine beetle outbreaks change the probability of active
+  crown fire in lodgepole pine forests? reply.
+\newblock {\em Ecology}, 93(4):946--950, 2012.
+
 \bibitem{steneck2002kelp}
 Robert~S Steneck, Michael~H Graham, Bruce~J Bourque, Debbie Corbett, Jon~M
   Erlandson, James~A Estes, and Mia~J Tegner.
@@ -745,6 +873,12 @@ M~Henry~H Stevens and Walter~P Carson.
   diversity.
 \newblock {\em Ecology Letters}, 5(3):420--426, 2002.
 
+\bibitem{strohm2016impacts}
+S~Strohm, ML~Reid, and RC~Tyson.
+\newblock Impacts of management on mountain pine beetle spread and damage: A
+  process-rich model.
+\newblock {\em Ecological Modelling}, 337:241--252, 2016.
+
 \bibitem{sullivan2009wildland}
 Andrew~L Sullivan.
 \newblock Wildland surface fire spread modelling, 1990--2007. 3: Simulation and
@@ -755,6 +889,14 @@ Andrew~L Sullivan.
 Hui Tang and Zhihua Liu.
 \newblock Hopf bifurcation for a predator--prey model with age structure.
 \newblock {\em Applied Mathematical Modelling}, 40(2):726--737, 2016.
+
+\bibitem{taylor2003disturbance}
+Stephen~W Taylor, Allan~L Carroll, et~al.
+\newblock Disturbance, forest age, and mountain pine beetle outbreak dynamics
+  in bc: A historical perspective.
+\newblock In {\em Mountain pine beetle symposium: Challenges and solutions},
+  volume 3031. Natural Resources Canada, Canadian Forest Service, Pacific
+  Forestry Centre~…, 2003.
 
 \bibitem{tegner1981population}
 MJ~Tegner and PK~Dayton.
@@ -818,6 +960,16 @@ Thomas~T Veblen, Keith~S Hadley, Elizabeth~M Nel, Thomas Kitzberger, Marion
   subalpine forest.
 \newblock {\em Journal of Ecology}, pages 125--135, 1994.
 
+\bibitem{wagner1977conditions}
+CE~Van Wagner.
+\newblock Conditions for the start and spread of crown fire.
+\newblock {\em Canadian Journal of Forest Research}, 7(1):23--34, 1977.
+
+\bibitem{wagner1978age}
+CE~Van Wagner.
+\newblock Age-class distribution and the forest fire cycle.
+\newblock {\em Canadian Journal of Forest Research}, 8(2):220--227, 1978.
+
 \bibitem{wang2016statistical}
 Zhen Wang, Chris~T Bauch, Samit Bhattacharyya, Alberto d'Onofrio, Piero
   Manfredi, Matja{\v{z}} Perc, Nicola Perra, Marcel Salathe, and Dawei Zhao.
@@ -834,6 +986,12 @@ Earl~E Werner and James~F Gilliam.
 \newblock The ontogenetic niche and species interactions in size-structured
   populations.
 \newblock {\em Annual review of ecology and systematics}, 15(1):393--425, 1984.
+
+\bibitem{westerling2006warming}
+Anthony~L Westerling, Hugo~G Hidalgo, Daniel~R Cayan, and Thomas~W Swetnam.
+\newblock Warming and earlier spring increase western us forest wildfire
+  activity.
+\newblock {\em science}, 313(5789):940--943, 2006.
 
 \bibitem{white2001search}
 Peter~S White and Anke Jentsch.
@@ -872,5 +1030,17 @@ RD~Zinck and V~Grimm.
 \newblock More realistic than anticipated: a classical forest-fire model from
   statistical physics captures real fire shapes.
 \newblock {\em The Open Ecology Journal}, 1(1), 2008.
+
+\bibitem{zwolak2009meta}
+Rafa{\l} Zwolak.
+\newblock A meta-analysis of the effects of wildfire, clearcutting, and partial
+  harvest on the abundance of north american small mammals.
+\newblock {\em Forest Ecology and Management}, 258(5):539--545, 2009.
+
+\bibitem{zwolak2008deer}
+Rafa{\l} Zwolak and Kerry~R Foresman.
+\newblock Deer mouse demography in burned and unburned forest: no evidence for
+  source--sink dynamics.
+\newblock {\em Canadian Journal of Zoology}, 86(2):83--91, 2008.
 
 \end{thebibliography}
