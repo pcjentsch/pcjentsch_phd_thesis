@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,14 +541,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
  []
 
 [10]
-<chapter_1/core_graph_plot.png, id=541, 844.8363pt x 597.432pt>
+<chapter_1/core_graph_plot.png, id=551, 844.8363pt x 597.432pt>
 File: chapter_1/core_graph_plot.png Graphic file (type png)
 <use chapter_1/core_graph_plot.png>
 Package pdftex.def Info: chapter_1/core_graph_plot.png  used on input line 223.
 
 (pdftex.def)             Requested size: 301.1261pt x 212.9422pt.
 [11 <./chapter_1/core_graph_plot.png>] [12]
-<chapter_1/timeseries.png, id=582, 1300.86pt x 1156.32pt>
+<chapter_1/timeseries.png, id=592, 1300.86pt x 1156.32pt>
 File: chapter_1/timeseries.png Graphic file (type png)
 <use chapter_1/timeseries.png>
 Package pdftex.def Info: chapter_1/timeseries.png  used on input line 260.
@@ -564,7 +564,7 @@ LaTeX Warning: Text page 14 contains only floats.
 Overfull \vbox (5.45538pt too high) has occurred while \output is active []
 
 [14 <./chapter_1/timeseries.png>]
-<chapter_1/ct_v_ce_plane.png, id=605, 1734.48pt x 578.16pt>
+<chapter_1/ct_v_ce_plane.png, id=615, 1734.48pt x 578.16pt>
 File: chapter_1/ct_v_ce_plane.png Graphic file (type png)
 <use chapter_1/ct_v_ce_plane.png>
 Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
@@ -572,7 +572,7 @@ Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/p1.jpg, id=606, 963.6pt x 542.025pt>
+<chapter_1/p1.jpg, id=616, 963.6pt x 542.025pt>
 File: chapter_1/p1.jpg Graphic file (type jpg)
 <use chapter_1/p1.jpg>
 Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
@@ -580,7 +580,7 @@ Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_time.png, id=607, 1228.59pt x 578.16pt>
+<chapter_1/A_v_time.png, id=617, 1228.59pt x 578.16pt>
 File: chapter_1/A_v_time.png Graphic file (type png)
 <use chapter_1/A_v_time.png>
 Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
@@ -588,7 +588,7 @@ Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_ct_v_d_marginal_gain.png, id=608, 2168.1pt x 578.16pt>
+<chapter_1/A_v_ct_v_d_marginal_gain.png, id=618, 2168.1pt x 578.16pt>
 File: chapter_1/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use chapter_1/A_v_ct_v_d_marginal_gain.png>
 Package pdftex.def Info: chapter_1/A_v_ct_v_d_marginal_gain.png  used on input 
@@ -598,7 +598,7 @@ line 299.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15]
-<chapter_1/node_quarantine_plot_1.0.png, id=620, 1734.48pt x 578.16pt>
+<chapter_1/node_quarantine_plot_1.0.png, id=630, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_1.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_1.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_1.0.png  used on input 
@@ -607,7 +607,7 @@ line 310.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/node_quarantine_plot_2.0.png, id=621, 1734.48pt x 578.16pt>
+<chapter_1/node_quarantine_plot_2.0.png, id=631, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_2.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_2.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_2.0.png  used on input 
@@ -651,7 +651,7 @@ or  <return>  to continue without it.
 
 
 ] [23] [24] [25]
-<chapter_2/table.jpg, id=746, 722.7pt x 406.51875pt>
+<chapter_2/table.jpg, id=756, 722.7pt x 406.51875pt>
 File: chapter_2/table.jpg Graphic file (type jpg)
 <use chapter_2/table.jpg>
 Package pdftex.def Info: chapter_2/table.jpg  used on input line 51.
@@ -663,7 +663,7 @@ Overfull \hbox (0.95805pt too wide) in paragraph at lines 56--56
  []
 
 [26 <./chapter_2/table.jpg>] [27]
-<chapter_2/a1_a2_phase.pdf, id=783, 444.9985pt x 310.14468pt>
+<chapter_2/a1_a2_phase.pdf, id=793, 444.9985pt x 310.14468pt>
 File: chapter_2/a1_a2_phase.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_phase.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_phase.pdf  used on input line 111.
@@ -675,24 +675,24 @@ l.118     }
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-<chapter_2/z1_ts.pdf, id=793, 432.96555pt x 418.56476pt>
+<chapter_2/z1_ts.pdf, id=803, 432.96555pt x 418.56476pt>
 File: chapter_2/z1_ts.pdf Graphic file (type pdf)
 <use chapter_2/z1_ts.pdf>
 Package pdftex.def Info: chapter_2/z1_ts.pdf  used on input line 120.
 (pdftex.def)             Requested size: 460.72124pt x 445.4201pt.
 [29] [30 <./chapter_2/a1_a2_phase.pdf>] [31 <./chapter_2/z1_ts.pdf>]
-<chapter_2/a1_a2_trim_gain.pdf, id=886, 645.1292pt x 257.0453pt>
+<chapter_2/a1_a2_trim_gain.pdf, id=896, 645.1292pt x 257.0453pt>
 File: chapter_2/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_gain.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_gain.pdf  used on input line 135.
 
 (pdftex.def)             Requested size: 460.72124pt x 183.57027pt.
-<chapter_2/z1_ftp.pdf, id=887, 432.96555pt x 419.8907pt>
+<chapter_2/z1_ftp.pdf, id=897, 432.96555pt x 419.8907pt>
 File: chapter_2/z1_ftp.pdf Graphic file (type pdf)
 <use chapter_2/z1_ftp.pdf>
 Package pdftex.def Info: chapter_2/z1_ftp.pdf  used on input line 140.
 (pdftex.def)             Requested size: 460.72124pt x 446.83113pt.
-<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=890, 663.0692pt x 258.54591pt>
+<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=900, 663.0692pt x 258.54591pt>
 File: chapter_2/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_susceptible_loss.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_susceptible_loss.pdf  used on inp
@@ -705,20 +705,8 @@ Overfull \hbox (73.82903pt too wide) in paragraph at lines 186--187
 []beetle-[]outbreaks-[]in-[]serotinous-[]forests$[][] 
  []
 
-) (./chapter_3/main.tex
-Overfull \hbox (206.41072pt too wide) in paragraph at lines 1--2
-[]\OT1/cmr/m/n/12 %============================================================
-========== 
- []
-
-[37]
+) (./chapter_3/main.tex [37]
 Chapter 3.
-
-Overfull \hbox (188.7859pt too wide) in paragraph at lines 3--4
-\OT1/cmr/m/n/12 %==============================================================
-======== 
- []
-
 
 ! LaTeX Error: Environment abstract undefined.
 
@@ -726,7 +714,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \begin{abstract}
+l.3 \begin{abstract}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -743,25 +731,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \end{abstract}
+l.7 \end{abstract}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode character ≈ (U+2248)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ... become stronger.  For instance, if R0 ≈
-                                                   1.5, such as for seasonal...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
 
 [39] [40]
 
@@ -772,65 +746,159 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...n per week (the “vaccination rate”, ψ
+l.37 ...n per week (the “vaccination rate”, ψ
                                                   0).  Our baseline scenario...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[41] [42] [43]
+[41] [42] [43] [44]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 ...sult, the effective reproduction number R_
+                                                  {eff} could be significant...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-! Package inputenc Error: Unicode character ≈ (U+2248)
-(inputenc)                not set up for use with LaTeX.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 ...o 1 than the basic reproduction number $R_
+                                                  0 \approx 2.2$ that applie...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 Our baseline inferred value of R0≈
-                                         1.7 was lower than many published e...
 
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Overfull \hbox (16.3324pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/12 pro-duc-tion num-ber R$[]\OML/cmm/m/it/12 couldbesignificantlyc
+loserto\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 thanthebasicreproductionnumber$\OT1/cm
+r/m/n/12 R$[] \OMS/cmsy/m/n/12 ^^Y
+ []
 
-[44]
-
-! Package inputenc Error: Unicode character ≈ (U+2248)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ... than the basic reproduction number R0 ≈
-                                                   2.2 that applies to susce...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[45]) [46] [47] (./thesis.bbl [48
+[45] [46]) [47] (./thesis.bbl [48
 
 
 
 
-] [49] [50]
-Overfull \hbox (13.90071pt too wide) in paragraph at lines 199--203
+] [49] [50] [51]
+Underfull \hbox (badness 2573) in paragraph at lines 285--289
+[]\OT1/cmr/m/n/12 Bureau of La-bor Statis-tics.  Amer-i-can time use sur-vey | 
+2018 re-sults.
+ []
+
+
+Overfull \hbox (13.90071pt too wide) in paragraph at lines 297--301
 []\OT1/cmr/m/n/12 Canadian Food In-spec-tion Agency (CFIA).  https://www.inspec
 tion.gc.ca/plants/plant-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 \OT1/cmr/m/n/12 pests-invasive-species/insects/emerald-ash-borer/areas-
  []
 
-[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62])
+[52] [53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 487--492
+[]\OT1/cmr/m/n/12 Globalnews.  The dates and stag-gered starts for all GTA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--492
+\OT1/cmr/m/n/12 schools.  Septem-ber 2020.  [][]$\OT1/cmtt/m/n/12 https : / / g
+lobalnews . ca / news / 6668240 /
+ []
+
+[55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 636--640
+[]\OT1/cmr/m/n/12 Peter C Jentsch.  [][]$\OT1/cmtt/m/n/12 https : / / git . uwa
+terloo . ca / pjentsch /
+ []
+
+
+Overfull \hbox (89.59534pt too wide) in paragraph at lines 636--640
+\OT1/cmtt/m/n/12 prioritizing-[]covid-[]19-[]vaccination-[]in-[]changing-[]soci
+al-[]and-[]epidemiological-[]landscapes$[][]\OT1/cmr/m/n/12 ,
+ []
+
+[57] [58] [59] [60] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 923--930
+[]\OT1/cmr/m/n/12 Ontario Agency for Health Pro-tec-tion and Pro-mo-tion (Pub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--930
+\OT1/cmr/m/n/12 lic Health On-tario).  COVID-19 case fa-tal-ity, case iden-ti-f
+i-ca-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--930
+\OT1/cmr/m/n/12 and at-tack rates in on-tario.  https://www.publichealthontario
+.ca/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--930
+\OT1/cmr/m/n/12 /media/documents/ncov/epi/2020/06/COVID19-epi-case-identificati
+on-age-only-
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 943--947
+[]\OT1/cmr/m/n/12 Organisation for Eco-nomic Co-operation and De-vel-op-ment.  
+Oecd in-ten-sive
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 949--954
+[]\OT1/cmr/m/n/12 World Health Or-ga-ni-za-tion.  Who tar-get prod-uct pro-file
+s for COVID-19
+ []
+
+[62] [63]
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+[]\OT1/cmr/m/n/12 Public Health Agency of Canada.  Daily epi-demi-o-log-i-cal u
+p-date.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+\OT1/cmr/m/n/12 https://www.canada.ca/content/dam/phac-aspc/documents/services/
+diseases-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+\OT1/cmr/m/n/12 maladies/2019-novel-coronavirus-infection/COVID19-epi-update-en
+g-2020-04-
+ []
+
+[64] [65] [66] [67]
+Underfull \hbox (badness 2165) in paragraph at lines 1325--1330
+\OT1/cmr/m/n/12 19 in On-tario, Septem-ber 2020.  Avail-able at [][]$\OT1/cmtt/
+m/n/12 https : / / data . ontario . ca /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1325--1330
+\OT1/cmtt/m/n/12 dataset / confirmed-[]positive-[]cases-[]of-[]{COVID}-[]19-[]i
+n-[]ontario / resource /
+ []
+
+[68]
+Underfull \hbox (badness 2181) in paragraph at lines 1373--1378
+\OT1/cmr/m/n/12 n-avirus dis-ease 2019 (COVID-19) | united states, febru-ary 12
+{march 16,
+ []
+
+[69] [70])
 No file thesis.gls.
 
 Package glossaries-extra Warning: Glossary `main' is missing on input line 220.
 
 
-[63]
+[71]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
 r check TeX's shell escape allows you to run makeindex on input line 220.
@@ -840,7 +908,7 @@ No file thesis.gls-abr.
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
 line 220.
 
-[64
+[72
 
 
 
@@ -856,7 +924,7 @@ No file thesis.nomenclature-gls.
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
 ine 220.
 
-[65
+[73
 
 
 
@@ -872,7 +940,7 @@ No file thesis.symbols-gls.
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 20.
 
-[66
+[74
 
 
 
@@ -882,23 +950,23 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
 ' or check TeX's shell escape allows you to run makeindex on input line 220.
 
-[67
+[75
 
 
 
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 98B93C7A7477668C6D2C3CC191B8B815;2429.
+(rerunfilecheck)             Checksum: 6335871E3C73CBC567D3E4AC63413703;2584.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 12787 strings out of 479383
- 205243 string characters out of 5875830
- 642295 words of memory out of 5000000
- 29281 multiletter control sequences out of 15000+600000
+ 12951 strings out of 479383
+ 208381 string characters out of 5875830
+ 645362 words of memory out of 5000000
+ 29359 multiletter control sequences out of 15000+600000
  418646 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,111p,3018b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -920,10 +988,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1
 200.pfb>
-Output written on thesis.pdf (80 pages, 5425232 bytes).
+Output written on thesis.pdf (88 pages, 5455594 bytes).
 PDF statistics:
- 1400 PDF objects out of 1440 (max. 8388607)
- 1229 compressed objects within 13 object streams
- 347 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1598 PDF objects out of 1728 (max. 8388607)
+ 1417 compressed objects within 15 object streams
+ 433 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

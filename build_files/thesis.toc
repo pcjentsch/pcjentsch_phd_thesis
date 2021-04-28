@@ -25,10 +25,12 @@
 \contentsline {chapter}{\numberline {3}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{38}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Model Overview}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Structure and parameterisation}{41}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Vaccine scenarios}{41}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Results}{42}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Discussion}{45}{section.3.4}%
 \contentsline {chapter}{\textbf {References}}{48}{section*.12}%
-\contentsline {chapter}{Glossary}{64}{section*.14}%
-\contentsline {chapter}{Abbreviations}{65}{section*.16}%
-\contentsline {chapter}{Nomenclature}{66}{section*.18}%
-\contentsline {chapter}{List of Symbols}{67}{section*.20}%
+\contentsline {chapter}{Glossary}{72}{section*.14}%
+\contentsline {chapter}{Abbreviations}{73}{section*.16}%
+\contentsline {chapter}{Nomenclature}{74}{section*.18}%
+\contentsline {chapter}{List of Symbols}{75}{section*.20}%

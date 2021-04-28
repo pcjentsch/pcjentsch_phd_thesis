@@ -167,58 +167,88 @@ Repeated entry---line 1950 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
+Reallocated field_info (elt_size=8) to 10014 items from 5000.
+Repeated entry---line 2324 of file master_bibliography.bib
+ : @article{hethcote2000mathematics
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2356 of file master_bibliography.bib
+ : @article{bauch2005imitation
+ :                            ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2579 of file master_bibliography.bib
+ : 
+ : @article{emery2020contribution,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2634 of file master_bibliography.bib
+ : 
+ : %       title  = "Cumulative total number of {COVID}-19 cases in the United States by report date.  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2642 of file master_bibliography.bib
+ : 
+ : %       title  = "Americans Step Up Their Social Distancing Even Further.  https://news.gallup.com/opinion/gallup/298310/americans-step-social-distancing-even-further.aspx",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in nrcan
+Warning--to sort, need author or key in CDC1
+Warning--to sort, need author or key in gallup1
 Warning--empty author in nrcan
+Warning--empty journal in aussie2020
 Warning--there's a number but no series in beal1911food
 Warning--empty journal in boyd1999indians
 Warning--empty year in boyd1999indians
 Warning--empty journal in despain1991ecowgy
 Warning--empty year in despain1991ecowgy
+Warning--empty journal in school_opening
+Warning--empty journal in school_closure
 Warning--empty journal in kaufmann2008status
 Warning--empty journal in lotan1985role
 Warning--empty journal in mckenney2012estimates
 Warning--empty journal in bcforests
 Warning--empty publisher in safranyik2001effects
 Warning--empty journal in coloforest
-You've used 175 entries,
+Warning--empty journal in wise2020changes
+You've used 251 entries,
             2118 wiz_defined-function locations,
-            1439 strings with 37370 characters,
-and the built_in function-call counts, 60609 in all, are:
-= -- 5957
-> -- 3168
+            1772 strings with 52339 characters,
+and the built_in function-call counts, 85250 in all, are:
+= -- 8218
+> -- 4720
 < -- 21
-+ -- 1280
-- -- 1074
-* -- 4681
-:= -- 10282
-add.period$ -- 522
-call.type$ -- 175
-change.case$ -- 1038
++ -- 1910
+- -- 1614
+* -- 6533
+:= -- 14602
+add.period$ -- 742
+call.type$ -- 251
+change.case$ -- 1523
 chr.to.int$ -- 0
-cite$ -- 188
-duplicate$ -- 2015
-empty$ -- 4422
-format.name$ -- 1074
-if$ -- 12234
+cite$ -- 270
+duplicate$ -- 2759
+empty$ -- 6138
+format.name$ -- 1614
+if$ -- 17115
 int.to.chr$ -- 0
-int.to.str$ -- 175
-missing$ -- 183
-newline$ -- 871
-num.names$ -- 348
-pop$ -- 902
+int.to.str$ -- 251
+missing$ -- 243
+newline$ -- 1243
+num.names$ -- 496
+pop$ -- 1412
 preamble$ -- 1
-purify$ -- 876
+purify$ -- 1289
 quote$ -- 0
-skip$ -- 1421
+skip$ -- 1987
 stack$ -- 0
-substring$ -- 4043
-swap$ -- 286
+substring$ -- 5212
+swap$ -- 358
 text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 672
-warning$ -- 13
-while$ -- 605
-width$ -- 178
-write$ -- 1883
-(There were 41 error messages)
+type$ -- 974
+warning$ -- 19
+while$ -- 805
+width$ -- 254
+write$ -- 2655
+(There were 46 error messages)

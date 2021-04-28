@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{CDC1}
+
+
+\bibitem{gallup1}
+
+
 \bibitem{nrcan}
 Mountain pine beetle (factsheet).
 \newblock {\em Natural Resources Canada}, Feb 2017.
@@ -16,6 +22,13 @@ Michelle~C Agne, Travis Woolley, and Stephen Fitzgerald.
 \newblock Fire severity and cumulative disturbance effects in the post-mountain
   pine beetle lodgepole pine forests of the pole creek fire.
 \newblock {\em Forest Ecology and Management}, 366:73--86, 2016.
+
+\bibitem{alam2020based}
+Muntasir Alam, KM~Ariful Kabir, and Jun Tanimoto.
+\newblock Based on mathematical epidemiology and evolutionary game theory,
+  which is more effective: quarantine or isolation policy?
+\newblock {\em Journal of Statistical Mechanics: Theory and Experiment},
+  2020(3):033502, 2020.
 
 \bibitem{alexanderian2011age}
 Alen Alexanderian, Matthias~K Gobbert, K~Renee Fister, Holly Gaff, Suzanne
@@ -39,6 +52,11 @@ Qasim Ali, Chris~T Bauch, and Madhur Anand.
   in a multi-patch, stochastic setting.
 \newblock {\em PloS one}, 10(10):e0139353, 2015.
 
+\bibitem{kissabc}
+Francesco Allemanno.
+\newblock Kissabc.jl.
+\newblock \url{https://github.com/JuliaApproxInference/KissABC.jl}, 2020.
+
 \bibitem{allen2007interactions}
 Craig~D Allen.
 \newblock Interactions across spatial scales among forest dieback, fire, and
@@ -57,16 +75,45 @@ Jennifer~L Allen, Sara Wesser, Carl~J Markon, and Kenneth~C Winterberger.
   beetles on forest vegetation in the copper river basin, alaska.
 \newblock {\em Forest Ecology and Management}, 227(3):257--266, 2006.
 
+\bibitem{amaral2020epidemiological}
+Marco~A Amaral, Marcelo~M de~Oliveira, and Marco~A Javarone.
+\newblock An epidemiological model with voluntary quarantine strategies
+  governed by evolutionary game dynamics.
+\newblock {\em arXiv preprint arXiv:2008.05979}, 2020.
+
 \bibitem{amman1998silvicultural}
 GD~Amman and JA~Logan.
 \newblock Silvicultural control of mountain pine beetle: prescriptions and the
   influence of microclimate.
 \newblock {\em American Entomologist}, 44(3):166--178, 1998.
 
+\bibitem{anderson1999point}
+Elizabeth~S Anderson.
+\newblock What is the point of equality?
+\newblock {\em Ethics}, 109(2):287--337, 1999.
+
+\bibitem{anderson1992infectious}
+Roy~M Anderson, B~Anderson, and Robert~M May.
+\newblock {\em Infectious diseases of humans: dynamics and control}.
+\newblock Oxford university press, 1992.
+
+\bibitem{anderson2020estimating}
+Sean~C Anderson, Andrew~M Edwards, Madi Yerlanov, Nicola Mulberry, Jessica
+  Stockdale, Sarafa~A Iyaniwura, Rebeca~C Falcao, Michael~C Otterstatter,
+  Michael~A Irvine, Naveed~Z Janjua, et~al.
+\newblock Estimating the impact of {{COVID}}-19 control measures using a
+  bayesian model of physical distancing.
+\newblock {\em medRxiv}, 2020.
+
 \bibitem{antonovsky1990forest}
 M~Ya Antonovsky, RA~Fleming, Yu~A Kuznetsov, and WC~Clark.
 \newblock Forest-pest interaction dynamics: the simplest mathematical models.
 \newblock {\em Theoretical Population Biology}, 37(2):343--367, 1990.
+
+\bibitem{aussie2020}
+{Australian Government, Department of Health}.
+\newblock Australian influenza surveillance report.
+\newblock 2(20 April to 3 May 2020), 2020.
 
 \bibitem{axelson2009influence}
 Jodi~N Axelson, Ren{\'e}~I Alfaro, and Brad~C Hawkes.
@@ -81,11 +128,21 @@ Jodi~N Axelson, Ren{\'e}~I Alfaro, and Brad~C Hawkes.
   columbia.
 \newblock {\em The Forestry Chronicle}, 86(1):87--99, 2010.
 
+\bibitem{babus2020optimal}
+Ana Babus, Sanmay Das, and SangMok Lee.
+\newblock The optimal allocation of {COVID}-19 vaccines.
+\newblock {\em medRxiv}, 2020.
+
 \bibitem{baker1990spruce}
 William~L Baker and Thomas~T Veblen.
 \newblock Spruce beetles and fires in the nineteenth-century subalpine forests
   of western colorado, usa.
 \newblock {\em Arctic and Alpine Research}, pages 65--80, 1990.
+
+\bibitem{bansal2006comparative}
+Shweta Bansal, Babak Pourbohloul, and Lauren~Ancel Meyers.
+\newblock A comparative analysis of influenza vaccination programs.
+\newblock {\em PLoS Med}, 3(10):e387, 2006.
 
 \bibitem{barlow2014modelling}
 Lee-Ann Barlow, Jacob Cecile, Chris~T Bauch, and Madhur Anand.
@@ -109,6 +166,17 @@ Chris~T Bauch.
 \newblock Imitation dynamics predict vaccinating behaviour.
 \newblock {\em Proceedings of the Royal Society B: Biological Sciences},
   272(1573):1669--1675, 2005.
+
+\bibitem{bauch2012evolutionary}
+Chris~T Bauch and Samit Bhattacharyya.
+\newblock Evolutionary game theory and social learning can determine how
+  vaccine scares unfold.
+\newblock {\em PLoS Comput Biol}, 8(4):e1002452, 2012.
+
+\bibitem{bauch2013social}
+Chris~T Bauch and Alison~P Galvani.
+\newblock Social factors in epidemiology.
+\newblock {\em Science}, 342(6154):47--49, 2013.
 
 \bibitem{bc2010state}
 {BC Ministry of Forests, Mines and Lands}.
@@ -183,17 +251,47 @@ Ulrik Brandes.
   computation.
 \newblock {\em Social Networks}, 30(2):136--145, 2008.
 
+\bibitem{brownstein2005identifying}
+John~S Brownstein, Ken~P Kleinman, and Kenneth~D Mandl.
+\newblock Identifying pediatric age groups for influenza vaccination using a
+  real-time regional surveillance system.
+\newblock {\em American Journal of Epidemiology}, 162(7):686--693, 2005.
+
+\bibitem{bubar2020model}
+Kate~M Bubar, Stephen~M Kissler, Marc Lipsitch, Sarah Cobey, Yonatan Grad, and
+  Daniel~B Larremore.
+\newblock Model-informed {COVID}-19 vaccine prioritization strategies by age
+  and serostatus.
+\newblock {\em medRxiv}, 2020.
+
 \bibitem{buck2009hitchhiking}
 James~H Buck and Jordan~M Marshall.
 \newblock Hitchhiking as a secondary dispersal pathway for adult emerald ash
   borer, agrilus planipennis.
 \newblock {\em Gt Lakes Entomol}, 41:197--199, 2009.
 
+\bibitem{hoyt2020vaccine}
+Jack~H Buckner, Gerardo~H Chowell, and Michael~R Springborn.
+\newblock Optimal dynamic prioritization of scarce {COVID}-19 vaccines.
+\newblock {\em medRxiv}, 2020.
+
 \bibitem{buma2015disturbance}
 B~Buma.
 \newblock Disturbance interactions: characterization, prediction, and the
   potential for cascading effects.
 \newblock {\em Ecosphere}, 6(4):1--15, 2015.
+
+\bibitem{USTimeUse}
+{Bureau of Labor Statistics}.
+\newblock American time use survey — 2018 results.
+  https://www.bls.gov/news.release/pdf/atus.pdf, 2018.
+\newblock accessed 4 April 2020.
+
+\bibitem{bury2019charting}
+Thomas~M Bury, Chris~T Bauch, and Madhur Anand.
+\newblock Charting pathways to climate change mitigation in a coupled
+  socio-climate model.
+\newblock {\em PLoS computational biology}, 15(6):e1007000, 2019.
 
 \bibitem{cfia_2019}
 {Canadian Food Inspection Agency (CFIA)}.
@@ -259,6 +357,12 @@ Don~G Despain and William~H Romme.
 \newblock Ecowgy and management of high-intensity fires in yelwwstone national
   park.
 
+\bibitem{diekmann2010construction}
+Odo Diekmann, JAP Heesterbeek, and Michael~G Roberts.
+\newblock The construction of next-generation matrices for compartmental
+  epidemic models.
+\newblock {\em Journal of the Royal Society Interface}, 7(47):873--885, 2010.
+
 \bibitem{donato2013evaluating}
 Daniel~C Donato, Martin Simard, William~H Romme, Brian~J Harvey, and Monica~G
   Turner.
@@ -295,6 +399,12 @@ Jacob~P Duncan, James~A Powell, Luis~F Gordillo, and Joseph Eason.
   forest: Predicting severity and outbreak-recovery cycle period.
 \newblock {\em Bulletin of mathematical biology}, 77(7):1256--1284, 2015.
 
+\bibitem{dushoff2007vaccinating}
+Jonathan Dushoff, Joshua~B Plotkin, Cecile Viboud, Lone Simonsen, Mark Miller,
+  Mark Loeb, and JD~David.
+\newblock Vaccinating to protect a vulnerable subpopulation.
+\newblock {\em PLoS Med}, 4(5):e174, 2007.
+
 \bibitem{eagles2002trends}
 Paul~FJ Eagles.
 \newblock Trends in park tourism: Economics, finance and management.
@@ -316,6 +426,14 @@ CM~Elkin and Mary~L Reid.
 \newblock Low energy reserves and energy allocation decisions affect
   reproduction by mountain pine beetles, dendroctonus ponderosae.
 \newblock {\em Functional Ecology}, 19(1):102--109, 2005.
+
+\bibitem{emery2020contribution}
+Jon~C Emery, Timothy~W Russel, Yang Liu, Joel Hellewell, Carl~AB Pearson,
+  Gwen~M Knight, Rosalind~M Eggo, Adam~J Kucharski, Sebastian Funk, Stefan
+  Flasche, et~al.
+\newblock The contribution of asymptomatic sars-cov-2 infections to
+  transmission-a model-based analysis of the diamond princess outbreak.
+\newblock {\em medRxiv}, 2020.
 
 \bibitem{field2012demographic}
 SG~Field, AW~Schoettle, JG~Klutsch, SJ~Tavener, and MF~Antolin.
@@ -341,16 +459,54 @@ Lee~E Frelich.
   evergreen-deciduous forests}.
 \newblock Cambridge University Press, 2002.
 
+\bibitem{fu2011imitation}
+Feng Fu, Daniel~I Rosenbloom, Long Wang, and Martin~A Nowak.
+\newblock Imitation dynamics of vaccination behaviour on social networks.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  278(1702):42--49, 2011.
+
+\bibitem{funk2009spread}
+Sebastian Funk, Erez Gilad, Chris Watkins, and Vincent~AA Jansen.
+\newblock The spread of awareness and its impact on epidemic outbreaks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(16):6872--6877, 2009.
+
+\bibitem{funk2010modelling}
+Sebastian Funk, Marcel Salath{\'e}, and Vincent~AA Jansen.
+\newblock Modelling the influence of human behaviour on the spread of
+  infectious diseases: a review.
+\newblock {\em Journal of the Royal Society Interface}, 7(50):1247--1256, 2010.
+
 \bibitem{gilbert2004comparison}
 Estella Gilbert, James~A Powell, Jesse~A Logan, and Barbara~J Bentz.
 \newblock Comparison of three models predicting developmental milestones given
   environmental and individual variation.
 \newblock {\em Bulletin of Mathematical Biology}, 66(6):1821, 2004.
 
+\bibitem{school_opening}
+{Globalnews}.
+\newblock The dates and staggered starts for all {GTA} schools.
+\newblock September 2020.
+\newblock
+  \url{https://globalnews.ca/news/6668240/coronavirus-ontario-schools-closed/}.
+
+\bibitem{school_closure}
+{Globalnews Canada}.
+\newblock Coronavirus: All publicly funded schools in ontario closing for 2
+  weeks due to {{COVID}-19}.
+\newblock March 2020.
+\newblock
+  \url{https://globalnews.ca/news/6668240/coronavirus-ontario-schools-closed/}.
+
 \bibitem{golubitsky2012singularities}
 Martin Golubitsky, Ian Stewart, and David~G Schaeffer.
 \newblock {\em Singularities and groups in bifurcation theory}, volume~2.
 \newblock Springer Science \& Business Media, 2012.
+
+\bibitem{googlemobility}
+{{G}oogle, {I}nc.}
+\newblock {COVID}-19 community mobility reports, September 2020.
+\newblock Available at \url{https://www.google.com/{COVID}19/mobility/}.
 
 \bibitem{gottwald2001citrus}
 Tim~R Gottwald, Gareth Hughes, James~H Graham, Xiaoan Sun, and Tim Riley.
@@ -381,6 +537,11 @@ Aric Hagberg, Pieter Swart, and Daniel S~Chult.
 \newblock Exploring network structure, dynamics, and function using networkx.
 \newblock Technical report, Los Alamos National Lab.(LANL), Los Alamos, NM
   (United States), 2008.
+
+\bibitem{halloran2006community}
+M~Elizabeth Halloran and Ira~M Longini.
+\newblock Community studies for vaccinating schoolchildren against influenza,
+  2006.
 
 \bibitem{hawksworth1964diseases}
 Frank~G Hawksworth.
@@ -417,10 +578,22 @@ Jeffrey~A Hicke, Jesse~A Logan, James Powell, and Dennis~S Ojima.
   beetle (dendroctonus ponderosae) outbreaks in the western united states.
 \newblock {\em Journal of Geophysical Research: Biogeosciences}, 111(G2), 2006.
 
+\bibitem{hilton2020estimation}
+Joe Hilton and Matt~J Keeling.
+\newblock Estimation of country-level basic reproductive ratios for novel
+  coronavirus ({COVID}-19) using synthetic contact matrices.
+\newblock {\em medRxiv}, 2020.
+
 \bibitem{hofbauer1998evolutionary}
 Josef Hofbauer and Karl Sigmund.
 \newblock {\em Evolutionary games and population dynamics}.
 \newblock Cambridge university press, 1998.
+
+\bibitem{innes2013impact}
+Clinton Innes, Madhur Anand, and Chris~T Bauch.
+\newblock The impact of human-environment interactions on the stability of
+  forest-grassland mosaic ecosystems.
+\newblock {\em Scientific reports}, 3(1):1--10, 2013.
 
 \bibitem{jabin2008continuous}
 P-E Jabin, V~Lemesle, and D~Aurelle.
@@ -459,11 +632,28 @@ Michael~J Jenkins, Wesley~G Page, Elizabeth~G Hebertson, and Martin~E
   western north america and implications for fire management.
 \newblock {\em Forest Ecology and Management}, 275:23--34, 2012.
 
+\bibitem{code_repo}
+Peter~C Jentsch.
+\newblock
+  \url{https://git.uwaterloo.ca/pjentsch/prioritizing-covid-19-vaccination-in-changing-social-and-epidemiological-landscapes},
+  2020.
+
+\bibitem{nlopt}
+Steven~G. Johnson.
+\newblock The {NLopt} nonlinear-optimization package, 2020.
+\newblock Available at \url{http://github.com/stevengj/nlopt}.
+
 \bibitem{kane2017characterizing}
 Jeffrey~M Kane, J~Morgan Varner, Margaret~R Metz, and Phillip~J van Mantgem.
 \newblock Characterizing interactions between fire and other disturbances and
   their impacts on tree mortality in western us forests.
 \newblock {\em Forest Ecology and Management}, 405:188--199, 2017.
+
+\bibitem{karatayev2020local}
+Vadim~A Karatayev, Madhur Anand, and Chris~T Bauch.
+\newblock Local lockdowns outperform global lockdown on the far side of the
+  {COVID}-19 epidemic curve.
+\newblock {\em Proceedings of the National Academy of Sciences}, 2020.
 
 \bibitem{kaufmann2008status}
 Merrill~R Kaufmann et~al.
@@ -513,6 +703,18 @@ Toshikazu Kuniya.
   epidemic model with time periodic coefficients.
 \newblock {\em Applied Mathematics Letters}, 27:15--20, 2014.
 
+\bibitem{lachmann2020correcting}
+Alexander Lachmann.
+\newblock Correcting under-reported {COVID}-19 case numbers.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{lauer2020incubation}
+Stephen~A Lauer, Kyra~H Grantz, Qifang Bi, Forrest~K Jones, Qulu Zheng,
+  Hannah~R Meredith, Andrew~S Azman, Nicholas~G Reich, and Justin Lessler.
+\newblock The incubation period of coronavirus disease 2019 ({COVID}-19) from
+  publicly reported confirmed cases: estimation and application.
+\newblock {\em Annals of internal medicine}, 2020.
+
 \bibitem{leatherman2012mountain}
 Dave Leatherman, I~Aguayo, and TM~Mehall.
 \newblock Mountain pine beetle.
@@ -540,6 +742,14 @@ Jia Li.
 \newblock {\em Journal of mathematical analysis and applications},
   152(2):399--415, 1990.
 
+\bibitem{li2020temporal}
+You Li, Harry Campbell, Durga Kulkarni, Alice Harpur, Madhurima Nundy, Xin
+  Wang, Harish Nair, Usher~Network for COVID, et~al.
+\newblock The temporal association of introducing and lifting
+  non-pharmaceutical interventions with the time-varying reproduction number
+  (r) of sars-cov-2: a modelling study across 131 countries.
+\newblock {\em The Lancet Infectious Diseases}, 2020.
+
 \bibitem{liebhold2008population}
 Andrew~M Liebhold and Patrick~C Tobin.
 \newblock Population ecology of insect invasions and their management.
@@ -563,11 +773,45 @@ Donald Ludwig, Dixon~D Jones, Crawford~S Holling, et~al.
   and forest.
 \newblock {\em Journal of animal ecology}, 47(1):315--332, 1978.
 
+\bibitem{lurie2020developing}
+Nicole Lurie, Melanie Saville, Richard Hatchett, and Jane Halton.
+\newblock Developing {COVID}-19 vaccines at pandemic speed.
+\newblock {\em New England Journal of Medicine}, 382(21):1969--1973, 2020.
+
 \bibitem{lynch2006influence}
 Heather~J Lynch, Roy~A Renkin, Robert~L Crabtree, and Paul~R Moorcroft.
 \newblock The influence of previous mountain pine beetle (dendroctonus
   ponderosae) activity on the 1988 yellowstone fires.
 \newblock {\em Ecosystems}, 9(8):1318--1327, 2006.
+
+\bibitem{ma2006generality}
+Junling Ma and David~JD Earn.
+\newblock Generality of the final size formula for an epidemic of a newly
+  invading infectious disease.
+\newblock {\em Bulletin of mathematical biology}, 68(3):679--702, 2006.
+
+\bibitem{makhoul2020epidemiological}
+Monia Makhoul, Houssein~H Ayoub, Hiam Chemaitelly, Shaheen Seedat, Ghina~R
+  Mumtaz, Sarah Al-Omari, and Laith~J Abu-Raddad.
+\newblock Epidemiological impact of sars-cov-2 vaccination: mathematical
+  modeling analyses.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{MALIK2020100495}
+Amyn~A. Malik, SarahAnn~M. McFadden, Jad Elharake, and Saad~B. Omer.
+\newblock Determinants of covid-19 vaccine acceptance in the us.
+\newblock {\em EClinicalMedicine}, 26:100495, 2020.
+
+\bibitem{matrajt2020vaccine}
+Laura Matrajt, Julie Eaton, Tiffany Leung, and Elizabeth~R Brown.
+\newblock Vaccine optimization for {COVID}-19, who to vaccinate first?
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{mcgrail2020enacting}
+Daniel~J McGrail, Jianli Dai, Kathleen~M McAndrews, and Raghu Kalluri.
+\newblock Enacting national social distancing policies corresponds with
+  dramatic reduction in {COVID}19 infection rates.
+\newblock {\em PloS one}, 15(7):e0236619, 2020.
 
 \bibitem{mckenney2012estimates}
 Daniel~W McKenney, John~H Pedlar, Denys Yemshanov, Kathy~L Campbell, and Kevin
@@ -593,11 +837,31 @@ Gerard Meurant.
 \newblock {\em The ecology of natural disturbance and patch dynamics}.
 \newblock Academic press, 2012.
 
+\bibitem{miller2020disease}
+Ian~F Miller, Alexander~D Becker, Bryan~T Grenfell, and C~Jessica~E Metcalf.
+\newblock Disease and healthcare burden of {COVID}-19 in the {United States}.
+\newblock {\em Nature Medicine}, 26(8):1212--1217, 2020.
+
+\bibitem{mizumoto2020estimating}
+Kenji Mizumoto, Katsushi Kagaya, Alexander Zarebski, and Gerardo Chowell.
+\newblock Estimating the asymptomatic proportion of coronavirus disease 2019
+  ({COVID}-19) cases on board the diamond princess cruise ship, yokohama,
+  japan, 2020.
+\newblock {\em Eurosurveillance}, 25(10):2000180, 2020.
+
 \bibitem{moran2012mountain}
 Christopher~J Moran and Mark~A Cochrane.
 \newblock Do mountain pine beetle outbreaks change the probability of active
   crown fire in lodgepole pine forests? comment.
 \newblock {\em Ecology}, 93(4):939--941, 2012.
+
+\bibitem{mossong2008social}
+Jo{\"e}l Mossong, Niel Hens, Mark Jit, Philippe Beutels, Kari Auranen, Rafael
+  Mikolajczyk, Marco Massari, Stefania Salmaso, Gianpaolo~Scalia Tomba, Jacco
+  Wallinga, et~al.
+\newblock Social contacts and mixing patterns relevant to the spread of
+  infectious diseases.
+\newblock {\em PLoS medicine}, 5(3), 2008.
 
 \bibitem{muirhead2006modelling}
 Jim~R Muirhead, Brian Leung, Colin van Overdijk, David~W Kelly, Kanavillil
@@ -622,6 +886,11 @@ Jos{\'e}~F Negr{\'o}n, Kurt~K Allen, Angie Ambourn, Blaine Cook, and Kenneth
 \newblock Large-scale thinnings, ponderosa pine, and mountain pine beetle in
   the black hills, usa.
 \newblock {\em Forest Science}, 63(5):529--536, 2017.
+
+\bibitem{nishiura2020serial}
+Hiroshi Nishiura, Natalie~M Linton, and Andrei~R Akhmetzhanov.
+\newblock Serial interval of novel coronavirus ({COVID}-19) infections.
+\newblock {\em International journal of infectious diseases}, 2020.
 
 \bibitem{norris2008mountain}
 Andrea~R Norris and Kathy Martin.
@@ -650,9 +919,38 @@ Tom Oliver, David~B Roy, Jane~K Hill, Tom Brereton, and Chris~D Thomas.
 \newblock Heterogeneous landscapes promote population stability.
 \newblock {\em Ecology letters}, 13(4):473--484, 2010.
 
+\bibitem{publichealthontario}
+{{O}ntario {A}gency for {H}ealth {P}rotection and {P}romotion ({P}ublic
+  {H}ealth {O}ntario)}.
+\newblock {COVID}-19 case fatality, case identification, and attack rates in
+  ontario.
+\newblock
+  https://www.publichealthontario.ca/-/media/documents/ncov/epi/2020/06/{COVID}19-epi-case-identification-age-only-template.pdf?la=en,
+  2020.
+
 \bibitem{omns}
 {Ontario Ministry of Natural Resources}.
 \newblock Are you moving firewood? important information you should read, 2011.
+
+\bibitem{oraby2014influence}
+Tamer Oraby, Vivek Thampi, and Chris~T Bauch.
+\newblock The influence of social norms on the dynamics of vaccinating
+  behaviour for paediatric infectious diseases.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  281(1780):20133172, 2014.
+
+\bibitem{OECDbed}
+{Organisation for Economic Co-operation and Development}.
+\newblock Oecd intensive care bed capacity,
+  https://www.oecd.org/coronavirus/en/data-insights/intensive-care-beds-capacity,
+  accessed 25 september 2020, 2020.
+
+\bibitem{WHO_TPP}
+World~Health Organization.
+\newblock Who target product profiles for {COVID}-19 vaccines,
+  https://www.who.int/who-documents-detailredirect/
+  who-target-product-profiles-for-{COVID}-19-vaccines, accessed 25 september
+  2020, 2020.
 
 \bibitem{papadopoulos2011comparative}
 George~D Papadopoulos and Fotini-Niovi Pavlidou.
@@ -665,6 +963,20 @@ Serge Payette, Najat Bhiry, Ann Delwaide, and Martin Simard.
   canada: the catastrophic impact of insect defoliators and fire on the
   spruce-moss forest.
 \newblock {\em Canadian Journal of Forest Research}, 30(2):288--305, 2000.
+
+\bibitem{peak2020individual}
+Corey~M Peak, Rebecca Kahn, Yonatan~H Grad, Lauren~M Childs, Ruoran Li, Marc
+  Lipsitch, and Caroline~O Buckee.
+\newblock Individual quarantine versus active monitoring of contacts for the
+  mitigation of {COVID}-19: a modelling study.
+\newblock {\em The Lancet Infectious Diseases}, 2020.
+
+\bibitem{pedro2020conditions}
+Sansao~A Pedro, Frank~T Ndjomatchoua, Peter Jentsch, Jean~M Tcheunche, Madhur
+  Anand, and Chris~T Bauch.
+\newblock Conditions for a second wave of {COVID}-19 due to interactions
+  between disease dynamics and social processes.
+\newblock {\em medRxiv}, 2020.
 
 \bibitem{peters2011cross}
 Debra~PC Peters, Ariel~E Lugo, F~Stuart Chapin, Steward~TA Pickett, Michael
@@ -736,6 +1048,37 @@ Anantha~M Prasad, Louis~R Iverson, Matthew~P Peters, Jonathan~M Bossenbroek,
   spatially explicit cellular model.
 \newblock {\em Landscape ecology}, 25(3):353--369, 2010.
 
+\bibitem{prem2017projecting}
+Kiesha Prem, Alex~R Cook, and Mark Jit.
+\newblock Projecting social contact matrices in 152 countries using contact
+  surveys and demographic data.
+\newblock {\em PLoS computational biology}, 13(9):e1005697, 2017.
+
+\bibitem{prem2020projecting}
+Kiesha Prem, Kevin van Zandvoort, Petra Klepac, Rosalind~M Eggo, Nicholas~G
+  Davies, Alex~R Cook, Mark Jit, et~al.
+\newblock Projecting contact matrices in 177 geographical regions: an update
+  and comparison with empirical data for the {COVID}-19 era.
+\newblock {\em medRxiv}, 2020.
+
+\bibitem{ontario_reopening}
+{Provincial government of Ontario, Canada}.
+\newblock Reopening ontario in stages, 2020.
+\newblock Available at
+  \url{https://www.ontario.ca/page/reopening-ontario-stages}.
+
+\bibitem{PHAC1}
+{Public Health Agency of Canada}.
+\newblock Daily epidemiological update.
+  https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases-maladies/2019-novel-coronavirus-infection/{COVID}19-epi-update-eng-2020-04-03.pdf,
+  2020.
+\newblock accessed 4 April 2020.
+
+\bibitem{ontario_sero}
+{Public Health Ontario}.
+\newblock Covid-19 serosurveillance summary: Covid-19 seroprevalence in
+  ontario: March 27, 2020 to june 30, 2020, 2020.
+
 \bibitem{questad2008coexistence}
 Erin~J Questad and Bryan~L Foster.
 \newblock Coexistence through spatio-temporal heterogeneity and species sorting
@@ -760,6 +1103,11 @@ Nick Reid.
 \newblock Roadside checkpoints to monitor illegal firewood transport in new
   hampshire.
 \newblock {\em Concord Monitor}, 2017.
+
+\bibitem{reluga2010game}
+Timothy~C Reluga.
+\newblock Game theory of social distancing in response to an epidemic.
+\newblock {\em PLoS Comput Biol}, 6(5):e1000793, 2010.
 
 \bibitem{robertson2018matter}
 Suzanne~L Robertson, Shandelle~M Henson, Timothy Robertson, and JM~Cushing.
@@ -792,6 +1140,18 @@ Les Safranyik, Bill Wilson, et~al.
 \newblock {\em The mountain pine beetle: a synthesis of biology, management and
   impacts on lodgepole pine.}
 \newblock Canadian Forest Service, 2007.
+
+\bibitem{salathe2012digital}
+Marcel Salathe, Linus Bengtsson, Todd~J Bodnar, Devon~D Brewer, John~S
+  Brownstein, Caroline Buckee, Ellsworth~M Campbell, Ciro Cattuto, Shashank
+  Khandelwal, Patricia~L Mabry, et~al.
+\newblock Digital epidemiology.
+\newblock {\em PLoS Comput Biol}, 8(7):e1002616, 2012.
+
+\bibitem{salathe2008effect}
+Marcel Salath{\'e} and Sebastian Bonhoeffer.
+\newblock The effect of opinion clustering on disease outbreaks.
+\newblock {\em Journal of The Royal Society Interface}, 5(29):1505--1508, 2008.
 
 \bibitem{sartwell1975}
 Charles Sartwell and Robert~E. Stevens.
@@ -842,6 +1202,12 @@ Colorado~Forest Service.
 \newblock Report on the health of colorado's forests.
 \newblock 2016.
 
+\bibitem{sigdel2019convergence}
+Ram Sigdel, Madhur Anand, and Chris~T Bauch.
+\newblock Convergence of socio-ecological dynamics in disparate ecological
+  systems under strong coupling to human social systems.
+\newblock {\em Theoretical Ecology}, 12(3):285--296, 2019.
+
 \bibitem{siikamaki2011contributions}
 Juha Siikam{\"a}ki.
 \newblock Contributions of the us state park system to nature recreation.
@@ -859,6 +1225,11 @@ Martin Simard, William~H Romme, Jacob~M Griffin, and Monica~G Turner.
 \newblock Do mountain pine beetle outbreaks change the probability of active
   crown fire in lodgepole pine forests? reply.
 \newblock {\em Ecology}, 93(4):946--950, 2012.
+
+\bibitem{ontario_census}
+{Statistics Canada}.
+\newblock Census profile, 2016 census, https://www12.statcan.gc.ca/, accessed
+  25 september 2020, 2020.
 
 \bibitem{steneck2002kelp}
 Robert~S Steneck, Michael~H Graham, Bruce~J Bourque, Debbie Corbett, Jon~M
@@ -885,6 +1256,12 @@ Andrew~L Sullivan.
   mathematical analogue models.
 \newblock {\em International Journal of Wildland Fire}, 18(4):387--403, 2009.
 
+\bibitem{svanberg2002class}
+Krister Svanberg.
+\newblock A class of globally convergent optimization methods based on
+  conservative convex separable approximations.
+\newblock {\em SIAM journal on optimization}, 12(2):555--573, 2002.
+
 \bibitem{tang2016hopf}
 Hui Tang and Zhihua Liu.
 \newblock Hopf bifurcation for a predator--prey model with age structure.
@@ -904,11 +1281,25 @@ MJ~Tegner and PK~Dayton.
   (strongylocentrotus franciscanus and s. purpuratus) in a kelp forest.
 \newblock {\em Marine Ecology Progress Series}, pages 255--268, 1981.
 
+\bibitem{thampi2018socio}
+Vivek~A Thampi, Madhur Anand, and Chris~T Bauch.
+\newblock Socio-ecological dynamics of caribbean coral reef ecosystems and
+  conservation opinion propagation.
+\newblock {\em Scientific reports}, 8(1):1--11, 2018.
+
 \bibitem{thomas2013numerical}
 James~William Thomas.
 \newblock {\em Numerical partial differential equations: finite difference
   methods}, volume~22.
 \newblock Springer Science \& Business Media, 2013.
+
+\bibitem{tindale2020transmission}
+Lauren Tindale, Michelle Coombe, Jessica~E Stockdale, Emma Garlock, Wing
+  Yin~Venus Lau, Manu Saraswat, Yen-Hsiang~Brian Lee, Louxin Zhang, Dongxuan
+  Chen, Jacco Wallinga, et~al.
+\newblock Transmission interval estimates suggest pre-symptomatic spread of
+  {COVID}-19.
+\newblock {\em medRxiv}, 2020.
 
 \bibitem{tobin2008cost}
 Patrick~C Tobin.
@@ -930,12 +1321,30 @@ Diana~F Tomback, Jane~Kees Clary, James Koehler, Raymond~J Hoff, and Stephen~F
   pine: the sundance burn of northern idaho (usa).
 \newblock {\em Conservation Biology}, 9(3):654--664, 1995.
 
+\bibitem{ontariocoviddata}
+{{T}reasury {B}oard {S}ecretariat of {O}ntario}.
+\newblock Confirmed positive cases of {{COVID}-19} in {O}ntario, September
+  2020.
+\newblock Available at
+  \url{https://data.ontario.ca/dataset/confirmed-positive-cases-of-{COVID}-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350}.
+
+\bibitem{tuite2020mathematical}
+Ashleigh~R Tuite, David~N Fisman, and Amy~L Greer.
+\newblock Mathematical modelling of {COVID}-19 transmission and mitigation
+  strategies in the population of ontario, canada.
+\newblock {\em CMAJ}, 192(19):E497--E505, 2020.
+
 \bibitem{turgeon2015decade}
 Jean~J Turgeon, Mary Orr, Cara Grant, Yunke Wu, and Ben Gasman.
 \newblock Decade-old satellite infestation of anoplophora glabripennis
   motschulsky (coleoptera: Cerambycidae) found in ontario, canada outside
   regulated area of founder population.
 \newblock {\em The Coleopterists Bulletin}, 69(4):674--679, 2015.
+
+\bibitem{turner2012approximate}
+Brandon~M Turner and Per~B Sederberg.
+\newblock Approximate {Bayesian} computation with differential evolution.
+\newblock {\em Journal of Mathematical Psychology}, 56(5):375--385, 2012.
 
 \bibitem{turner1989predicting}
 Monica~G Turner, Robert~H Gardner, Virginia~H Dale, and Robert~V O'Neill.
@@ -947,11 +1356,31 @@ Monica~G Turner and William~H Romme.
 \newblock Landscape dynamics in crown fire ecosystems.
 \newblock {\em Landscape ecology}, 9(1):59--77, 1994.
 
+\bibitem{CDCcases}
+{United States Centers for Disease Control}.
+\newblock Coronavirus disease 2019 ({COVID}-19).
+  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html,
+  2020.
+\newblock accessed 4 April 2020.
+
 \bibitem{aphis}
 {United States Department of Agriculture Animal and Plant Health Inspection
   Service}.
 \newblock Risk assessment of the movement of firewood within the united states,
   2011.
+
+\bibitem{MMWR1}
+{US Centers for Disease Control}.
+\newblock Severe outcomes among patients with coronavirus disease 2019
+  ({COVID}-19) — united states, february 12–march 16, 2020.
+  https://www.cdc.gov/mmwr/volumes/69/wr/pdfs/mm6912e2-h.pdf.
+\newblock {\em MMWR}, 69(12):343--346, 2020.
+
+\bibitem{van2002reproduction}
+Pauline Van~den Driessche and James Watmough.
+\newblock Reproduction numbers and sub-threshold endemic equilibria for
+  compartmental models of disease transmission.
+\newblock {\em Mathematical biosciences}, 180(1-2):29--48, 2002.
 
 \bibitem{veblen1994disturbance}
 Thomas~T Veblen, Keith~S Hadley, Elizabeth~M Nel, Thomas Kitzberger, Marion
@@ -959,6 +1388,19 @@ Thomas~T Veblen, Keith~S Hadley, Elizabeth~M Nel, Thomas Kitzberger, Marion
 \newblock Disturbance regime and disturbance interactions in a rocky mountain
   subalpine forest.
 \newblock {\em Journal of Ecology}, pages 125--135, 1994.
+
+\bibitem{verelst2016behavioural}
+Frederik Verelst, Lander Willem, and Philippe Beutels.
+\newblock Behavioural change models for infectious disease transmission: a
+  systematic review (2010--2015).
+\newblock {\em Journal of The Royal Society Interface}, 13(125):20160820, 2016.
+
+\bibitem{verity2020estimates}
+Robert Verity, Lucy~C Okell, Ilaria Dorigatti, Peter Winskill, Charles
+  Whittaker, Natsuko Imai, Gina Cuomo-Dannenburg, Hayley Thompson, Patrick
+  Walker, Han Fu, et~al.
+\newblock Estimates of the severity of {COVID}-19 disease.
+\newblock {\em medRxiv}, 2020.
 
 \bibitem{wagner1977conditions}
 CE~Van Wagner.
@@ -1011,6 +1453,12 @@ John~RU Wilson, Eleanor~E Dormontt, Peter~J Prentis, Andrew~J Lowe, and David~M
   success.
 \newblock {\em Trends in ecology \& evolution}, 24(3):136--144, 2009.
 
+\bibitem{wise2020changes}
+Toby Wise, Tomislav~Damir Zbozinek, Giorgia Michelini, Cindy~C Hagan, et~al.
+\newblock Changes in risk perception and protective behavior during the first
+  week of the {COVID}-19 pandemic in the united states.
+\newblock 2020.
+
 \bibitem{yemshanov2015optimal}
 Denys Yemshanov, Robert~G Haight, Frank~H Koch, Bo~Lu, Robert Venette, D~Barry
   Lyons, Taylor Scarr, and Krista Ryall.
@@ -1024,6 +1472,20 @@ Denys Yemshanov, Frank~H Koch, Daniel~W McKenney, Marla~C Downing, and Frank
 \newblock Mapping invasive species risks with stochastic models: a cross-border
   united states-canada application for sirex noctilio fabricius.
 \newblock {\em Risk Analysis: An International Journal}, 29(6):868--884, 2009.
+
+\bibitem{zagheni2008using}
+Emilio Zagheni, Francesco~C Billari, Piero Manfredi, Alessia Melegaro, Joel
+  Mossong, and W~John Edmunds.
+\newblock Using time-use data to parameterize models for the spread of
+  close-contact infectious diseases.
+\newblock {\em American journal of epidemiology}, 168(9):1082--1090, 2008.
+
+\bibitem{zhao2020imitation}
+Shi Zhao, Lewi Stone, Daozhou Gao, Salihu~S Musa, Marc~KC Chong, Daihai He, and
+  Maggie~H Wang.
+\newblock Imitation dynamics in the mitigation of the novel coronavirus disease
+  ({COVID}-19) outbreak in wuhan, china from 2019 to 2020.
+\newblock {\em Annals of Translational Medicine}, 8(7), 2020.
 
 \bibitem{zinck2008more}
 RD~Zinck and V~Grimm.
