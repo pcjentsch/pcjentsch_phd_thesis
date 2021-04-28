@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  28 APR 2021 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,7 +378,11 @@ Package glossaries Info: Writing glossary file thesis.symbols-glo on input line
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count305
 \l__pdf_internal_box=\box54
-) (./thesis.aux)
+) (./thesis.aux
+
+LaTeX Warning: Label `Ieqn' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
 LaTeX Font Info:    ... okay on input line 167.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
@@ -437,17 +441,7 @@ LaTeX Info: Redefining \pageref on input line 167.
 LaTeX Info: Redefining \nameref on input line 167.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write8
-(./uw-ethesis-frontpgs.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+(./uw-ethesis-frontpgs.tex [1
 
 
 
@@ -466,23 +460,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [7
 
 
-] (./thesis.toc [8
+] (./thesis.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [8
 
 
 
 
-])
+] [9])
 \tf@toc=\write9
-[9] (./thesis.lof [10
+[10] (./thesis.lof [11
 
 
 
 
-] [11] [12])
+] [12] [13])
 \tf@lof=\write10
-[13] (./thesis.lot)
+[14] (./thesis.lot)
 \tf@lot=\write11
-[14
+[15
 
 
 
@@ -541,14 +543,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
  []
 
 [10]
-<chapter_1/core_graph_plot.png, id=613, 844.8363pt x 597.432pt>
+<chapter_1/core_graph_plot.png, id=675, 844.8363pt x 597.432pt>
 File: chapter_1/core_graph_plot.png Graphic file (type png)
 <use chapter_1/core_graph_plot.png>
 Package pdftex.def Info: chapter_1/core_graph_plot.png  used on input line 223.
 
 (pdftex.def)             Requested size: 301.1261pt x 212.9422pt.
 [11 <./chapter_1/core_graph_plot.png>] [12]
-<chapter_1/timeseries.png, id=654, 1300.86pt x 1156.32pt>
+<chapter_1/timeseries.png, id=715, 1300.86pt x 1156.32pt>
 File: chapter_1/timeseries.png Graphic file (type png)
 <use chapter_1/timeseries.png>
 Package pdftex.def Info: chapter_1/timeseries.png  used on input line 260.
@@ -564,7 +566,7 @@ LaTeX Warning: Text page 14 contains only floats.
 Overfull \vbox (5.45538pt too high) has occurred while \output is active []
 
 [14 <./chapter_1/timeseries.png>]
-<chapter_1/ct_v_ce_plane.png, id=676, 1734.48pt x 578.16pt>
+<chapter_1/ct_v_ce_plane.png, id=738, 1734.48pt x 578.16pt>
 File: chapter_1/ct_v_ce_plane.png Graphic file (type png)
 <use chapter_1/ct_v_ce_plane.png>
 Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
@@ -572,7 +574,7 @@ Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/p1.jpg, id=677, 963.6pt x 542.025pt>
+<chapter_1/p1.jpg, id=739, 963.6pt x 542.025pt>
 File: chapter_1/p1.jpg Graphic file (type jpg)
 <use chapter_1/p1.jpg>
 Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
@@ -580,7 +582,7 @@ Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_time.png, id=678, 1228.59pt x 578.16pt>
+<chapter_1/A_v_time.png, id=740, 1228.59pt x 578.16pt>
 File: chapter_1/A_v_time.png Graphic file (type png)
 <use chapter_1/A_v_time.png>
 Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
@@ -588,7 +590,7 @@ Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_ct_v_d_marginal_gain.png, id=679, 2168.1pt x 578.16pt>
+<chapter_1/A_v_ct_v_d_marginal_gain.png, id=741, 2168.1pt x 578.16pt>
 File: chapter_1/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use chapter_1/A_v_ct_v_d_marginal_gain.png>
 Package pdftex.def Info: chapter_1/A_v_ct_v_d_marginal_gain.png  used on input 
@@ -598,7 +600,7 @@ line 299.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15]
-<chapter_1/node_quarantine_plot_1.0.png, id=691, 1734.48pt x 578.16pt>
+<chapter_1/node_quarantine_plot_1.0.png, id=753, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_1.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_1.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_1.0.png  used on input 
@@ -607,7 +609,7 @@ line 310.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/node_quarantine_plot_2.0.png, id=692, 1734.48pt x 578.16pt>
+<chapter_1/node_quarantine_plot_2.0.png, id=754, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_2.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_2.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_2.0.png  used on input 
@@ -651,7 +653,7 @@ or  <return>  to continue without it.
 
 
 ] [23] [24] [25]
-<chapter_2/table.jpg, id=817, 722.7pt x 406.51875pt>
+<chapter_2/table.jpg, id=879, 722.7pt x 406.51875pt>
 File: chapter_2/table.jpg Graphic file (type jpg)
 <use chapter_2/table.jpg>
 Package pdftex.def Info: chapter_2/table.jpg  used on input line 51.
@@ -663,7 +665,7 @@ Overfull \hbox (0.95805pt too wide) in paragraph at lines 56--56
  []
 
 [26 <./chapter_2/table.jpg>] [27]
-<chapter_2/a1_a2_phase.pdf, id=855, 444.9985pt x 310.14468pt>
+<chapter_2/a1_a2_phase.pdf, id=916, 444.9985pt x 310.14468pt>
 File: chapter_2/a1_a2_phase.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_phase.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_phase.pdf  used on input line 111.
@@ -675,24 +677,24 @@ l.118     }
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-<chapter_2/z1_ts.pdf, id=865, 432.96555pt x 418.56476pt>
+<chapter_2/z1_ts.pdf, id=927, 432.96555pt x 418.56476pt>
 File: chapter_2/z1_ts.pdf Graphic file (type pdf)
 <use chapter_2/z1_ts.pdf>
 Package pdftex.def Info: chapter_2/z1_ts.pdf  used on input line 120.
 (pdftex.def)             Requested size: 460.72124pt x 445.4201pt.
 [29] [30 <./chapter_2/a1_a2_phase.pdf>] [31 <./chapter_2/z1_ts.pdf>]
-<chapter_2/a1_a2_trim_gain.pdf, id=958, 645.1292pt x 257.0453pt>
+<chapter_2/a1_a2_trim_gain.pdf, id=1019, 645.1292pt x 257.0453pt>
 File: chapter_2/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_gain.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_gain.pdf  used on input line 135.
 
 (pdftex.def)             Requested size: 460.72124pt x 183.57027pt.
-<chapter_2/z1_ftp.pdf, id=959, 432.96555pt x 419.8907pt>
+<chapter_2/z1_ftp.pdf, id=1020, 432.96555pt x 419.8907pt>
 File: chapter_2/z1_ftp.pdf Graphic file (type pdf)
 <use chapter_2/z1_ftp.pdf>
 Package pdftex.def Info: chapter_2/z1_ftp.pdf  used on input line 140.
 (pdftex.def)             Requested size: 460.72124pt x 446.83113pt.
-<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=962, 663.0692pt x 258.54591pt>
+<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=1023, 663.0692pt x 258.54591pt>
 File: chapter_2/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_susceptible_loss.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_susceptible_loss.pdf  used on inp
@@ -753,12 +755,12 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [41]
-<chapter_3/plot_model.pdf, id=1177, 406.584pt x 280.09143pt>
+<chapter_3/plot_model.pdf, id=1238, 406.584pt x 280.09143pt>
 File: chapter_3/plot_model.pdf Graphic file (type pdf)
 <use chapter_3/plot_model.pdf>
 Package pdftex.def Info: chapter_3/plot_model.pdf  used on input line 44.
 (pdftex.def)             Requested size: 460.72124pt x 317.4014pt.
-<chapter_3/ts_plot.pdf, id=1178, 791.84229pt x 742.38457pt>
+<chapter_3/ts_plot.pdf, id=1239, 791.84229pt x 742.38457pt>
 File: chapter_3/ts_plot.pdf Graphic file (type pdf)
 <use chapter_3/ts_plot.pdf>
 Package pdftex.def Info: chapter_3/ts_plot.pdf  used on input line 50.
@@ -766,19 +768,19 @@ Package pdftex.def Info: chapter_3/ts_plot.pdf  used on input line 50.
 
 LaTeX Warning: Float too large for page by 26.95403pt on input line 53.
 
-<chapter_3/main_text_ts_1.pdf, id=1179, 517.19426pt x 290.88673pt>
+<chapter_3/main_text_ts_1.pdf, id=1240, 517.19426pt x 290.88673pt>
 File: chapter_3/main_text_ts_1.pdf Graphic file (type pdf)
 <use chapter_3/main_text_ts_1.pdf>
 Package pdftex.def Info: chapter_3/main_text_ts_1.pdf  used on input line 56.
 (pdftex.def)             Requested size: 460.72124pt x 259.12361pt.
-<chapter_3/vaccination_by_mortality_small.pdf, id=1180, 517.56863pt x 375.75883
+<chapter_3/vaccination_by_mortality_small.pdf, id=1241, 517.56863pt x 375.75883
 pt>
 File: chapter_3/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use chapter_3/vaccination_by_mortality_small.pdf>
 Package pdftex.def Info: chapter_3/vaccination_by_mortality_small.pdf  used on 
 input line 63.
 (pdftex.def)             Requested size: 460.72124pt x 334.48738pt.
-<chapter_3/bivariate_heatmap.pdf, id=1181, 370.65779pt x 448.02179pt>
+<chapter_3/bivariate_heatmap.pdf, id=1242, 370.65779pt x 448.02179pt>
 File: chapter_3/bivariate_heatmap.pdf Graphic file (type pdf)
 <use chapter_3/bivariate_heatmap.pdf>
 Package pdftex.def Info: chapter_3/bivariate_heatmap.pdf  used on input line 68
@@ -796,7 +798,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Float too large for page by 98.38118pt on input line 71.
 
-<chapter_3/histograms.pdf, id=1182, 507.29123pt x 303.74477pt>
+<chapter_3/histograms.pdf, id=1243, 507.29123pt x 303.74477pt>
 File: chapter_3/histograms.pdf Graphic file (type pdf)
 <use chapter_3/histograms.pdf>
 Package pdftex.def Info: chapter_3/histograms.pdf  used on input line 74.
@@ -804,36 +806,329 @@ Package pdftex.def Info: chapter_3/histograms.pdf  used on input line 74.
 [42] [43 <./chapter_3/plot_model.pdf>] [44 <./chapter_3/ts_plot.pdf>] [45 <./ch
 apter_3/main_text_ts_1.pdf>] [46 <./chapter_3/vaccination_by_mortality_small.pd
 f>] [47 <./chapter_3/bivariate_heatmap.pdf>] [48 <./chapter_3/histograms.pdf>] 
-[49] [50]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ...ult, the effective reproduction number R_
-                                                  {eff} could be significant...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.100 ... 1 than the basic reproduction number $R_
-                                                  0 \approx 2.2$ that applie...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (16.3324pt too wide) in paragraph at lines 100--101
-\OT1/cmr/m/n/12 pro-duc-tion num-ber R$[]\OML/cmm/m/it/12 couldbesignificantlyc
-loserto\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 thanthebasicreproductionnumber$\OT1/cm
-r/m/n/12 R$[] \OMS/cmsy/m/n/12 ^^Y
+[49] [50] [51] [52]
+Overfull \hbox (54.87917pt too wide) in alignment at lines 130--130
+ [][][] []
  []
 
-[51] [52]) [53] (./thesis.bbl [54
+[53] [54] [55] [56]
+Overfull \hbox (20.59534pt too wide) in paragraph at lines 209--210
+\OT1/cmr/m/n/12 where where $\OML/cmm/m/it/12 []; []; []$ \OT1/cmr/m/n/12 co
+r-re-sponds to the as-cer-tain-ment in the age groups $(0\OML/cmm/m/it/12 ; \OT
+1/cmr/m/n/12 20)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (20\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 60)\OML/cmm/m/it/12 ; >
+ []
+
+
+Overfull \hbox (4.96013pt too wide) in paragraph at lines 213--251
+\OT1/cmr/m/n/12 and $^^F$ are de-fined as in equa-tions [][]3.17[][],[][]3.18[]
+[], and so $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 is a func-tion of []$\OML/cmm/m
+/it/12 R[]; ^^[[]; ^^[[]; ^^M[]; ^^M[]; ^^Q; C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;$[]
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[57]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.251 \end{equation}}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[58] [59] [60]
+Overfull \hbox (3.76477pt too wide) detected at line 289
+[][]\OML/cmm/m/it/12 t[]i \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B []\OML/cmm/
+m/it/12 t \OMS/cmsy/m/n/12 ^^B []
+ []
+
+[61] [62]
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \begin{table}[H]
+                      
+Option `H' ignored and `p' used.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.298 \midrule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.299 ... & $0-4$:  $790169$; $5-9$: $789190 $$  &
+                                                   \cite{ontario_census}, in...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 ... & $0-4$:  $790169$; $5-9$: $789190 $$  &
+                                                   \cite{ontario_census}, in...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.299 ... & $0-4$:  $790169$; $5-9$: $789190 $$  &
+                                                   \cite{ontario_census}, in...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+<recently read> \bottomrule 
+                            
+l.359 \bottomrule
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (358.99196pt too wide) in paragraph at lines 296--362
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 330.00996pt on input line 362.
+
+) [63] (./thesis.bbl [64
 
 
 
 
-] [55] [56] [57]
+
+] [65] [66] [67]
 Underfull \hbox (badness 2573) in paragraph at lines 285--289
 []\OT1/cmr/m/n/12 Bureau of La-bor Statis-tics.  Amer-i-can time use sur-vey | 
 2018 re-sults.
@@ -850,7 +1145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--301
 \OT1/cmr/m/n/12 pests-invasive-species/insects/emerald-ash-borer/areas-
  []
 
-[58] [59] [60]
+[68] [69] [70]
 Underfull \hbox (badness 10000) in paragraph at lines 487--492
 []\OT1/cmr/m/n/12 Globalnews.  The dates and stag-gered starts for all GTA
  []
@@ -861,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--492
 lobalnews . ca / news / 6668240 /
  []
 
-[61] [62]
+[71] [72]
 Underfull \hbox (badness 10000) in paragraph at lines 636--640
 []\OT1/cmr/m/n/12 Peter C Jentsch.  [][]$\OT1/cmtt/m/n/12 https : / / git . uwa
 terloo . ca / pjentsch /
@@ -873,7 +1168,7 @@ Overfull \hbox (89.59534pt too wide) in paragraph at lines 636--640
 al-[]and-[]epidemiological-[]landscapes$[][]\OT1/cmr/m/n/12 ,
  []
 
-[63] [64] [65] [66] [67]
+[73] [74] [75] [76] [77]
 Underfull \hbox (badness 10000) in paragraph at lines 923--930
 []\OT1/cmr/m/n/12 Ontario Agency for Health Pro-tec-tion and Pro-mo-tion (Pub-
  []
@@ -908,7 +1203,7 @@ Underfull \hbox (badness 3138) in paragraph at lines 949--954
 s for COVID-19
  []
 
-[68] [69]
+[78] [79]
 Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
 []\OT1/cmr/m/n/12 Public Health Agency of Canada.  Daily epi-demi-o-log-i-cal u
 p-date.
@@ -926,7 +1221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
 g-2020-04-
  []
 
-[70] [71] [72] [73]
+[80] [81] [82] [83]
 Underfull \hbox (badness 2165) in paragraph at lines 1325--1330
 \OT1/cmr/m/n/12 19 in On-tario, Septem-ber 2020.  Avail-able at [][]$\OT1/cmtt/
 m/n/12 https : / / data . ontario . ca /
@@ -938,19 +1233,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1325--1330
 n-[]ontario / resource /
  []
 
-[74]
+[84]
 Underfull \hbox (badness 2181) in paragraph at lines 1373--1378
 \OT1/cmr/m/n/12 n-avirus dis-ease 2019 (COVID-19) | united states, febru-ary 12
 {march 16,
  []
 
-[75] [76])
+[85] [86])
 No file thesis.gls.
 
 Package glossaries-extra Warning: Glossary `main' is missing on input line 220.
 
 
-[77]
+[87]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
 r check TeX's shell escape allows you to run makeindex on input line 220.
@@ -960,7 +1255,7 @@ No file thesis.gls-abr.
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
 line 220.
 
-[78
+[88
 
 
 
@@ -976,7 +1271,7 @@ No file thesis.nomenclature-gls.
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
 ine 220.
 
-[79
+[89
 
 
 
@@ -992,7 +1287,7 @@ No file thesis.symbols-gls.
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 20.
 
-[80
+[90
 
 
 
@@ -1002,48 +1297,49 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
 ' or check TeX's shell escape allows you to run makeindex on input line 220.
 
-[81
+[91
 
 
 
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6335871E3C73CBC567D3E4AC63413703;2584.
+(rerunfilecheck)             Checksum: 061CFD6B1DC34892E5CAF111373510FD;3474.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13005 strings out of 479383
- 209747 string characters out of 5875830
- 664312 words of memory out of 5000000
- 29395 multiletter control sequences out of 15000+600000
- 418646 words of font info for 86 fonts, out of 8000000 for 9000
+ 13056 strings out of 479383
+ 210296 string characters out of 5875830
+ 678190 words of memory out of 5000000
+ 29409 multiletter control sequences out of 15000+600000
+ 414299 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,111p,3018b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1
-200.pfb>
-Output written on thesis.pdf (95 pages, 6356198 bytes).
+cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (106 pages, 6416506 bytes).
 PDF statistics:
- 1848 PDF objects out of 2073 (max. 8388607)
- 1601 compressed objects within 17 object streams
- 445 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2056 PDF objects out of 2073 (max. 8388607)
+ 1795 compressed objects within 18 object streams
+ 482 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 

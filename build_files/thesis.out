@@ -29,8 +29,19 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{Vaccine scenarios}{section.3.2}% 29
 \BOOKMARK [1][-]{section.3.3}{Results}{chapter.3}% 30
 \BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 31
-\BOOKMARK [0][-]{section*.12}{References}{}% 32
-\BOOKMARK [0][-]{section*.14}{Glossary}{}% 33
-\BOOKMARK [0][-]{section*.16}{Abbreviations}{}% 34
-\BOOKMARK [0][-]{section*.18}{Nomenclature}{}% 35
-\BOOKMARK [0][-]{section*.20}{List of Symbols}{}% 36
+\BOOKMARK [1][-]{section.3.5}{Appendix}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.5.1}{Model Equations}{section.3.5}% 33
+\BOOKMARK [2][-]{subsection.3.5.2}{Vaccination process}{section.3.5}% 34
+\BOOKMARK [2][-]{subsection.3.5.3}{Differences between parameters in the first and second wave}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.4}{Case under-ascertainment}{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.5}{Baseline transmission rate}{section.3.5}% 37
+\BOOKMARK [2][-]{subsection.3.5.6}{Disease progression parameters}{section.3.5}% 38
+\BOOKMARK [2][-]{subsection.3.5.7}{Initial conditions}{section.3.5}% 39
+\BOOKMARK [2][-]{subsection.3.5.8}{Particle filtering}{section.3.5}% 40
+\BOOKMARK [2][-]{subsection.3.5.9}{Vaccination refusal dynamics}{section.3.5}% 41
+\BOOKMARK [2][-]{subsection.3.5.10}{Model extension for vaccine efficacy against disease only}{section.3.5}% 42
+\BOOKMARK [0][-]{section*.12}{References}{}% 43
+\BOOKMARK [0][-]{section*.14}{Glossary}{}% 44
+\BOOKMARK [0][-]{section*.16}{Abbreviations}{}% 45
+\BOOKMARK [0][-]{section*.18}{Nomenclature}{}% 46
+\BOOKMARK [0][-]{section*.20}{List of Symbols}{}% 47

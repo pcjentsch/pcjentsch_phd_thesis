@@ -31,6 +31,7 @@ Repeated entry---line 1375 of file master_bibliography.bib
  : }@inproceedings{safranyik2003mountain
  :                                      ,
 I'm skipping whatever remains of this entry
+Reallocated field_info (elt_size=8) to 10014 items from 5000.
 Repeated entry---line 1579 of file master_bibliography.bib
  : @article{hicke2012effects
  :                          ,
@@ -167,7 +168,6 @@ Repeated entry---line 1950 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-Reallocated field_info (elt_size=8) to 10014 items from 5000.
 Repeated entry---line 2324 of file master_bibliography.bib
  : @article{hethcote2000mathematics
  :                                 ,
