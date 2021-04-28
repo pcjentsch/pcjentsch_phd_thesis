@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  27 APR 2021 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,119 +651,56 @@ or  <return>  to continue without it.
 
 
 ] [23] [24] [25]
-
-LaTeX Warning: File `table.jpg' not found on input line 51.
-
-
-! Package pdftex.def Error: File `table.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 ...raphics[width = 0.75\textwidth]{table.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<chapter_2/table.jpg, id=746, 722.7pt x 406.51875pt>
+File: chapter_2/table.jpg Graphic file (type jpg)
+<use chapter_2/table.jpg>
+Package pdftex.def Info: chapter_2/table.jpg  used on input line 51.
+(pdftex.def)             Requested size: 345.54092pt x 194.36382pt.
 
 Overfull \hbox (0.95805pt too wide) in paragraph at lines 56--56
 []\OT1/cmr/bx/n/14.4 Forest thin-ning pro-to-col (FTP) and con-trolled burn-ing
  pro-
  []
 
-[26] [27] [28]
+[26 <./chapter_2/table.jpg>] [27]
+<chapter_2/a1_a2_phase.pdf, id=783, 444.9985pt x 310.14468pt>
+File: chapter_2/a1_a2_phase.pdf Graphic file (type pdf)
+<use chapter_2/a1_a2_phase.pdf>
+Package pdftex.def Info: chapter_2/a1_a2_phase.pdf  used on input line 111.
+(pdftex.def)             Requested size: 460.72124pt x 321.12312pt.
+[28]
+! Too many }'s.
+l.118     }
+           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-LaTeX Warning: File `a1_a2_phase.pdf' not found on input line 112.
+<chapter_2/z1_ts.pdf, id=793, 432.96555pt x 418.56476pt>
+File: chapter_2/z1_ts.pdf Graphic file (type pdf)
+<use chapter_2/z1_ts.pdf>
+Package pdftex.def Info: chapter_2/z1_ts.pdf  used on input line 120.
+(pdftex.def)             Requested size: 460.72124pt x 445.4201pt.
+[29] [30 <./chapter_2/a1_a2_phase.pdf>] [31 <./chapter_2/z1_ts.pdf>]
+<chapter_2/a1_a2_trim_gain.pdf, id=886, 645.1292pt x 257.0453pt>
+File: chapter_2/a1_a2_trim_gain.pdf Graphic file (type pdf)
+<use chapter_2/a1_a2_trim_gain.pdf>
+Package pdftex.def Info: chapter_2/a1_a2_trim_gain.pdf  used on input line 135.
 
-
-! Package pdftex.def Error: File `a1_a2_phase.pdf' not found: using draft setti
-ng.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...aphics[width=\textwidth]{a1_a2_phase.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 41.34799pt on input line 115.
-
-
-LaTeX Warning: File `z1_ts.pdf' not found on input line 121.
-
-
-! Package pdftex.def Error: File `z1_ts.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 ...ludegraphics[width=\textwidth]{z1_ts.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 12.34799pt on input line 124.
-
-[29] [30] [31]
-
-LaTeX Warning: File `a1_a2_trim_gain.pdf' not found on input line 136.
-
-
-! Package pdftex.def Error: File `a1_a2_trim_gain.pdf' not found: using draft s
-etting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136 ...cs[width=\textwidth]{a1_a2_trim_gain.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `z1_ftp.pdf' not found on input line 141.
-
-
-! Package pdftex.def Error: File `z1_ftp.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 ...udegraphics[width=\textwidth]{z1_ftp.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 12.34799pt on input line 144.
-
-
-LaTeX Warning: File `a1_a2_trim_susceptible_loss.pdf' not found on input line 1
-47.
-
-
-! Package pdftex.def Error: File `a1_a2_trim_susceptible_loss.pdf' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...xtwidth]{a1_a2_trim_susceptible_loss.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[32] [33] [34] [35] [36] [37] [38]
-Overfull \hbox (73.82903pt too wide) in paragraph at lines 188--189
+(pdftex.def)             Requested size: 460.72124pt x 183.57027pt.
+<chapter_2/z1_ftp.pdf, id=887, 432.96555pt x 419.8907pt>
+File: chapter_2/z1_ftp.pdf Graphic file (type pdf)
+<use chapter_2/z1_ftp.pdf>
+Package pdftex.def Info: chapter_2/z1_ftp.pdf  used on input line 140.
+(pdftex.def)             Requested size: 460.72124pt x 446.83113pt.
+<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=890, 663.0692pt x 258.54591pt>
+File: chapter_2/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
+<use chapter_2/a1_a2_trim_susceptible_loss.pdf>
+Package pdftex.def Info: chapter_2/a1_a2_trim_susceptible_loss.pdf  used on inp
+ut line 146.
+(pdftex.def)             Requested size: 460.72124pt x 179.64351pt.
+[32 <./chapter_2/a1_a2_trim_gain.pdf>] [33 <./chapter_2/z1_ftp.pdf>] [34 <./cha
+pter_2/a1_a2_trim_susceptible_loss.pdf>] [35] [36]
+Overfull \hbox (73.82903pt too wide) in paragraph at lines 186--187
 \OT1/cmtt/m/n/12 / / git . uwaterloo . ca / pjentsch / fire-[]mitigates-[]bark-
 []beetle-[]outbreaks-[]in-[]serotinous-[]forests$[][] 
  []
@@ -774,7 +711,7 @@ Overfull \hbox (206.41072pt too wide) in paragraph at lines 1--2
 ========== 
  []
 
-[39]
+[37]
 Chapter 3.
 
 Overfull \hbox (188.7859pt too wide) in paragraph at lines 3--4
@@ -795,7 +732,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[40
+[38
 
 
 ]
@@ -826,7 +763,7 @@ l.16 ... become stronger.  For instance, if R0 ≈
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[41] [42]
+[39] [40]
 
 ! Package inputenc Error: Unicode character ψ (U+03C8)
 (inputenc)                not set up for use with LaTeX.
@@ -841,7 +778,7 @@ l.32 ...n per week (the “vaccination rate”, ψ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[43] [44] [45]
+[41] [42] [43]
 
 ! Package inputenc Error: Unicode character ≈ (U+2248)
 (inputenc)                not set up for use with LaTeX.
@@ -856,7 +793,7 @@ l.58 Our baseline inferred value of R0≈
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[46]
+[44]
 
 ! Package inputenc Error: Unicode character ≈ (U+2248)
 (inputenc)                not set up for use with LaTeX.
@@ -871,12 +808,12 @@ l.62 ... than the basic reproduction number R0 ≈
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[47]) [48] [49] (./thesis.bbl [50
+[45]) [46] [47] (./thesis.bbl [48
 
 
 
 
-] [51] [52]
+] [49] [50]
 Overfull \hbox (13.90071pt too wide) in paragraph at lines 199--203
 []\OT1/cmr/m/n/12 Canadian Food In-spec-tion Agency (CFIA).  https://www.inspec
 tion.gc.ca/plants/plant-
@@ -887,13 +824,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 \OT1/cmr/m/n/12 pests-invasive-species/insects/emerald-ash-borer/areas-
  []
 
-[53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64])
+[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62])
 No file thesis.gls.
 
 Package glossaries-extra Warning: Glossary `main' is missing on input line 220.
 
 
-[65]
+[63]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
 r check TeX's shell escape allows you to run makeindex on input line 220.
@@ -903,7 +840,7 @@ No file thesis.gls-abr.
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
 line 220.
 
-[66
+[64
 
 
 
@@ -919,7 +856,7 @@ No file thesis.nomenclature-gls.
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
 ine 220.
 
-[67
+[65
 
 
 
@@ -935,7 +872,7 @@ No file thesis.symbols-gls.
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 20.
 
-[68
+[66
 
 
 
@@ -945,7 +882,7 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
 ' or check TeX's shell escape allows you to run makeindex on input line 220.
 
-[69
+[67
 
 
 
@@ -953,37 +890,40 @@ Package glossaries-extra Warning: Rerun required to build the glossary `symbols
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 98B93C7A7477668C6D2C3CC191B8B815;2429.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 12865 strings out of 479383
- 206110 string characters out of 5875830
+ 12787 strings out of 479383
+ 205243 string characters out of 5875830
  642295 words of memory out of 5000000
- 29344 multiletter control sequences out of 15000+600000
- 419313 words of font info for 88 fonts, out of 8000000 for 9000
+ 29281 multiletter control sequences out of 15000+600000
+ 418646 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,111p,3018b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (82 pages, 5135845 bytes).
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb>
+Output written on thesis.pdf (80 pages, 5425232 bytes).
 PDF statistics:
- 1271 PDF objects out of 1440 (max. 8388607)
- 1134 compressed objects within 12 object streams
- 349 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1400 PDF objects out of 1440 (max. 8388607)
+ 1229 compressed objects within 13 object streams
+ 347 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

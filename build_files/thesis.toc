@@ -17,18 +17,18 @@
 \contentsline {section}{\numberline {2.2}Methods}{24}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Model Description}{24}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{26}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Parameters and simulation design}{28}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Results}{29}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Dynamical regimes}{29}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.3}Parameters and simulation design}{27}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Results}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Dynamical regimes}{28}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{29}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Discussion}{32}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{40}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Model Overview}{43}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Results}{44}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Discussion}{47}{section.3.4}%
-\contentsline {chapter}{\textbf {References}}{50}{section*.12}%
-\contentsline {chapter}{Glossary}{66}{section*.14}%
-\contentsline {chapter}{Abbreviations}{67}{section*.16}%
-\contentsline {chapter}{Nomenclature}{68}{section*.18}%
-\contentsline {chapter}{List of Symbols}{69}{section*.20}%
+\contentsline {chapter}{\numberline {3}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Model Overview}{41}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Results}{42}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Discussion}{45}{section.3.4}%
+\contentsline {chapter}{\textbf {References}}{48}{section*.12}%
+\contentsline {chapter}{Glossary}{64}{section*.14}%
+\contentsline {chapter}{Abbreviations}{65}{section*.16}%
+\contentsline {chapter}{Nomenclature}{66}{section*.18}%
+\contentsline {chapter}{List of Symbols}{67}{section*.20}%
