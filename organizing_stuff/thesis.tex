@@ -211,9 +211,18 @@
 % Tip: You can create multiple .bib files to organize your references. 
 % Just list them all in the \bibliogaphy command, separated by commas (no spaces).
 
+
+
 % The following statement causes the specified references to be added to the bibliography even if they were not cited in the text. 
 % The asterisk is a wildcard that causes all entries in the bibliographic database to be included (optional).
 \nocite{*}
+% The \appendix statement indicates the beginning of the appendices.
+\appendix
+% Add an un-numbered title page before the appendices and a line in the Table of Contents
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+% Appendices are just more chapters, with different labeling (letters instead of numbers).
+\input{appendices/ch_3_appendix.tex}
 %----------------------------------------------------------------------
 % GLOSSARIES (Lists of definitions, abbreviations, symbols, etc. provided by the glossaries-extra package)
 % -----------------------------

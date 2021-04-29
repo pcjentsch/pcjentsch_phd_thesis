@@ -1,5 +1,5 @@
 \contentsline {chapter}{List of Figures}{xi}{section*.2}%
-\contentsline {chapter}{List of Tables}{xv}{section*.4}%
+\contentsline {chapter}{List of Tables}{xxi}{section*.4}%
 \contentsline {chapter}{\numberline {1}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}%
@@ -41,7 +41,9 @@
 \contentsline {subsection}{\numberline {3.5.9}Vaccination refusal dynamics}{61}{subsection.3.5.9}%
 \contentsline {subsection}{\numberline {3.5.10}Model extension for vaccine efficacy against disease only}{61}{subsection.3.5.10}%
 \contentsline {chapter}{\textbf {References}}{64}{section*.12}%
-\contentsline {chapter}{Glossary}{88}{section*.14}%
-\contentsline {chapter}{Abbreviations}{89}{section*.16}%
-\contentsline {chapter}{Nomenclature}{90}{section*.18}%
-\contentsline {chapter}{List of Symbols}{91}{section*.20}%
+\contentsline {chapter}{Appendix}{88}{appendix*.14}%
+\contentsline {chapter}{\numberline {A}Appendix C}{89}{appendix.A}%
+\contentsline {chapter}{Glossary}{116}{section*.15}%
+\contentsline {chapter}{Abbreviations}{117}{section*.17}%
+\contentsline {chapter}{Nomenclature}{118}{section*.19}%
+\contentsline {chapter}{List of Symbols}{119}{section*.21}%
