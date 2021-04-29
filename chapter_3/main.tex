@@ -27,92 +27,10 @@ Here, our objective is to compare projected COVID-19 mortality under four strate
 
 \subsection{Structure and parameterisation}
 
-We developed an age-structured SEPAIR model (Susceptible, Exposed, Presymptomatic, Asymptomatic, Symptomatic, Removed) with ages in 5-year increments. Upon infection, individuals enter a latent period where they are infected but not yet infectious (“Exposed”).  After the latent period, individuals become presymptomatically infectious, and then either symptomatically or asymptomatically infectious, before finally entering the Removed compartment when their infectiousness ends. We did not model testing or contact tracing explicitly, although we assume infected individuals are ascertained at some rate. Transmission occurs through an age-specific contact matrix, susceptibility to infection is age-specific, and we include seasonality due to changes in the contact patterns throughout the year.  To infer model parameters, we fitted the model to Ontario COVID-19 case notifications stratified by age and time, Ontario seroprevalence data, and Ontario mobility data.  Use of seroprevalence data ensured that our estimates of transmission were not biased by case under-reporting. Remaining model parameter values were fixed using Ontario demographic and mortality data, and literature on COVID-19 serial interval and incubation periods.  Details of our model structure, parameterization, data sources, and model fits appear in the appendix, pp 1-11. 
+We developed an age-structured SEPAIR model (Susceptible, Exposed, Presymptomatic, Asymptomatic, Symptomatic, Removed) with ages in 5-year increments. Upon infection, individuals enter a latent period where they are infected but not yet infectious (“Exposed”).  After the latent period, individuals become presymptomatically infectious, and then either symptomatically or asymptomatically infectious, before finally entering the Removed compartment when their infectiousness ends. We did not model testing or contact tracing explicitly, although we assume infected individuals are ascertained at some rate. Transmission occurs through an age-specific contact matrix, susceptibility to infection is age-specific, and we include seasonality due to changes in the contact patterns throughout the year.  To infer model parameters, we fitted the model to Ontario COVID-19 case notifications stratified by age and time, Ontario seroprevalence data, and Ontario mobility data.  Use of seroprevalence data ensured that our estimates of transmission were not biased by case under-reporting. Remaining model parameter values were fixed using Ontario demographic and mortality data, and literature on COVID-19 serial interval and incubation periods.
 
-Both schools and workplaces are closed when the number of ascertained active cases surpasses 50\%, 100\%, 150\%, 200\%, or 250\% of the peak ascertained active cases that occurred during the first wave (the “shutdown threshold”, T), and are re-opened again when cases fall below that threshold. Individuals interact with other individuals at a specified rate and switch between adherence and non-adherence to NPIs, including mobility restrictions, by comparing the cost of practicing NPIs against the cost of not practicing NPIs and thereby being subject to an increased risk of infection according to the prevalence of ascertained cases.  Both school and workplace closure and population level of adherence to NPIs reduce transmission according to a specified efficacy (see Appendix, pp 1-5). 
+Both schools and workplaces are closed when the number of ascertained active cases surpasses 50\%, 100\%, 150\%, 200\%, or 250\% of the peak ascertained active cases that occurred during the first wave (the “shutdown threshold”, T), and are re-opened again when cases fall below that threshold. Individuals interact with other individuals at a specified rate and switch between adherence and non-adherence to NPIs, including mobility restrictions, by comparing the cost of practicing NPIs against the cost of not practicing NPIs and thereby being subject to an increased risk of infection according to the prevalence of ascertained cases.  Both school and workplace closure and population level of adherence to NPIs reduce transmission according to a specified efficacy. 
 
-\subsection{Vaccine scenarios} 
-
-We considered two dates for the onset of vaccination: 1 March 2021 and 1 September 2021. These correspond to the end dates of a two-dose course of vaccination lasting two weeks. We assumed it was possible to vaccinate 0.5\%, 1.0\%, 1.5\%, 2.5\%, or 5.0\% of the population per week (the “vaccination rate”, ψ0).  Our baseline scenario assumed a vaccine with 75\% efficacy in all ages, against both infection and transmission.  
-
-The “oldest first” strategy administers the vaccine to individuals 60 years of age or older, first.  After all individuals in this group are vaccinated, the vaccine is administered uniformly to other ages. The “youngest first” strategy is similar, except it administers the vaccine to individuals younger than 20 years of age first.  The “uniform” strategy administers vaccines to all age groups uniformly, from the very start. The “contact-based” strategy allocates vaccines according to the relative role played by different age groups in transmission. This tends to prioritise ages 15-19 primarily, 20-59 secondarily, and the least in older or younger ages (Appendix, pages 4, 12).  The ``oldest first" strategy targets a vulnerable age group while the other three strategies are designed to interrupt transmission.  We also explored an optimal strategy that optimizes age-specific vaccine coverage to minimize the number of deaths over five years (Appendix, page 4). We also report on sensitivity analyses in the Results section. 
-
-
-\section{Results} 
-
-\begin{figure}
-\includegraphics[width=\textwidth]{chapter_3/plot_model.pdf} 
-\caption{COVID-19 case numbers and proxy for adherence to non-pharmaceutical interventions. (A) COVID-19 case incidence by date of report in Ontario. Dots show the 7-day running average of case notification data, and the line represents the ascertained case incidence from best fitting models (with 95\% credible intervals represented by the shaded region).(B) Each dot represents the proportional reduction in time spent at retail and recreation destinations and workplaces on the given date, compared with the 5-week average on corresponding days of the week 1 year ago, according to Google mobility data. Lines show the proportion of the population adhering to non-pharmaceutical interventions (with 95\% credible intervals represented by the shaded region) as well as workplace and school shutdown curves from the fitted model. Methods and data sources are provided in the appendix (pp 1–11).}
-\label{fig1}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{chapter_3/ts_plot.pdf}
-\caption{Effect of interaction of social and epidemiological dynamics on pandemic waves and vaccine strategy effectiveness over time. (A) Number of ascertained incident COVID-19 cases. (B) Proportion of the population practising non-pharmaceutical interventions. (C) Level of school and workplace closure (note that curves for different vaccination strategies overlap). (D) Number of individuals with natural or vaccine-derived immunity. Predictions are based on the Ontario population size (14.6 million), with vaccination beginning on Jan 1, 2021 (as indicated by the dashed vertical line in the graphs), shutdown occurring at 200\% of peak cases in the first wave, and a vaccination rate of 0.5\% of the population per week. Other parameter values are provided in the appendix (pp 1–11).}
-\label{fig2}  
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{chapter_3/main_text_ts_1.pdf}
-\caption{Incident cases by vaccination strategy across three model regimes. Projections of ascertained incident COVID-19 cases if vaccination begins in January (A, B) or September (C, D), and if the rate of vaccination is 1.5\% (A, C) or 0.5\% (B, D) of the population per week. These scenarios represent three main model regimes: timely vaccination (A), partial vaccination and indirect protection (B, C), and slow and late vaccination (D). Projections are based on the Ontario population size of 14.6 million and shutdown occurring at 200\% of peak cases in the first wave. Other parameter values are provided in the appendix (pp 1–11).}
-\label{fig3}
-\end{figure}
-
-
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_3/vaccination_by_mortality_small.pdf}  
-  \caption{Effects of vaccination strategy and start date on percentage reduction in mortalityViolin plots of the percentage reduction in mortality under the four vaccine strategies, relative to no vaccination, as a function of the vaccination rate, for vaccination beginning on Jan 1, 2021 (A), and Sept 1, 2021 (B). Horizontal lines represent the median values and 95\% credible intervals of posterior model projections. Projections are based on the Ontario population size of 14.6 million and shutdown occurring at 200\% of peak cases in the first wave. Other parameter values are provided in the appendix (pp 1–11). The projected number of deaths in the absence of vaccinationwas 72000 (95\% credible interval 40000–122000) from Jan 1, 2021, to March 14, 2025, and 60000 (31000–108000) from Sept 1, 2021, to March 14, 2025.}
-  \label{fig4}
-\end{figure}
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_3/bivariate_heatmap.pdf}  
-\captions{Best strategies for preventing deaths according to shutdown threshold and vaccination rate for vaccinations beginning in January (A) and September (B), 2021. Each parameter combination on the plane is colour coded according to which of the four strategies prevented the most deaths, on average, across all model realisations. Shutdown threshold is the number of active cases as a percentage of peak cases in the first wave. Other parameter values are provided in the appendix (pp 1–11).}
-\label{fig5}
-\end{figure}
-
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_3/histograms.pdf}  
-\caption{Effect of pre-existing natural immunity on the effectiveness of transmission-interrupting strategiesFrequency histogram of the proportion of the population with natural immunity for each strategy, taken from simulations where that strategy reduced mortality most effectively, for oldest-first (A), youngest-first (B), uniform (C), and contact-based strategies (D). The most effective strategy is defined as the one that reduced mortality the most across the largest number of model realisations. Vertical dashed lines denote median values of the distribution. Other parameter values are provided in the appendix (pp 1–11).}
-\label{fig6}
-\end{figure}
-The Google mobility data that we use as a proxy for adherence to NPIs closely mirrors the COVID-19 case notification data over the time period used for fitting (Figure 1, open orange circles).  Since a heightened perception of COVID-19 infection risk simulates the adoption of NPIs26, which in turn reduces SARS-CoV-2 transmission \cite{anderson2020estimating,peak2020individual}, this exemplifies a coupled  social-epidemiological dynamic.  The mirroring may furthermore represent convergence between social and epidemiological dynamics, which has been predicted for strongly coupled systems \cite{sigdel2019convergence}. Moreover, the fit of the social submodel to the mobility data is as good as the fit of the epidemic submodel to case notification data (Figure 1), despite the fact that our social model consists of significantly fewer equations and a similar number of parameters as our epidemiological model. This shows how modelling population behaviour during a pandemic can be accomplished with relatively simple models. 
-
-The model predicts additional pandemic waves from Fall 2020 onward, not only with respect to COVID-19 cases but also population adherence to NPIs and periods of school and workplace closure (Figure 2). The impact of the four strategies on COVID-19 cases and deaths depends on when the vaccine becomes available and how quickly the population can get vaccinated. Broadly speaking, vaccinating 60+ year-olds first reduces mortality the most out of all four strategies if vaccination begins in March 2021, whereas the uniform or contact-based strategies reduce mortality the most if vaccination begins in September 2021, unless the vaccination rate is very small. More specifically, we identify three regimes for model dynamics. We explore them through plots of infection incidence over time (Figure 3); plots of the cumulative number of deaths under all four strategies, as they depend on the vaccination rate (Figure 4) and shutdown threshold (Appendix, pp. 16-17); and plots showing which of the four strategies is the most effective (in terms of reducing mortality) as a function of the shutdown threshold and the vaccination rate (Figure 5). 
-
-In the first regime, vaccination starts soon and the vaccination rate is relatively high (March availability, vaccinating 1.5\% or more of the population per week). A third wave in Fall 2021/Winter 2022 is thereby prevented (Figure 3a and appendix, page 13).  In this regime, enough people are vaccinated sufficiently far in advance to prevent a third wave, therefore it does not matter which age group is vaccinated first. All four strategies have very similar effectiveness, although “oldest first” has a slight edge over the other strategies (Figure 4a, 5a). 
-
-In the second regime, either vaccination starts soon but the vaccination rate is lower (March availability, 1\% or less vaccinated per week, Figure 3b and Figure 2), or vaccination starts later but the vaccination rate is high (September availability, vaccinating 1.5\% or more of the population per week, Figure 3c and appendix, page 14).  In this intermediate scenario, a sufficient proportion of the population is vaccinated for indirect protection from the vaccine to become important, but not enough individuals are vaccinated to completely prevent a third wave.  As a result, the uniform and contact-based strategies are significantly more effective than the 60+ first strategy, while the “youngest first” strategy does worst of all (Figure 4, 5).  The under-performance of the youngest first strategy occurs because in populations with strong age-assortative mixing \cite{prem2020projecting}, the indirect benefits of vaccination are “wasted" if vaccination is first concentrated in specific age groups before being extended to the rest of the population.  The 60+ first strategy is less affected by this because the COVID-19 case fatality rate is high in this age group. 
-
-In the third regime, vaccination starts late and the vaccination rate is low (September availability, 1\% or less vaccinated per week; Figure 3d and appendix, page 15). This scenario does not allow enough time for indirect protection from vaccination to become strong.  As a result, the oldest first strategy has significantly higher effectiveness than the other three strategies (Figure 4b, 5b).  Overall mortality is higher for all strategies, on account of the delayed rollout of the vaccine. 
-  
-The relative performance of the strategies observed in these three regimes is generally unchanged across the full range of values for the shutdown threshold (Appendix, pp. 16-17).  Some of our violin plots show a dominant lobe and a smaller secondary lobe, on account of the fact that different intervention settings can generate a different number or timing of pandemic waves.  The optimized strategy always does best, by definition (Appendix, pp. 16-17). But it can be instructive to study how the optimized strategy allocates vaccines among the age groups. The optimal vaccine strategy allocates vaccines mostly to the 25-44 age group and secondly to 70+, depending on the vaccination rate (Appendix, page 18). These patterns suggest that the optimal strategy includes transmission interruption as a mechanism.   
-
-Frequency histograms across all stochastic model realizations showing what percentage of the population has natural immunity at the start of a vaccine program, when a particular strategy was shown to work best, illustrate the role of indirect protection (Figure 6). In simulations where the oldest first strategy did best, the percentage of the population with natural immunity tends to be relatively low. This is expected, since indirect protection from vaccines is weaker when few people have natural immunity upon which vaccine indirect protection can build.  But when the uniform or contact-based strategy does best, more simulations exhibit a high level of natural immunity at the start of vaccination.  We note that the variance in these histograms is high, however, which underscores the role of other factors in the model such as timing and interaction between social and epidemiological dynamics. Studying model predictions under variation in the basic reproduction number, $R_0$ \cite{anderson1992infectious}, also illustrates the role of indirect protection. As  $R_0$ is increased from 1.5 to 2.5 we observe that the vaccine becomes less effective in reducing mortality across all strategies, as expected (Appendix, page 19). This occurs because when $R_0$ is larger the indirect protection of vaccines is weaker \cite{anderson1992infectious}. As a result, the effectiveness of the “oldest first” strategy is less compromised by the increase in $R_0$ than the other strategies, at least when vaccination starts in September. 
-
-We also studied how the best strategy changes depending on vaccine efficacy ranging from 40-90\% in 60+ year-olds and in $<60$ year-olds (Appendix, pp. 20-21). The uniform or contact-based strategies were the most effective in these ranges, except when (a) vaccination starts in September at 1\% per week and efficacy in $<60$ year-olds is less than 70\%, and and (b) vaccination starts in March at 2.5\% per week and efficacy is greater in 60+ year-olds than in $<60$ year-olds. We note that (b) is unlikely since vaccine efficacy typically falls with age, and (a) is expected since this places the model in the third dynamical regime. 
-
-We also modelled dynamics of vaccinating behaviour after vaccines become available (Appendix, pp 4, 22-25).  Due to lack of empirical data, we explored a wide range for the social learning rate and the relative cost of vaccination versus infection.  Either the uniform or contact-based strategies were most effective, except when the relative cost of the vaccine is very low, in which case oldest first is the best strategy (Appendix, pp 22). Vaccine refusal increases as the vaccine cost rises (Appendix, pp 23-25). Since vaccine refusal in the targeted age group forces vaccination of other age groups instead, it makes all strategies behave more like the uniform strategy, although age-specific behaviours could change these predictions. 
-
-Our baseline inferred value of $R_0 \approx 1.7$ was lower than many published estimates \cite{hilton2020estimation}.  We ran simulations with $R_0 = 2.5$ for December 2020 onward and found that “oldest first” was somewhat more effective across a broader region of parameter space for September availability, particularly at higher vaccination rates (Appendix, pp 26). Finally, we also ran simulations with 30\% higher and lower ascertainment for December 2020 onward to capture potential changes to COVID-19 testing and found that it had little impact on which strategy was most effective (Appendix, pp 27-28).  
-
-\section{Discussion}
-
-Our social-epidemiological model suggests that if a COVID-19 vaccine becomes available later in the pandemic, using SARS-CoV-2 vaccines to interrupt transmission might prevent more COVID-19 deaths than using the vaccines to target those 60+ years of age, depending on when the vaccine becomes available and how quickly the population can be vaccinated. These results are driven by the fact that the vaccine may only become available after populations have had one or more waves of immunizing infections. As a result, the effective reproduction number $R_{eff}$ could be significantly closer to 1 than the basic reproduction number $R_0 \approx 2.2$ that applies to susceptible populations. In this regime, vaccines have disproportionately large indirect protective effects \cite{anderson1992infectious}.  
-
-Several studies have used compartmental models to study prioritisation of age groups for COVID-19 vaccination \cite{bubar2020model,hoyt2020vaccine,matrajt2020vaccine}. These models vary widely in terms of study populations, representation of population heterogeneity, interventions, and assumptions about when vaccination starts. Similar to our results, Matrajt et al \cite{matrajt2020vaccine}  find that the level of pre-existing immunity strongly dictates outcomes: when pre-existing immunity is high, the optimal strategy distributes the vaccine more evenly across age groups rather than prioritising older age groups. Buckner et al \cite{hoyt2020vaccine} find that targeting 60+ year-olds is best for reducing mortality. They assumed that vaccination begins in December 2020, and they base initial conditions on case notifications in the United States in that month. Similarly, Bubar et al \cite{bubar2020model} find that vaccinating 60+ year-olds works best for reducing mortality for vaccine programs starting in July 2020 in Belgium, or August 2020 in New York City. Our results agree with Refs. \cite{bubar2020model,hoyt2020vaccine} for the scenario of March 2021 vaccine availability. However, we find it makes sense to switch to vaccinating other age groups by September 2021. Such a late vaccine start date was not analyzed in Refs. \cite{bubar2020model,hoyt2020vaccine} although their findings might change if the models were re-initialized to accommodate vaccination starting in September 2021. 
-
-Our analysis was limited by its focus on prioritisation of age groups.  We did not model other sources of heterogeneity such as geography, socio-economic status, sex, or ethnicity--all of which are important determinants of disease burden in this highly unequal pandemic. We did not model outbreaks in long-term care facilities, where the dynamics of transmission and indirect protection differ from the general population. Similarly, we did not distinguish healthcare or other essential workers. However, many of these individuals are working age adults, and thus vaccinating them first among other working adults is consistent with our uniform and contact-based strategies. Our mortality estimates assume ICU capacity is not exceeded. If ICU capacity is exceeded in the second wave, then our projected deaths will be an under-estimate, although we speculate that the relative performance of the four strategies would not change. We used a single population model, but inter-population mobility can influence transmission dynamics: a large influx of infectious persons from another population can weaken the indirect protection afforded by vaccines. 
-
-We used changes to baseline time spent at retail and recreational outlets to represent population adherence to NPIs.  Such mobility data is an imperfect proxy for physical distancing and will not capture mask use or hand-washing.  We did not have high resolution mobility data on these practices, although in future it may be possible to infer information about these practices by combining information from phone surveys with online social media data. Our simple ascertainment process in the model was designed to implicitly capture the effects of COVID-19 PCR testing, contact tracing and isolation (TTI). But without explicitly representing them, it is impossible for us to study combined strategies of vaccination and TTI, or to anticipate how specific changes to TTI would influence our findings. 
-
-Finally, the model was parameterised with data from Ontario, Canada. The projected impact of the four vaccine strategies may differ in settings with different epidemiological or social characteristics.  At the same time, we note that our findings rely upon a robust epidemiological effect that occurs when $R_eff$ becomes small. Therefore, the only thing that may change in other settings is the timing of the switch to vaccine strategies that interrupt transmission. 
-
-We opted for a coupled social-epidemiological model on account of the importance of interactions between population behaviour and disease dynamics for the control of COVID-19 in the absence of preventive pharmaceutical interventions. Our model generated significantly different projections in our sensitivity analysis where population behaviour was assumed constant, which is similar to conventional approaches to transmission modelling. Our social model is less complicated than our epidemiological model and despite this, the coupled social-epidemiological model fitted population-level behaviour as readily as it fitted the epidemic curve. Predicting behaviour is fraught with uncertainty, but so is predicting an epidemic curve. Moreover, digital data on behaviour and sentiment that can be used to model social dynamics is increasingly available \cite{salathe2012digital}.  Given this, we suggest a role for more widespread use of  social-epidemiological models during pandemics. 
-
-To apply these results to COVID-19 pandemic mitigation, large-scale seroprevalence surveys before the onset of vaccination could ascertain the level of a population's natural immunity.  Age-structured compartmental models could be initialized with this information to generate population-specific projections. In populations where SARS-CoV-2 seropositivity is high due to a Fall/Winter 2020 wave, vaccinating to interrupt transmission may reduce COVID-19 mortality more effectively than targeting vulnerable groups. 
-
-
-\section{Appendix}
 
 
 \subsection{Model Equations}
@@ -288,75 +206,162 @@ which applies given that the timescale of infection in individuals is fast compa
     \textrm{Adjusted mortality at } t  \textrm{ for age group } i = \frac{S_{1_i}(t) + S_{2_i}(t)}{S_{1_i}(t) + S_{2_i}(t)\frac{1 - v_{T_i}}{1 - v_{D_i}}} \times \textrm{Cases at }t \times \textrm{measured CFR}
 \end{equation}
 
+\subsection{Vaccine scenarios} 
+
+We considered two dates for the onset of vaccination: 1 March 2021 and 1 September 2021. These correspond to the end dates of a two-dose course of vaccination lasting two weeks. We assumed it was possible to vaccinate 0.5\%, 1.0\%, 1.5\%, 2.5\%, or 5.0\% of the population per week (the “vaccination rate”, ψ0).  Our baseline scenario assumed a vaccine with 75\% efficacy in all ages, against both infection and transmission.  
+
+The “oldest first” strategy administers the vaccine to individuals 60 years of age or older, first.  After all individuals in this group are vaccinated, the vaccine is administered uniformly to other ages. The “youngest first” strategy is similar, except it administers the vaccine to individuals younger than 20 years of age first.  The “uniform” strategy administers vaccines to all age groups uniformly, from the very start. The “contact-based” strategy allocates vaccines according to the relative role played by different age groups in transmission. This tends to prioritise ages 15-19 primarily, 20-59 secondarily, and the least in older or younger ages.  The ``oldest first" strategy targets a vulnerable age group while the other three strategies are designed to interrupt transmission.
+
+
 \clearpage 
 
 \begin{table}[H]
-\centering
-\caption{Parameter definitions, values, particle filtering ranges, and sources.}
-\begin{tabular}{llll}
-Parameter & Meaning & Value [Range] & Source \\
-\midrule
-$N_i$         & Population in age group $i$  & $0-4$:  $790169$; $5-9$: $789190 $$  & \cite{ontario_census}, interpolated\\
-              &   & $10-14$: $790803$; $15-19$: $887072$ &  \\
-              &   & $20-24$: $1003052$; $25-29$: $1015105$ &  \\
-              &   & $30-34$: $1009090$; $35-39$:  $969949$ &  \\
-              &   & $40-44$:  $926440$; $45-49$:  $938990$ &  \\
-              &   & $50-54$:   $1027557$; $55-59$: $10416495$ &  \\
-              &   & $60-64$:  $892016$; $65-69$:  $741824$ &  \\
-              &   & $70-74$:  $557203$; $75+$:  $204431$ &  \\
+\tiny
+  \caption{Parameter definitions, values, particle filtering ranges, and sources.}
+  \begin{tabular}{llll}
+  Parameter & Meaning & Value [Range] & Source \\
+  \midrule
+  $N_i$         & Population in age group $i$  & $0-4$:  $790169$; $5-9$: $789190 $ & \cite{ontario_census}, interpolated\\
+                &   & $10-14$: $790803$; $15-19$: $887072$ &  \\
+                &   & $20-24$: $1003052$; $25-29$: $1015105$ &  \\
+                &   & $30-34$: $1009090$; $35-39$:  $969949$ &  \\
+                &   & $40-44$:  $926440$; $45-49$:  $938990$ &  \\
+                &   & $50-54$:   $1027557$; $55-59$: $10416495$ &  \\
+                &   & $60-64$:  $892016$; $65-69$:  $741824$ &  \\
+                &   & $70-74$:  $557203$; $75+$:  $204431$ &  \\
+  
+  $\mu_i$       & COVID-19 case fatality rate in age group $i$  & $0-4$: $0.002$; $5-9$: $0.001$  & \cite{publichealthontario}, interpolated\\
+                &   & $10-14$:   $0.0005$; $15-19$:  $0.0005$ &  \\
+                &   & $20-24$:  $0.0010$; $25-29$:   $0.002$ &  \\
+                &   & $30-34$:  $0.0031$; $35-39$:   $0.0048$ &  \\
+                &   & $40-44$:   $0.0078$; $45-49$:   $0.0135$  \\
+                &   & $50-54$:    $0.0253$; $55-59$:   $0.0455$ &  \\
+                &   & $60-64$:   $0.0784$; $65-69$:  $0.1378$ &  \\
+                &   & $70-74$:  $0.2623$; $75+$:   $0.5815$ &  \\
+                
+  $C_{ij}$    & contact rate between class $i$ and $j$    & see Methods & \cite{prem2020projecting} \\
+  $R_0$ & basic reproduction rate of infection & calibrated, $[1.5,2.5]$ & \cite{hilton2020estimation,googlemobility, ontariocoviddata}  \\
+  $r$         & probability of transmission per contact   & derived from next generation matrix & \cite{diekmann2010construction} \\
+  $\sigma_0$    & inverse of latent period for exposed individuals                  & calibrated, $[0.3,2.0]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
+  $\sigma_1$    & inverse of latent period for presymptomatic individuals & calibrated, $[0.3,2.0]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
+  $\gamma_a$    & inverse of infectious period for asymptomatic individuals & $0.25$/day &  \cite{nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
+  $\gamma_s$    & inverse of infectious period for symptomatic individuals  & calibrated, $[0.0,0.05]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
+  $\alpha_{1,1}$ & Ascertainment rate of class $i$ in the first wave (before $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Methods\\
+  $\alpha_{1,2}$ & Ascertainment rate of class $i$  in the first wave (before $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Methods\\
+  $\alpha_{1,3}$ & Ascertainment rate of class $i$ in the first wave (before $t_{switch}$) & calibrated, $[0.2,1.0]$ & see Methods\\
+  $\alpha_{2,1}$ & Ascertainment rate of class $i$  in the second wave (after $t_{switch}$)& calibrated, $[0.01,1.0]$ & see Methods\\
+  $\alpha_{2,2}$ & Ascertainment rate of class $i$ in the second wave (after $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Methods\\
+  $\alpha_{2,3}$ & Ascertainment rate of class $i$  in the second wave (after $t_{switch}$)& calibrated, $[0.2,1.0]$ & see Methods\\
+  $\rho_1$ & Age-specific susceptibility modifier, ages 0-20 & calibrated, $[0.25,3.0]$  & see Methods\\
+  $\rho_2$ & Age-specific susceptibility modifier, ages 20-60 & calibrated, $[0.25,3.0]$  & see Methods\\
+  $\rho_3$ & Age-specific susceptibility modifier, ages 60+ & calibrated, $[0.25,3.0]$  & see Methods\\
+  $\eta$ & fraction of symptomatic infections & $0.15$ & \cite{mizumoto2020estimating} \\
+  $\epsilon_P$ & efficacy of physical distancing  & calibrated, $[0.3,0.9]$ & \cite{googlemobility, ontariocoviddata}  \\
+  $\kappa$    & social learning rate   & calibrated, $[1000,16000]$ & \cite{googlemobility, ontariocoviddata} \\
+  $ s $ & seasonality & calibrated, $[-0.3,0.3]$ & \cite{googlemobility, ontariocoviddata} \\
+  $\phi$  & seasonality phase & $-30$ days & see Methods \\
+  $ v_{T_i} $ & Vaccine efficacy against transmissibility and disease for individuals in group $i$  &  $75 \%$  & \cite{WHO_TPP} \\
+  $ v_{D_i} $ & Vaccine efficacy against disease only for individuals in group $i$  &  $75 \%$  & \cite{WHO_TPP} \\
+  $ I_0 $ & Initial ratio of active cases to incident cases & calibrated, $[1,10]$ & \cite{googlemobility, ontariocoviddata} \\
+  $ P_0 $ & Initial ratio of presymptomatic cases to incident cases & calibrated, $[1,10]$ & \\
+  $ E_0 $ & Initial ratio of exposed cases to incident cases & calibrated, $[1,10]$ & \\
+  $\psi_i$ & Number of vaccines allocated for individuals in group $i$ each day & varied by scenario &  \\
+  $T$ & Threshold in active reported cases for school/workplace closure & varied by scenario  &  \\
+  $ k_1 $ & Workplace shutdown rate & $ 0.31432$ & fitted, see Methods \\
+  $ k_2 $ & Workplace opening rate & $ 0.0056$ & fitted, see Methods \\
+  $ c $ & Incentive not to distance & calibrated,$[0.0,0.5]$ & \cite{googlemobility, ontariocoviddata} \\
+  $ p_{ul} $ & social heterogeneity parameter & calibrated, $[0.00,0.05]$ & \cite{googlemobility, ontariocoviddata}  \\
+  $ t^s_{close} $ &  School shutdown date & March 14th, 2020 & \cite{school_closure}\\
+  $ t^s_{open} $ & School opening date & September 8th, 2020 &  \cite{school_opening} \\
+  $ t^w_{close} $ &   Work shutdown date & March 17th, 2020 & \cite{ontario_reopening}\\
+  $ t^w_{open}  $ & Work opening date &  June 12th, 2020 & \cite{ontario_reopening}\\
+  $ \epsilon_w $ & Work shutdown effectiveness & $0.86$ & fitted, see Methods \\
+  $ t_{switch} $ & Beginning of second wave & $160 $ days &  see Methods \\ 
+  $ t_{delay} $ & Delay in impact of interventions on transmission & $28$ days &  \cite{li2020temporal} \\ 
+  $k_s$ & Rate of change from first to second wave & $0.05$ &  see Methods \\ 
+  $ \kappa_{vac}$ & Social learning rate of vaccination & $[3e5,20e5] $& fitted, see Methods \\
+  $ c_{vac}$ & Incentive not to vaccinate & $[1.0e-9,15e-9]$& fitted, see Methods \\
+  \bottomrule  
+  \end{tabular}
+  \label{tab:params}
+  \end{table}
+\normalsize
 
-$\mu_i$       & COVID-19 case fatality rate in age group $i$  & $0-4$: $0.002$; $5-9$: $0.001$  & \cite{publichealthontario}, interpolated\\
-              &   & $10-14$:   $0.0005$; $15-19$:  $0.0005$ &  \\
-              &   & $20-24$:  $0.0010$; $25-29$:   $0.002$ &  \\
-              &   & $30-34$:  $0.0031$; $35-39$:   $0.0048$ &  \\
-              &   & $40-44$:   $0.0078$; $45-49$:   $0.0135$  \\
-              &   & $50-54$:    $0.0253$; $55-59$:   $0.0455$ &  \\
-              &   & $60-64$:   $0.0784$; $65-69$:  $0.1378$ &  \\
-              &   & $70-74$:  $0.2623$; $75+$:   $0.5815$ &  \\
-              
-$C_{ij}$    & contact rate between class $i$ and $j$    & see Supp.~Methods & \cite{prem2020projecting} \\
-$R_0$ & basic reproduction rate of infection & calibrated, $[1.5,2.5]$ & \cite{hilton2020estimation,googlemobility, ontariocoviddata}  \\
-$r$         & probability of transmission per contact   & derived from next generation matrix & \cite{diekmann2010construction} \\
-$\sigma_0$    & inverse of latent period for exposed individuals                  & calibrated, $[0.3,2.0]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
-$\sigma_1$    & inverse of latent period for presymptomatic individuals & calibrated, $[0.3,2.0]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
-$\gamma_a$    & inverse of infectious period for asymptomatic individuals & $0.25$/day &  \cite{nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
-$\gamma_s$    & inverse of infectious period for symptomatic individuals  & calibrated, $[0.0,0.05]$ & \cite{googlemobility, ontariocoviddata,nishiura2020serial,lauer2020incubation,tindale2020transmission} \\
-$\alpha_{1,1}$ & Ascertainment rate of class $i$ in the first wave (before $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Supp.~Methods\\
-$\alpha_{1,2}$ & Ascertainment rate of class $i$  in the first wave (before $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Supp.~Methods\\
-$\alpha_{1,3}$ & Ascertainment rate of class $i$ in the first wave (before $t_{switch}$) & calibrated, $[0.2,1.0]$ & see Supp.~Methods\\
-$\alpha_{2,1}$ & Ascertainment rate of class $i$  in the second wave (after $t_{switch}$)& calibrated, $[0.01,1.0]$ & see Supp.~Methods\\
-$\alpha_{2,2}$ & Ascertainment rate of class $i$ in the second wave (after $t_{switch}$) & calibrated, $[0.01,1.0]$ & see Supp.~Methods\\
-$\alpha_{2,3}$ & Ascertainment rate of class $i$  in the second wave (after $t_{switch}$)& calibrated, $[0.2,1.0]$ & see Supp.~Methods\\
-$\rho_1$ & Age-specific susceptibility modifier, ages 0-20 & calibrated, $[0.25,3.0]$  & see Supp.~Methods\\
-$\rho_2$ & Age-specific susceptibility modifier, ages 20-60 & calibrated, $[0.25,3.0]$  & see Supp.~Methods\\
-$\rho_3$ & Age-specific susceptibility modifier, ages 60+ & calibrated, $[0.25,3.0]$  & see Supp.~Methods\\
-$\eta$ & fraction of symptomatic infections & $0.15$ & \cite{mizumoto2020estimating} \\
-$\epsilon_P$ & efficacy of physical distancing  & calibrated, $[0.3,0.9]$ & \cite{googlemobility, ontariocoviddata}  \\
-$\kappa$    & social learning rate   & calibrated, $[1000,16000]$ & \cite{googlemobility, ontariocoviddata} \\
-$ s $ & seasonality & calibrated, $[-0.3,0.3]$ & \cite{googlemobility, ontariocoviddata} \\
-$\phi$  & seasonality phase & $-30$ days & see Supp.~Methods \\
-$ v_{T_i} $ & Vaccine efficacy against transmissibility and disease for individuals in group $i$  &  $75 \%$  & \cite{WHO_TPP} \\
-$ v_{D_i} $ & Vaccine efficacy against disease only for individuals in group $i$  &  $75 \%$  & \cite{WHO_TPP} \\
-$ I_0 $ & Initial ratio of active cases to incident cases & calibrated, $[1,10]$ & \cite{googlemobility, ontariocoviddata} \\
-$ P_0 $ & Initial ratio of presymptomatic cases to incident cases & calibrated, $[1,10]$ & \\
-$ E_0 $ & Initial ratio of exposed cases to incident cases & calibrated, $[1,10]$ & \\
-$\psi_i$ & Number of vaccines allocated for individuals in group $i$ each day & varied by scenario &  \\
-$T$ & Threshold in active reported cases for school/workplace closure & varied by scenario  &  \\
-$ k_1 $ & Workplace shutdown rate & $ 0.31432$ & fitted, see Supp.~Methods \\
-$ k_2 $ & Workplace opening rate & $ 0.0056$ & fitted, see Supp.~Methods \\
-$ c $ & Incentive not to distance & calibrated,$[0.0,0.5]$ & \cite{googlemobility, ontariocoviddata} \\
-$ p_{ul} $ & social heterogeneity parameter & calibrated, $[0.00,0.05]$ & \cite{googlemobility, ontariocoviddata}  \\
-$ t^s_{close} $ &  School shutdown date & March 14th, 2020 & \cite{school_closure}\\
-$ t^s_{open} $ & School opening date & September 8th, 2020 &  \cite{school_opening} \\
-$ t^w_{close} $ &   Work shutdown date & March 17th, 2020 & \cite{ontario_reopening}\\
-$ t^w_{open}  $ & Work opening date &  June 12th, 2020 & \cite{ontario_reopening}\\
-$ \epsilon_w $ & Work shutdown effectiveness & $0.86$ & fitted, see Supp.~Methods \\
-$ t_{switch} $ & Beginning of second wave & $160 $ days &  see Supp.~Methods \\ 
-$ t_{delay} $ & Delay in impact of interventions on transmission & $28$ days &  \cite{li2020temporal} \\ 
-$k_s$ & Rate of change from first to second wave & $0.05$ &  see Supp.~Methods \\ 
-$ \kappa_{vac}$ & Social learning rate of vaccination & $[3e5,20e5] $& fitted, see Supp.~Methods \\
-$ c_{vac}$ & Incentive not to vaccinate & $[1.0e-9,15e-9]$& fitted, see Supp.~Methods \\
-\bottomrule  
-\end{tabular}
-\label{tab:params}
-\end{table}
+
+
+\section{Results} 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{chapter_3/plot_model.pdf} 
+\caption{COVID-19 case numbers and proxy for adherence to non-pharmaceutical interventions. (A) COVID-19 case incidence by date of report in Ontario. Dots show the 7-day running average of case notification data, and the line represents the ascertained case incidence from best fitting models (with 95\% credible intervals represented by the shaded region).(B) Each dot represents the proportional reduction in time spent at retail and recreation destinations and workplaces on the given date, compared with the 5-week average on corresponding days of the week 1 year ago, according to Google mobility data. Lines show the proportion of the population adhering to non-pharmaceutical interventions (with 95\% credible intervals represented by the shaded region) as well as workplace and school shutdown curves from the fitted model. Parameter values are provided in table \ref{tab:params}.}
+\label{fig1}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{chapter_3/ts_plot.pdf}
+\caption{Effect of interaction of social and epidemiological dynamics on pandemic waves and vaccine strategy effectiveness over time. (A) Number of ascertained incident COVID-19 cases. (B) Proportion of the population practising non-pharmaceutical interventions. (C) Level of school and workplace closure (note that curves for different vaccination strategies overlap). (D) Number of individuals with natural or vaccine-derived immunity. Predictions are based on the Ontario population size (14.6 million), with vaccination beginning on Jan 1, 2021 (as indicated by the dashed vertical line in the graphs), shutdown occurring at 200\% of peak cases in the first wave, and a vaccination rate of 0.5\% of the population per week. Other parameter values are provided in table \ref{tab:params}.}
+\label{fig2}  
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{chapter_3/main_text_ts_1.pdf}
+\caption{Incident cases by vaccination strategy across three model regimes. Projections of ascertained incident COVID-19 cases if vaccination begins in January (A, B) or September (C, D), and if the rate of vaccination is 1.5\% (A, C) or 0.5\% (B, D) of the population per week. These scenarios represent three main model regimes: timely vaccination (A), partial vaccination and indirect protection (B, C), and slow and late vaccination (D). Projections are based on the Ontario population size of 14.6 million and shutdown occurring at 200\% of peak cases in the first wave. Other parameter values are provided in table \ref{tab:params}.}
+\label{fig3}
+\end{figure}
+
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{chapter_3/vaccination_by_mortality_small.pdf}  
+  \caption{Effects of vaccination strategy and start date on percentage reduction in mortalityViolin plots of the percentage reduction in mortality under the four vaccine strategies, relative to no vaccination, as a function of the vaccination rate, for vaccination beginning on Jan 1, 2021 (A), and Sept 1, 2021 (B). Horizontal lines represent the median values and 95\% credible intervals of posterior model projections. Projections are based on the Ontario population size of 14.6 million and shutdown occurring at 200\% of peak cases in the first wave. Other parameter values are provided in table \ref{tab:params}. The projected number of deaths in the absence of vaccinationwas 72000 (95\% credible interval 40000–122000) from Jan 1, 2021, to March 14, 2025, and 60000 (31000–108000) from Sept 1, 2021, to March 14, 2025.}
+  \label{fig4}
+\end{figure}
+\begin{figure}
+  \includegraphics[width=\textwidth]{chapter_3/bivariate_heatmap.pdf}  
+\captions{Best strategies for preventing deaths according to shutdown threshold and vaccination rate for vaccinations beginning in January (A) and September (B), 2021. Each parameter combination on the plane is colour coded according to which of the four strategies prevented the most deaths, on average, across all model realisations. Shutdown threshold is the number of active cases as a percentage of peak cases in the first wave. Other parameter values are provided in table \ref{tab:params}.}
+\label{fig5}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{chapter_3/histograms.pdf}  
+\caption{Effect of pre-existing natural immunity on the effectiveness of transmission-interrupting strategiesFrequency histogram of the proportion of the population with natural immunity for each strategy, taken from simulations where that strategy reduced mortality most effectively, for oldest-first (A), youngest-first (B), uniform (C), and contact-based strategies (D). The most effective strategy is defined as the one that reduced mortality the most across the largest number of model realisations. Vertical dashed lines denote median values of the distribution. Other parameter values are provided in table \ref{tab:params}.}
+\label{fig6}
+\end{figure}
+The Google mobility data that we use as a proxy for adherence to NPIs closely mirrors the COVID-19 case notification data over the time period used for fitting (Figure 1, open orange circles).  Since a heightened perception of COVID-19 infection risk simulates the adoption of NPIs26, which in turn reduces SARS-CoV-2 transmission \cite{anderson2020estimating,peak2020individual}, this exemplifies a coupled  social-epidemiological dynamic.  The mirroring may furthermore represent convergence between social and epidemiological dynamics, which has been predicted for strongly coupled systems \cite{sigdel2019convergence}. Moreover, the fit of the social submodel to the mobility data is as good as the fit of the epidemic submodel to case notification data (Figure 1), despite the fact that our social model consists of significantly fewer equations and a similar number of parameters as our epidemiological model. This shows how modelling population behaviour during a pandemic can be accomplished with relatively simple models. 
+
+The model predicts additional pandemic waves from Fall 2020 onward, not only with respect to COVID-19 cases but also population adherence to NPIs and periods of school and workplace closure (Figure 2). The impact of the four strategies on COVID-19 cases and deaths depends on when the vaccine becomes available and how quickly the population can get vaccinated. Broadly speaking, vaccinating 60+ year-olds first reduces mortality the most out of all four strategies if vaccination begins in March 2021, whereas the uniform or contact-based strategies reduce mortality the most if vaccination begins in September 2021, unless the vaccination rate is very small. More specifically, we identify three regimes for model dynamics. We explore them through plots of infection incidence over time (Figure 3); plots of the cumulative number of deaths under all four strategies, as they depend on the vaccination rate (Figure 4) and shutdown threshold (Appendix, pp. 16-17); and plots showing which of the four strategies is the most effective (in terms of reducing mortality) as a function of the shutdown threshold and the vaccination rate (Figure 5). 
+
+In the first regime, vaccination starts soon and the vaccination rate is relatively high (March availability, vaccinating 1.5\% or more of the population per week). A third wave in Fall 2021/Winter 2022 is thereby prevented (Figure 3a and appendix, page 13).  In this regime, enough people are vaccinated sufficiently far in advance to prevent a third wave, therefore it does not matter which age group is vaccinated first. All four strategies have very similar effectiveness, although “oldest first” has a slight edge over the other strategies (Figure 4a, 5a). 
+
+In the second regime, either vaccination starts soon but the vaccination rate is lower (March availability, 1\% or less vaccinated per week, Figure 3b and Figure 2), or vaccination starts later but the vaccination rate is high (September availability, vaccinating 1.5\% or more of the population per week, Figure 3c and appendix, page 14).  In this intermediate scenario, a sufficient proportion of the population is vaccinated for indirect protection from the vaccine to become important, but not enough individuals are vaccinated to completely prevent a third wave.  As a result, the uniform and contact-based strategies are significantly more effective than the 60+ first strategy, while the “youngest first” strategy does worst of all (Figure 4, 5).  The under-performance of the youngest first strategy occurs because in populations with strong age-assortative mixing \cite{prem2020projecting}, the indirect benefits of vaccination are “wasted" if vaccination is first concentrated in specific age groups before being extended to the rest of the population.  The 60+ first strategy is less affected by this because the COVID-19 case fatality rate is high in this age group. 
+
+In the third regime, vaccination starts late and the vaccination rate is low (September availability, 1\% or less vaccinated per week; Figure 3d and appendix, page 15). This scenario does not allow enough time for indirect protection from vaccination to become strong.  As a result, the oldest first strategy has significantly higher effectiveness than the other three strategies (Figure 4b, 5b).  Overall mortality is higher for all strategies, on account of the delayed rollout of the vaccine. 
+  
+The relative performance of the strategies observed in these three regimes is generally unchanged across the full range of values for the shutdown threshold (Appendix, pp. 16-17).  Some of our violin plots show a dominant lobe and a smaller secondary lobe, on account of the fact that different intervention settings can generate a different number or timing of pandemic waves.  The optimized strategy always does best, by definition (Appendix, pp. 16-17). But it can be instructive to study how the optimized strategy allocates vaccines among the age groups. The optimal vaccine strategy allocates vaccines mostly to the 25-44 age group and secondly to 70+, depending on the vaccination rate (Appendix, page 18). These patterns suggest that the optimal strategy includes transmission interruption as a mechanism.   
+
+Frequency histograms across all stochastic model realizations showing what percentage of the population has natural immunity at the start of a vaccine program, when a particular strategy was shown to work best, illustrate the role of indirect protection (Figure 6). In simulations where the oldest first strategy did best, the percentage of the population with natural immunity tends to be relatively low. This is expected, since indirect protection from vaccines is weaker when few people have natural immunity upon which vaccine indirect protection can build.  But when the uniform or contact-based strategy does best, more simulations exhibit a high level of natural immunity at the start of vaccination.  We note that the variance in these histograms is high, however, which underscores the role of other factors in the model such as timing and interaction between social and epidemiological dynamics. Studying model predictions under variation in the basic reproduction number, $R_0$ \cite{anderson1992infectious}, also illustrates the role of indirect protection. As  $R_0$ is increased from 1.5 to 2.5 we observe that the vaccine becomes less effective in reducing mortality across all strategies, as expected (Appendix \ref{appendix_c}, figure \ref{s18}). This occurs because when $R_0$ is larger the indirect protection of vaccines is weaker \cite{anderson1992infectious}. As a result, the effectiveness of the “oldest first” strategy is less compromised by the increase in $R_0$ than the other strategies, at least when vaccination starts in September. 
+
+We also studied how the best strategy changes depending on vaccine efficacy ranging from 40-90\% in 60+ year-olds and in $<60$ year-olds (Appendix \ref{appendix_c}, figure \ref{s13}). The uniform or contact-based strategies were the most effective in these ranges, except when (a) vaccination starts in September at 1\% per week and efficacy in $<60$ year-olds is less than 70\%, and and (b) vaccination starts in March at 2.5\% per week and efficacy is greater in 60+ year-olds than in $<60$ year-olds. We note that (b) is unlikely since vaccine efficacy typically falls with age, and (a) is expected since this places the model in the third dynamical regime. 
+
+We also modelled dynamics of vaccinating behaviour after vaccines become available (Appendix \ref{appendix_c}, figures \ref{s15},\ref{s16},\ref{s17}).  Due to lack of empirical data, we explored a wide range for the social learning rate and the relative cost of vaccination versus infection.  Either the uniform or contact-based strategies were most effective, except when the relative cost of the vaccine is very low, in which case oldest first is the best strategy (Appendix, pp 22). Vaccine refusal increases as the vaccine cost rises (Appendix, pp 23-25). Since vaccine refusal in the targeted age group forces vaccination of other age groups instead, it makes all strategies behave more like the uniform strategy, although age-specific behaviours could change these predictions. 
+
+Our baseline inferred value of $R_0 \approx 1.7$ was lower than many published estimates \cite{hilton2020estimation}.  We ran simulations with $R_0 = 2.5$ for December 2020 onward and found that “oldest first” was somewhat more effective across a broader region of parameter space for September availability, particularly at higher vaccination rates (Appendix, pp 26). Finally, we also ran simulations with 30\% higher and lower ascertainment for December 2020 onward to capture potential changes to COVID-19 testing and found that it had little impact on which strategy was most effective (Appendix, pp 27-28).  
+
+\section{Discussion}
+
+Our social-epidemiological model suggests that if a COVID-19 vaccine becomes available later in the pandemic, using SARS-CoV-2 vaccines to interrupt transmission might prevent more COVID-19 deaths than using the vaccines to target those 60+ years of age, depending on when the vaccine becomes available and how quickly the population can be vaccinated. These results are driven by the fact that the vaccine may only become available after populations have had one or more waves of immunizing infections. As a result, the effective reproduction number $R_{eff}$ could be significantly closer to 1 than the basic reproduction number $R_0 \approx 2.2$ that applies to susceptible populations. In this regime, vaccines have disproportionately large indirect protective effects \cite{anderson1992infectious}.  
+
+Several studies have used compartmental models to study prioritisation of age groups for COVID-19 vaccination \cite{bubar2020model,hoyt2020vaccine,matrajt2020vaccine}. These models vary widely in terms of study populations, representation of population heterogeneity, interventions, and assumptions about when vaccination starts. Similar to our results, Matrajt et al \cite{matrajt2020vaccine}  find that the level of pre-existing immunity strongly dictates outcomes: when pre-existing immunity is high, the optimal strategy distributes the vaccine more evenly across age groups rather than prioritising older age groups. Buckner et al \cite{hoyt2020vaccine} find that targeting 60+ year-olds is best for reducing mortality. They assumed that vaccination begins in December 2020, and they base initial conditions on case notifications in the United States in that month. Similarly, Bubar et al \cite{bubar2020model} find that vaccinating 60+ year-olds works best for reducing mortality for vaccine programs starting in July 2020 in Belgium, or August 2020 in New York City. Our results agree with Refs. \cite{bubar2020model,hoyt2020vaccine} for the scenario of March 2021 vaccine availability. However, we find it makes sense to switch to vaccinating other age groups by September 2021. Such a late vaccine start date was not analyzed in Refs. \cite{bubar2020model,hoyt2020vaccine} although their findings might change if the models were re-initialized to accommodate vaccination starting in September 2021. 
+
+Our analysis was limited by its focus on prioritisation of age groups.  We did not model other sources of heterogeneity such as geography, socio-economic status, sex, or ethnicity--all of which are important determinants of disease burden in this highly unequal pandemic. We did not model outbreaks in long-term care facilities, where the dynamics of transmission and indirect protection differ from the general population. Similarly, we did not distinguish healthcare or other essential workers. However, many of these individuals are working age adults, and thus vaccinating them first among other working adults is consistent with our uniform and contact-based strategies. Our mortality estimates assume ICU capacity is not exceeded. If ICU capacity is exceeded in the second wave, then our projected deaths will be an under-estimate, although we speculate that the relative performance of the four strategies would not change. We used a single population model, but inter-population mobility can influence transmission dynamics: a large influx of infectious persons from another population can weaken the indirect protection afforded by vaccines. 
+
+We used changes to baseline time spent at retail and recreational outlets to represent population adherence to NPIs.  Such mobility data is an imperfect proxy for physical distancing and will not capture mask use or hand-washing.  We did not have high resolution mobility data on these practices, although in future it may be possible to infer information about these practices by combining information from phone surveys with online social media data. Our simple ascertainment process in the model was designed to implicitly capture the effects of COVID-19 PCR testing, contact tracing and isolation (TTI). But without explicitly representing them, it is impossible for us to study combined strategies of vaccination and TTI, or to anticipate how specific changes to TTI would influence our findings. 
+
+Finally, the model was parameterised with data from Ontario, Canada. The projected impact of the four vaccine strategies may differ in settings with different epidemiological or social characteristics.  At the same time, we note that our findings rely upon a robust epidemiological effect that occurs when $R_eff$ becomes small. Therefore, the only thing that may change in other settings is the timing of the switch to vaccine strategies that interrupt transmission. 
+
+We opted for a coupled social-epidemiological model on account of the importance of interactions between population behaviour and disease dynamics for the control of COVID-19 in the absence of preventive pharmaceutical interventions. Our model generated significantly different projections in our sensitivity analysis where population behaviour was assumed constant, which is similar to conventional approaches to transmission modelling. Our social model is less complicated than our epidemiological model and despite this, the coupled social-epidemiological model fitted population-level behaviour as readily as it fitted the epidemic curve. Predicting behaviour is fraught with uncertainty, but so is predicting an epidemic curve. Moreover, digital data on behaviour and sentiment that can be used to model social dynamics is increasingly available \cite{salathe2012digital}.  Given this, we suggest a role for more widespread use of  social-epidemiological models during pandemics. 
+
+To apply these results to COVID-19 pandemic mitigation, large-scale seroprevalence surveys before the onset of vaccination could ascertain the level of a population's natural immunity.  Age-structured compartmental models could be initialized with this information to generate population-specific projections. In populations where SARS-CoV-2 seropositivity is high due to a Fall/Winter 2020 wave, vaccinating to interrupt transmission may reduce COVID-19 mortality more effectively than targeting vulnerable groups. 
+
+
+\section{Appendix}
+
