@@ -186,6 +186,12 @@ Chris~T Bauch and Samit Bhattacharyya.
   vaccine scares unfold.
 \newblock {\em PLoS Comput Biol}, 8(4):e1002452, 2012.
 
+\bibitem{bauch2004vaccination}
+Chris~T Bauch and David~JD Earn.
+\newblock Vaccination and the theory of games.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  101(36):13391--13394, 2004.
+
 \bibitem{bauch2013social}
 Chris~T Bauch and Alison~P Galvani.
 \newblock Social factors in epidemiology.
@@ -625,7 +631,7 @@ Joe Hilton and Matt~J Keeling.
 \newblock {\em medRxiv}, 2020.
 
 \bibitem{hofbauer1998evolutionary}
-Josef Hofbauer and Karl Sigmund.
+Josef Hofbauer, Karl Sigmund, et~al.
 \newblock {\em Evolutionary games and population dynamics}.
 \newblock Cambridge university press, 1998.
 
