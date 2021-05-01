@@ -118,6 +118,7 @@
     urlcolor=black}
 }{} % end of ifthenelse (no else)
 
+\usepackage{diagbox}
 \usepackage[automake,toc,abbreviations]{glossaries-extra} % Exception to the rule of hyperref being the last add-on package
 % If glossaries-extra is not in your LaTeX distribution, get it from CTAN (http://ctan.org/pkg/glossaries-extra), 
 % although it's supposed to be in both the TeX Live and MikTeX distributions. There are also documentation and 
@@ -180,6 +181,7 @@
 % Only use \documentclass or \begin{document} and \end{document} commands in this master document.
 % Tip: Putting each sentence on a new line is a way to simplify later editing.
 %----------------------------------------------------------------------
+\input{chapter_0/main.tex}
 \input{chapter_1/main.tex}
 
 \input{chapter_2/main.tex}

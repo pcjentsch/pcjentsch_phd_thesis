@@ -1,0 +1,67 @@
+\chapter{Introduction}
+
+
+
+
+
+Compartmental models for the spread of infectious diseases are usually considered to have been introduced to the field by Kermack and McKendrick \cite{kermack1927contribution, edelstein2005mathematical}. This class of models divides the population into homogenous compartments, and describe the rate of movement between these compartments. The quintessential compartmental model is the SIR model (equations \ref{SIR}), so-called for it's division of a population into Susceptible (the $S(t)$ variable), Infected (the $I(t)$ variable), and Recovered (the $R(t)$ variable) compartments.
+
+\begin{eqnarray}
+    \frac{dS}{dt} = -\beta S I  \\
+    \frac{dI}{dt} = \beta S I - \gamma I\\
+    \frac{dR}{dt} = \gamma I\\
+    \label{SIR}
+\end{eqnarray}
+
+The SIR model describes a population undergoing an infection that confers complete immunity after one has been infected, under a great number of simplying assumptions: each compartment is totally homogenous, the likelihood of infection is proportional to the number of individuals in each compartment, and the probability that an individual recovers is constant per unit time. Since the initial work on these models, the invention of computers has allowed researchers to get useful results from even the most complex elaborations on this theme. 
+
+
+
+\section{Sars-Cov-2}
+
+Compartmental models have been invaluable in modeling the ongoing Covid-19 pandemic \cite{thompson2020epidemiological}. As a result, the general public is probably more aware than ever before of these models. It is difficult to overstate the damage and loss of life that the ongoing COVID-19 pandemic has caused or exacerbated in the past year \cite{miller2020disease,who2021impact}. The first human case of Sars-CoV-2 occurred in late 2019 in central China, and was almost certainly transmitted from an animal host, very likely a bat \cite{andersen2020proximal,rasmussen2021origins,zhu2020novel}. The virus soon spread throughout the world, and was declared a pandemic by the World Health Organization (WHO), on March 11th, 2020 \cite{who2020announces}. In the intervening months, people around the world have endured various levels of non-pharmeceutical interventions (NPIs), from comprehensive quarantine procedures (in e.g. New Zealand, South Korea, Singapore, Vietnam) to almost nothing at all (United States, Sweden). In the outcomes of the aforementioned countries, empirical research, and modelling studies, NPIs have been shown to be an effective method for the control of Covid-19 \cite{anderson2020estimating,flaxman2020estimating,ferguson2020report,demirguc2020sooner}. 
+% It is a consequence of the complete failure of our social structures, leadership, and economic system to centre human well-being.  
+
+
+
+\section{Imitation dynamics}
+
+
+The demonstrated effectiveness of NPIs in some countries implies that the immense morbidity and mortality over the past year is not simply a natural disaster, but a humanitarian one. Therefore, an attempt to model human outcomes of the pandemic should also attempt to model the incentive strucutures we operate within. A very simple model for this is the game theoretical one. In this framework, we assume that NPI usage is a prisoners dilemma in that everyone either cooperates or defects with the practice of using NPIs, and the decision to defect to cooperate is based on a combination of the percieved payoff to do so, and the influence of the rest of the population. Table \ref{prisonersdilemma} shows the payoff matrix of this 2-player game. Of course in real life, it is not just a 2-player game, we are all playing this game all the time, with everyone. The simplest way to approximate the time evolution of a such a game is with the replicator equation, which approximates these dynamics in terms of the population average.
+
+\begin{figure}
+    \begin{tabular}{ |c|c| c| } \hline
+        \diagbox[width = 7em, height = 2em]{P1}{P2} &use NPI& don't use NPI   \\ \hline
+        use NPI & \diagbox[width = 13em, height = 8em]{low risk,\\ NPIs unpleasant}{low risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{med risk,\\ NPIs unpleasant} {med risk}\\ \hline 
+        don't use NPI & \diagbox[width = 13em, height = 8em]{med risk}{med risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{high risk}{high risk}   \\ \hline
+    \end{tabular}
+    \caption{NPI adoption as a two-player game (between P1 and P2)}
+    \label{prisonersdilemma}
+\end{figure}
+
+
+
+
+
+
+
+\section{Emerald Ash Borer}
+
+Compartmental models are not limited to infections in humans, they can also be applied to ecological systems. While research in mathematical ecology generally uses the related lotka-volterra model for host-parasitoid dynamics, SIR models can be a natural choice because they centre the time-evolution of the host populations, which is often the more useful quantity \cite{edelstein2005mathematical}. 
+
+
+\section{Mountain pine beetle}
+
+
+% \addcontentsline{toc}{chapter}{Introduction} \markboth{INTRODUCTION}{} \lipsum[1-5]
+
+% The growth of an organism within a population over time is a common subject of research in ecology and the natural sciences. Some of the first dynamic models of this process were created by Lokta and Volterra in the early 20th century \cite{lotka1920analytical,volterra1928variations,lotka1925elements}. The lotka-volterra model (Equations \ref{lotkavolterra}) describes the time-evolution of two populations, a predator and a prey, under many simplifying assumptions. Namely, this model assuming that prey grows exponentially in the abscence of a predator, and that populations are completely homogenous in space, the growth rate of predators depends entirely on the population of prey, and that population sizes are the only factor governing the rate of predation.
+
+
+% \begin{eqnarray}
+%     \frac{dx}{dt} = \alpha x - \beta x y \\
+%     \frac{dy}{dt} = \gamma x y - \delta y\\
+%     \label{lotkavolterra}
+% \end{eqnarray}
+
+% The spread of a 

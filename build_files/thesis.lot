@@ -1,6 +1,7 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Parameters and default values}}{10}{table.1.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Parameters and baseline values of compound fire and pest model. Except for $\alpha _i$ and the noise magnitude, all parameters were obtained from Duncan et al. \cite {duncan2015model}}}{29}{table.2.1}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Parameters and default values}}{12}{table.2.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Parameter definitions, values, particle filtering ranges, and sources.}}{53}{table.3.1}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters and baseline values of compound fire and pest model. Except for $\alpha _i$ and the noise magnitude, all parameters were obtained from Duncan et al. \cite {duncan2015model}}}{31}{table.3.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Parameter definitions, values, particle filtering ranges, and sources.}}{55}{table.4.1}%

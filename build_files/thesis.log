@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  28 APR 2021 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.4.17)  30 APR 2021 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,26 +218,78 @@ Package hyperref Info: Option `pdfmenubar' set `true' on input line 111.
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 111.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
 Package hyperref Info: Option `colorlinks' set `true' on input line 111.
-(/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
+(/usr/share/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+(/usr/share/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+(/usr/share/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks21
+\@arclen=\dimen154
+\@arcrad=\dimen155
+\pIIe@tempdima=\dimen156
+\pIIe@tempdimb=\dimen157
+\pIIe@tempdimc=\dimen158
+\pIIe@tempdimd=\dimen159
+\pIIe@tempdime=\dimen160
+\pIIe@tempdimf=\dimen161
+) (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen162
+\calc@Bdimen=\dimen163
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip55
+) (/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box49
+\extrarowheight=\dimen165
+\NC@list=\toks22
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box50
+)
+\diagbox@boxa=\box51
+\diagbox@boxb=\box52
+\diagbox@boxm=\box53
+\diagbox@wd=\dimen166
+\diagbox@ht=\dimen167
+\diagbox@insepl=\dimen168
+\diagbox@insepr=\dimen169
+\diagbox@outsepl=\dimen170
+\diagbox@outsepr=\dimen171
+) (/usr/share/texmf-dist/tex/latex/glossaries-extra/glossaries-extra.sty
 Package: glossaries-extra 2020/04/01 v1.45 (NLCT)
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/t
 ex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count274
+\XKV@depth=\count277
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count278
 ) (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2020/03/19 v4.46 (NLCT)
 (/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks23
-\@glsmrest=\toks24
+\@glsmfirst=\toks25
+\@glsmrest=\toks26
 ) (/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 ) (/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
@@ -246,7 +298,7 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
 (/usr/share/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count276
+\c@su@anzahl=\count279
 ) (/usr/share/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
 (/usr/share/texmf-dist/tex/latex/fp/fp.sty
@@ -254,18 +306,18 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/sha
 re/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count277
+\actioncount=\count280
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count278
-\FP@xia=\count279
-\FP@xib=\count280
-\FP@xfa=\count281
-\FP@xfb=\count282
-\FP@rega=\count283
-\FP@regb=\count284
-\FP@regs=\count285
-\FP@times=\count286
+\FP@xs=\count281
+\FP@xia=\count282
+\FP@xib=\count283
+\FP@xfa=\count284
+\FP@xfb=\count285
+\FP@rega=\count286
+\FP@regb=\count287
+\FP@regs=\count288
+\FP@times=\count289
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -278,7 +330,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count287
+\FPseed=\count290
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -286,132 +338,132 @@ Package: fp-upn 1996/10/21
 ) (/usr/share/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks25
-\@dtl@tmpcount=\count288
-\dtl@tmplength=\skip53
-\dtl@sortresult=\count289
-\@dtl@numgrpsepcount=\count290
-\@dtl@datatype=\count291
-\dtl@codeA=\count292
-\dtl@codeB=\count293
-\@dtl@foreach@level=\count294
+\@dtl@toks=\toks27
+\@dtl@tmpcount=\count291
+\dtl@tmplength=\skip58
+\dtl@sortresult=\count292
+\@dtl@numgrpsepcount=\count293
+\@dtl@datatype=\count294
+\dtl@codeA=\count295
+\dtl@codeB=\count296
+\@dtl@foreach@level=\count297
 ) (/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.st
 y
 Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 )
-\gls@level=\count295
-\@gls@tmpb=\toks26
-\gls@tmplen=\skip54
-\glskeylisttok=\toks27
-\glslabeltok=\toks28
-\glsshorttok=\toks29
-\glslongtok=\toks30
+\gls@level=\count298
+\@gls@tmpb=\toks28
+\gls@tmplen=\skip59
+\glskeylisttok=\toks29
+\glslabeltok=\toks30
+\glsshorttok=\toks31
+\glslongtok=\toks32
 (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
 ) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2020/03/19 v4.46 (NLCT)
-\glslistdottedwidth=\skip55
+\glslistdottedwidth=\skip60
 ) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2020/03/19 v4.46 (NLCT)
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip56
-\LTright=\skip57
-\LTpre=\skip58
-\LTpost=\skip59
-\LTchunksize=\count296
-\LTcapwidth=\dimen154
-\LT@head=\box49
-\LT@firsthead=\box50
-\LT@foot=\box51
-\LT@lastfoot=\box52
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
-\LT@p@ftn=\toks31
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count299
+\LTcapwidth=\dimen172
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@cols=\count300
+\LT@rows=\count301
+\c@LT@tables=\count302
+\c@LT@chunks=\count303
+\LT@p@ftn=\toks33
 )
-\glsdescwidth=\skip60
-\glspagelistwidth=\skip61
+\glsdescwidth=\skip65
+\glspagelistwidth=\skip66
 ) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2020/03/19 v4.46 (NLCT)
 (/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count301
-\ST@wd=\dimen155
-\ST@rightskip=\skip62
-\ST@leftskip=\skip63
-\ST@parfillskip=\skip64
-\ST@pageleft=\dimen156
-\ST@headht=\dimen157
-\ST@tailht=\dimen158
-\ST@pagesofar=\dimen159
-\ST@pboxht=\dimen160
-\ST@lineht=\dimen161
-\ST@prevht=\dimen162
-\ST@toadd=\dimen163
-\ST@dimen=\dimen164
-\ST@pbox=\box53
+\c@tracingst=\count304
+\ST@wd=\dimen173
+\ST@rightskip=\skip67
+\ST@leftskip=\skip68
+\ST@parfillskip=\skip69
+\ST@pageleft=\dimen174
+\ST@headht=\dimen175
+\ST@tailht=\dimen176
+\ST@pagesofar=\dimen177
+\ST@pboxht=\dimen178
+\ST@lineht=\dimen179
+\ST@prevht=\dimen180
+\ST@toadd=\dimen181
+\ST@dimen=\dimen182
+\ST@pbox=\box58
 )) (/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2020/03/19 v4.46 (NLCT)
-\glstreeindent=\skip65
+\glstreeindent=\skip70
 ))
-\@glsxtr@leveloffset=\count302
-\glsxtrresourcecount=\count303
-\@glsxtrnewgls@inner=\count304
-\glsshortpltok=\toks32
-\glslongpltok=\toks33
+\@glsxtr@leveloffset=\count305
+\glsxtrresourcecount=\count306
+\@glsxtrnewgls@inner=\count307
+\glsshortpltok=\toks34
+\glslongpltok=\toks35
 ) (./glossaries.tex)
 \glswrite=\write3
 \glo@main@file=\write4
-Package glossaries Info: Writing glossary file thesis.glo on input line 161.
+Package glossaries Info: Writing glossary file thesis.glo on input line 162.
 \glo@abbreviations@file=\write5
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 161
+Package glossaries Info: Writing glossary file thesis.glo-abr on input line 162
 .
 \glo@nomenclature@file=\write6
 Package glossaries Info: Writing glossary file thesis.nomenclature-glo on input
- line 161.
+ line 162.
 \glo@symbols@file=\write7
 Package glossaries Info: Writing glossary file thesis.symbols-glo on input line
- 161.
+ 162.
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count305
-\l__pdf_internal_box=\box54
+\l__kernel_color_stack_int=\count308
+\l__pdf_internal_box=\box59
 ) (./thesis.aux
 
 LaTeX Warning: Label `Ieqn' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
+LaTeX Font Info:    ... okay on input line 168.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen165
-\scratchbox=\box55
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen166
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count309
+\scratchdimen=\dimen183
+\scratchbox=\box60
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen184
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks37
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -426,7 +478,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 167.
+Package hyperref Info: Link coloring ON on input line 168.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -434,11 +486,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 167.
-LaTeX Info: Redefining \pageref on input line 167.
-LaTeX Info: Redefining \nameref on input line 167.
+LaTeX Info: Redefining \ref on input line 168.
+LaTeX Info: Redefining \pageref on input line 168.
+LaTeX Info: Redefining \nameref on input line 168.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write8
 (./uw-ethesis-frontpgs.tex [1
@@ -461,11 +513,11 @@ LaTeX Info: Redefining \nameref on input line 167.
 
 
 ] (./thesis.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [8
@@ -481,18 +533,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ] [12] [13] [14] [15]
-Overfull \hbox (27.12978pt too wide) in paragraph at lines 32--32
+Overfull \hbox (27.12978pt too wide) in paragraph at lines 34--34
  \OT1/cmr/m/n/12 106623.0,34613.5), 72007.3 (CI: 121754.0,40483.4); 80707.6 (CI
 : 126732.0,47755.4) 
  []
 
 
-Overfull \hbox (21.42891pt too wide) in paragraph at lines 33--33
+Overfull \hbox (21.42891pt too wide) in paragraph at lines 35--35
  \OT1/cmr/m/n/12 95451.2,25980.9); 60250.7 (CI: 108361.0,30721.9); 68594.0 (CI:
  107157.0,36063.6) 
  []
 
-[16] [17] [18]
+[16] [17] [18] [19]
 
 ! Package inputenc Error: Unicode character ψ (U+03C8)
 (inputenc)                not set up for use with LaTeX.
@@ -501,43 +553,40 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...ppendix, pp. 1-11.}}{113}{figure.Alph0.31}
+l.50 ...ppendix, pp. 1-11.}}{116}{figure.Alph0.31}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[19])
+)
 \tf@lof=\write10
-[20] (./thesis.lot)
+[20] [21] (./thesis.lot)
 \tf@lot=\write11
-[21
+[22
 
 
 
 
-]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 193.
-
-) (./chapter_1/main.tex [1
-
-
-
-
-]
+]) (./chapter_0/main.tex
 Chapter 1.
-[2
+[1
 
 
-] [3] [4] [5] [6] [7]
+
+
+] [2]) (./chapter_1/main.tex [3]
+Chapter 2.
+[4
+
+
+] [5] [6] [7] [8] [9]
 Overfull \hbox (2.47116pt too wide) in paragraph at lines 84--85
 \OT1/cmr/m/n/12 patch in the sys-tem, we sub-tract the cor-re-spond-ing term fo
 r leav-ing wood, $\OML/cmm/m/it/12 d [][] P[]\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/1
 2 ^^@
  []
 
-[8]
+[10]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
@@ -553,10 +602,10 @@ Underfull \hbox (badness 6094) in paragraph at lines 127--127
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]\OT1/cmr/m/n/8 Strategy changes per
+[]|\OT1/cmr/m/n/8 Strategy changes per
  []
 
-[9] [10]
+[11] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 183--188
 
  []
@@ -576,15 +625,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
-[11]
-<chapter_1/core_graph_plot.png, id=968, 844.8363pt x 597.432pt>
+[13]
+<chapter_1/core_graph_plot.png, id=1016, 844.8363pt x 597.432pt>
 File: chapter_1/core_graph_plot.png Graphic file (type png)
 <use chapter_1/core_graph_plot.png>
 Package pdftex.def Info: chapter_1/core_graph_plot.png  used on input line 223.
 
 (pdftex.def)             Requested size: 301.1261pt x 212.9422pt.
-[12 <./chapter_1/core_graph_plot.png>] [13]
-<chapter_1/timeseries.png, id=1008, 1300.86pt x 1156.32pt>
+[14 <./chapter_1/core_graph_plot.png>] [15]
+<chapter_1/timeseries.png, id=1057, 1300.86pt x 1156.32pt>
 File: chapter_1/timeseries.png Graphic file (type png)
 <use chapter_1/timeseries.png>
 Package pdftex.def Info: chapter_1/timeseries.png  used on input line 260.
@@ -592,15 +641,15 @@ Package pdftex.def Info: chapter_1/timeseries.png  used on input line 260.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14]
+[16]
 
-LaTeX Warning: Text page 15 contains only floats.
+LaTeX Warning: Text page 17 contains only floats.
 
 
 Overfull \vbox (5.45538pt too high) has occurred while \output is active []
 
-[15 <./chapter_1/timeseries.png>]
-<chapter_1/ct_v_ce_plane.png, id=1030, 1734.48pt x 578.16pt>
+[17 <./chapter_1/timeseries.png>]
+<chapter_1/ct_v_ce_plane.png, id=1079, 1734.48pt x 578.16pt>
 File: chapter_1/ct_v_ce_plane.png Graphic file (type png)
 <use chapter_1/ct_v_ce_plane.png>
 Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
@@ -608,7 +657,7 @@ Package pdftex.def Info: chapter_1/ct_v_ce_plane.png  used on input line 275.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/p1.jpg, id=1031, 963.6pt x 542.025pt>
+<chapter_1/p1.jpg, id=1080, 963.6pt x 542.025pt>
 File: chapter_1/p1.jpg Graphic file (type jpg)
 <use chapter_1/p1.jpg>
 Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
@@ -616,7 +665,7 @@ Package pdftex.def Info: chapter_1/p1.jpg  used on input line 284.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_time.png, id=1032, 1228.59pt x 578.16pt>
+<chapter_1/A_v_time.png, id=1081, 1228.59pt x 578.16pt>
 File: chapter_1/A_v_time.png Graphic file (type png)
 <use chapter_1/A_v_time.png>
 Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
@@ -624,7 +673,7 @@ Package pdftex.def Info: chapter_1/A_v_time.png  used on input line 290.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/A_v_ct_v_d_marginal_gain.png, id=1033, 2168.1pt x 578.16pt>
+<chapter_1/A_v_ct_v_d_marginal_gain.png, id=1082, 2168.1pt x 578.16pt>
 File: chapter_1/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use chapter_1/A_v_ct_v_d_marginal_gain.png>
 Package pdftex.def Info: chapter_1/A_v_ct_v_d_marginal_gain.png  used on input 
@@ -633,8 +682,8 @@ line 299.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16]
-<chapter_1/node_quarantine_plot_1.0.png, id=1046, 1734.48pt x 578.16pt>
+[18]
+<chapter_1/node_quarantine_plot_1.0.png, id=1095, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_1.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_1.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_1.0.png  used on input 
@@ -643,7 +692,7 @@ line 310.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<chapter_1/node_quarantine_plot_2.0.png, id=1047, 1734.48pt x 578.16pt>
+<chapter_1/node_quarantine_plot_2.0.png, id=1096, 1734.48pt x 578.16pt>
 File: chapter_1/node_quarantine_plot_2.0.png Graphic file (type png)
 <use chapter_1/node_quarantine_plot_2.0.png>
 Package pdftex.def Info: chapter_1/node_quarantine_plot_2.0.png  used on input 
@@ -652,11 +701,11 @@ line 317.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <./chapter_1/ct_v_ce_plane.png>] [18 <./chapter_1/p1.jpg>] [19 <./chapter_1
-/A_v_time.png> <./chapter_1/A_v_ct_v_d_marginal_gain.png>] [20 <./chapter_1/nod
-e_quarantine_plot_1.0.png> <./chapter_1/node_quarantine_plot_2.0.png>] [21]) (.
-/chapter_2/main.tex [22]
-Chapter 2.
+[19 <./chapter_1/ct_v_ce_plane.png>] [20 <./chapter_1/p1.jpg>] [21 <./chapter_1
+/A_v_time.png> <./chapter_1/A_v_ct_v_d_marginal_gain.png>] [22 <./chapter_1/nod
+e_quarantine_plot_1.0.png> <./chapter_1/node_quarantine_plot_2.0.png>] [23]) (.
+/chapter_2/main.tex [24]
+Chapter 3.
 
 ! LaTeX Error: Environment abstract undefined.
 
@@ -683,11 +732,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[23
+[25
 
 
-] [24] [25] [26]
-<chapter_2/table.jpg, id=1171, 722.7pt x 406.51875pt>
+] [26] [27] [28]
+<chapter_2/table.jpg, id=1221, 722.7pt x 406.51875pt>
 File: chapter_2/table.jpg Graphic file (type jpg)
 <use chapter_2/table.jpg>
 Package pdftex.def Info: chapter_2/table.jpg  used on input line 51.
@@ -698,51 +747,51 @@ Overfull \hbox (0.95805pt too wide) in paragraph at lines 56--56
  pro-
  []
 
-[27 <./chapter_2/table.jpg>] [28]
-<chapter_2/a1_a2_phase.pdf, id=1210, 444.9985pt x 310.14468pt>
+[29 <./chapter_2/table.jpg>] [30]
+<chapter_2/a1_a2_phase.pdf, id=1258, 444.9985pt x 310.14468pt>
 File: chapter_2/a1_a2_phase.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_phase.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_phase.pdf  used on input line 111.
 (pdftex.def)             Requested size: 460.72124pt x 321.12312pt.
-[29]
+[31]
 ! Too many }'s.
 l.118     }
            
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-<chapter_2/z1_ts.pdf, id=1220, 432.96555pt x 418.56476pt>
+<chapter_2/z1_ts.pdf, id=1268, 432.96555pt x 418.56476pt>
 File: chapter_2/z1_ts.pdf Graphic file (type pdf)
 <use chapter_2/z1_ts.pdf>
 Package pdftex.def Info: chapter_2/z1_ts.pdf  used on input line 120.
 (pdftex.def)             Requested size: 460.72124pt x 445.4201pt.
-[30] [31 <./chapter_2/a1_a2_phase.pdf>] [32 <./chapter_2/z1_ts.pdf>]
-<chapter_2/a1_a2_trim_gain.pdf, id=1311, 645.1292pt x 257.0453pt>
+[32] [33 <./chapter_2/a1_a2_phase.pdf>] [34 <./chapter_2/z1_ts.pdf>]
+<chapter_2/a1_a2_trim_gain.pdf, id=1361, 645.1292pt x 257.0453pt>
 File: chapter_2/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_gain.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_gain.pdf  used on input line 135.
 
 (pdftex.def)             Requested size: 460.72124pt x 183.57027pt.
-<chapter_2/z1_ftp.pdf, id=1312, 432.96555pt x 419.8907pt>
+<chapter_2/z1_ftp.pdf, id=1362, 432.96555pt x 419.8907pt>
 File: chapter_2/z1_ftp.pdf Graphic file (type pdf)
 <use chapter_2/z1_ftp.pdf>
 Package pdftex.def Info: chapter_2/z1_ftp.pdf  used on input line 140.
 (pdftex.def)             Requested size: 460.72124pt x 446.83113pt.
-<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=1315, 663.0692pt x 258.54591pt>
+<chapter_2/a1_a2_trim_susceptible_loss.pdf, id=1365, 663.0692pt x 258.54591pt>
 File: chapter_2/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use chapter_2/a1_a2_trim_susceptible_loss.pdf>
 Package pdftex.def Info: chapter_2/a1_a2_trim_susceptible_loss.pdf  used on inp
 ut line 146.
 (pdftex.def)             Requested size: 460.72124pt x 179.64351pt.
-[33 <./chapter_2/a1_a2_trim_gain.pdf>] [34 <./chapter_2/z1_ftp.pdf>] [35 <./cha
-pter_2/a1_a2_trim_susceptible_loss.pdf>] [36] [37]
+[35 <./chapter_2/a1_a2_trim_gain.pdf>] [36 <./chapter_2/z1_ftp.pdf>] [37 <./cha
+pter_2/a1_a2_trim_susceptible_loss.pdf>] [38] [39]
 Overfull \hbox (73.82903pt too wide) in paragraph at lines 186--187
 \OT1/cmtt/m/n/12 / / git . uwaterloo . ca / pjentsch / fire-[]mitigates-[]bark-
 []beetle-[]outbreaks-[]in-[]serotinous-[]forests$[][] 
  []
 
-) (./chapter_3/main.tex [38]
-Chapter 3.
+) (./chapter_3/main.tex [40]
+Chapter 4.
 
 ! LaTeX Error: Environment abstract undefined.
 
@@ -756,7 +805,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[39
+[41
 
 
 ]
@@ -773,12 +822,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[40] [41]
+[42] [43]
 Overfull \hbox (54.87917pt too wide) in alignment at lines 48--48
  [][][] []
  []
 
-[42] [43] [44] [45]
+[44] [45] [46] [47]
 Overfull \hbox (20.59534pt too wide) in paragraph at lines 127--128
 \OT1/cmr/m/n/12 where where $\OML/cmm/m/it/12 []; []; []$ \OT1/cmr/m/n/12 co
 r-re-sponds to the as-cer-tain-ment in the age groups $(0\OML/cmm/m/it/12 ; \OT
@@ -788,13 +837,13 @@ mr/m/n/12 60)\OML/cmm/m/it/12 ; >
 
 
 Overfull \hbox (4.96013pt too wide) in paragraph at lines 131--169
-\OT1/cmr/m/n/12 and $^^F$ are de-fined as in equa-tions [][]3.17[][],[][]3.18[]
+\OT1/cmr/m/n/12 and $^^F$ are de-fined as in equa-tions [][]4.17[][],[][]4.18[]
 [], and so $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 is a func-tion of []$\OML/cmm/m
 /it/12 R[]; ^^[[]; ^^[[]; ^^M[]; ^^M[]; ^^Q; C\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
  t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;$[]
  []
 
-[46]
+[48]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
@@ -1011,13 +1060,13 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[47] [48] [49]
+[49] [50] [51]
 Overfull \hbox (3.76477pt too wide) detected at line 207
 [][]\OML/cmm/m/it/12 t[]i \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B []\OML/cmm/
 m/it/12 t \OMS/cmsy/m/n/12 ^^B []
  []
 
-[50]
+[52]
 
 ! Package inputenc Error: Unicode character ψ (U+03C8)
 (inputenc)                not set up for use with LaTeX.
@@ -1032,7 +1081,7 @@ l.211 ... per week (the “vaccination rate”, ψ
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[51]
+[53]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1071,12 +1120,12 @@ Overfull \hbox (63.40509pt too wide) in paragraph at lines 221--287
 [][]
  []
 
-<chapter_3/plot_model.pdf, id=1676, 406.584pt x 280.09143pt>
+<chapter_3/plot_model.pdf, id=1723, 406.584pt x 280.09143pt>
 File: chapter_3/plot_model.pdf Graphic file (type pdf)
 <use chapter_3/plot_model.pdf>
 Package pdftex.def Info: chapter_3/plot_model.pdf  used on input line 295.
 (pdftex.def)             Requested size: 460.72124pt x 317.4014pt.
-<chapter_3/ts_plot.pdf, id=1679, 791.84229pt x 742.38457pt>
+<chapter_3/ts_plot.pdf, id=1726, 791.84229pt x 742.38457pt>
 File: chapter_3/ts_plot.pdf Graphic file (type pdf)
 <use chapter_3/ts_plot.pdf>
 Package pdftex.def Info: chapter_3/ts_plot.pdf  used on input line 301.
@@ -1084,19 +1133,19 @@ Package pdftex.def Info: chapter_3/ts_plot.pdf  used on input line 301.
 
 LaTeX Warning: Float too large for page by 26.28734pt on input line 304.
 
-<chapter_3/main_text_ts_1.pdf, id=1682, 517.19426pt x 290.88673pt>
+<chapter_3/main_text_ts_1.pdf, id=1729, 517.19426pt x 290.88673pt>
 File: chapter_3/main_text_ts_1.pdf Graphic file (type pdf)
 <use chapter_3/main_text_ts_1.pdf>
 Package pdftex.def Info: chapter_3/main_text_ts_1.pdf  used on input line 307.
 (pdftex.def)             Requested size: 460.72124pt x 259.12361pt.
-<chapter_3/vaccination_by_mortality_small.pdf, id=1685, 517.56863pt x 375.75883
+<chapter_3/vaccination_by_mortality_small.pdf, id=1732, 517.56863pt x 375.75883
 pt>
 File: chapter_3/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use chapter_3/vaccination_by_mortality_small.pdf>
 Package pdftex.def Info: chapter_3/vaccination_by_mortality_small.pdf  used on 
 input line 314.
 (pdftex.def)             Requested size: 460.72124pt x 334.48738pt.
-<chapter_3/bivariate_heatmap.pdf, id=1688, 370.65779pt x 448.02179pt>
+<chapter_3/bivariate_heatmap.pdf, id=1735, 370.65779pt x 448.02179pt>
 File: chapter_3/bivariate_heatmap.pdf Graphic file (type pdf)
 <use chapter_3/bivariate_heatmap.pdf>
 Package pdftex.def Info: chapter_3/bivariate_heatmap.pdf  used on input line 31
@@ -1114,133 +1163,133 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Float too large for page by 97.7145pt on input line 322.
 
-<chapter_3/histograms.pdf, id=1690, 507.29123pt x 303.74477pt>
+<chapter_3/histograms.pdf, id=1737, 507.29123pt x 303.74477pt>
 File: chapter_3/histograms.pdf Graphic file (type pdf)
 <use chapter_3/histograms.pdf>
 Package pdftex.def Info: chapter_3/histograms.pdf  used on input line 325.
 (pdftex.def)             Requested size: 460.72124pt x 275.86125pt.
-[52
+[54
 
-] [53] [54 <./chapter_3/plot_model.pdf>] [55 <./chapter_3/ts_plot.pdf>] [56 <./
-chapter_3/main_text_ts_1.pdf>] [57 <./chapter_3/vaccination_by_mortality_small.
-pdf>] [58 <./chapter_3/bivariate_heatmap.pdf>] [59 <./chapter_3/histograms.pdf>
-] [60] [61] [62]) [63] (./thesis.bbl [64
-
-
+] [55] [56 <./chapter_3/plot_model.pdf>] [57 <./chapter_3/ts_plot.pdf>] [58 <./
+chapter_3/main_text_ts_1.pdf>] [59 <./chapter_3/vaccination_by_mortality_small.
+pdf>] [60 <./chapter_3/bivariate_heatmap.pdf>] [61 <./chapter_3/histograms.pdf>
+] [62] [63] [64]) [65] (./thesis.bbl [66
 
 
-] [65] [66] [67]
-Underfull \hbox (badness 2573) in paragraph at lines 285--289
+
+
+] [67] [68] [69]
+Underfull \hbox (badness 2573) in paragraph at lines 298--302
 []\OT1/cmr/m/n/12 Bureau of La-bor Statis-tics.  Amer-i-can time use sur-vey | 
 2018 re-sults.
  []
 
 
-Overfull \hbox (13.90071pt too wide) in paragraph at lines 297--301
+Overfull \hbox (13.90071pt too wide) in paragraph at lines 310--314
 []\OT1/cmr/m/n/12 Canadian Food In-spec-tion Agency (CFIA).  https://www.inspec
 tion.gc.ca/plants/plant-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
+Underfull \hbox (badness 10000) in paragraph at lines 310--314
 \OT1/cmr/m/n/12 pests-invasive-species/insects/emerald-ash-borer/areas-
  []
 
-[68] [69] [70]
-Underfull \hbox (badness 10000) in paragraph at lines 487--492
+[70] [71] [72] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 []\OT1/cmr/m/n/12 Globalnews.  The dates and stag-gered starts for all GTA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--492
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 \OT1/cmr/m/n/12 schools.  Septem-ber 2020.  [][]$\OT1/cmtt/m/n/12 https : / / g
 lobalnews . ca / news / 6668240 /
  []
 
-[71] [72]
-Underfull \hbox (badness 10000) in paragraph at lines 636--640
+[74] [75]
+Underfull \hbox (badness 10000) in paragraph at lines 676--680
 []\OT1/cmr/m/n/12 Peter C Jentsch.  [][]$\OT1/cmtt/m/n/12 https : / / git . uwa
 terloo . ca / pjentsch /
  []
 
 
-Overfull \hbox (89.59534pt too wide) in paragraph at lines 636--640
+Overfull \hbox (89.59534pt too wide) in paragraph at lines 676--680
 \OT1/cmtt/m/n/12 prioritizing-[]covid-[]19-[]vaccination-[]in-[]changing-[]soci
 al-[]and-[]epidemiological-[]landscapes$[][]\OT1/cmr/m/n/12 ,
  []
 
-[73] [74] [75] [76] [77]
-Underfull \hbox (badness 10000) in paragraph at lines 923--930
+[76] [77] [78] [79] [80]
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
 []\OT1/cmr/m/n/12 Ontario Agency for Health Pro-tec-tion and Pro-mo-tion (Pub-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--930
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
 \OT1/cmr/m/n/12 lic Health On-tario).  COVID-19 case fa-tal-ity, case iden-ti-f
 i-ca-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--930
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
 \OT1/cmr/m/n/12 and at-tack rates in on-tario.  https://www.publichealthontario
 .ca/-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--930
+Underfull \hbox (badness 10000) in paragraph at lines 980--987
 \OT1/cmr/m/n/12 /media/documents/ncov/epi/2020/06/COVID19-epi-case-identificati
 on-age-only-
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 943--947
+Underfull \hbox (badness 1721) in paragraph at lines 1000--1004
 []\OT1/cmr/m/n/12 Organisation for Eco-nomic Co-operation and De-vel-op-ment.  
 Oecd in-ten-sive
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 949--954
+Underfull \hbox (badness 3138) in paragraph at lines 1006--1011
 []\OT1/cmr/m/n/12 World Health Or-ga-ni-za-tion.  Who tar-get prod-uct pro-file
 s for COVID-19
  []
 
-[78] [79]
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+[81] [82]
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1133
 []\OT1/cmr/m/n/12 Public Health Agency of Canada.  Daily epi-demi-o-log-i-cal u
 p-date.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1133
 \OT1/cmr/m/n/12 https://www.canada.ca/content/dam/phac-aspc/documents/services/
 diseases-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1076
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1133
 \OT1/cmr/m/n/12 maladies/2019-novel-coronavirus-infection/COVID19-epi-update-en
 g-2020-04-
  []
 
-[80] [81] [82] [83]
-Underfull \hbox (badness 2165) in paragraph at lines 1325--1330
+[83] [84] [85] [86]
+Underfull \hbox (badness 2165) in paragraph at lines 1393--1398
 \OT1/cmr/m/n/12 19 in On-tario, Septem-ber 2020.  Avail-able at [][]$\OT1/cmtt/
 m/n/12 https : / / data . ontario . ca /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1325--1330
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1398
 \OT1/cmtt/m/n/12 dataset / confirmed-[]positive-[]cases-[]of-[]{COVID}-[]19-[]i
 n-[]ontario / resource /
  []
 
-[84]
-Underfull \hbox (badness 2181) in paragraph at lines 1373--1378
+[87]
+Underfull \hbox (badness 2181) in paragraph at lines 1441--1446
 \OT1/cmr/m/n/12 n-avirus dis-ease 2019 (COVID-19) | united states, febru-ary 12
 {march 16,
  []
 
-[85] [86]) [87] (./appendices/ch_3_appendix.tex
+[88] [89]) [90] (./appendices/ch_3_appendix.tex
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1252,7 +1301,7 @@ l.3 \begin{figure}[H]
                      
 Option `H' ignored and `p' used.
 
-<appendices/FigureS1.pdf, id=2173, 1878.10962pt x 266.98546pt>
+<appendices/FigureS1.pdf, id=2228, 1878.10962pt x 266.98546pt>
 File: appendices/FigureS1.pdf Graphic file (type pdf)
 <use appendices/FigureS1.pdf>
 Package pdftex.def Info: appendices/FigureS1.pdf  used on input line 5.
@@ -1273,15 +1322,15 @@ l.10 \begin{figure}[H]
                       
 Option `H' ignored and `p' used.
 
-<appendices/FigureS2.pdf, id=2174, 373.72723pt x 211.53128pt>
+<appendices/FigureS2.pdf, id=2229, 373.72723pt x 211.53128pt>
 File: appendices/FigureS2.pdf Graphic file (type pdf)
 <use appendices/FigureS2.pdf>
 Package pdftex.def Info: appendices/FigureS2.pdf  used on input line 12.
 (pdftex.def)             Requested size: 341.43306pt x 193.25548pt.
-[88
+[91
 
 
-] [89 <./appendices/FigureS1.pdf> <./appendices/FigureS2.pdf>]
+] [92 <./appendices/FigureS1.pdf> <./appendices/FigureS2.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1293,7 +1342,7 @@ l.19     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS3.pdf, id=2244, 1460.05876pt x 795.63649pt>
+<appendices/FigureS3.pdf, id=2297, 1460.05876pt x 795.63649pt>
 File: appendices/FigureS3.pdf Graphic file (type pdf)
 <use appendices/FigureS3.pdf>
 Package pdftex.def Info: appendices/FigureS3.pdf  used on input line 21.
@@ -1303,7 +1352,7 @@ Overfull \hbox (51.42836pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-[90 <./appendices/FigureS3.pdf>]
+[93 <./appendices/FigureS3.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1315,12 +1364,12 @@ l.28     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS4.pdf, id=2270, 628.03934pt x 199.944pt>
+<appendices/FigureS4.pdf, id=2325, 628.03934pt x 199.944pt>
 File: appendices/FigureS4.pdf Graphic file (type pdf)
 <use appendices/FigureS4.pdf>
 Package pdftex.def Info: appendices/FigureS4.pdf  used on input line 30.
 (pdftex.def)             Requested size: 341.43306pt x 108.70035pt.
-[91 <./appendices/FigureS4.pdf>]
+[94 <./appendices/FigureS4.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1332,12 +1381,12 @@ l.37     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS5.pdf, id=2302, 544.81741pt x 277.81995pt>
+<appendices/FigureS5.pdf, id=2357, 544.81741pt x 277.81995pt>
 File: appendices/FigureS5.pdf Graphic file (type pdf)
 <use appendices/FigureS5.pdf>
 Package pdftex.def Info: appendices/FigureS5.pdf  used on input line 39.
 (pdftex.def)             Requested size: 341.43306pt x 174.10757pt.
-[92 <./appendices/FigureS5.pdf>]
+[95 <./appendices/FigureS5.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1349,12 +1398,12 @@ l.46     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS6.pdf, id=2323, 356.60829pt x 157.05775pt>
+<appendices/FigureS6.pdf, id=2377, 356.60829pt x 157.05775pt>
 File: appendices/FigureS6.pdf Graphic file (type pdf)
 <use appendices/FigureS6.pdf>
 Package pdftex.def Info: appendices/FigureS6.pdf  used on input line 48.
 (pdftex.def)             Requested size: 341.43306pt x 150.3783pt.
-[93 <./appendices/FigureS6.pdf>]
+[96 <./appendices/FigureS6.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1366,12 +1415,12 @@ l.55     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS7.pdf, id=2349, 797.71727pt x 742.38457pt>
+<appendices/FigureS7.pdf, id=2403, 797.71727pt x 742.38457pt>
 File: appendices/FigureS7.pdf Graphic file (type pdf)
 <use appendices/FigureS7.pdf>
 Package pdftex.def Info: appendices/FigureS7.pdf  used on input line 57.
 (pdftex.def)             Requested size: 455.24408pt x 423.67336pt.
-[94 <./appendices/FigureS7.pdf>]
+[97 <./appendices/FigureS7.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1383,12 +1432,12 @@ l.64     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS8.pdf, id=2385, 797.71727pt x 742.38457pt>
+<appendices/FigureS8.pdf, id=2438, 797.71727pt x 742.38457pt>
 File: appendices/FigureS8.pdf Graphic file (type pdf)
 <use appendices/FigureS8.pdf>
 Package pdftex.def Info: appendices/FigureS8.pdf  used on input line 66.
 (pdftex.def)             Requested size: 455.24408pt x 423.67336pt.
-[95 <./appendices/FigureS8.pdf>]
+[98 <./appendices/FigureS8.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1400,12 +1449,12 @@ l.73     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS9.pdf, id=2420, 791.84229pt x 742.38457pt>
+<appendices/FigureS9.pdf, id=2474, 791.84229pt x 742.38457pt>
 File: appendices/FigureS9.pdf Graphic file (type pdf)
 <use appendices/FigureS9.pdf>
 Package pdftex.def Info: appendices/FigureS9.pdf  used on input line 75.
 (pdftex.def)             Requested size: 455.24408pt x 426.8225pt.
-[96 <./appendices/FigureS9.pdf>]
+[99 <./appendices/FigureS9.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1417,7 +1466,7 @@ l.83     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS10.pdf, id=2455, 533.27834pt x 881.64183pt>
+<appendices/FigureS10.pdf, id=2510, 533.27834pt x 881.64183pt>
 File: appendices/FigureS10.pdf Graphic file (type pdf)
 <use appendices/FigureS10.pdf>
 Package pdftex.def Info: appendices/FigureS10.pdf  used on input line 85.
@@ -1425,7 +1474,7 @@ Package pdftex.def Info: appendices/FigureS10.pdf  used on input line 85.
 
 LaTeX Warning: Float too large for page by 158.82431pt on input line 89.
 
-[97 <./appendices/FigureS10.pdf>]
+[100 <./appendices/FigureS10.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1437,7 +1486,7 @@ l.97     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS11.pdf, id=2490, 529.03047pt x 881.79842pt>
+<appendices/FigureS11.pdf, id=2544, 529.03047pt x 881.79842pt>
 File: appendices/FigureS11.pdf Graphic file (type pdf)
 <use appendices/FigureS11.pdf>
 Package pdftex.def Info: appendices/FigureS11.pdf  used on input line 99.
@@ -1445,7 +1494,7 @@ Package pdftex.def Info: appendices/FigureS11.pdf  used on input line 99.
 
 LaTeX Warning: Float too large for page by 163.45895pt on input line 102.
 
-[98 <./appendices/FigureS11.pdf>]
+[101 <./appendices/FigureS11.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1457,12 +1506,12 @@ l.109     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS12.pdf, id=2524, 554.62811pt x 358.63387pt>
+<appendices/FigureS12.pdf, id=2578, 554.62811pt x 358.63387pt>
 File: appendices/FigureS12.pdf Graphic file (type pdf)
 <use appendices/FigureS12.pdf>
 Package pdftex.def Info: appendices/FigureS12.pdf  used on input line 111.
 (pdftex.def)             Requested size: 426.79134pt x 275.96834pt.
-[99 <./appendices/FigureS12.pdf>]
+[102 <./appendices/FigureS12.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1474,7 +1523,7 @@ l.118     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS13.pdf, id=2551, 366.40587pt x 448.02682pt>
+<appendices/FigureS13.pdf, id=2605, 366.40587pt x 448.02682pt>
 File: appendices/FigureS13.pdf Graphic file (type pdf)
 <use appendices/FigureS13.pdf>
 Package pdftex.def Info: appendices/FigureS13.pdf  used on input line 120.
@@ -1482,7 +1531,7 @@ Package pdftex.def Info: appendices/FigureS13.pdf  used on input line 120.
 
 LaTeX Warning: Float too large for page by 23.44234pt on input line 123.
 
-[100 <./appendices/FigureS13.pdf>]
+[103 <./appendices/FigureS13.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1494,12 +1543,12 @@ l.127     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS14.pdf, id=2579, 509.89998pt x 445.85973pt>
+<appendices/FigureS14.pdf, id=2633, 509.89998pt x 445.85973pt>
 File: appendices/FigureS14.pdf Graphic file (type pdf)
 <use appendices/FigureS14.pdf>
 Package pdftex.def Info: appendices/FigureS14.pdf  used on input line 129.
 (pdftex.def)             Requested size: 398.33858pt x 348.32024pt.
-[101 <./appendices/FigureS14.pdf>]
+[104 <./appendices/FigureS14.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1511,12 +1560,12 @@ l.136     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS15.pdf, id=2618, 790.84258pt x 742.38757pt>
+<appendices/FigureS15.pdf, id=2672, 790.84258pt x 742.38757pt>
 File: appendices/FigureS15.pdf Graphic file (type pdf)
 <use appendices/FigureS15.pdf>
 Package pdftex.def Info: appendices/FigureS15.pdf  used on input line 138.
 (pdftex.def)             Requested size: 455.24408pt x 427.35664pt.
-[102 <./appendices/FigureS15.pdf>]
+[105 <./appendices/FigureS15.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1528,12 +1577,12 @@ l.145     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS16.pdf, id=2654, 790.84258pt x 742.38254pt>
+<appendices/FigureS16.pdf, id=2708, 790.84258pt x 742.38254pt>
 File: appendices/FigureS16.pdf Graphic file (type pdf)
 <use appendices/FigureS16.pdf>
 Package pdftex.def Info: appendices/FigureS16.pdf  used on input line 147.
 (pdftex.def)             Requested size: 455.24408pt x 427.35374pt.
-[103 <./appendices/FigureS16.pdf>]
+[106 <./appendices/FigureS16.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1545,12 +1594,12 @@ l.154     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS17.pdf, id=2689, 790.84258pt x 742.38959pt>
+<appendices/FigureS17.pdf, id=2743, 790.84258pt x 742.38959pt>
 File: appendices/FigureS17.pdf Graphic file (type pdf)
 <use appendices/FigureS17.pdf>
 Package pdftex.def Info: appendices/FigureS17.pdf  used on input line 156.
 (pdftex.def)             Requested size: 455.24408pt x 427.3578pt.
-[104 <./appendices/FigureS17.pdf>]
+[107 <./appendices/FigureS17.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1562,7 +1611,7 @@ l.163     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS18.pdf, id=2724, 370.65779pt x 448.02179pt>
+<appendices/FigureS18.pdf, id=2779, 370.65779pt x 448.02179pt>
 File: appendices/FigureS18.pdf Graphic file (type pdf)
 <use appendices/FigureS18.pdf>
 Package pdftex.def Info: appendices/FigureS18.pdf  used on input line 165.
@@ -1570,7 +1619,7 @@ Package pdftex.def Info: appendices/FigureS18.pdf  used on input line 165.
 
 LaTeX Warning: Float too large for page by 15.47731pt on input line 168.
 
-[105 <./appendices/FigureS18.pdf>]
+[108 <./appendices/FigureS18.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1582,7 +1631,7 @@ l.172     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS19.pdf, id=2751, 370.65779pt x 448.02179pt>
+<appendices/FigureS19.pdf, id=2806, 370.65779pt x 448.02179pt>
 File: appendices/FigureS19.pdf Graphic file (type pdf)
 <use appendices/FigureS19.pdf>
 Package pdftex.def Info: appendices/FigureS19.pdf  used on input line 174.
@@ -1590,7 +1639,7 @@ Package pdftex.def Info: appendices/FigureS19.pdf  used on input line 174.
 
 LaTeX Warning: Float too large for page by 29.97731pt on input line 177.
 
-[106 <./appendices/FigureS19.pdf>]
+[109 <./appendices/FigureS19.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1602,7 +1651,7 @@ l.181     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS20.pdf, id=2780, 370.65779pt x 448.02179pt>
+<appendices/FigureS20.pdf, id=2833, 370.65779pt x 448.02179pt>
 File: appendices/FigureS20.pdf Graphic file (type pdf)
 <use appendices/FigureS20.pdf>
 Package pdftex.def Info: appendices/FigureS20.pdf  used on input line 183.
@@ -1610,7 +1659,7 @@ Package pdftex.def Info: appendices/FigureS20.pdf  used on input line 183.
 
 LaTeX Warning: Float too large for page by 29.97731pt on input line 186.
 
-[107 <./appendices/FigureS20.pdf>]
+[110 <./appendices/FigureS20.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1622,7 +1671,7 @@ l.191     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS21.pdf, id=2807, 370.65779pt x 448.02179pt>
+<appendices/FigureS21.pdf, id=2860, 370.65779pt x 448.02179pt>
 File: appendices/FigureS21.pdf Graphic file (type pdf)
 <use appendices/FigureS21.pdf>
 Package pdftex.def Info: appendices/FigureS21.pdf  used on input line 193.
@@ -1630,7 +1679,7 @@ Package pdftex.def Info: appendices/FigureS21.pdf  used on input line 193.
 
 LaTeX Warning: Float too large for page by 29.97731pt on input line 196.
 
-[108 <./appendices/FigureS21.pdf>]
+[111 <./appendices/FigureS21.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1642,7 +1691,7 @@ l.200     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS22.pdf, id=2834, 370.65779pt x 448.02179pt>
+<appendices/FigureS22.pdf, id=2888, 370.65779pt x 448.02179pt>
 File: appendices/FigureS22.pdf Graphic file (type pdf)
 <use appendices/FigureS22.pdf>
 Package pdftex.def Info: appendices/FigureS22.pdf  used on input line 202.
@@ -1650,7 +1699,7 @@ Package pdftex.def Info: appendices/FigureS22.pdf  used on input line 202.
 
 LaTeX Warning: Float too large for page by 3.31062pt on input line 205.
 
-[109 <./appendices/FigureS22.pdf>]
+[112 <./appendices/FigureS22.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1662,12 +1711,12 @@ l.209     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS23.pdf, id=2861, 365.89095pt x 369.85878pt>
+<appendices/FigureS23.pdf, id=2916, 365.89095pt x 369.85878pt>
 File: appendices/FigureS23.pdf Graphic file (type pdf)
 <use appendices/FigureS23.pdf>
 Package pdftex.def Info: appendices/FigureS23.pdf  used on input line 211.
 (pdftex.def)             Requested size: 398.33858pt x 402.66965pt.
-[110 <./appendices/FigureS23.pdf>]
+[113 <./appendices/FigureS23.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1679,7 +1728,7 @@ l.219     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS24.pdf, id=2897, 617.6266pt x 415.37665pt>
+<appendices/FigureS24.pdf, id=2952, 617.6266pt x 415.37665pt>
 File: appendices/FigureS24.pdf Graphic file (type pdf)
 <use appendices/FigureS24.pdf>
 Package pdftex.def Info: appendices/FigureS24.pdf  used on input line 221.
@@ -1695,12 +1744,12 @@ l.226     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS25.pdf, id=2898, 717.91228pt x 351.66801pt>
+<appendices/FigureS25.pdf, id=2953, 717.91228pt x 351.66801pt>
 File: appendices/FigureS25.pdf Graphic file (type pdf)
 <use appendices/FigureS25.pdf>
 Package pdftex.def Info: appendices/FigureS25.pdf  used on input line 228.
 (pdftex.def)             Requested size: 455.24408pt x 223.00084pt.
-[111 <./appendices/FigureS24.pdf>] [112 <./appendices/FigureS25.pdf>]
+[114 <./appendices/FigureS24.pdf>] [115 <./appendices/FigureS25.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1712,7 +1761,7 @@ l.235     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS26.pdf, id=3039, 720.8176pt x 407.3063pt>
+<appendices/FigureS26.pdf, id=3093, 720.8176pt x 407.3063pt>
 File: appendices/FigureS26.pdf Graphic file (type pdf)
 <use appendices/FigureS26.pdf>
 Package pdftex.def Info: appendices/FigureS26.pdf  used on input line 237.
@@ -1743,7 +1792,7 @@ l.238 ... parameter values in Appendix, pp. 1-11.}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[113 <./appendices/FigureS26.pdf>]
+[116 <./appendices/FigureS26.pdf>]
 
 ! LaTeX Error: Unknown float option `H'.
 
@@ -1755,7 +1804,7 @@ l.244     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS27.pdf, id=3134, 791.84229pt x 742.38652pt>
+<appendices/FigureS27.pdf, id=3188, 791.84229pt x 742.38652pt>
 File: appendices/FigureS27.pdf Graphic file (type pdf)
 <use appendices/FigureS27.pdf>
 Package pdftex.def Info: appendices/FigureS27.pdf  used on input line 246.
@@ -1763,20 +1812,20 @@ Package pdftex.def Info: appendices/FigureS27.pdf  used on input line 246.
 )
 No file thesis.gls.
 
-Package glossaries-extra Warning: Glossary `main' is missing on input line 229.
+Package glossaries-extra Warning: Glossary `main' is missing on input line 231.
 
 
-[114 <./appendices/FigureS27.pdf>]
+[117 <./appendices/FigureS27.pdf>]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `main' o
-r check TeX's shell escape allows you to run makeindex on input line 229.
+r check TeX's shell escape allows you to run makeindex on input line 231.
 
 No file thesis.gls-abr.
 
 Package glossaries-extra Warning: Glossary `abbreviations' is missing on input 
-line 229.
+line 231.
 
-[115
+[118
 
 
 
@@ -1809,14 +1858,14 @@ line 229.
 
 Package glossaries-extra Warning: Rerun required to build the glossary `abbrevi
 ations' or check TeX's shell escape allows you to run makeindex on input line 2
-29.
+31.
 
 No file thesis.nomenclature-gls.
 
 Package glossaries-extra Warning: Glossary `nomenclature' is missing on input l
-ine 229.
+ine 231.
 
-[116
+[119
 
 
 
@@ -1824,15 +1873,15 @@ ine 229.
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `nomencl
-ature' or check TeX's shell escape allows you to run makeindex on input line 22
-9.
+ature' or check TeX's shell escape allows you to run makeindex on input line 23
+1.
 
 No file thesis.symbols-gls.
 
 Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
-29.
+31.
 
-[117
+[120
 
 
 
@@ -1840,28 +1889,28 @@ Package glossaries-extra Warning: Glossary `symbols' is missing on input line 2
 ]
 
 Package glossaries-extra Warning: Rerun required to build the glossary `symbols
-' or check TeX's shell escape allows you to run makeindex on input line 229.
+' or check TeX's shell escape allows you to run makeindex on input line 231.
 
-[118
+[121
 
 
 
 
 ] (./thesis.aux)
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 20273C66D8D78D14E1DFE8EF25C89DE7;3862.
+(rerunfilecheck)             Checksum: 21390D94ED657E61F14B899A41112A48;3824.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13322 strings out of 479383
- 216082 string characters out of 5875830
- 728247 words of memory out of 5000000
- 29578 multiletter control sequences out of 15000+600000
+ 13751 strings out of 479383
+ 222337 string characters out of 5875830
+ 739300 words of memory out of 5000000
+ 29966 multiletter control sequences out of 15000+600000
  414299 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,15n,111p,3018b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,16n,111p,3018b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1881,10 +1930,10 @@ type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (139 pages, 10887987 bytes).
+Output written on thesis.pdf (143 pages, 10897741 bytes).
 PDF statistics:
- 3373 PDF objects out of 3580 (max. 8388607)
- 2780 compressed objects within 28 object streams
- 548 named destinations out of 1000 (max. 500000)
- 652 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3430 PDF objects out of 3580 (max. 8388607)
+ 2832 compressed objects within 29 object streams
+ 568 named destinations out of 1000 (max. 500000)
+ 660 words of extra memory for PDF output out of 10000 (max. 10000000)
 
