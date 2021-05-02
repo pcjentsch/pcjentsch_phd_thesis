@@ -2,52 +2,52 @@
 \contentsline {chapter}{List of Tables}{xxii}{section*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Sars-Cov-2}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Imitation dynamics}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Emerald Ash Borer}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Mountain pine beetle}{4}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Abstract}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Materials and methods}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Pest Spread Model}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Social Dynamics Model}{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Patch-quarantine strategies}{12}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Parameterization }{15}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Assessing intervention efficacy}{16}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Results}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Conclusion}{20}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Acknowledgements}{25}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests}{26}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Methods}{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Model Description}{28}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Parameters and simulation design}{31}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Results}{32}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Dynamical regimes}{32}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{33}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Discussion}{36}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{42}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{43}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Model Overview}{45}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Structure and parameterisation}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Model Equations}{45}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Vaccination process}{48}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Differences between parameters in the first and second wave}{49}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Case under-ascertainment}{49}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Baseline transmission rate}{49}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Disease progression parameters}{51}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Initial conditions}{51}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Particle filtering}{52}{subsection.4.2.9}%
-\contentsline {subsection}{\numberline {4.2.10}Vaccination refusal dynamics}{53}{subsection.4.2.10}%
-\contentsline {subsection}{\numberline {4.2.11}Model extension for vaccine efficacy against disease only}{53}{subsection.4.2.11}%
-\contentsline {subsection}{\numberline {4.2.12}Vaccine scenarios}{54}{subsection.4.2.12}%
-\contentsline {section}{\numberline {4.3}Results}{55}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Discussion}{64}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Appendix}{66}{section.4.5}%
-\contentsline {chapter}{\textbf {References}}{67}{section*.12}%
-\contentsline {chapter}{Appendix}{92}{appendix*.14}%
-\contentsline {chapter}{Glossary}{119}{section*.15}%
-\contentsline {chapter}{Abbreviations}{120}{section*.17}%
-\contentsline {chapter}{Nomenclature}{121}{section*.19}%
-\contentsline {chapter}{List of Symbols}{122}{section*.21}%
+\contentsline {section}{\numberline {1.2}Imitation dynamics}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Forest pests and firewood transport}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Mountain pine beetle}{5}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Abstract}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Materials and methods}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Pest Spread Model}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Social Dynamics Model}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Patch-quarantine strategies}{13}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Parameterization }{16}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Assessing intervention efficacy}{17}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Results}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion}{21}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Acknowledgements}{26}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methods}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Model Description}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Parameters and simulation design}{32}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Results}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Dynamical regimes}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{34}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Discussion}{37}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Prioritising COVID-19 vaccination in changing social and epidemiological landscapes: a mathematical modelling study}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model Overview}{46}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Structure and parameterisation}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Model Equations}{46}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Vaccination process}{49}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Differences between parameters in the first and second wave}{50}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Case under-ascertainment}{50}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Baseline transmission rate}{50}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Disease progression parameters}{52}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Initial conditions}{52}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Particle filtering}{53}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}Vaccination refusal dynamics}{54}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}Model extension for vaccine efficacy against disease only}{54}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.12}Vaccine scenarios}{55}{subsection.4.2.12}%
+\contentsline {section}{\numberline {4.3}Results}{56}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Appendix}{67}{section.4.5}%
+\contentsline {chapter}{\textbf {References}}{68}{section*.12}%
+\contentsline {chapter}{Appendix}{94}{appendix*.14}%
+\contentsline {chapter}{Glossary}{121}{section*.15}%
+\contentsline {chapter}{Abbreviations}{122}{section*.17}%
+\contentsline {chapter}{Nomenclature}{123}{section*.19}%
+\contentsline {chapter}{List of Symbols}{124}{section*.21}%

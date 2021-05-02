@@ -118,6 +118,12 @@ Sean~C Anderson, Andrew~M Edwards, Madi Yerlanov, Nicola Mulberry, Jessica
   bayesian model of physical distancing.
 \newblock {\em medRxiv}, 2020.
 
+\bibitem{andrews2015disease}
+Michael~A Andrews and Chris~T Bauch.
+\newblock Disease interventions can interfere with one another through
+  disease-behaviour interactions.
+\newblock {\em PLoS computational biology}, 11(6):e1004291, 2015.
+
 \bibitem{antonovsky1990forest}
 M~Ya Antonovsky, RA~Fleming, Yu~A Kuznetsov, and WC~Clark.
 \newblock Forest-pest interaction dynamics: the simplest mathematical models.
@@ -161,7 +167,7 @@ Shweta Bansal, Babak Pourbohloul, and Lauren~Ancel Meyers.
 Lee-Ann Barlow, Jacob Cecile, Chris~T Bauch, and Madhur Anand.
 \newblock Modelling interactions between forest pest invasions and human
   decisions regarding firewood transport restrictions.
-\newblock {\em PLoS One}, 9(4):e90511, 2014.
+\newblock {\em PloS one}, 9(4):e90511, 2014.
 
 \bibitem{barrett1982indian}
 Stephen~W Barrett and Stephen~F Arno.
@@ -270,6 +276,16 @@ Ulrik Brandes.
   computation.
 \newblock {\em Social Networks}, 30(2):136--145, 2008.
 
+\bibitem{brauer2008compartmental}
+Fred Brauer.
+\newblock Compartmental models in epidemiology.
+\newblock In {\em Mathematical epidemiology}, pages 19--79. Springer, 2008.
+
+\bibitem{brauer2019mathematical}
+Fred Brauer, Carlos Castillo-Chavez, and Zhilan Feng.
+\newblock {\em Mathematical models in epidemiology}, volume~32.
+\newblock Springer, 2019.
+
 \bibitem{brownstein2005identifying}
 John~S Brownstein, Ken~P Kleinman, and Kenneth~D Mandl.
 \newblock Identifying pediatric age groups for influenza vaccination using a
@@ -311,6 +327,10 @@ Thomas~M Bury, Chris~T Bauch, and Madhur Anand.
 \newblock Charting pathways to climate change mitigation in a coupled
   socio-climate model.
 \newblock {\em PLoS computational biology}, 15(6):e1007000, 2019.
+
+\bibitem{nrcaneab}
+Natural~Resources Canada.
+\newblock Emerald ash borer.
 
 \bibitem{cfia_2019}
 {Canadian Food Inspection Agency (CFIA)}.
@@ -549,6 +569,12 @@ Martin Golubitsky, Ian Stewart, and David~G Schaeffer.
 \newblock {\em Singularities and groups in bifurcation theory}, volume~2.
 \newblock Springer Science \& Business Media, 2012.
 
+\bibitem{gooding2018forest}
+Robert Gooding-Townsend.
+\newblock The forest transition and ecological thresholds: resilience,
+  recovery, and predictions.
+\newblock Master's thesis, University of Waterloo, 2018.
+
 \bibitem{googlemobility}
 {{G}oogle, {I}nc.}
 \newblock {COVID}-19 community mobility reports, September 2020.
@@ -589,6 +615,12 @@ M~Elizabeth Halloran and Ira~M Longini.
 \newblock Community studies for vaccinating schoolchildren against influenza,
   2006.
 
+\bibitem{hamer1906epidemic}
+WILLIAM~HEATON Hamer.
+\newblock {\em Epidemic disease in England: the evidence of variability and of
+  persistency of type}.
+\newblock Bedford Press, 1906.
+
 \bibitem{hawksworth1964diseases}
 Frank~G Hawksworth.
 \newblock Diseases of lodgepole pine.
@@ -601,6 +633,13 @@ Kirsten~A Henderson, Madhur Anand, and Chris~T Bauch.
 \newblock Carrot or stick? modelling how landowner behavioural responses can
   cause incentive-based forest governance to backfire.
 \newblock {\em PloS one}, 8(10):e77735, 2013.
+
+\bibitem{henderson2016alternative}
+Kirsten~A Henderson, Chris~T Bauch, and Madhur Anand.
+\newblock Alternative stable states and the sustainability of forests,
+  grasslands, and agriculture.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(51):14552--14559, 2016.
 
 \bibitem{herms2014emerald}
 Daniel~A Herms and Deborah~G McCullough.
@@ -683,6 +722,12 @@ Peter~C Jentsch.
 \newblock
   \url{https://git.uwaterloo.ca/pjentsch/prioritizing-covid-19-vaccination-in-changing-social-and-epidemiological-landscapes},
   2020.
+
+\bibitem{jentsch2018spatial}
+Peter~C Jentsch, Madhur Anand, and Chris~T Bauch.
+\newblock Spatial correlation as an early warning signal of regime shifts in a
+  multiplex disease-behaviour network.
+\newblock {\em Journal of theoretical biology}, 448:17--25, 2018.
 
 \bibitem{nlopt}
 Steven~G. Johnson.
@@ -1293,6 +1338,11 @@ Martin Simard, William~H Romme, Jacob~M Griffin, and Monica~G Turner.
 \newblock Do mountain pine beetle outbreaks change the probability of active
   crown fire in lodgepole pine forests? reply.
 \newblock {\em Ecology}, 93(4):946--950, 2012.
+
+\bibitem{snow1855mode}
+John Snow.
+\newblock {\em On the mode of communication of cholera}.
+\newblock John Churchill, 1855.
 
 \bibitem{ontario_census}
 {Statistics Canada}.

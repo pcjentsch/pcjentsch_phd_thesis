@@ -17,7 +17,7 @@ do
         echo "ref.bib not present in /chapter_$chapter_no/, skipping..."
     fi
 done
-echo "Buiding thesis..."
+echo "Building thesis..."
 cd build_files
 pdflatex --interaction=batchmode thesis > ./pdf_out.log
 bibtex -terse thesis > ./bibtex_out.log
