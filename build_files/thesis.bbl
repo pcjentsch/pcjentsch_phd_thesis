@@ -17,6 +17,11 @@ Impact of covid-19 on people's livelihoods, their health and our food systems,
 \bibitem{who2020announces}
 Who announces covid-19 outbreak a pandemic, December 2020.
 
+\bibitem{agee1996fire}
+James~K Agee.
+\newblock {\em Fire ecology of Pacific Northwest forests}.
+\newblock Island press, 1996.
+
 \bibitem{agee1996influence}
 James~K Agee.
 \newblock The influence of forest structure on fire behavior.
@@ -129,6 +134,11 @@ M~Ya Antonovsky, RA~Fleming, Yu~A Kuznetsov, and WC~Clark.
 \newblock Forest-pest interaction dynamics: the simplest mathematical models.
 \newblock {\em Theoretical Population Biology}, 37(2):343--367, 1990.
 
+\bibitem{arno1980forest}
+Stephen~F Arno.
+\newblock Forest fire history in the northern rockies.
+\newblock {\em Journal of Forestry}, 78(8):460--465, 1980.
+
 \bibitem{aukema2010historical}
 Juliann~E Aukema, Deborah~G McCullough, Betsy Von~Holle, Andrew~M Liebhold,
   Kerry Britton, and Susan~J Frankel.
@@ -219,6 +229,13 @@ Foster Ellenborough~Lascelles Beal.
 \newblock {\em Food of the woodpeckers of the United States}.
 \newblock Number~37. US Department of Agriculture, Biological Survey, 1911.
 
+\bibitem{bentz2014mountain}
+Barbara Bentz, James Vandygriff, Camille Jensen, Tom Coleman, Patricia Maloney,
+  Sheri Smith, Amanda Grady, and Greta Schen-Langenheim.
+\newblock Mountain pine beetle voltinism and life history characteristics
+  across latitudinal and elevational gradients in the western united states.
+\newblock {\em Forest Science}, 60(3):434--449, 2014.
+
 \bibitem{bentz2010climate}
 Barbara~J Bentz, Jacques R{\'e}gni{\`e}re, Christopher~J Fettig, E~Matthew
   Hansen, Jane~L Hayes, Jeffrey~A Hicke, Rick~G Kelsey, Jose~F Negr{\'o}n, and
@@ -298,6 +315,13 @@ EG~Brockerhoff and AM~Liebhold.
 \newblock Ecology of forest insect invasions.
 \newblock {\em Biological Invasions}, 19(11):3141--3159, 2017.
 
+\bibitem{brown2010impact}
+M~Brown, TA~Black, Z~Nesic, VN~Foord, DL~Spittlehouse, AL~Fredeen, NJ~Grant,
+  PJ~Burton, and JA~Trofymow.
+\newblock Impact of mountain pine beetle on the net ecosystem production of
+  lodgepole pine stands in british columbia.
+\newblock {\em Agricultural and Forest Meteorology}, 150(2):254--264, 2010.
+
 \bibitem{brownstein2005identifying}
 John~S Brownstein, Ken~P Kleinman, and Kenneth~D Mandl.
 \newblock Identifying pediatric age groups for influenza vaccination using a
@@ -343,6 +367,10 @@ Thomas~M Bury, Chris~T Bauch, and Madhur Anand.
 \bibitem{nrcaneab}
 Natural~Resources Canada.
 \newblock Emerald ash borer.
+
+\bibitem{nrcanmpb}
+Natural~Resources Canada.
+\newblock Mountain pine beetle (factsheet), Feb 2017.
 
 \bibitem{cfia_2019}
 {Canadian Food Inspection Agency (CFIA)}.
@@ -402,6 +430,13 @@ Michael~G Crandall and Paul~H Rabinowitz.
   stability.
 \newblock {\em Archive for Rational Mechanics and Analysis}, 52(2):161--180,
   1973.
+
+\bibitem{cudmore2010climate}
+Timothy~J Cudmore, Niklas Bj{\"o}rklund, Allan~L Carroll, and
+  B~Staffan~Lindgren.
+\newblock Climate change and range expansion of an aggressive bark beetle:
+  evidence of higher beetle reproduction in na{\"\i}ve host tree populations.
+\newblock {\em Journal of Applied Ecology}, 47(5):1036--1043, 2010.
 
 \bibitem{demirguc2020sooner}
 Asli Demirguc-Kunt, Michael Lokshin, and Ivan Torre.
@@ -561,6 +596,13 @@ Sebastian Funk, Marcel Salath{\'e}, and Vincent~AA Jansen.
 \newblock Modelling the influence of human behaviour on the spread of
   infectious diseases: a review.
 \newblock {\em Journal of the Royal Society Interface}, 7(50):1247--1256, 2010.
+
+\bibitem{gibson2009mountain}
+Ken Gibson, Sandy Kegley, and Barbara Bentz.
+\newblock Mountain pine beetle.
+\newblock {\em Forest Insect and Disease Leaflet No. 2. FS-R6-RO-FIDL\#
+  2/002-2009. Portland, OR: US Department of Agriculture, Forest Service,
+  Pacific Northwest Region. 12 p.}, 2009.
 
 \bibitem{gilbert2004comparison}
 Estella Gilbert, James~A Powell, Jesse~A Logan, and Barbara~J Bentz.
@@ -878,10 +920,16 @@ Shuguang Liu, Ben Bond-Lamberty, Jeffrey~A Hicke, Rodrigo Vargas, Shuqing Zhao,
   north america: Processes, data, models, and challenges.
 \newblock {\em Journal of Geophysical Research: Biogeosciences}, 116(G4), 2011.
 
+\bibitem{lotan1976cone}
+James~E Lotan.
+\newblock Cone serotiny-fire relationships in lodgepole pine.
+\newblock {\em The Bark Beetles, Fuels, and Fire Bibliography}, page~8, 1976.
+
 \bibitem{lotan1985role}
 James~E Lotan, James~K Brown, and Leon~F Neuenschwander.
 \newblock Role of fire in lodgepole pine forests.
-\newblock 1985.
+\newblock In {\em Lodgepole pine: the species and its management symposium
+  proceedings’.(Eds D Baumgartner et al.) pp}, pages 133--152, 1985.
 
 \bibitem{lotka1920analytical}
 Alfred~J Lotka.
@@ -1013,6 +1061,11 @@ Jos{\'e}~F Negr{\'o}n, Kurt~K Allen, Angie Ambourn, Blaine Cook, and Kenneth
 \newblock Large-scale thinnings, ponderosa pine, and mountain pine beetle in
   the black hills, usa.
 \newblock {\em Forest Science}, 63(5):529--536, 2017.
+
+\bibitem{negron2014mountain}
+Jos{\'e}~F Negr{\'o}n and Christopher~J Fettig.
+\newblock Mountain pine beetle, a major disturbance agent in us western
+  coniferous forests: a synthesis of the state of knowledge, 2014.
 
 \bibitem{nishiura2020serial}
 Hiroshi Nishiura, Natalie~M Linton, and Andrei~R Akhmetzhanov.
@@ -1333,6 +1386,12 @@ Rupert Seidl, Dominik Thom, Markus Kautz, Dario Martin-Benito, Mikko
 Colorado~Forest Service.
 \newblock Report on the health of colorado's forests.
 \newblock 2016.
+
+\bibitem{shegelski2019morphological}
+Victor~A Shegelski, Maya~L Evenden, and Felix~AH Sperling.
+\newblock Morphological variation associated with dispersal capacity in a
+  tree-killing bark beetle dendroctonus ponderosae hopkins.
+\newblock {\em Agricultural and Forest Entomology}, 21(1):79--87, 2019.
 
 \bibitem{sigdel2019convergence}
 Ram Sigdel, Madhur Anand, and Chris~T Bauch.

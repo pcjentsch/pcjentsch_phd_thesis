@@ -1,190 +1,339 @@
-\chapter{Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests}
+\chapter{Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}
+\vspace*{0.2in}
 
-\begin{abstract}
-Bark beetle outbreaks and forest fires have imposed severe ecological damage and caused billions of dollars in lost resources in recent decades. The impact of such combined disturbances is projected to become more severe, especially as climate change takes its toll on forest ecosystems in the coming years. Here, we investigate the impact of multiple disturbances in a demographically heterogeneous tree population, using an age-structured difference equation model of bark beetle outbreaks and forest fires. We identify two dynamical regimes for beetle and fire dynamics. The model predicts that fire helps dampen beetle outbreaks not only by removing host trees but also by altering the demographic structure of forest stands. We show that a stand thinning protocol, which reduces the population size of the largest few juvenile classes by a small percentage, is able to significantly reduce beetle-induced tree mortality.  Our research demonstrates one approach to capturing compound disturbances in a mathematical model.
-\end{abstract}
+\section{Abstract}
+Invasive pests, such as emerald ash borer or Asian longhorn beetle, have been responsible for unprecedented ecological and economic damage in eastern North America. These and other wood-boring invasive insects can spread to new areas through human transport of untreated firewood. Behaviour, such as transport of firewood, is affected not only by immediate material benefits and costs, but also by social forces. Potential approaches to reduce the spread of wood-boring pests through firewood include raising awareness of the problem and increasing the social costs of the damages incurred by transporting firewood. In order to evaluate the efficacy of these measures, we create a coupled social-ecological model of firewood transport, pest spread, and social dynamics, on a geographical network of camper travel between recreational destinations. We also evaluate interventions aimed to slow the spread of invasive pests with untreated firewood, such as inspections at checkpoints to stop the movement of transported firewood and quarantine of high-risk locations. We find that public information and awareness programs can be effective only if the rate of spread of the pest between and within forested areas is slow. Direct intervention via inspections at checkpoints can only be successful if a high proportion of the infested firewood is intercepted. Patch quarantine is only effective if sufficiently many locations can be included in the quarantine and if the quarantine begins early. Our results indicate that the current, relatively low levels of public outreach activities and lack of adequate funding are likely to render inspections, quarantine and public outreach efforts ineffective.
+
+% \linenumbers
 
 \section{Introduction}
+Invasive species pose a significant economic and ecological threat to Canada’s forest ecosystems \cite{wilson2009something,jacobi2011firewood}. In North America, significant funding has been allocated by federal, state and provincial agencies for large-scale control programs to prevent or mitigate these damages with mixed success \cite{tobin2008cost,nisc2007}. Controlling the spread of invasive pests can be difficult because the long-distance spread of invasive organisms is often assisted by human activities \cite{kolar2001progress,wilson2009something}. For example, introduction and spread of Emerald ash borer, a harmful forest pest in the North America \cite{kovacs2010cost,kovacs2014bioeconomic,poland2006emerald} has been attributed to human factors, such as vehicle transport \cite{buck2009hitchhiking} and recreational travel \cite{koch2014using}.  
 
-Ecosystems have long been characterized by resilience in the face of large disturbances such as fire, storms, pathogens, and drought, which are often interacting. For example, the pine forests of western North America are highly adapted to both wildfires and bark beetle infestations. Many pine species, including lodgepole (Pinus contorta) and ponderosa (Pinus ponderosa) pine, depend on stand replacing fires to maintain healthy populations in their endemic range \cite{bentz2010climate}. 
+The growing problem of invasive species is broadly associated with human mobility, including recreational travel \cite{kolar2001progress,wilson2009something,liebhold2008population,prasad2010modeling}. Outdoor recreation is widespread in North America, and the extent of recreational activities is expected to increase \cite{cordell2008nature,cordell2008latest,cordell2012outdoor}. In North America, national, provincial and state parks, national forests, and state and Crown lands are common destinations for recreational activities \cite{eagles2002trends,siikamaki2011contributions}. In Canada, recreational activities, especially camper travel, often take place in forested areas and may contribute to spread of harmful invasive pests. In particular, the movement of untreated firewood by campers has been widely acknowledged as a potential introduction pathway for invasive forest pests \cite{barlow2014modelling,tobin2010does,peterson2012motivation,koch2014using,jacobi2011firewood}. Movement of untreated firewood has been linked to the spread of two harmful wood-boring pests, the Asian longhorned beetle (\textit{Anoplophora glabripennis} Motschulsky) and the emerald ash borer (\textit{Agrilus plannipennis} Fairmaire), in the United States and Canada (USaC) \cite{haack1997new,petrice2006effects}. 
 
-Of the major natural processes influencing lodgepole pine forests, the two with the greatest potential for large scale disturbance are mountain pine beetle (MPB, Dendroctonus ponderosae) and fire \cite{kaufmann2008status}. It has been noted that "In western North America, insect outbreaks and wildfires are the two most ecologically and economically significant natural forest disturbances" \cite{meigs2016insect}. The MPB is a small insect endemic to the pine forests of western North America. MPB has recently attained previously unrecorded outbreak levels, probably due to anthropogenic factors \cite{bentz2010climate,safranyik2007mountain}.  British Columbia's Ministry of Forests estimates that British Columbia contains roughly 35 million acres of lodgepole pine forest (about 23\%), and slightly less ponderosa pine forest. They estimate that over the past 20 years, MPB has affected approximately 1.6 million acres of forest annually in British Columbia, more than forest fire and logging combined \cite{bc2010state}.
+Firewood is often moved to distant locations by campers for recreational purposes \cite{jacobi2011firewood,aphis}. For example, Haack et al. (2010) has found live bark- and wood-boring insects in 23\% of the firewood pieces, surrendered at the checkpoint station at Mackinac bridge connecting Michigan’s Lower and Upper Peninsulas and an additional 41\% had signs of prior borer infestation. Jacobi et al. (2011) reported the emergence of live insects from 47\% of the firewood bundles purchased from various US retailers. To reduce the risk of future pest infestations, USaC have implemented various regulations on movement of untreated firewood, including bans for out-of-province movement of untreated firewood and restrictions for its transport by short distances \cite{tobin2010does,aphis,haack2010incidence,omns}. Also a number of public outreach campaigns have been undertaken to educate the general public about the threats associated with the movement of untreated firewood and its potential to spread harmful invasive pests. Several strategies have been developed to prevent (or minimize) the movement of firewood with recreational travel, including outreach campaigns in public media, enforcements with the inspections at check points for transported firewood, and area quarantine with the restrictions on firewood movement from/to the area of concern. In particular, public outreach campaigns have become widespread with significant funding by local, municipal, and provincial governments on measures such as advertisements along major highways and in public media and educational information in websites and printed media. The use of enforcement and quarantine options is less common but is gaining acceptance as a last resort measure and was implemented at least a few times over the past decade, to varying degrees of success \cite{barlow2014modelling,koch2014using,omns}.
 
-Ecological studies examining the relationship between MPB and wildfire damage are numerous, but have not reached a strong consensus in all aspects \cite{axelson2009influence,lynch2006influence, simard2011mountain, bradley2001effects,kaufmann2008status,meigs2016insect,agne2016fire,seidl2016spatial,JENKINS200816}. Lynch et al. \cite{lynch2006influence} used remote sensing data associated with the 1988 Yellowstone National Park fires to investigate the link between fire prevalence and beetle attack. They found that beetle attack initially lowered the probability of crown fire in a patch, but bark beetle activity significantly increases fire risk 13-16 years in the future. On the other hand, Siedl et al. \cite{seidl2016spatial} find that wildfire increases spatial variability in stands, and therefore reduces the susceptibility of the stand to beetle outbreak. To make things more complicated, some studies have found that measures of burn severity are positively correlated with beetle damage\cite{simard2011mountain, bradley2001effects}, although the results of Simard et al. \cite{simard2011mountain} have been disputed by others \cite{moran2012mountain}.
+Assessing the efficacy of the measures aimed to prevent the movement of firewood with recreational travel is a daunting task. Outreach campaigns may spread information widely but there is no guarantee that campers will pay attention and comply with the firewood restriction warnings. Many outreach activities (such as posting ads in public media or distributing flyers) are often implemented sporadically at local scales using local municipal and provincial budgets \cite{tobin2010does}, which makes the assessment of their efficiency difficult. These activities may simultaneously occur in different places and times with little or no coordination, and are difficult to track in time and space.
 
-MPB, and forest pests more generally, have attracted the attention of mathematical biologists since the 1970s due to importance of the problem and the dynamical complexity of outbreaks. The dynamical model of a full forest ecosystem would be intractable, necessitating simplifying assumptions. An early model of forest-pest dynamics by Ludwig and Holling \cite{ludwig1978qualitative} is a 3-dimensional differential equation model derived from simple population dynamics principles by separating fast (pest dynamics) and slow (forest dynamics). Powell, Logan  and Bentz \cite{powell1996local}, derive a 7-dimensional nonlinear partial differential equation model, incorporating beetle pheromone dynamics, which they then integrate to a local ordinary differential equation model. Others look at just one facet of the forest ecosystem. For instance, since beetle lifecycle depends heavily on temperature, Gilbert and Powell \cite{gilbert2004comparison} discussed three models which incorporate temperature-dependent emergence and attack. Tree mortality also exhibits sharp transitions as a function of tree vigor. Duncan et al.\cite{duncan2015model} incorporated a Leslie matrix to explicitly model multiple vigor categories in a discrete time dynamical model, while Lewis, Nelson, and Xu \cite{lewis2010structured} developed an infinite-dimensional model which accounts for arbitrary vigor distributions.  Some recent research also considers dynamic interactions between forest pest outbreaks and human population decision-making regarding transport of infested campfire wood \cite{barlow2014modelling, ali2015coupled}. 
+Alternatively, the enforcement options (such as quarantine or checkpoint inspections for illegal movement of firewood) are gaining acceptance and may be perceived as more effective localized means to stop the movement of untreated firewood by campers. Nevertheless, assessing the effectiveness of enforcement actions is challenging due to a very small scale of enforcement actions (often implemented by individual states or provinces at selected locations) and lack of compliance data. 
 
-Whether fire suppression changes stand structure in a way that alters susceptibility to beetle attack is a current topic of research.  It has been hypothesized that wildfire encourages variability in spatial structure\cite{seidl2016spatial}, which inhibits the ability of the bark beetle to find hosts and therefore dampens outbreak dynamics. We hypothesize that demographic variability (in the age structure of tree populations) can have a similar effect on MPB outbreaks. Age structure is pertinent because MPB mortality is much higher among larger, and therefore older, trees \cite{axelson2010changes,safranyik2003mountain}. This aspect has been studied in at least two previous models of MPB \cite{lewis2010structured,duncan2015model} and has been found to affect system dynamics, although the additional role of fire was not considered in these models. Our objective is to characterize the model dynamics of an age-structured tree stand subject to disturbance from both fire and bark beetles, and to understand how changes in stand age structure due to wildfire or control measures can influence bark beetle outbreaks. 
-
-
-\section{Methods}
-
-\subsection{Model Description}
-
-Our model is based on a discrete-time model developed by Duncan et al.\cite{duncan2015model}, describing beetle-tree dynamics in a well-mixed, sufficiently large, single-species stand. We expand their model to include fire dynamics by introducing a category for burnt trees, implemented as a Kermack-McKendrick-style contagious process\cite{edelstein1988mathematical}. We also add stochastic forcing to both the infested category and the burnt category. The discrete-time dynamics are defined in terms of population size in the spring of year $n$. Trees killed by beetle infestation die over the course of a few years, becoming a snag (a dead or dying tree that remains standing), until they decompose enough that they no longer shade the forest floor. If a tree is infested in the summer of year $n$, its needles will turn red and it will be a "red snag" in the spring of year $n+1$. Then, in the spring of year $n+2$, a "grey snag" with grey needles. After this it will decay sufficiently that new juvenile trees can grow up in it's place, in year $n+3$. Wildfire also produces snags: a tree that is standing and shading the forest floor but no longer alive. We assume that wildfire clears the forest faster than MPB infections, so a tree that has been sufficiently affected by fire in the summer of year of $n$ becomes a snag in the spring of year $n+1$, and then the following spring, new juvenile trees come up in its place.  {We assume that the forest is at carrying capacity, so new trees can only come up at the locations where trees have died. The forest is assumed to be a monospecies lodgepole pine stand, which are common hosts of MPB in western Canada and the USA.}
+Mechanistic models of forest invasions have been studied for decades \cite{tegner1981population,ludwig1978qualitative}, but explicit modelling and consideration of human factors, and the feedback between humans and the environment is relatively new. Ali et al. and Barlow et al. \cite{barlow2014modelling,ali2015coupled} proposed two models of forest pest spread through firewood transport.  The first study presented a differential equation model, and the second an agent-based model, both assuming that humans are the primary long-distance movers of forest pests. The models proposed in \cite{barlow2014modelling,ali2015coupled} coupled infestation dynamics with the social dynamics. However both studies considered a small and idealized spatial structure: two patches in Barlow's et al. \cite{barlow2014modelling} study and ten patches in Ali‘s et al. model \cite{ali2015coupled}. Often, illegal movement of firewood occurs over large distances and may involve visits to multiple recreational destinations that are connected differently to one another. 
 
 
- {Age structure is incorporated because beetles cannot effectively infest trees less than a certain diameter in size \cite{safranyik2003mountain, alfaro2003dendroecological}. Juveniles grow through the $K$ age categories, with a  probability $(1-d)$ of surviving until the next year. Figure \ref{diagram} illustrates the cycle each category should move through in any particular year.  We define the following state variables: $j_{n,k}$ is the population of juvenile trees of age $k$ at year $n$, $J_n = \sum_{k = 0}^{K} j_{n,k}$, the total number of trees in the Juvenile class, $S_n$ is the population of susceptible trees at year $n$, $I_n$ is the population of infested trees at year $n$, and $F_n$ is the population of burnt trees at year $n$.}
+In this study we consider movement of infested firewood to multiple recreational destinations over a complex recreational travel network. We explore the efficacy of common measures aimed to stop the movement of untreated firewood by recreational travelers. To accomplish this, we propose a mechanistic differential equation model that combines human-mediated movement of forest pests through a camper travel network that includes nonlinear feedbacks from social factors, such as population response to strategies preventing the movement of untreated firewood. We identify three basic methods to stop or slow the spread of invasive pests by transport of infested firewood: public awareness campaigns, direct interception of transported firewood at checkpoints near recreational destinations, and quarantining recreational destination sites for movement of firewood. While the first option is more common, the latter has been implemented seldom over the past decade due to legal and liability constraints \cite{reid2017,weber2006,nearing2012, haack2010incidence}. We implement the options for intercepting the movement of firewood to slow the spread of invasive pests in a mechanistic metapopulation model, and use the replicator equation to represent social learning dynamics (see \cite{henderson2013carrot,barlow2014modelling,bauch2005imitation,hofbauer1998evolutionary}). We also evaluate local quarantine at recreational destinations as an alternative control method. Quarantine means closing the site to visitors for a length of time, in order to reduce the amount of transported firewood and slow spread of invasive organisms from other infested locations. Our implementation of quarantine measures follow common practices aimed to slow the spread of invasive species (such as the spread of emerald ash borer in USaC \cite{muirhead2006modelling,gottwald2001citrus}). We apply our mechanistic model to explore the effectiveness of these control measures to slow the spread of an idealized wood-boring invasive pest moved to a set of recreational destinations by recreational travelers transporting untreated firewood. We apply the model to a network of provincial parks and campgrounds in three provinces of central Canada - Manitoba, Ontario, and Quebec.
 
- {The severity of forest fire in year $n$ in the stand as a function of the previously unburned area is
+\section{Materials and methods}
+
+
+
+We consider a landscape of $N$ patches, where a patch is represented as $i \in [1,N]$. Each patch represents a recreational destination (eg. provincial parks and campgrounds) with associated neighbouring human population centres. Each patch undergoes its own internal pest and social dynamics. We describe the spread of an invasive pest with the movement of firewood through the network of N patches with a mechanistic metapopulation model based on \cite{barlow2014modelling} that captures the spread of an infestation between the patches. The advantage to metapopulation models in this context is suitability for capturing dynamics of a highly fragmented population spread over a broad geographic region. Using the data documenting reservations of provincial campgrounds in Ontario, Manitoba and Quebec (\cite{yemshanov2015optimal}, we created a graph of camper travels which depicts a spatial travel network between origin locations (which correspond to residential addresses of camper travelers) and recreational destinations (campgrounds in provincial parks and historic sites). 
+The camper travel network is described by a graph with coefficients $P_{i,j}$ denoting the relative frequency of camper movements between origin locations $j$ and recreational destination locations $i$ (see more details on spatial data in section \ref{param_section}). Specifically, for a given location $j$, $P_{i,j}$ is the fraction of trips that go from $j$ to $i$ each year, so we have $\sum_{i = 1}^N P_{i,j} = 1$.
+Consider a patch $i$ with an enforcement intervention, such as firewood movement quarantine, or a voluntary firewood surrender checkpoint aimed to stop the flow of untreated firewood from that location. We denote $C_e$ as the percentage of infested firewood that can be intercepted on a route between two locations $i$ and $j$, $0 \leq C_e \leq 1$. Interception at $i$ may reduce the movement of infested firewood from a patch $i$ to other patches $j$, so $C_e$ indicates, in relative terms, the magnitude of interception efforts. 
+
+We also consider a public outreach campaign that can take place at a patch $i$. It is common that only a portion of campers visiting a patch $i$ may be aware of and decide to comply with the public outreach message. We model the social awareness campaign as an increase of the net social cost of transporting firewood. We further conduct sensitivity analyses to compare the efficacy of enforcement vs. outreach measures aimed to stop the movement of firewood and reduce the rates of infestation.
+
+
+\subsection{Pest Spread Model}
+
+ We begin with defining the equation for a population of susceptible host trees that may be attacked by an invasive pest. The pest can be introduced though untreated infested firewood. Variables, their interpretations, and corresponding baseline ranges are shown in Table \ref{t1}. We assume that a tree population that is susceptible to pest attack undergoes logistic growth in the absence of infestation to a carrying capacity $K$. The population of susceptible trees, $S_i(t)$, at a patch $i$ is being infested from firewood arriving with campers at $i$ at a rate $A$: 
+
 \begin{equation}
-P_n = T -\sum_{i=1}^{n}  F_i e^{-\kappa (n - i)}
-\end{equation}
-where the variable $\kappa$ determines the half-life of decaying fuel. In other words, we define the severity or size of a fire in the year $n$ as inversely proportional to the amount of land burned in recent seasons.}
-
-Our model is then defined by:
- {\small{
-\begin{subequations}
-  \begin{alignat}{2}
-    j_{n+1, 1} &= d J_n + I_{n-2} + F_n \protect \label{eq1}\\
-    j_{n+1, k} &= (1-d) j_{n, k - 1} - (\frac{\alpha_1}{T}) P_n j_{n,k},\hspace{0.5cm} k = 2 ... K-1 ,K  \protect \label{eq2}\\
-    S_{n+1} &= S_n + (1 - d) j_{n, K} - (I_n + \frac{\alpha_3}{T} P_n I_n) - \frac{\alpha_2}{T}P_n \left( S_n + (1-d) j_{n, K}\right) - \sigma_F \gamma_n  \protect \label{eq3}\\
-    I_{n+1} &= r_1 I_n e^{-\beta_1 (T - S_{n+1})} - \frac{\alpha_3}{T} P_n I_n + \sigma_I \xi_n  \protect \label{eq4}\\
-    F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{i = 0}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,k}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n  \protect \label{eq5}\\
-    P_{n} &= T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} \label{eq6}\\
-  \end{alignat}
-\end{subequations}
-}}
-A detailed derivation of these equations appears in the Supplementary Information. Descriptions of the variables can be found in Table \ref{params}.  {Fire could have been modelled in a more complex way using a different timescale than seasonal beetle outbreaks, but we chose to simplify the modelling by matching the timestep of the pest outbreak cycles instead. Fire prevalence is also dependent on precipitation patterns, temperature, human activity, and other factors which operate on different time and spatial scales than our model. We assume this risk is roughly constant each year, and that it contributes to the environmental noise experienced by the system denoted by $\sigma_F$.}
-
-\begin{figure*}
-\includegraphics[width = 0.75\textwidth]{chapter_2/table.jpg}
-\caption{Conceptual diagram of compartments (state variables) and transitions between compartments across seasons.  See main text and Table \ref{params} for definitions of variables and parameters.}
-\protect \label{diagram}
-\end{figure*}
-
-\subsection{Forest thinning protocol (FTP) and controlled burning protocol (CBP)}
-
-
-One of the MPB control methods is to thin the forest, or conduct controlled burns, to increase the overall resilience of the forest to outbreaks or wildfire.\cite{safranyik2001effects,sartwell1975,amman1998silvicultural}.  {In this section we modify our discrete process to include a control protocol, which is a simplified description of altering the structure of a growing stand to limit susceptibility to MPB. Define $\tau$ as the fraction of juvenile trees removed from the $m$ oldest juvenile age classes, each year. The removed trees are added to the youngest juvenile class, to model trees replaced by seedlings. Since it is not realistic to perform this every year, we also investigate the effect of performing this protocol every 5 years. We will refer to the preceding protocol as the \emph{forest thinning protocol (FTP)}.}
-
-Let $$X_n = \arg \max_{S \subset [1,50]: |S| = m} \sum_{k \in S} j_n,k$$ be the set of $m$ largest juvenile age classes. Mathematically, for all age classes $k' \in X_n$, we change equation \ref{eq2} to equation \ref{ftp_eq2}. In order to thin the fraction $\tau$ of trees from each age class in $X_n$, we add the corresponding population to $j_{n,0}$.
-\begin{align}
-  j_{n+1,1} &= d J_n + I_{n-2} + F_n + \sigma_F \gamma_n \\ &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right)  \protect \label{ftp_eq1}
-\end{align}
-\begin{equation}
-  j_{n+1, k'} = (1-\tau)\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right),\hspace{0.5cm} k'\in X_n  \protect \label{ftp_eq2}
+\frac{d S_i}{dt} = \underbrace{ r S_i\left(1 - \frac{(S_i + I_i)}{K}\right)}_{\text{Logistic Growth Of Forest}} - \underbrace{A S_i (I_i + B_i)\theta_k(I_i - I_a)}_{\text{Infestation term}}
+\label{S_1}
 \end{equation}
 
-Controlled burning is modelled similarly, but instead we add the reduced age compartments to the $F$ compartment as shown in equation \ref{ftp_f_eq}. We will refer to this modification as the controlled burning protocol (CBP) in the text from here on.
+where $\theta_k(I_i)$ is a sigmoid function such as
 
-\begin{align}
-  F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{i = 0}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,k}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n
-  \\ &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right)\label{ftp_f_eq}
-\end{align}
+\begin{equation}
+    \theta_k(x) = \frac{1}{1 + e^{-k x}}
+\end{equation}
 
-\subsection{Parameters and simulation design}
+ Terms $S_i$ and $I_i$ are the number of susceptible and infected trees, respectively, at patch $i$. $B_i$ is the quantity of infested firewood in patch $i$, which we assume has the same probability of pest transmission within patch as infested trees. We choose the carrying capacity $K$ to be the same in each patch for simplicity. The term $A S_i I_i\theta_k(I_i - I_a)$ represents intra-patch infestation with a density dependent population, parameterized by $k$ and $I_a$, where $I_a$ determines population of infested trees at which transmission is halved, and $k$ is is a constant which affects the sharpness of the transition of $\theta_k(x)$ at $I_a$. We assume that there is an influx of pest organisms entering a patch $i$ with firewood which defines the propagule pressure at $i$. Infested trees at $i$ are assumed to die at a constant rate $\gamma$, giving the following equation for the infested tree population of a patch.
 
-Table \ref{params} contains a list of the parameters used in the model, their interpretation, and their baseline values. Duncan et al. used a similar model with parameters fitted to data as in \cite{agne2016fire}. We performed sensitivity analysis on all other parameters (including all fire-related parameters) as shown in the Results section.
 
-\begin{table}
-\caption{Parameters and baseline values of compound fire and pest model. Except for $\alpha_i$ and the noise magnitude, all parameters were obtained from Duncan et al. \cite{duncan2015model}}
-\begin{tabular}{llll}
-\hline\noalign{\smallskip}
-  Parameter name & Default value & Interpretation & Source \\
-\hline\noalign{\smallskip}
-  $r_1$ & 1.8  & yearly fecundity of beetles & \cite{powell2009connecting}  \\
-  $\beta_1$ & $10.8 \times 10^{-6}$  & search failure rate of MPB & \cite{powell2009connecting}   \\
-  $d$ & 0.01  & annual mortality rate of juveniles & \cite{duncan2015model}  \\
-  $\alpha_1$& - & burning rate of juveniles & - \\
-  $\alpha_2$& - & burning rate of adult trees & - \\
-  $\kappa$& 0.1 & decay rate of fuel & - \\
-  $T$ & 110,000 & total number of trees in stand & \cite{powell2009connecting} \\
-  $K$ & 50 & number of juvenile generations & \cite{duncan2015model} \\
-  $\sigma_F$ & 20 & noise in burnt tree\\
-  $\sigma_I$ & 20 & noise in infested tree\\
-\hline\noalign{\smallskip}
-\end{tabular}
- \protect \label{params}
+\begin{equation}
+\frac{d I_i}{dt} = \underbrace{-\gamma I_i}_{\text{Death of infested trees}} + \underbrace{A S_i (I_i + B_i)\theta_k(I_i - I_a)}_{\text{Susceptible become infested}}
+\end{equation}
+
+The patches are spatially coupled through the transport of firewood by recreational travelers. The infestation rate at $i$ depends on the number of visitors transporting infested firewood to $i$, which is also a function of the social dynamics at $i$, such as the enforcement, or public outreach measures described by a utility function, presented in \cite{bauch2005imitation}, and applied to forest modelling in \cite{barlow2014modelling,satake2007coupled}. Let $L_i$ be the proportion of visitors to patch $i$ who do not transport firewood and buy it locally, and $d$ rate of exportation of infested logs. The rate of infested wood coming into patch $i$ can be estimated as:
+
+$$d\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j$$
+ 
+The dynamics of $L_i$ (the number of local transporters in patch $i$), is modelled by a replicator dynamics model that is suitable for describing systems where social learning occurs \cite{bauch2005imitation,hofbauer1998evolutionary}, and is described in the section below. 
+
+\subsection{Social Dynamics Model}
+
+We model the proportion of visitors who choose to use local firewood, $L_i$ as a function of both the perceived threat of introduced pests, and the social cost of illegally transporting infested firewood. We refer to visitors who choose to use local firewood as local strategists, and visitors who do not use local firewood as transport strategists hereafter. Let $C_t$ be the cost of transporting firewood and $C_l$ the cost to obtain it locally (and therefore avoid moving invasive pests to a patch $i$). We adopt the social influence model from \cite{barlow2014modelling}, which is based on models of \cite{bauch2005imitation} and \cite{ hofbauer1998evolutionary}, which we will summarize below.
+We define the social utilities corresponding to the strategies of transporting firewood ($P_t$) and buying it locally ($P_l$) as 
+
+$$P_t  = - C_t + s(0.5 - L_i) - f I_i$$
+$$P_l = - C_l + s(L_i - 0.5)$$
+
+Transportation becomes a less attractive strategy if infestation is more prevalent, depending on the size of $f$. The parameter $f$ controls the extent to which a local infestation causes behaviour change in that population. The parameter $s$ controls the degree to which individuals are influenced by the the majority opinion in their patch (i.e. peer pressure). We assume that both local strategists and transport strategists in a patch $i$, given by $L_i$ and $1 - L_i$ respectively, decide whether to change their strategy at the same rate, $\sigma$. Their decision is made by considering which strategy will maximize their utility $P_l - P_t$ at that point, leading to the following expression for the rate of change of the local strategist population:
+
+$$\frac{d L_i}{dt} = \sigma L_i (1 - L_i) (P_l - P_t)$$
+
+
+We replace the individual costs of $C_t, C_l$ with the net utility value $U = C_t - C_l$. The cost difference $U$ abstracts from the explicit definition of costs of using firewood \cite{barlow2014modelling} and allows including exogenous social incentives and motivation, such as awareness about the problem or any other form of social influence from outside each location $i$.
+A term $B_i$ is introduced to represent the amount of local firewood available in patch $i$. For simplicity, we assume that the tree mortality rate at a patch $i$ is only caused by infestation, so the mortality rate is the same as the death rate of the infested trees
+\begin{equation}
+\label{b_eqn_1}
+\frac{d B_i}{dt} = \underbrace{-\gamma B_i}_{\text{Decay of fallen wood}} + \underbrace{d\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j}_{\text{Import of fallen wood}}
+\end{equation}
+
+Because the infested wood imported into patch $i$ in Eq \ref{b_eqn_1} must come from another patch in the system, we subtract the corresponding term for leaving wood, $d\sum_{j = 1, j\neq i}^N P_{j,i} (1 - C_e) (1 - L_i)I_i$  from Eq \ref{i_eqn} which describes the rate of change of infested population in a patch $i$. Using the notation in equations (\ref{s_eqn}, \ref{i_eqn}, \ref{b_eqn}, \ref{l_eqn}), we formulate the problem of buying firewood locally vs. transporting it from other potentially infested locations as follows: 
+
+\begin{equation}
+\frac{d S_i}{dt} = \underbrace{ r S_i\left(1 - \frac{(S_i + I_i)}{K}\right)}_{\text{Logistic Growth Of Forest}} - \underbrace{A S_i (I_i+ B_i)\theta_k(I_i - I_a)}_{\text{Infestation term}}
+\protect \label{s_eqn}
+\end{equation}
+\begin{equation}
+\frac{d I_i}{dt} = \underbrace{-\gamma I_i}_{\substack{\text{Death of }\\\text{infested trees}}} + \underbrace{A S_i (I_i+ B_i)\theta_k(I_i - I_a)}_{\text{Susceptibles become infested}}- \underbrace{d\sum_{j = 1, j\neq i}^N P_{j,i} (1 - C_e) (1 - L_i)I_i}_{\substack{\text{Total infested wood }\\\text{leaving due to transport}}}
+\protect \label{i_eqn}
+\end{equation}
+\begin{equation}
+\frac{d B_i}{dt} = \underbrace{-\gamma B_i}_{\text{Decay of firewood}} + \underbrace{d\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j}_{\text{Import of fallen wood}}
+\protect \label{b_eqn}
+\end{equation}
+\begin{equation}
+\frac{d L_i}{dt} = \sigma L_i (1 -L_i)(\underbrace{U}_{\substack{\text{Net cost to}\\\text{transport firewood}}} + \underbrace{s (2 L_i - 1)}_{\text{Social influence term}} + \underbrace{f I_i}_{\text{Impact of infestation}})  
+\protect \label{l_eqn}
+\end{equation}
+
+Table \ref{t1} lists the model notation.
+
+
+
+\begin{table}[!ht]
+\scriptsize{
+
+\begin{tabular}{| p{0.05\linewidth} | p{0.25\linewidth} | p{0.2\linewidth}  | p{0.3\linewidth} |}
+\hline
+  Name &  Default Value,
+  \hline
+(Range explored) & Units  & Interpretation \\
+  $N$ & 2250  & 
+Patches &Number of patches in the network \\
+  $S_i$ & Site specific & Trees  & Number of susceptible trees in patch $i$\\
+  $I_i$ & Site specific & 
+Trees &Number of infested trees in patch $i$\\
+  $B_i$ & Site specific & 
+Trees & Infested firewood in patch $i$\\
+  $L_i$ & Site specific & 
+Unitless &Fraction of local strategists in patch $i$\\
+  $r$ & 0.02, [0.01, 0.06]  & 
+New trees per tree per year &  Tree growth rate\\
+  $A$ & 0.001, [0.00065, 0.0014] & 
+Number of infested trees per susceptible-infested contact per year &  Transmission rate of pest\\
+  $\gamma$& 1.4, [0.8, 1.8] & 
+Trees per year & Decay rate for infested trees\\
+  $K$ & 5000 & 
+Trees & Carrying capacity of each patch\\
+  $U$ & 0, [-5, 5] & 
+Utility &  Social cost to transport firewood, or incentive to buy locally\\
+  $C_e$ & 0, [0.0, 1.0]  & 
+Unitless &Interception fraction \\
+  $f$ & 0.1, [0.01, 0.13] & 
+Utility per capita & Impact of local infection on strategy\\
+  $s$ & 0.1 & 
+Utility per capita & Strength of social norms\\
+  $\sigma$ & 0.1 & 
+Strategy changes per capita per year  & Rate of social learning\\
+  $P_{i,j}$ & See below & 
+Unitless &  Fraction of trips that go from $j$ to $i$ each year.\\
+  $d$ & 0.1 [0.05, 0.3] & 
+Logs per year & Rate of transmission of infested firewood between patches\\
+  $I_a$ & 1 [0.5, 5] & 
+Trees & Value at which transmission rate of pest is halved due to density dependence \\
+  $k$ & 1 & 
+Unitless & Steepness of sigmoid function\\
+  $V$ & Empty, [0 patches, 500 patches] & 
+Patches & Set of patches to be quarantined \\
+  $\Delta t$ & 0, [0, 5] & 
+Years & Length of quarantine \\
+  $t_0 $ & 0, [0, 5] & 
+Years  & Time between initial infestation and patch quarantine\\
+  \hline
+\end{tabular}}
+\caption{Parameters and default values}
+\label{t1}
 \end{table}
+
+\subsection{Patch-quarantine strategies}
+
+
+
+
+Let $V \subset [1,N]$ be a set of patches under a quarantine. We use the patches (nodes of the camper travel network) with the largest (shortest-path) betweenness centrality \cite{freeman1977set,brandes2008variants}, which is a common approach for selecting quarantine nodes in vaccination studies \cite{wang2016statistical}. 
+Betweenness centrality measures the extent to which a node lies on paths between other nodes and is used to detect the amount of influence a particular node has over the flow of information in a graph. The measure is often used to find nodes that serve as critical links between different parts of a graph. Formally, the shortest-path betweenness centrality of a node $i \in V$ on a weighted graph $G$ is 
+
+$$g(i) = \sum_{i\neq s \neq t ; s,t \in G} \frac {g_{s t}(i)}{g_{s t}}$$
+
+where $g_{st}$ is the number of shortest paths between nodes $s,t$ and $g_{st}(i)$ is the number of geodesic paths between nodes $s,t$ that go through node $i$. Both of these measurements calculate path length with respect to the weights of G,. In words, the betweenness centrality $g(i)$ of a node $i$ is the probability that $i$ lies on a shortest path between some two nodes in $G$. 
+In our camper travel network, higher weights denote more frequent trips, so for the purposes of determining the betweenness centrality, the weight of each edge $(i,j)$ is $max_{i,j}(P_{ij}) + 1 - P_{ij}$.
+
+
+ We model the implementation of firewood quarantine strategies at patches $V$ by introducing a time-dependent term in Eqs (\ref{i_eqn}),(\ref{b_eqn}). Let $t_0$, and $\Delta t$ be the starting time of the quarantine and the length of the quarantine respectively. Let $H_c(x,\Delta t)$, defined as
+$$H_c(x,\Delta t) = 
+\begin{cases} 
+      1 & x<0 \\
+      0 & 0\leq x\leq \Delta t \\
+      1 & x > \Delta t
+\end{cases}
+$$
+be an upside-down boxcar function of length $\Delta t$. This function acts as a switch which is "off" whenever $x \in [0,\Delta t]$. With this function, we can modify equations (\ref{i_eqn}),\ref{b_eqn}) so that patches $i\in V$ do not import or export firewood whenever $x \in [0,\Delta t]$.
+\newline\\
+If $i \in V$,
+\footnotesize{
+\begin{equation}
+\frac{d I_i}{dt} = -\gamma I_i+ A S_i (I_i+ B_i)\theta_k(I_i+ B_i)- dH_c(t - t_0,\Delta t)\sum_{j = 1, j\neq i}^N P_{j,i} (1 - C_e) (1 - L_i)I_i
+\protect \label{i_eqn_modified_1}
+\end{equation}
+\begin{equation}
+\frac{d B_i}{dt} = -\gamma B_i+dH_c(t - t_0,\Delta t)\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j
+\protect \label{b_eqn_modified_1}
+\end{equation}}
+\newline\\
 \normalsize
 
-To generate parameter planes, we simulated equations \ref{eq1}-\ref{eq6} across a grid of parameter values.  We conducted 100 simulations for each point on the parameter grid and computed the average outcome for that grid point.  We also recorded a representative sample of the resulting time series. We found the dominant period of the outbreaks by finding the frequency with maximum modulus via the discrete Fourier transform of the time series. In the deterministic case (with no noise), this frequency is the period of the periodic solution. When noise is added and the system becomes stochastic, there is no longer a clear periodic solution, but it is possible to estimate the mean of the distribution of the period by averaging the dominant frequency of the system at equilibrium. The period is assumed to be 1, corresponding to a (stochastic) steady state, if the smallest and largest values of the susceptible timeseries were sufficiently close together. The model and analysis of model output were coded in Julia. Throughout the results section, we mostly focus on the $\alpha_1,\alpha_2$ plane. We kept the remainder of the parameters constant as it was possible to set their values from empirical literature as described above.
+Note that the only difference in the new equations (\ref{i_eqn_modified_1}),(\ref{b_eqn_modified_1}) from (\ref{i_eqn}),\ref{b_eqn}) is in the last term denoting the interactions with neighbouring nodes. The equations for patches not in under quarantine (i.e., not in $V$) require us to distinguish arcs that connect to and from nodes under quarantine in $V$.
+\newline\\
+If $i \notin V$,
+\footnotesize{
+\begin{align}
+\label{i_eqn_modified_2}
+\frac{d I_i}{dt} = -\gamma I_i+ A S_i (I_i+ B_i)\theta_k(I_i+ B_i) &- \sum_{j = 1, j\neq i, j \notin V}^N P_{j,i} (1 - C_e) (1 - L_i)I_i\\ &-  dH_c(t - t_0,\Delta t)\sum_{j = 1, j\neq i, j \in V}^N P_{j,i} (1 - C_e) (1 - L_i)I_i \nonumber
+\end{align}
 
+
+\begin{equation}
+\frac{d B_i}{dt} = -\gamma B_i+ \sum_{j = 1, j\neq i, j\notin V}^N d P_{i,j} (1 - C_e) (1 - L_j)I_j  +dH_c(t - t_0,\Delta t)\sum_{j = 1, j\neq i, j\in V}^N P_{i,j} (1 - C_e) (1 - L_j)I_j 
+\label{b_eqn_modified_2}
+\end{equation}}
+\normalsize
+
+In equations (\ref{i_eqn_modified_2}),(\ref{b_eqn_modified_2}) we split the summation term into two summations, one over all patches which are not under quarantine (i.e., not in the set $V$) and patches under quarantine in $V$. The latter summation is multiplied by a term, $H_c(t - t_0,\Delta t)$ which switches on and off the quarantine conditions.
+\subsection{Parameterization \label{param_section}}
+We used data from \cite{koch2014using} and \cite{yemshanov2015optimal}, to quantify the risk of firewood transport to recreational destinations in Central Canada. The data documented the movements of campers to provincial campgrounds in Ontario, Quebec and Manitoba. Such data are maintained by provincial ministries of natural resources (MNRs). The dataset included a large number of potential origin sites (i.e., approximately 9000 locations). To reduce the computational burden, we reduced the size of the camper travel network by including all recreational destination locations but considering only the origin locations in the Canadian provinces of Ontario, Manitoba, and Quebec. We further reduced the size of the network by selecting most travelled routes. We selected the largest subgraph with a minimum degree of 10 (the 10-core of the graph) which considered only the most connected nodes, with largest impact on pest transmission. We implemented the procedure using the NetworkX library \cite{hagberg2008exploring}. The final camper travel network included 2250 sites (Fig \ref{coregraph}).
+
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=300px]{chapter_2/core_graph_plot.png}
+\caption{\textbf{Camper travel network in Ontario, Quebec and Manitoba.} Darker (more orange) lines represent more trips.}
+\label{coregraph}
+\end{figure}
+
+
+Because the model uses a large camper travel network it has a very large parameter space, and many of the parameters, especially those in Eq \ref{l_eqn}, are difficult to estimate directly from data. In this study we are exploring the region of parameter space that most closely approximates the dynamics in real infestations, such as the typical size and duration of the recent emerald ash borer outbreak in eastern Canada. To select the most relevant range of the social influence parameters, $\sigma, s, f$, which are difficult to estimate from the literature, we did sensitivity analyses over a wide range of these parameters, and identified the parameter space where these parameters had the largest effect on the model dynamics, and where the course of the invasion was realistic. The inter-patch and intra-patch infection rate parameters, $d, A$, were selected to infest and eventually kill at least 95\% of the tree population within 10 to 15 years.
+
+We integrated equations (\ref{s_eqn}-\ref{l_eqn}) using code written in the Julia language, using the JuliaDiffEq library \cite{rackauckas2017differentialequations}. The integration was run on the Compute Canada clusters. Our primary focus was to explore the relative impacts of firewood enforcement versus public outreach and their abilities to reduce pest infestation rates across the camper travel network. We consider a hypothetical scenario where a harmful invasive pest is introduced in the largest urban center in eastern Canada with foreign imports (Greater Toronto Area, GTA) and assume that the bulk host tree population in the GTA is infested. This scenario is based on a history of past entries of invasive wood-boring pests to the GTA with foreign imports (such as introduction of Asian longhorned beetle in Toronto and Mississauga \cite{turgeon2015decade}).
+
+
+\subsection{Assessing intervention efficacy}
+
+The primary statistic we use to assess the total mortality of an infestation after $t$ years is the average cumulative infested population, $\frac{1}{N} \sum_{i=1}^N T_i(t)$. To calculate $T_i(t)$, the cumulative infested population at patch $i$ and time $t$, we solve the following equation in addition to the model equations.
+
+\begin{equation}
+    \frac{dT_i}{dt}= A S_i (I_i+ B_i)\theta_k(I_i - I_a)
+    \label{sum_eqn}
+\end{equation}
+
+The right-hand side of equation \ref{sum_eqn} is the only positive term of equation \ref{i_eqn}, so it increases when new infested trees are added to $I_i(t)$, but does not decrease when infested trees die, thereby counting the total number of infestations.
+
+Since it is difficult to determine what utility value $U$, which defines the social cost of transport, corresponds to the current level of funding, we try to answer whether it would be beneficial to increase the funding, which we call the marginal benefit of increasing $U$. Given a time $\bar{t}$, we calculate $T(\bar{t})$ for a set of $U \in [-5,5]$, then we fit a linear function of $U$ to these points. We find a first-order approximation of $T(\bar{t})$ change per unit $U$ (Fig \ref{effectiveness_inset}) for a given set of parameters and time $\bar{t}$. A positive slope indicates that total infested tree population increases when $U$ is increased, which means that increasing $U$ does not reduce the impact of the pest (at least, to a first approximation). In figures (\ref{effectiveness_inset}) - (\ref{A_v_d}) this method is used to show how the total number of infested trees changes with respect to an increase in $U$, as a function of parameters and time.
+
+
+
+% Results and Discussion can be combined.
 \section{Results}
-We first characterize the dynamical regimes of the model as a function of the burning rates $\alpha_1$, $\alpha_2$, and the decay rate $\kappa$. Then, we describe how the forest responds to the CBP described previously. Note that the susceptible class refers to mature trees, i.e., those large enough to be susceptible to infestation by MPB. Maximum outbreak sizes and fire season sizes are taken over a $500$ year period.
 
-\subsection{Dynamical regimes}
+In our baseline scenario (Fig \ref{ts}, parameters as in table \ref{t1}), the model shows a typical pest outbreak originating in the GTA infesting all campgrounds in Ontario, Manitoba and Quebec over 10-20 years. This agrees with the observed timescale of the recent infestation of emerald ash borer (EAB) which entered Ontario in 2002 and now has infested most major populated places in the province \cite{cfia_2019}.
 
-There are roughly two equilibrium dynamical regimes in the $\alpha_1, \alpha_2$ parameter plane, although the sizes of the equilibrium populations varies continuously with the parameters inside each dynamical regime. The shapes of these dynamical regimes are affected by the rate of fuel decay, $\kappa$. 
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_2/a1_a2_phase.pdf}
-\caption{Approximate dynamical regimes of the system, where $\alpha_1$ is the burning rate of juvenile trees, and $\alpha_2$ is the burning rate of susceptible (mature) trees. a) Average size of largest MPB population (over 500 years at equilibrium) b) Average frequency of MPB outbreaks at equilibrium c) Average size of largest fire season (over 500 years at equilibrium) d) Average frequency of severe fire seasons at equilibrium. The juvenile burning rate ($\alpha_1$) and susceptible burning rate ($\alpha_2$) control fire and MPB prevalence. Large $\alpha_1,\alpha_2$ implies low infestation and also more regularity in the fire regime. All other parameters were set to baseline values (Table \ref{params}).}  
-\label{dynamical_regimes}
+
+
+First we discuss the timeseries plot of the baseline parameters (Table \ref{t1}), where the model variables are averaged over all of the patches for easier visualization (Figure \ref{ts}). Accordingly, we define $I(t) = \frac{1}{N} \sum_{i = 1}^N I_i(t)$, $B(t) = \frac{1}{N} \sum_{i = 1}^N B_i(t)$, $L(t) = \frac{1}{N} \sum_{i = 1}^N L_i(t)$, to be the average infested tree population at $t$, the average quantity of infested logs at $t$, and the average fraction of local strategists at $t$, respectively. In figure \ref{ts}, we find that increasing $U$ (the social cost to transport firewood) increases the number of local strategists $L(t)$ (Fig \ref{ts}h) —people who choose not to transport firewood between patches— and also reduces the size of the invasion, (Fig \ref{ts}f) and the average number of infested logs, $B(t)$ (Fig \ref{ts}g). Although the reduction in B(t) is significant (as shown by the large differences in light red and dark red time series in Fig \ref{ts}g), the flattening of the curve for infested trees (Fig \ref{ts}f) is comparatively less significant. We can compare this with the result of increasing the fraction of infested logs intercepted between patches, $C_e$ (\ref{ts}a,b,c,d). Increasing $C_e$ decreases the number of infested trees, the delays the peak of the outbreak (Fig \ref{ts}b,c). The delay in the peak of the outbreak also appears to cause the lag in $L(t)$ (Fig \ref{ts}d). Social incentives appear to be very effective at reducing $B(t)$ while being less effective at reducing $I(t)$. This indicates that a shift from transport strategists to local strategists primarily occurs in areas that have already been infested. This effect does not occur with direct interception of infested firewood. Notably, direct interception is difficult to implement effectively, as even after intercepting high proportions of the infested wood transport, the corresponding decrease in $I(t)$ remains low (Fig \ref{ts}b). 
+
+
+ \begin{figure}[!h]
+\includegraphics[width = \textwidth]{chapter_2/timeseries.png}
+\caption{\textbf{Time series of model variables as a function of interventions, direct (raising $C_e$, panels a - d) and through social pressure (raising $U$, panels e - h)}. The former intervention, panels a-d, means an increase of social pressure on people who choose to transport firewood (i.e. increasing the $U$ value), and the latter refers to direct interception of firewood (i.e. increasing the $C_e$ value). Terms $L(t) = \frac{1}{N} \sum_{i = 1}^N S_i(t)$, $I(t) = \frac{1}{N} \sum_{i = 1}^N I_i(t)$, $B(t) = \frac{1}{N} \sum_{i = 1}^N B_i(t)$, $L(t) = \frac{1}{N} \sum_{i = 1}^N L_i(t)$ are the averages of the state variables over all patches. $S(t)$ has been omitted for brevity.}
+\protect \label{ts}
+\end{figure}
+
+In Fig \ref{ct_v_ce} we show the total number of infested trees at time $t$, $T(t)$, with respect to combinations of $U$, the social cost to transport firewood, and the fraction of infested firewood intercepted, $C_e$. If the fraction of intercepted infested firewood, $C_e$, is greater than 80\%, we see a sharp reduction in the total infestation, $T$, even after 20 years (Fig \ref{ct_v_ce} c), but lower interception rates have little effect unless the social cost to transport $U$ is above the threshold seen in panel c) (Fig \ref{ct_v_ce}). Over a shorter time scale, increasing $C_e$ appears to be effective at all interception rates. 
+
+
+The parameter $f$ controls how the proportion of strategists in a given patch $i$ ($L_i(t)$) responds to the population of infested trees ($I_i$) in that patch (eqn \ref{l_eqn}). Since social incentives (such as an intervention to human-mediated pest transport) tend to be less effective because they prevent firewood transport mostly in the areas that have already been colonized by pests (as suggested in Fig.\ref{ts}), we consider how the parameter $f$ affects the marginal returns on $U$ over time (Fig\ref{effectiveness_inset}). The shade of the blue region in Fig.\ref{effectiveness_inset} represents the degree to which increasing $U$ is beneficial, corresponding to a negative slope in the linear approximation of the change in $T$ with respect to $U$ (Fig \ref{effectiveness_inset} inset). Similarly, a red cell indicates non-negative slope and therefore a neutral or detrimental marginal effect. We begin to see the benefit of increasing $U$ after about 10 years, shown by the transition from lighter blue to dark blue as we move from the bottom of the image to the top (Fig \ref{effectiveness_inset}. This relationship is only affected slightly by altering the impact of local infestation on local strategy, $f$, where we begin to see slightly detrimental marginal returns after 10 years if $f < 0.04$.
+
+Similarly, we have compared the marginal returns on increasing $U$ with respect to the intra-patch transmission rate $A$ and time $t$ (Fig \ref{A_v_time}). When $A$ is small ($A \leq 0.0009$, beneficial marginal returns on $U$ can be observed over the whole duration of the infestation. We further explore the impact of varying the rate of transmission of infested firewood between patches, $d$ (Fig \ref{A_v_d}). We find a roughly parabola-shaped region in the parameter plane of intra-patch and inter-patch transmission rates ($A$ and $d$ respectively), above which the marginal returns of increasing $U$ are zero or possibly detrimental to the size of the total infested population after 10-20 years. Larger intra-patch transmission rates enable the pest population to establish earlier in a given patch by propagules. We see good marginal return in parameter regimes where few transport strategists (high $L(t)$) would reduce the reproductive ratio of the infection below 1. For instance, at the point $(A,d) = (0.00126,0.103)$ , increasing $U$ is able to delay and eventually prevent a second wave, which decreases the total number of infected trees significantly (SI Fig 1). If the transmission rates $A,d$ are high enough that even with no transport strategists, we get a second wave of infection, the effect of increasing $U$ can be slightly detrimental (SI Fig 2). Panel f) of the aforementioned figures plots the number of patches where $I \geq 1$ over time, showing that the detrimental effect is largely due to the infection persisting longer in the network. 
+
+
+\begin{figure}[!h]
+ \centering
+\includegraphics[width  =\textwidth]{chapter_2/ct_v_ce_plane.png}
+\caption{\textbf{Total infestation per node over 5, 10 and 20 years.} Neither increasing $U$ nor $C_e$ are effective at long time scales.}
+\protect \label{ct_v_ce}
 \end{figure}
 
 
-    As $\alpha_1, \alpha_2$ increase, the model displays larger, and more regular fires, and smaller MPB outbreaks (Figure \ref{dynamical_regimes}). When $\alpha_1, \alpha_2$ are small and not equal, years with severe fire seasons roughly follow the same period as MPB outbreaks. The variation in fire season size is more pronounced when $\alpha_1$ is either much larger or smaller than $\alpha_2$. The presence of large even-aged stands is determined by the size of the infestation outbreaks, since they can only affect sufficiently old (susceptible) trees (Figure \ref{z1}).
-    }
-    \begin{figure}
-      \includegraphics[width=\textwidth]{chapter_2/z1_ts.pdf}
-      \caption{Time series of each state variable of a single realization where  $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$ , showing the regular outbreaks of pests, periodic shifts in fire prevalence, and uneven age distribution generated by MPB outbreaks. a) juvenile distribution at time $t=2050$ (note different x-axis), b) susceptible population after year $t$, c) infested tree population after year $t$, d) burned forest after year $t$. All other parameters were set to baseline values (Table \ref{params}).}
-      \label{z1}
-    \end{figure}
-    
-\subsection{Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)} 
 
-The model predicts that the FTP described in section 2.2 (remove a fraction $\tau$ of trees in the $m$ oldest juvenile age classes each year) is an effective way to control MPB outbreaks, as long as control intensity parameters are sufficiently large. We consider trimming fractions $\tau$ up to $0.15$, and the number of age classes trimmed $m$ up to 8.
-
-
-The FTP reduces the size of MPB outbreaks differently depending on the values of $\alpha_1,\alpha_2$ (Figure \ref{trim_gain}). The parts of the parameter regime where thinning is most effective at reducing MPB outbreak sizes occur when $\alpha_2$ is large and $\alpha_1$ is small, where we see approximately 70\% smaller MPB outbreaks (Figure \ref{trim_gain}a). Generally, parameter ranges where MPB is more prevalent experience the largest reductions. With $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$, there is a reduction in maximum outbreak population of about 30\% when thinning the largest 8 stands by 15\% each year (SI Figure 1a). With $\alpha_1 = 0.01$, $\alpha_2 = 0.006$, MPB populations are already dampened by the fire regime, but MPB outbreak peak population sizes are reduced from roughly $1600$ infested trees to $800$ infested (SI Figure 1b). A similar practice conducted every five years is almost as effective as the yearly trimming (Figure \ref{trim_gain}b). Increasing the heterogeneity of the age distribution in this way always reduces MPB populations by some amount. If we apply the CBP instead (see Equation \ref{ftp_f_eq}), then controlled burns are largely effective with significant MPB populations, but can worsen outbreaks by up to 80\% in regions were the MPB outbreak size is already small (Figure \ref{trim_gain}c). 
-
-FTP, and to a lesser extent CBP, does not simply indirectly reduce the number of susceptible trees (and therefore available MPB hosts) but rather flattens the age distribution better to reduce the occurrence of large, even aged, stands. We compare the average susceptible population (Figure \ref{trim_susceptible}) with and without FTP/CBP and find that in large parts of the parameter regime, the susceptible population is unchanged or increased, despite MPB outbreak sizes being reduced in most areas. Figure \ref{trim_ts} shows a time-series at the same parameters as Figure \ref{z1}, except with FTP flattening, to show the flattening of the age distribution.
-
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_2/a1_a2_trim_gain.pdf}
-  \caption{Percentage change in maximum MPB infestation size within 500 year period under a) FTP with $\tau = 0.15, m = 8$, b) CBP with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$, compared to no FTP. FTP is always effective at reducing MPB outbreaks, and CBP worsens them if the population of MPB is already low.}
-  \label{trim_gain}
-\end{figure}
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_2/z1_ftp.pdf}
-  \caption{Time series showing realization of model under FTP with $\tau = 0.15$ fraction of $m = 8$ juvenile stands cleared, conducted each year, where  $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$.  a) juvenile distribution at time $t=2050$ (note different x-axis), b) susceptible population after year $t$, c) infested tree population after year $t$, d) burned forest after year $t$.  Notice the flattening of the age distribution compared to the same parameters with no FTP (Figure \ref{z1})}
-  \label{trim_ts}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width = \textwidth]{chapter_2/p1.jpg}
+    \caption{\textbf{Efficacy of social incentives on infestation after time $T$. Inset graph shows an example of cross-section along the line $f = 0.11$} The influence of infestation on transport strategy, $f$, can hinder the intervention by public outreach, in the long-term (after approximately 20 years). The inset figure illustrates how one column in the heat map, shown by the dotted line, is constructed from the slopes of linear approximations of $T(t)$ over $U\in [-5,5]$. The blueness of the lines going left to right is a function of their slope, corresponding to the color of the cells in the heatmap.}
+    \label{effectiveness_inset}
 \end{figure}
 
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_2/a1_a2_trim_susceptible_loss.pdf}
-  \caption{Percentage change in average susceptible (mature) forest population compared to no FTP with  $\tau = 0.15, m = 8$, b) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$. FTP and CBP increase the average population of mature trees in many cases, in addition to reducing outbreak sizes.}
-  \label{trim_susceptible}
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{chapter_2/A_v_time.png}
+\caption{\textbf{Efficacy of social incentives on infestation after time period $T$ with respect to $A$, the intra-patch infestation parameter.} This intervention becomes ineffective over time if $A$ is sufficiently large.}
+\protect \label{A_v_time}
 \end{figure}
-\section{Discussion}
-
-In this paper we used a mathematical model of pest and fire dynamics in pine forests to show how fire can suppress beetle outbreaks. The effect is related not only to the assumption of competition between fire and beetles in the model, but also due to the impact of fire on the age structure of stands: fires remove many large, mature trees and make space for rapidly growing juvenile populations that are not susceptible to forest pest outbreaks. The behaviour of the fire-beetle system is due to the fact that susceptibility to fire cuts across all age classes, compared to beetle outbreaks that affect mostly mature age classes.  We show that large outbreaks of wildfires and beetle outbreaks inhabit the same dynamical regime, and that very small beetle populations are consistent with a regular fire regime.  These results echo ecological evidence from Kaufmann et al.\cite{kaufmann2008status} and Seidl et al.\cite{seidl2016spatial} showing that a consistent fire regime can dampen outbreaks of bark beetle in a serotinous forest stand.  Furthermore, we showed how a stand thinning protocol can significantly reduce tree mortality due to MPB outbreaks in forests prone to both fire and beetle outbreaks. Only a small intensity of thinning is required to see significant results. Prescribed burning has a similar, although less significant, effect on the age structure of the forest, and therefore similarly dampens MPB outbreaks. Prior to the arrival of European colonists, indigenous americans routinely burned areas in western North America \cite{barrett1982indian}, these practices were not recognized as beneficial by colonial governments, and were outlawed \cite{boyd1999indians}.
-
-\textit{Implications for Fire/beetle management}
-
-Our work provides support for the practice of thinning forest stands to create more heterogeneity in age structure \cite{jenkins2012fuels,negron2017large}, despite the absence of spatially explicit dynamics in our model. We show that even small changes to the demographics of forest stands can result in large shifts in forest dynamics, dampening out oscillating disturbance patterns and thereby increasing stand resilience. Using an abstract model for this purpose hopefully allows the evidence to generalize better over the wide range of possible ecosystem parameters.
-
-\textit{Evidence in literature for dynamical regimes described}
-
-Broadly, our model can describe the current dynamical regime of stands of pine forests in the western interior with low fire susceptibility parameters $\alpha_1,\alpha_2$ (the bottom right-hand corner of Figure \ref{dynamical_regimes}a) depending on the location and time. Our model represents a single stand with autonomous parameters, and in reality, there are probably many possible dynamical regimes coexisting across the landscape and through time. Taylor and Carroll \cite{taylor2003disturbance} studied the wildfire and MPB history of interior British Columbia, and also found this dynamic regime, albeit with decreasing prevalence of wildfire and increasing MPB outbreaks through the 20th century. They find that the low frequency and severity of wildfire has increased the percentage of pine in susceptible age classes to 55\%, consistent with our estimate for low $\alpha_1,\alpha_2$ (see Figure \ref{z1}a for an example of the large susceptible stands in this dynamical regime). Axelson et al. \cite{axelson2009influence} records that, for their study area in southern interior British Columbia, there has been a fire-free interval of over 100 years. While this period is much longer than in our model, a trend towards higher variance in fire periods does match our model for the aforementioned parameter range, and a more complex fire model could potentially capture this additional complexity. They also record an average return time of 36 years for MPB in their area, consistent with our estimate for sufficiently low burning parameters. Kulakowsi et al. \cite{kulakowski2012stand} records a similar dynamic regime as \cite{axelson2009influence} for the 20th century, but more frequent fire outbreaks, more closely matching this model. 
-
-\textit{Implications for Forest Ecosystems}
-
-The dry pine forest ecosystem that we model in this paper is home to many vertebrates who react to disturbance, biotic and otherwise, in different ways. Many wood-boring birds use MPB as a food source \cite{norris2008mountain,powell2002measuring}. Of these bird species, the three-toed woodpecker (\textit{Picoides dorsalis} and hairy woodpecker (\textit{Leuconotopicus villosus}) depend significantly on bark beetles as a source of food \cite{leatherman2012mountain}. Accounts estimate that they make up about 23\% of the woodpeckers diet on an average year \cite{beal1911food}, although during outbreak years the fraction could be much larger \cite{leatherman2012mountain}. Woodpeckers increase their reproduction rate during outbreak years of MPB \cite{edworthy2011woodpeckers}, so dampening MPB outbreaks could be detrimental to bird populations, although there are feedbacks here that warrant further study. At least one predator of MPB, the black-backed woodpecker (\textit{Picoides arcticus}), is heavily dependent on wildfires for habitat. Therefore, improving forest heterogeneity would likely also improve resilience in woodpecker populations which depend on these disturbances for habitat. Small mammals that inhabit western pine forests differ on their preference for burn-cleared habitat \cite{zwolak2009meta}. Mammals such as the deer mouse (\textit{Peromyscus maniculatus}) strongly prefer burn clearing \cite{zwolak2008deer}, while the red backed-vole (\textit{Myodes gapperi}) favors undisturbed stands \cite{zwolak2009meta}. Increasing heterogeneity would improve the availability of both open stands for species which prefer the former habitat and closed, undisturbed stands for species which favor the latter. The impact of our results for these ecosystems are likely to be significant, but due to the complex feedbacks mentioned in these relationships, it is difficult to know without extending the model and further empirical data on the strength of these feedbacks.
-
-The primary goal of this paper was to build on work on the age structured models of beetle-infested stands\cite{duncan2015model} to a dynamical situation with a more complex disturbance regime that includes wildfire, a common feature of the forests inhabited by MPB. The modelling of fire spread is a very complex problem which is dependent on many variables which are not modelled here.  Moreover, the beetle infestation model we used was relatively simple, necessitating use of a simple fire model as well in order to retain tractability of the model. We opted for a simple approach derived from the compartmental modelling literature.The dynamics we see here are an average case, so a more sophisticated fire model would yield more detailed results. The assumed impact of fire on all age classes, and the mechanism through which we model fire spread could also be refined in future work. Snags are also not considered burnable material, which may have an effect on some of the dynamics. We chose not to include these to reduce the number of parameters, especially parameters for which we don't have empirically-derived values. Lastly, the parameters which we drew from Duncan et al. \cite{duncan2015model} were not tested for sensitivity, and therefore our findings could be affected by these values. 
-
-A number of other approaches that relax our simplifying assumptions could be explored in future research. Other models combine annual difference equations with continuous time intra-year equations \cite{strohm2016impacts,lynch2006influence,casagrandi1999minimal}. A continuous time summer phase is one way we could more accurately explicitly model a wildfire season. The FTP is straightforward and corroborates the findings of similar work with more complex mechanisms \cite{strohm2016impacts}. Nevertheless, our control strategies could be significantly more detailed and take into account fire-regimes and current susceptible population. Our goal was to illustrate that we can take advantage of the system dynamics by flattening the age distribution through burning a small percentage of juvenile trees, but more complex strategies might be more efficient. Spatial models would provide even more possibilities for control options. We did not explore the complex relationship between bark beetle emergence and temperature. MPB life-cycles are heavily regulated by temperature: warm years can cause more than one generation to emerge in a season, and severe cold can wipe out large populations. The higher precipitation and temperatures predicted by models of climate change imply conditions more conducive to MPB reproduction and therefore MPB outbreaks. Fire season intensity is also affected by temperature, and some evidence suggests that increasing temperatures and earlier snowmelts are probably creating worse fire seasons in this area \cite{westerling2006warming}. 
-\mdseries
-Serotinous forests will be subject to very different environmental regimes in coming decades that involve multiple stressors. We have demonstrated how a model can explore the impact of fire and control protocols on tree stand age structure and thus MPB outbreaks. Future models that account for multiple disturbance mechanisms could be useful for anticipating how forests will respond to novel environmental regimes in the rest of the twenty-first century. 
 
 
-\section*{Funding}
-This research was supported by an NSERC discovery grant to Chris T. Bauch and Madhur Anand.
 
 
-\section*{Conflicts of interest/Competing interests}
-The authors declare no competing interests.
-
-\section*{Availability of data and material}
-
-Not Applicable.
-
-\section*{Code availability} (software application or custom code)
-
-The source code for this work can be found at the author's public git repository: \url{https://git.uwaterloo.ca/pjentsch/fire-mitigates-bark-beetle-outbreaks-in-serotinous-forests}
+\begin{figure}[!h]
+\includegraphics[width = \textwidth]{chapter_2/A_v_ct_v_d_marginal_gain.png}
+\caption{\textbf{Efficacy of social incentives on infestation after time $T$ intra-patch spreading rate $A$, affects infestation outcomes.} The social incentive to not transport firewood, $U$, is more effective with lower pest spread rates.}
+\protect \label{A_v_d}
+\end{figure}
 
 
-\section*{Authors' contributions}
-All authors conceived ideas for the study. PCJ designed and coded the model, performed analyses, created figures, and drafted the manuscript. All authors revised the manuscript
+We also explored the effectiveness of patch quarantine by replacing model equations (\ref{i_eqn}) and (\ref{b_eqn}) with equations (\ref{i_eqn_modified_1})-(\ref{b_eqn_modified_2}). This replacement prevents individual patches (nodes in a set $V$) with the highest betweenness centrality (with respect to the weights $P_{ij}$) from interacting with their neighbours during the time of the quarantine $(t \in [t_0, t_0 + \Delta t])$. Imposing quarantine on these nodes is expected to have the greatest impact on pest transmission rate. If the quarantine is initiated one year after the pest is introduced into the system (that is, $t_0 = 1.0$) then we find a significant reduction in total infestation even if only 50 patches are quarantined ($|V| = 50$) assuming they are quarantined for more than a year, shown in Fig \ref{patch_quarantine_figure_t_0}. However, in our model, we find that quarantines need to be longer than approximately three years, and involve more than 150 nodes to still be effective in reducing the total infested population after 20 years $T(20)$. An interesting result in our quarantine plots is that we see a slightly larger range of effective parameter values if the quarantine begins after two years, $t_0 = 2.0$ (Fig \ref{patch_quarantine_figure_t_1}), rather than one, $t_0 = 1.0$. This effect is probably due to the delay in infestation after the model is initialized, which can be seen by the local minimum in the infestation timeseries (Fig \ref{ts}b,f). 
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width =\textwidth]{chapter_2/node_quarantine_plot_1.0.png}
+    \caption{\textbf{Average total infested trees ($T(t)$) after 5, 10 and 15 years (panels a),b), and c) respectively), assuming the quarantine begins one year after the pest is introduced.} Total infestation plotted with respect to the number of nodes quarantined ($|V|$) and the length of the quarantine ($\Delta t$). The quarantine is effective over 5 years with only 50 patches, provided they are closed for over a year.}
+    \label{patch_quarantine_figure_t_0}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width =\textwidth]{chapter_2/node_quarantine_plot_2.0.png}
+    \caption{\textbf{Average total infested trees ($T(t)$) after 5, 10 and 15 years (panels a),b), and c) respectively), assuming the quarantine begins two years after the pest is introduced.} Total infestation plotted with respect to the number of nodes quarantined ($|V|$) and the length of the quarantine ($\Delta t$).}
+    \label{patch_quarantine_figure_t_1}
+\end{figure}
+
+
+\section{Conclusion}
+
+We presented a model coupling human social behaviour regarding transport of infested firewood through recreational travel with a model of the spread of an invasive forest pest. Our main focus was to compare, in relative terms, common measures for slowing the spread of invasive species with firewood transport, such as public outreach campaigns aimed to raise awareness about the problem, and enforcement measures, including inspections at checkpoints to control the movement of firewood, and location-specific quarantine. The model is parameterized with campground reservation data for provincial parks and campgrounds in the provinces of Ontario, Manitoba and Quebec, Canada and incorporated spatial information on the topology and geographical configuration of the camper travel network.
+
+Under the assumptions of our model and a particular camper travel network configuration used in our model, checkpoints to control the movement of untreated firewood are unlikely to be effective at slowing the spread of invasive forest pests with firewood transport given typical moderate levels of funding and long delays in the response measures. We find the rate of interception to halve the total infested tree population after 5 years is about 30\% (Fig \ref{ct_v_ce}), which is unlikely to be achieved in practice given typical limited budgets and personnel constraints in present-day firewood control programs. Given that our model uses somewhat simplified assumptions and does not account for fine-scale logistical constraints (which are inspectors may face in various spatial locations) the actual rate of interception is likely to be lower in practical conditions. While a previous study \cite{barlow2014modelling} that used a similar model has demonstrated that social incentives may improve outcomes in a two-patch model under equilibrium conditions, we have found that in our complex landscape network, the outcomes of infestation and invasion control measures are highly dependent on the time scale and the characteristics of the invaders, such as the inter-patch and intra-patch infestation rate. Social incentives (which aim to decrease the transport of firewood, $U$), are generally able to reduce the infestation rate in the short term but its effectiveness is highly dependent on the ability of the pest to spread and infest other locations (Fig \ref{A_v_d},\ref{A_v_time}) under the conditions we have explored. Humans in our model tend to reduce their transport of firewood between patches in already infested areas, which causes the pest to persist longer in the network (Fig \ref{ts}). Our results show that there could exist a threshold in the pest transmission rate $A$ and the proportion of the infested wood which is turned into firewood, $d$ (Fig \ref{A_v_d}). Below this threshold, it would not be beneficial to increase social outreach (i.e., increase $U$). This insight could be helpful in determining the spatial allocation of firewood movement control efforts for a particular pest species. We have also found that the location-specific quarantines that aim to restrict the movement of firewood to/from a particular location, might only be effective at slowing the invasion spread if a sufficiently large number (at least 140 in our case) of highly connected locations is quarantined, and the quarantine is established at early stages of infestation (Fig\ref{patch_quarantine_figure_t_0},\ref{patch_quarantine_figure_t_1}).
+
+Given the typical cost limitations and logistics constraints faced by today’s firewood control programs, and the assumptions made in our modeling framework, it is unlikely that local quarantine measures could significantly slow the spread of invasive pests through firewood unless drastic control and quarantine measures are undertaken. Public outreach campaigns, while helping increasing awareness of problem, cannot reliably slow the spread of pests within the parameter values tested, when the invasion spreads through a network based on camper travel data in Manitoba, Ontario and Quebec. Within our model, public outreach could be more effective for slow-spreading pests when the organism is able to kill host trees quickly but does not have significant spread capacity (that is, the inter-patch and intra-patch infestation rates are sufficiently small). Direct intervention, such as checkpoint inspections for illegally transported firewood, is also not an option, because meaningful outcomes can only be achieved if significant fractions of firewood transports can be intercepted. We find that patch quarantine is effective at slowing, or even stopping, the spread of an invasive forest pest when a large number of highly-connected patches are quarantined, for a long enough period. Our results in general terms agree with a present-day situation when numerous outreach and local quarantine measures had limited impact on illegal transport of firewood by campers and failed to slow the spread of wood-boring pests transported with untreated firewood. Our results also indicate that the enforcement campaigns aimed to intercept illegal movement of untreated firewood can only be effective if implemented at very large spatial scales in timely fashion (which, in turn, would require massive amounts of funding and personnel support).
+
+There are some shortcomings to our model that could be addressed in future work. The interventions we study do not have spatial or time specifications for individual locations in the camper travel network.  Deciding where and when, to deploy the outreach and enforcement measures in a particular location would be a major enhancement of the model. Second, our model depicted a general problem of an invasive pest spreading with untreated firewood moved by recreational travelers. To adapt the problem to a particular pest species, a more specialized spread model will be required. We simplified the model by assuming that each infested patch provides similar propagule pressure to recreational travellers leaving the infested site. This assumption was made because no data about the actual proportions of infested wood carried by recreational travellers leaving the infested sites were available. Also, our analysis did not offer much insight at the level of individual spatial locations in a camper travel network. A simpler mechanistic model that applies unique pest control decisions at individual spatial locations could potentially address that aspect. Another possible way to simplify the model would be to remove the tree growth dynamics —since it operates on a longer time scale than the infestation spread— and so an invasion model without the forest growth component could be a reasonable approximation for short-term planning horizons. This will be the focus of future efforts. 
+
+\section{Acknowledgements}
+The authors would like to thank Dr. Hanno Seebens and an anonymous reviewer for their contributions. Their detailed and thorough suggestions have significantly improved the quality of our paper.
+
+% \nolinenumbers
+% \bibliography{ref}
+
+
