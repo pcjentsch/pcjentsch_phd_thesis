@@ -46,9 +46,13 @@
 \contentsline {subsection}{\numberline {4.3.1}Dynamical regimes}{60}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{61}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Discussion}{64}{section.4.4}%
-\contentsline {chapter}{\textbf {References}}{70}{section*.12}%
-\contentsline {chapter}{Appendix}{97}{appendix*.14}%
-\contentsline {chapter}{Glossary}{124}{section*.15}%
-\contentsline {chapter}{Abbreviations}{125}{section*.17}%
-\contentsline {chapter}{Nomenclature}{126}{section*.19}%
-\contentsline {chapter}{List of Symbols}{127}{section*.21}%
+\contentsline {chapter}{\numberline {5}Conclusion}{70}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of findings}{70}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future work}{70}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Concluding comments}{70}{section.5.3}%
+\contentsline {chapter}{\textbf {References}}{71}{section*.12}%
+\contentsline {chapter}{Appendix}{98}{appendix*.14}%
+\contentsline {chapter}{Glossary}{125}{section*.15}%
+\contentsline {chapter}{Abbreviations}{126}{section*.17}%
+\contentsline {chapter}{Nomenclature}{127}{section*.19}%
+\contentsline {chapter}{List of Symbols}{128}{section*.21}%

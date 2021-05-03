@@ -8,7 +8,7 @@ cp -r -u front_matter/* build_files/
 
 touch build_files/master_bibliography.bib
 cp -r -u appendices build_files/appendices
-for chapter_no in {0..3} 
+for chapter_no in {0..4} 
 do
     cp -r -u chapter_$chapter_no build_files/chapter_$chapter_no
     if [ -f build_files/chapter_$chapter_no/ref.bib ]; then
