@@ -54,6 +54,7 @@ Repeated entry---line 1289 of file master_bibliography.bib
  : @article{liebhold2008population
  :                                ,
 I'm skipping whatever remains of this entry
+Reallocated field_info (elt_size=8) to 10014 items from 5000.
 Repeated entry---line 1555 of file master_bibliography.bib
  : @article{bauch2005imitation
  :                            ,
@@ -66,7 +67,6 @@ Repeated entry---line 1581 of file master_bibliography.bib
  : @article{herms2014emerald
  :                          ,
 I'm skipping whatever remains of this entry
-Reallocated field_info (elt_size=8) to 10014 items from 5000.
 Repeated entry---line 1832 of file master_bibliography.bib
  : @article{li1996effects
  :                       ,
@@ -273,45 +273,45 @@ Warning--empty journal in bcforests
 Warning--empty publisher in safranyik2001effects
 Warning--empty journal in coloforest
 Warning--empty journal in wise2020changes
-You've used 288 entries,
+You've used 290 entries,
             2118 wiz_defined-function locations,
-            1932 strings with 58518 characters,
-and the built_in function-call counts, 97480 in all, are:
-= -- 9385
-> -- 5377
+            1944 strings with 58909 characters,
+and the built_in function-call counts, 98107 in all, are:
+= -- 9447
+> -- 5408
 < -- 25
-+ -- 2178
-- -- 1840
-* -- 7445
-:= -- 16668
-add.period$ -- 847
-call.type$ -- 288
-change.case$ -- 1737
++ -- 2191
+- -- 1850
+* -- 7492
+:= -- 16777
+add.period$ -- 853
+call.type$ -- 290
+change.case$ -- 1748
 chr.to.int$ -- 0
-cite$ -- 310
-duplicate$ -- 3172
-empty$ -- 7062
-format.name$ -- 1840
-if$ -- 19598
+cite$ -- 312
+duplicate$ -- 3194
+empty$ -- 7109
+format.name$ -- 1850
+if$ -- 19724
 int.to.chr$ -- 0
-int.to.str$ -- 288
-missing$ -- 280
-newline$ -- 1421
-num.names$ -- 566
-pop$ -- 1648
+int.to.str$ -- 290
+missing$ -- 282
+newline$ -- 1431
+num.names$ -- 570
+pop$ -- 1655
 preamble$ -- 1
-purify$ -- 1472
+purify$ -- 1481
 quote$ -- 0
-skip$ -- 2277
+skip$ -- 2292
 stack$ -- 0
-substring$ -- 5937
-swap$ -- 415
+substring$ -- 5976
+swap$ -- 417
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1110
+type$ -- 1118
 warning$ -- 22
-while$ -- 919
-width$ -- 291
-write$ -- 3036
+while$ -- 926
+width$ -- 293
+write$ -- 3058
 (There were 60 error messages)
