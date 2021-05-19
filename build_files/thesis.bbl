@@ -364,6 +364,12 @@ Thomas~M Bury, Chris~T Bauch, and Madhur Anand.
   socio-climate model.
 \newblock {\em PLoS computational biology}, 15(6):e1007000, 2019.
 
+\bibitem{callaghan2020correlates}
+Timothy Callaghan, Ali Moghtaderi, Jennifer~A Lueck, Peter~J Hotez, Ulrich
+  Strych, Avi Dor, Erika Franklin~Fowler, and Matt Motta.
+\newblock Correlates and disparities of covid-19 vaccine hesitancy.
+\newblock {\em Available at SSRN 3667971}, 2020.
+
 \bibitem{nrcaneab}
 Natural~Resources Canada.
 \newblock Emerald ash borer.
@@ -388,6 +394,13 @@ David Cappaert, Deborah~G McCullough, Therese~M Poland, and Nathan~W Siegert.
 Renato Casagrandi and Sergio Rinaldi.
 \newblock A minimal model for forest fire regimes.
 \newblock {\em The American Naturalist}, 153(5):527--539, 1999.
+
+\bibitem{chen2021age}
+Xianhao Chen, Guangyu Zhu, Lan Zhang, Yuguang Fang, Linke Guo, and Xinguang
+  Chen.
+\newblock Age-stratified covid-19 spread analysis and vaccination: A multitype
+  random network approach.
+\newblock {\em IEEE Transactions on Network Science and Engineering}, 2021.
 
 \bibitem{chen2014model}
 B~Chen-Charpentier and MCA Leite.
@@ -537,6 +550,12 @@ Jon~C Emery, Timothy~W Russel, Yang Liu, Joel Hellewell, Carl~AB Pearson,
 \newblock The contribution of asymptomatic sars-cov-2 infections to
   transmission-a model-based analysis of the diamond princess outbreak.
 \newblock {\em medRxiv}, 2020.
+
+\bibitem{fair2021population}
+Kathyrn~R Fair, Vadim~A Karatayev, Madhur Anand, and Chris Bauch.
+\newblock Population behavioural dynamics can mediate the persistence of
+  emerging infectious diseases.
+\newblock {\em medRxiv}, 2021.
 
 \bibitem{fei2019biomass}
 Songlin Fei, Randall~S Morin, Christopher~M Oswalt, and Andrew~M Liebhold.
@@ -740,6 +759,15 @@ Joe Hilton and Matt~J Keeling.
 Josef Hofbauer, Karl Sigmund, et~al.
 \newblock {\em Evolutionary games and population dynamics}.
 \newblock Cambridge university press, 1998.
+
+\bibitem{hogan2021within}
+Alexandra~B Hogan, Peter Winskill, Oliver~J Watson, Patrick~GT Walker, Charles
+  Whittaker, Marc Baguelin, Nicholas~F Brazeau, Giovanni~D Charles, Katy~AM
+  Gaythorpe, Arran Hamlet, et~al.
+\newblock Within-country age-based prioritisation, global allocation, and
+  public health impact of a vaccine against sars-cov-2: a mathematical
+  modelling analysis.
+\newblock {\em Vaccine}, 2021.
 
 \bibitem{innes2013impact}
 Clinton Innes, Madhur Anand, and Chris~T Bauch.
@@ -970,6 +998,11 @@ Heather~J Lynch, Roy~A Renkin, Robert~L Crabtree, and Paul~R Moorcroft.
 \newblock The influence of previous mountain pine beetle (dendroctonus
   ponderosae) activity on the 1988 yellowstone fires.
 \newblock {\em Ecosystems}, 9(8):1318--1327, 2006.
+
+\bibitem{lynch2006spatiotemporal}
+Heather~Joan Lynch.
+\newblock {\em Spatiotemporal dynamics of insect-fire interactions}.
+\newblock PhD thesis, Harvard University, 2006.
 
 \bibitem{ma2006generality}
 Junling Ma and David~JD Earn.
@@ -1380,6 +1413,13 @@ Donald~R Schoolmaster~Jr.
   spatial variation in resources.
 \newblock {\em PeerJ}, 1:e136, 2013.
 
+\bibitem{schwarzinger2021covid}
+Micha{\"e}l Schwarzinger, Verity Watson, Pierre Arwidson, Fran{\c{c}}ois Alla,
+  and St{\'e}phane Luchini.
+\newblock Covid-19 vaccine hesitancy in a representative working-age population
+  in france: a survey experiment based on vaccine characteristics.
+\newblock {\em The Lancet Public Health}, 6(4):e210--e221, 2021.
+
 \bibitem{seidl2016spatial}
 Rupert Seidl, Daniel~C Donato, Kenneth~F Raffa, and Monica~G Turner.
 \newblock Spatial variability in tree regeneration after wildfire delays and
@@ -1404,6 +1444,17 @@ Victor~A Shegelski, Maya~L Evenden, and Felix~AH Sperling.
 \newblock Morphological variation associated with dispersal capacity in a
   tree-killing bark beetle dendroctonus ponderosae hopkins.
 \newblock {\em Agricultural and Forest Entomology}, 21(1):79--87, 2019.
+
+\bibitem{siegert2007resurrected}
+Nathan~W Siegert, Deborah~G McCullough, Andrew~M Liebhold, and Frank~W
+  Telewski.
+\newblock Resurrected from the ashes: a historical reconstruction of emerald
+  ash borer dynamics through dendrochronological analysis.
+\newblock In {\em In: Mastro, Victor; Lance, David; Reardon, Richard; Parra,
+  Gregory, comps. Emerald ash borer and Asian longhorhed beetle research and
+  development review meeting; 2006 October 29-November 2; Cincinnatti, OH.
+  FHTET 2007-04. Morgantown, WV: US Forest Service, Forest Health Technology
+  Enterprise Team: 18-19.}, 2007.
 
 \bibitem{sigdel2019convergence}
 Ram Sigdel, Madhur Anand, and Chris~T Bauch.
@@ -1433,6 +1484,12 @@ Martin Simard, William~H Romme, Jacob~M Griffin, and Monica~G Turner.
 John Snow.
 \newblock {\em On the mode of communication of cholera}.
 \newblock John Churchill, 1855.
+
+\bibitem{soares2021factors}
+Patricia Soares, Jo{\~a}o~Victor Rocha, Marta Moniz, Ana Gama, Pedro~Almeida
+  Laires, Ana~Rita Pedro, S{\'o}nia Dias, Andreia Leite, and Carla Nunes.
+\newblock Factors associated with covid-19 vaccine hesitancy.
+\newblock {\em Vaccines}, 9(3):300, 2021.
 
 \bibitem{ontario_census}
 {Statistics Canada}.

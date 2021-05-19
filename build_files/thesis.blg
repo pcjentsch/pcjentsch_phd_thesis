@@ -273,45 +273,45 @@ Warning--empty journal in bcforests
 Warning--empty publisher in safranyik2001effects
 Warning--empty journal in coloforest
 Warning--empty journal in wise2020changes
-You've used 290 entries,
+You've used 298 entries,
             2118 wiz_defined-function locations,
-            1944 strings with 58909 characters,
-and the built_in function-call counts, 98107 in all, are:
-= -- 9447
-> -- 5408
+            1978 strings with 61208 characters,
+and the built_in function-call counts, 101191 in all, are:
+= -- 9713
+> -- 5671
 < -- 25
-+ -- 2191
-- -- 1850
-* -- 7492
-:= -- 16777
-add.period$ -- 853
-call.type$ -- 290
-change.case$ -- 1748
++ -- 2295
+- -- 1946
+* -- 7749
+:= -- 17347
+add.period$ -- 877
+call.type$ -- 298
+change.case$ -- 1818
 chr.to.int$ -- 0
-cite$ -- 312
-duplicate$ -- 3194
-empty$ -- 7109
-format.name$ -- 1850
-if$ -- 19724
+cite$ -- 320
+duplicate$ -- 3279
+empty$ -- 7271
+format.name$ -- 1946
+if$ -- 20308
 int.to.chr$ -- 0
-int.to.str$ -- 290
-missing$ -- 282
-newline$ -- 1431
-num.names$ -- 570
-pop$ -- 1655
+int.to.str$ -- 298
+missing$ -- 289
+newline$ -- 1471
+num.names$ -- 586
+pop$ -- 1725
 preamble$ -- 1
-purify$ -- 1481
+purify$ -- 1544
 quote$ -- 0
-skip$ -- 2292
+skip$ -- 2348
 stack$ -- 0
-substring$ -- 5976
-swap$ -- 417
+substring$ -- 6056
+swap$ -- 426
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1118
+type$ -- 1150
 warning$ -- 22
-while$ -- 926
-width$ -- 293
-write$ -- 3058
+while$ -- 945
+width$ -- 301
+write$ -- 3141
 (There were 60 error messages)
