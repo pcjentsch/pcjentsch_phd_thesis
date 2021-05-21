@@ -23,20 +23,19 @@
 \contentsline {subsection}{\numberline {2.2.12}Vaccine scenarios}{20}{subsection.2.2.12}%
 \contentsline {section}{\numberline {2.3}Results}{21}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Discussion}{30}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Appendix}{32}{section.2.5}%
 \contentsline {chapter}{\numberline {3}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{33}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{33}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{34}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Materials and methods}{36}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Materials and methods}{37}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Pest Spread Model}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Social Dynamics Model}{38}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Social Dynamics Model}{39}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Patch-quarantine strategies}{40}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Parameterization }{43}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Assessing intervention efficacy}{44}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Results}{45}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusion}{48}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Conclusion}{49}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Acknowledgements}{53}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests}{54}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests }{54}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{54}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Methods}{56}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Model Description}{56}{subsection.4.2.1}%
