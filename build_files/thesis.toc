@@ -23,32 +23,32 @@
 \contentsline {subsection}{\numberline {2.2.12}Vaccine scenarios}{20}{subsection.2.2.12}%
 \contentsline {section}{\numberline {2.3}Results}{21}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Discussion}{30}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction}{34}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Materials and methods}{37}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Pest Spread Model}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Social Dynamics Model}{39}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Patch-quarantine strategies}{40}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Parameterization }{43}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Assessing intervention efficacy}{44}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Results}{45}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusion}{49}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Acknowledgements}{53}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests }{54}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{54}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Methods}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Model Description}{56}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{58}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Parameters and simulation design}{59}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Results}{60}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Dynamical regimes}{60}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{61}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Discussion}{64}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{70}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of findings}{70}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Discussion}{72}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations and future work}{72}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Concluding comments}{73}{section.5.4}%
-\contentsline {chapter}{\textbf {References}}{74}{section*.8}%
-\contentsline {chapter}{Appendix}{92}{appendix*.10}%
+\contentsline {chapter}{\numberline {3}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Materials and methods}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Pest Spread Model}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Social Dynamics Model}{40}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Patch-quarantine strategies}{41}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Parameterization }{44}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Assessing intervention efficacy}{45}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Results}{46}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conclusion}{50}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Acknowledgements}{54}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests }{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{55}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Methods}{57}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Model Description}{57}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{59}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Parameters and simulation design}{60}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Results}{61}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Dynamical regimes}{61}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{62}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Discussion}{65}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{71}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of findings}{71}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Discussion}{73}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Limitations and future work}{73}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Concluding comments}{74}{section.5.4}%
+\contentsline {chapter}{\textbf {References}}{75}{section*.8}%
+\contentsline {chapter}{Appendix}{93}{appendix*.10}%
