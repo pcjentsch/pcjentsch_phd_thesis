@@ -3,315 +3,250 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: master_bibliography.bib
-Warning--entry type for "nrcanmpb" isn't style-file defined
---line 144 of file master_bibliography.bib
 Warning--entry type for "nrcaneab" isn't style-file defined
---line 181 of file master_bibliography.bib
-Repeated entry---line 581 of file master_bibliography.bib
+--line 183 of file master_bibliography.bib
+Repeated entry---line 600 of file master_bibliography.bib
  : @article{anderson2020estimating
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 662 of file master_bibliography.bib
+Repeated entry---line 681 of file master_bibliography.bib
  : @article{oraby2014influence
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 673 of file master_bibliography.bib
+Repeated entry---line 692 of file master_bibliography.bib
  : @article{thampi2018socio
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 684 of file master_bibliography.bib
+Repeated entry---line 703 of file master_bibliography.bib
  : @article{bauch2012evolutionary
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 852 of file master_bibliography.bib
+Repeated entry---line 871 of file master_bibliography.bib
  : @article{bury2019charting
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 863 of file master_bibliography.bib
+Repeated entry---line 882 of file master_bibliography.bib
  : @article{innes2013impact
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 873 of file master_bibliography.bib
+Repeated entry---line 892 of file master_bibliography.bib
  : @article{bauch2005imitation
  :                            ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1096 of file master_bibliography.bib
+I was expecting a `,' or a `}'---line 1115 of file master_bibliography.bib
  : 
  : @article{emery2020contribution,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1151 of file master_bibliography.bib
+You're missing a field name---line 1170 of file master_bibliography.bib
  : 
  : %       title  = "Cumulative total number of {COVID}-19 cases in the United States by report date.  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1159 of file master_bibliography.bib
+You're missing a field name---line 1178 of file master_bibliography.bib
  : 
  : %       title  = "Americans Step Up Their Social Distancing Even Further.  https://news.gallup.com/opinion/gallup/298310/americans-step-social-distancing-even-further.aspx",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocated field_info (elt_size=8) to 10014 items from 5000.
-Repeated entry---line 1289 of file master_bibliography.bib
+Repeated entry---line 1308 of file master_bibliography.bib
  : @article{liebhold2008population
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1555 of file master_bibliography.bib
+Repeated entry---line 1574 of file master_bibliography.bib
  : @article{bauch2005imitation
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1565 of file master_bibliography.bib
+Repeated entry---line 1584 of file master_bibliography.bib
  : @book{hofbauer1998evolutionary
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1581 of file master_bibliography.bib
+Repeated entry---line 1600 of file master_bibliography.bib
  : @article{herms2014emerald
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1832 of file master_bibliography.bib
- : @article{li1996effects
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1895 of file master_bibliography.bib
+Repeated entry---line 1914 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1946 of file master_bibliography.bib
+Repeated entry---line 1965 of file master_bibliography.bib
  : @article{barlow2014modelling
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2197 of file master_bibliography.bib
+Repeated entry---line 2216 of file master_bibliography.bib
  : @article{simard2011mountain
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2217 of file master_bibliography.bib
+Repeated entry---line 2236 of file master_bibliography.bib
  : @article{lotan1985role
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2263 of file master_bibliography.bib
- : @article{buma2015disturbance
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2285 of file master_bibliography.bib
+Repeated entry---line 2304 of file master_bibliography.bib
  : @article{lewis2010structured
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2338 of file master_bibliography.bib
+Repeated entry---line 2357 of file master_bibliography.bib
  : @article{gilbert2004comparison
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2480 of file master_bibliography.bib
+Repeated entry---line 2499 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2500 of file master_bibliography.bib
+Repeated entry---line 2519 of file master_bibliography.bib
  : @article{bentz2010climate
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2539 of file master_bibliography.bib
+Repeated entry---line 2558 of file master_bibliography.bib
  : }@inproceedings{safranyik2003mountain
  :                                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2561 of file master_bibliography.bib
- : @article{wagner1977conditions
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2744 of file master_bibliography.bib
- : @article{hicke2012effects
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2804 of file master_bibliography.bib
+Repeated entry---line 2823 of file master_bibliography.bib
  : @book{safranyik2001effects
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2811 of file master_bibliography.bib
+Repeated entry---line 2830 of file master_bibliography.bib
  : @article{amman1998silvicultural
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2821 of file master_bibliography.bib
+Repeated entry---line 2840 of file master_bibliography.bib
  : @article{sartwell1975
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2833 of file master_bibliography.bib
+Repeated entry---line 2852 of file master_bibliography.bib
  : @article{kaufmann2008status
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2840 of file master_bibliography.bib
+Repeated entry---line 2859 of file master_bibliography.bib
  : @article{axelson2009influence
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2850 of file master_bibliography.bib
+Repeated entry---line 2869 of file master_bibliography.bib
  : @article{lynch2006influence
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2861 of file master_bibliography.bib
+Repeated entry---line 2880 of file master_bibliography.bib
  : @article{simard2011mountain
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2871 of file master_bibliography.bib
+Repeated entry---line 2890 of file master_bibliography.bib
  : @article{bradley2001effects
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2881 of file master_bibliography.bib
+Repeated entry---line 2900 of file master_bibliography.bib
  : @article{lotan1985role
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2886 of file master_bibliography.bib
- : @article{elkin2005low
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2907 of file master_bibliography.bib
+Repeated entry---line 2926 of file master_bibliography.bib
  : @article{kulakowski2012stand
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2917 of file master_bibliography.bib
- : @article{papadopoulos2011comparative
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2927 of file master_bibliography.bib
+Repeated entry---line 2946 of file master_bibliography.bib
  : @article{barlow2014modelling
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2938 of file master_bibliography.bib
+Repeated entry---line 2957 of file master_bibliography.bib
  : @article{powell2009connecting
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2948 of file master_bibliography.bib
- : @article{buma2015disturbance
- :                             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2959 of file master_bibliography.bib
- : @article{sullivan2009wildland
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2970 of file master_bibliography.bib
- : @article{hethcote2000mathematics
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2981 of file master_bibliography.bib
+Repeated entry---line 3000 of file master_bibliography.bib
  : @article{lewis2010structured
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2992 of file master_bibliography.bib
- : @article{coloforest
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2998 of file master_bibliography.bib
+Repeated entry---line 3017 of file master_bibliography.bib
  : @article{gilbert2004comparison
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3008 of file master_bibliography.bib
+Repeated entry---line 3027 of file master_bibliography.bib
  : @article{seidl2016spatial
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3016 of file master_bibliography.bib
- : @article{chen2014model
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3025 of file master_bibliography.bib
+Repeated entry---line 3044 of file master_bibliography.bib
  : @article{agne2016fire
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3034 of file master_bibliography.bib
+Repeated entry---line 3053 of file master_bibliography.bib
  : @article{meigs2016insect
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3044 of file master_bibliography.bib
- : @article{veblen1994disturbance
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3053 of file master_bibliography.bib
+Repeated entry---line 3072 of file master_bibliography.bib
  : @article{bentz2010climate
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3063 of file master_bibliography.bib
+Repeated entry---line 3082 of file master_bibliography.bib
  : @article{powell1996local
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3073 of file master_bibliography.bib
+Repeated entry---line 3092 of file master_bibliography.bib
  : @book{safranyik2007mountain
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3079 of file master_bibliography.bib
+Repeated entry---line 3098 of file master_bibliography.bib
  : @article{ludwig1978qualitative
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3088 of file master_bibliography.bib
+Repeated entry---line 3107 of file master_bibliography.bib
  : @article{ali2015coupled
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3099 of file master_bibliography.bib
+Repeated entry---line 3118 of file master_bibliography.bib
  : @inproceedings{alfaro2003dendroecological
  :                                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3107 of file master_bibliography.bib
- : @article{liu2011simulating
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3116 of file master_bibliography.bib
+Repeated entry---line 3135 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in who2021impact
 Warning--to sort, need author or key in who2020announces
-Warning--to sort, need author or key in CDC1
-Warning--to sort, need author or key in gallup1
-Warning--to sort, need author or key in nrcan
-Warning--empty author in nrcan
 Warning--empty journal in aussie2020
 Warning--there's a number but no series in beal1911food
 Warning--empty journal in boyd1999indians
 Warning--empty year in boyd1999indians
 Warning--there's a number but no volume in demirguc2020sooner
-Warning--empty journal in despain1991ecowgy
-Warning--empty year in despain1991ecowgy
 Warning--empty journal in ferguson2020report
 Warning--empty journal in school_opening
 Warning--empty journal in school_closure
 Warning--empty journal in kaufmann2008status
-Warning--empty journal in mckenney2012estimates
-Warning--empty journal in bcforests
 Warning--empty publisher in safranyik2001effects
-Warning--empty journal in coloforest
-Warning--empty journal in wise2020changes
-You've used 303 entries,
+You've used 183 entries,
             2118 wiz_defined-function locations,
-            2006 strings with 62381 characters,
-and the built_in function-call counts, 103155 in all, are:
-= -- 9908
-> -- 5781
-< -- 25
-+ -- 2339
-- -- 1984
-* -- 7921
-:= -- 17678
-add.period$ -- 892
-call.type$ -- 303
-change.case$ -- 1852
+            1454 strings with 41183 characters,
+and the built_in function-call counts, 62952 in all, are:
+= -- 6020
+> -- 3621
+< -- 14
++ -- 1460
+- -- 1248
+* -- 4856
+:= -- 10839
+add.period$ -- 544
+call.type$ -- 183
+change.case$ -- 1145
 chr.to.int$ -- 0
-cite$ -- 325
-duplicate$ -- 3334
-empty$ -- 7408
-format.name$ -- 1984
-if$ -- 20697
+cite$ -- 195
+duplicate$ -- 2005
+empty$ -- 4457
+format.name$ -- 1248
+if$ -- 12609
 int.to.chr$ -- 0
-int.to.str$ -- 303
-missing$ -- 294
-newline$ -- 1496
-num.names$ -- 596
-pop$ -- 1749
+int.to.str$ -- 183
+missing$ -- 175
+newline$ -- 910
+num.names$ -- 362
+pop$ -- 1078
 preamble$ -- 1
-purify$ -- 1573
+purify$ -- 972
 quote$ -- 0
-skip$ -- 2384
+skip$ -- 1423
 stack$ -- 0
-substring$ -- 6213
-swap$ -- 431
-text.length$ -- 25
+substring$ -- 3710
+swap$ -- 259
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1170
-warning$ -- 22
-while$ -- 965
-width$ -- 306
-write$ -- 3196
-(There were 60 error messages)
+type$ -- 710
+warning$ -- 12
+while$ -- 574
+width$ -- 186
+write$ -- 1939
+(There were 47 error messages)

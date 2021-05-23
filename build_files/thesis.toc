@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Figures}{x}{section*.2}%
-\contentsline {chapter}{List of Tables}{xx}{section*.4}%
+\contentsline {chapter}{List of Figures}{xi}{section*.2}%
+\contentsline {chapter}{List of Tables}{xxi}{section*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Sars-Cov-2}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Imitation dynamics}{3}{section.1.2}%
@@ -50,9 +50,5 @@
 \contentsline {section}{\numberline {5.2}Discussion}{72}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Limitations and future work}{72}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Concluding comments}{73}{section.5.4}%
-\contentsline {chapter}{\textbf {References}}{74}{section*.12}%
-\contentsline {chapter}{Appendix}{102}{appendix*.14}%
-\contentsline {chapter}{Glossary}{129}{section*.15}%
-\contentsline {chapter}{Abbreviations}{130}{section*.17}%
-\contentsline {chapter}{Nomenclature}{131}{section*.19}%
-\contentsline {chapter}{List of Symbols}{132}{section*.21}%
+\contentsline {chapter}{\textbf {References}}{74}{section*.8}%
+\contentsline {chapter}{Appendix}{92}{appendix*.10}%
