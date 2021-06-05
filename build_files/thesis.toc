@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Vaccination process}{14}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Differences between parameters in the first and second wave}{15}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Case under-ascertainment}{15}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Baseline transmission rate}{15}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.6}Baseline transmission rate}{16}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Disease progression parameters}{17}{subsection.2.2.7}%
 \contentsline {subsection}{\numberline {2.2.8}Initial conditions}{17}{subsection.2.2.8}%
 \contentsline {subsection}{\numberline {2.2.9}Particle filtering}{18}{subsection.2.2.9}%
@@ -48,7 +48,7 @@
 \contentsline {chapter}{\numberline {5}Conclusion}{71}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Summary of findings}{71}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Discussion}{73}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations and future work}{73}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Concluding comments}{74}{section.5.4}%
-\contentsline {chapter}{\textbf {References}}{75}{section*.8}%
-\contentsline {chapter}{Appendix}{93}{appendix*.10}%
+\contentsline {section}{\numberline {5.3}Limitations and future work}{74}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Concluding comments}{75}{section.5.4}%
+\contentsline {chapter}{\textbf {References}}{76}{section*.8}%
+\contentsline {chapter}{Appendix}{94}{appendix*.10}%
