@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  4 JUN 2021 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  4 JUN 2021 23:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,7 +1328,7 @@ l.3 \begin{figure}[H]
                      
 Option `H' ignored and `p' used.
 
-<appendices/FigureS1.pdf, id=2296, 1878.10962pt x 266.98546pt>
+<appendices/FigureS1.pdf, id=2297, 1878.10962pt x 266.98546pt>
 File: appendices/FigureS1.pdf Graphic file (type pdf)
 <use appendices/FigureS1.pdf>
 Package pdftex.def Info: appendices/FigureS1.pdf  used on input line 5.
@@ -1349,7 +1349,7 @@ l.10 \begin{figure}[H]
                       
 Option `H' ignored and `p' used.
 
-<appendices/FigureS2.pdf, id=2297, 373.72723pt x 211.53128pt>
+<appendices/FigureS2.pdf, id=2298, 373.72723pt x 211.53128pt>
 File: appendices/FigureS2.pdf Graphic file (type pdf)
 <use appendices/FigureS2.pdf>
 Package pdftex.def Info: appendices/FigureS2.pdf  used on input line 12.
@@ -1369,7 +1369,7 @@ l.19     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS3.pdf, id=2366, 1460.05876pt x 795.63649pt>
+<appendices/FigureS3.pdf, id=2367, 1460.05876pt x 795.63649pt>
 File: appendices/FigureS3.pdf Graphic file (type pdf)
 <use appendices/FigureS3.pdf>
 Package pdftex.def Info: appendices/FigureS3.pdf  used on input line 21.
@@ -1391,7 +1391,7 @@ l.28     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS4.pdf, id=2392, 628.03934pt x 199.944pt>
+<appendices/FigureS4.pdf, id=2393, 628.03934pt x 199.944pt>
 File: appendices/FigureS4.pdf Graphic file (type pdf)
 <use appendices/FigureS4.pdf>
 Package pdftex.def Info: appendices/FigureS4.pdf  used on input line 30.
@@ -1408,7 +1408,7 @@ l.37     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS5.pdf, id=2425, 544.81741pt x 277.81995pt>
+<appendices/FigureS5.pdf, id=2426, 544.81741pt x 277.81995pt>
 File: appendices/FigureS5.pdf Graphic file (type pdf)
 <use appendices/FigureS5.pdf>
 Package pdftex.def Info: appendices/FigureS5.pdf  used on input line 39.
@@ -1425,7 +1425,7 @@ l.46     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS6.pdf, id=2445, 356.60829pt x 157.05775pt>
+<appendices/FigureS6.pdf, id=2446, 356.60829pt x 157.05775pt>
 File: appendices/FigureS6.pdf Graphic file (type pdf)
 <use appendices/FigureS6.pdf>
 Package pdftex.def Info: appendices/FigureS6.pdf  used on input line 48.
@@ -1442,7 +1442,7 @@ l.55     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS7.pdf, id=2471, 797.71727pt x 742.38457pt>
+<appendices/FigureS7.pdf, id=2472, 797.71727pt x 742.38457pt>
 File: appendices/FigureS7.pdf Graphic file (type pdf)
 <use appendices/FigureS7.pdf>
 Package pdftex.def Info: appendices/FigureS7.pdf  used on input line 57.
@@ -1459,7 +1459,7 @@ l.64     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS8.pdf, id=2507, 797.71727pt x 742.38457pt>
+<appendices/FigureS8.pdf, id=2508, 797.71727pt x 742.38457pt>
 File: appendices/FigureS8.pdf Graphic file (type pdf)
 <use appendices/FigureS8.pdf>
 Package pdftex.def Info: appendices/FigureS8.pdf  used on input line 66.
@@ -1476,7 +1476,7 @@ l.73     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS9.pdf, id=2542, 791.84229pt x 742.38457pt>
+<appendices/FigureS9.pdf, id=2543, 791.84229pt x 742.38457pt>
 File: appendices/FigureS9.pdf Graphic file (type pdf)
 <use appendices/FigureS9.pdf>
 Package pdftex.def Info: appendices/FigureS9.pdf  used on input line 75.
@@ -1493,7 +1493,7 @@ l.83     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS10.pdf, id=2578, 533.27834pt x 881.64183pt>
+<appendices/FigureS10.pdf, id=2579, 533.27834pt x 881.64183pt>
 File: appendices/FigureS10.pdf Graphic file (type pdf)
 <use appendices/FigureS10.pdf>
 Package pdftex.def Info: appendices/FigureS10.pdf  used on input line 85.
@@ -1513,7 +1513,7 @@ l.97     \begin{figure}[H]
                           
 Option `H' ignored and `p' used.
 
-<appendices/FigureS11.pdf, id=2612, 529.03047pt x 881.79842pt>
+<appendices/FigureS11.pdf, id=2613, 529.03047pt x 881.79842pt>
 File: appendices/FigureS11.pdf Graphic file (type pdf)
 <use appendices/FigureS11.pdf>
 Package pdftex.def Info: appendices/FigureS11.pdf  used on input line 99.
@@ -1533,7 +1533,7 @@ l.109     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS12.pdf, id=2646, 554.62811pt x 358.63387pt>
+<appendices/FigureS12.pdf, id=2647, 554.62811pt x 358.63387pt>
 File: appendices/FigureS12.pdf Graphic file (type pdf)
 <use appendices/FigureS12.pdf>
 Package pdftex.def Info: appendices/FigureS12.pdf  used on input line 111.
@@ -1550,7 +1550,7 @@ l.118     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS13.pdf, id=2673, 366.40587pt x 448.02682pt>
+<appendices/FigureS13.pdf, id=2674, 366.40587pt x 448.02682pt>
 File: appendices/FigureS13.pdf Graphic file (type pdf)
 <use appendices/FigureS13.pdf>
 Package pdftex.def Info: appendices/FigureS13.pdf  used on input line 120.
@@ -1570,7 +1570,7 @@ l.127     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS14.pdf, id=2701, 509.89998pt x 445.85973pt>
+<appendices/FigureS14.pdf, id=2702, 509.89998pt x 445.85973pt>
 File: appendices/FigureS14.pdf Graphic file (type pdf)
 <use appendices/FigureS14.pdf>
 Package pdftex.def Info: appendices/FigureS14.pdf  used on input line 129.
@@ -1587,7 +1587,7 @@ l.136     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS15.pdf, id=2741, 790.84258pt x 742.38757pt>
+<appendices/FigureS15.pdf, id=2742, 790.84258pt x 742.38757pt>
 File: appendices/FigureS15.pdf Graphic file (type pdf)
 <use appendices/FigureS15.pdf>
 Package pdftex.def Info: appendices/FigureS15.pdf  used on input line 138.
@@ -1604,7 +1604,7 @@ l.145     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS16.pdf, id=2776, 790.84258pt x 742.38254pt>
+<appendices/FigureS16.pdf, id=2777, 790.84258pt x 742.38254pt>
 File: appendices/FigureS16.pdf Graphic file (type pdf)
 <use appendices/FigureS16.pdf>
 Package pdftex.def Info: appendices/FigureS16.pdf  used on input line 147.
@@ -1621,7 +1621,7 @@ l.154     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS17.pdf, id=2811, 790.84258pt x 742.38959pt>
+<appendices/FigureS17.pdf, id=2812, 790.84258pt x 742.38959pt>
 File: appendices/FigureS17.pdf Graphic file (type pdf)
 <use appendices/FigureS17.pdf>
 Package pdftex.def Info: appendices/FigureS17.pdf  used on input line 156.
@@ -1638,7 +1638,7 @@ l.163     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS18.pdf, id=2846, 370.65779pt x 448.02179pt>
+<appendices/FigureS18.pdf, id=2847, 370.65779pt x 448.02179pt>
 File: appendices/FigureS18.pdf Graphic file (type pdf)
 <use appendices/FigureS18.pdf>
 Package pdftex.def Info: appendices/FigureS18.pdf  used on input line 165.
@@ -1658,7 +1658,7 @@ l.172     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS19.pdf, id=2874, 370.65779pt x 448.02179pt>
+<appendices/FigureS19.pdf, id=2875, 370.65779pt x 448.02179pt>
 File: appendices/FigureS19.pdf Graphic file (type pdf)
 <use appendices/FigureS19.pdf>
 Package pdftex.def Info: appendices/FigureS19.pdf  used on input line 174.
@@ -1678,7 +1678,7 @@ l.181     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS20.pdf, id=2902, 370.65779pt x 448.02179pt>
+<appendices/FigureS20.pdf, id=2903, 370.65779pt x 448.02179pt>
 File: appendices/FigureS20.pdf Graphic file (type pdf)
 <use appendices/FigureS20.pdf>
 Package pdftex.def Info: appendices/FigureS20.pdf  used on input line 183.
@@ -1698,7 +1698,7 @@ l.191     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS21.pdf, id=2929, 370.65779pt x 448.02179pt>
+<appendices/FigureS21.pdf, id=2930, 370.65779pt x 448.02179pt>
 File: appendices/FigureS21.pdf Graphic file (type pdf)
 <use appendices/FigureS21.pdf>
 Package pdftex.def Info: appendices/FigureS21.pdf  used on input line 193.
@@ -1718,7 +1718,7 @@ l.200     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS22.pdf, id=2956, 370.65779pt x 448.02179pt>
+<appendices/FigureS22.pdf, id=2957, 370.65779pt x 448.02179pt>
 File: appendices/FigureS22.pdf Graphic file (type pdf)
 <use appendices/FigureS22.pdf>
 Package pdftex.def Info: appendices/FigureS22.pdf  used on input line 202.
@@ -1738,7 +1738,7 @@ l.209     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS23.pdf, id=2983, 365.89095pt x 369.85878pt>
+<appendices/FigureS23.pdf, id=2984, 365.89095pt x 369.85878pt>
 File: appendices/FigureS23.pdf Graphic file (type pdf)
 <use appendices/FigureS23.pdf>
 Package pdftex.def Info: appendices/FigureS23.pdf  used on input line 211.
@@ -1755,7 +1755,7 @@ l.219     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS24.pdf, id=3019, 617.6266pt x 415.37665pt>
+<appendices/FigureS24.pdf, id=3020, 617.6266pt x 415.37665pt>
 File: appendices/FigureS24.pdf Graphic file (type pdf)
 <use appendices/FigureS24.pdf>
 Package pdftex.def Info: appendices/FigureS24.pdf  used on input line 221.
@@ -1771,7 +1771,7 @@ l.226     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS25.pdf, id=3020, 717.91228pt x 351.66801pt>
+<appendices/FigureS25.pdf, id=3021, 717.91228pt x 351.66801pt>
 File: appendices/FigureS25.pdf Graphic file (type pdf)
 <use appendices/FigureS25.pdf>
 Package pdftex.def Info: appendices/FigureS25.pdf  used on input line 228.
@@ -1788,7 +1788,7 @@ l.235     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS26.pdf, id=3162, 720.8176pt x 407.3063pt>
+<appendices/FigureS26.pdf, id=3163, 720.8176pt x 407.3063pt>
 File: appendices/FigureS26.pdf Graphic file (type pdf)
 <use appendices/FigureS26.pdf>
 Package pdftex.def Info: appendices/FigureS26.pdf  used on input line 237.
@@ -1831,7 +1831,7 @@ l.244     \begin{figure}[H]
                            
 Option `H' ignored and `p' used.
 
-<appendices/FigureS27.pdf, id=3256, 791.84229pt x 742.38652pt>
+<appendices/FigureS27.pdf, id=3257, 791.84229pt x 742.38652pt>
 File: appendices/FigureS27.pdf Graphic file (type pdf)
 <use appendices/FigureS27.pdf>
 Package pdftex.def Info: appendices/FigureS27.pdf  used on input line 246.
@@ -1876,10 +1876,10 @@ type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (141 pages, 10911166 bytes).
+Output written on thesis.pdf (141 pages, 10911258 bytes).
 PDF statistics:
- 3461 PDF objects out of 3580 (max. 8388607)
- 2865 compressed objects within 29 object streams
+ 3462 PDF objects out of 3580 (max. 8388607)
+ 2866 compressed objects within 29 object streams
  484 named destinations out of 1000 (max. 500000)
  668 words of extra memory for PDF output out of 10000 (max. 10000000)
 
