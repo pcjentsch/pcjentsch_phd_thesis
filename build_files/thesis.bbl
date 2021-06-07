@@ -67,6 +67,10 @@ GD~Amman and JA~Logan.
   influence of microclimate.
 \newblock {\em American Entomologist}, 44(3):166--178, 1998.
 
+\bibitem{ontariosickleave}
+Alexandra Anadarajah, Fusco Alessandra, and Andrew Shaw.
+\newblock Paid sick leave in ontario for reasons related to {COVID}-19, 2021.
+
 \bibitem{andersen2020proximal}
 Kristian~G Andersen, Andrew Rambaut, W~Ian Lipkin, Edward~C Holmes, and
   Robert~F Garry.
@@ -168,6 +172,19 @@ Barbara~J Bentz, Jacques R{\'e}gni{\`e}re, Christopher~J Fettig, E~Matthew
   canada: direct and indirect effects.
 \newblock {\em BioScience}, 60(8):602--613, 2010.
 
+\bibitem{bogart2021covid}
+Laura~M Bogart, Bisola~O Ojikutu, Keshav Tyagi, David~J Klein, Matt~G Mutchler,
+  Lu~Dong, Sean~J Lawrence, Damone~R Thomas, and Sarah Kellman.
+\newblock Covid-19 related medical mistrust, health impacts, and potential
+  vaccine hesitancy among black americans living with hiv.
+\newblock {\em Journal of acquired immune deficiency syndromes (1999)},
+  86(2):200, 2021.
+
+\bibitem{bowleg2020we}
+Lisa Bowleg.
+\newblock We’re not all in this together: on covid-19, intersectionality, and
+  structural inequality, 2020.
+
 \bibitem{boyd1999indians}
 Robert Boyd.
 \newblock Indians, fire and the land.
@@ -267,6 +284,21 @@ Renato Casagrandi and Sergio Rinaldi.
 \newblock A minimal model for forest fire regimes.
 \newblock {\em The American Naturalist}, 153(5):527--539, 1999.
 
+\bibitem{chen2021revealing}
+Jarvis~T Chen and Nancy Krieger.
+\newblock Revealing the unequal burden of covid-19 by income, race/ethnicity,
+  and household crowding: Us county versus zip code analyses.
+\newblock {\em Journal of Public Health Management and Practice},
+  27(1):S43--S56, 2021.
+
+\bibitem{chen2020covid}
+Jarvis~T Chen, Pamela~D Waterman, and Nancy Krieger.
+\newblock Covid-19 and the unequal surge in mortality rates in massachusetts,
+  by city/town and zip code measures of poverty, household crowding,
+  race/ethnicity, and racialized economic segregation.
+\newblock In {\em Harvard Center for Population and Development Studies}.
+  Harvard Center for Population and Development Studies, 2020.
+
 \bibitem{chen2021age}
 Xianhao Chen, Guangyu Zhu, Lan Zhang, Yuguang Fang, Linke Guo, and Xinguang
   Chen.
@@ -279,6 +311,12 @@ Nakul Chitnis, Jim~M Cushing, and JM~Hyman.
 \newblock Bifurcation analysis of a mathematical model for malaria
   transmission.
 \newblock {\em SIAM Journal on Applied Mathematics}, 67(1):24--45, 2006.
+
+\bibitem{corbie2021vaccine}
+Giselle Corbie-Smith.
+\newblock Vaccine hesitancy is a scapegoat for structural racism.
+\newblock In {\em JAMA Health Forum}, volume~2, pages e210434--e210434.
+  American Medical Association, 2021.
 
 \bibitem{cordell2008latest}
 H~Ken Cordell.
@@ -518,11 +556,30 @@ Clinton Innes, Madhur Anand, and Chris~T Bauch.
   forest-grassland mosaic ecosystems.
 \newblock {\em Scientific reports}, 3(1):1--10, 2013.
 
+\bibitem{iveniuk2021uneven}
+James Iveniuk and Scott Leon.
+\newblock An uneven recovery: Measuring covid-19 vaccine equity in ontario,
+  2021.
+
 \bibitem{jacobi2011firewood}
 WR~Jacobi, BA~Goodrich, CM~Cleaver, et~al.
 \newblock Firewood transport by national and state park campers: a risk for
   native or exotic tree pest movement.
 \newblock {\em Arboriculture and Urban Forestry}, 37(3):126, 2011.
+
+\bibitem{jamison2019you}
+Amelia~M Jamison, Sandra~Crouse Quinn, and Vicki~S Freimuth.
+\newblock “you don't trust a government vaccine”: Narratives of
+  institutional trust and influenza vaccination among african american and
+  white adults.
+\newblock {\em Social Science \& Medicine}, 221:87--94, 2019.
+
+\bibitem{jay2020neighbourhood}
+Jonathan Jay, Jacob Bor, Elaine~O Nsoesie, Sarah~K Lipson, David~K Jones,
+  Sandro Galea, and Julia Raifman.
+\newblock Neighbourhood income and physical distancing during the covid-19
+  pandemic in the united states.
+\newblock {\em Nature human behaviour}, 4(12):1294--1302, 2020.
 
 \bibitem{JENKINS200816}
 Michael~J. Jenkins, Elizabeth Hebertson, Wesley Page, and C.~Arik Jorgensen.
@@ -678,6 +735,12 @@ Amyn~A. Malik, SarahAnn~M. McFadden, Jad Elharake, and Saad~B. Omer.
 \newblock Determinants of covid-19 vaccine acceptance in the us.
 \newblock {\em EClinicalMedicine}, 26:100495, 2020.
 
+\bibitem{mamelund2021social}
+Svenn-Erik Mamelund, Jessica Dimka, and Nan~Zou Bakkeli.
+\newblock Social disparities in adopting non-pharmaceutical interventions
+  during covid-19.
+\newblock {\em Journal of Developing Societies}, page 0169796X21996858, 2021.
+
 \bibitem{matrajt2020vaccine}
 Laura Matrajt, Julie Eaton, Tiffany Leung, and Elizabeth~R Brown.
 \newblock Vaccine optimization for {COVID}-19, who to vaccinate first?
@@ -768,6 +831,20 @@ World~Health Organization.
   https://www.who.int/who-documents-detailredirect/
   who-target-product-profiles-for-{COVID}-19-vaccines, accessed 25 september
   2020, 2020.
+
+\bibitem{osama2021covid}
+Tasnime Osama, Mohammad~S Razai, and Azeem Majeed.
+\newblock Covid-19 vaccine allocation: addressing the united kingdom’s
+  colour-blind strategy.
+\newblock {\em Journal of the Royal Society of Medicine}, page
+  01410768211001581, 2021.
+
+\bibitem{pacheco2013moving}
+Christina~M Pacheco, Sean~M Daley, Travis Brown, Melissa Filippi, K~Allen
+  Greiner, and Christine~M Daley.
+\newblock Moving forward: breaking the cycle of mistrust between american
+  indians and researchers.
+\newblock {\em American journal of public health}, 103(12):2152--2159, 2013.
 
 \bibitem{peak2020individual}
 Corey~M Peak, Rebecca Kahn, Yonatan~H Grad, Lauren~M Childs, Ruoran Li, Marc
@@ -1045,6 +1122,11 @@ Brandon~M Turner and Per~B Sederberg.
 \newblock Approximate {Bayesian} computation with differential evolution.
 \newblock {\em Journal of Mathematical Psychology}, 56(5):375--385, 2012.
 
+\bibitem{tuyisenge2021covid}
+Germaine Tuyisenge and Shira~M Goldenberg.
+\newblock Covid-19, structural racism, and migrant health in canada.
+\newblock {\em The Lancet}, 397(10275):650--652, 2021.
+
 \bibitem{aphis}
 {United States Department of Agriculture Animal and Plant Health Inspection
   Service}.
@@ -1062,6 +1144,12 @@ Zhen Wang, Chris~T Bauch, Samit Bhattacharyya, Alberto d'Onofrio, Piero
   Manfredi, Matja{\v{z}} Perc, Nicola Perra, Marcel Salathe, and Dawei Zhao.
 \newblock Statistical physics of vaccination.
 \newblock {\em Physics Reports}, 664:1--113, 2016.
+
+\bibitem{washington2006medical}
+Harriet~A Washington.
+\newblock {\em Medical apartheid: The dark history of medical experimentation
+  on Black Americans from colonial times to the present}.
+\newblock Doubleday Books, 2006.
 
 \bibitem{weber2006}
 Laren Weber.
@@ -1086,6 +1174,13 @@ Toby Wise, Tomislav~Damir Zbozinek, Giorgia Michelini, Cindy~C Hagan, et~al.
 \newblock Changes in risk perception and protective behavior during the first
   week of the {COVID}-19 pandemic in the united states.
 \newblock 2020.
+
+\bibitem{yaya2020ethnic}
+Sanni Yaya, Helena Yeboah, Carlo~Handy Charles, Akaninyene Otu, and Ronald
+  Labonte.
+\newblock Ethnic and racial disparities in covid-19-related deaths: counting
+  the trees, hiding the forest.
+\newblock {\em BMJ Global Health}, 5(6):e002913, 2020.
 
 \bibitem{yemshanov2015optimal}
 Denys Yemshanov, Robert~G Haight, Frank~H Koch, Bo~Lu, Robert Venette, D~Barry
