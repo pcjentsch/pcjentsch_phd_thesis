@@ -49,6 +49,6 @@
 \contentsline {section}{\numberline {5.1}Summary of findings}{71}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Discussion}{73}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Limitations and future work}{74}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Concluding comments}{75}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Concluding comments}{76}{section.5.4}%
 \contentsline {chapter}{\textbf {References}}{77}{section*.8}%
 \contentsline {chapter}{Appendix}{97}{appendix*.10}%

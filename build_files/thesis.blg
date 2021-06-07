@@ -196,7 +196,7 @@ Repeated entry---line 3150 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3301 of file master_bibliography.bib
+I was expecting a `,' or a `}'---line 3323 of file master_bibliography.bib
  :   
  :   url={https://nationalpost.com/news/canada/theyre-heroes-how-covid-19-vaccine-hunters-help-canadians-find-appointments},
 (Error may have been on previous line)
@@ -221,43 +221,43 @@ Warning--empty publisher in safranyik2001effects
 Warning--empty journal in wise2020changes
 You've used 200 entries,
             2118 wiz_defined-function locations,
-            1540 strings with 45095 characters,
-and the built_in function-call counts, 69624 in all, are:
-= -- 6683
-> -- 3979
+            1544 strings with 45036 characters,
+and the built_in function-call counts, 69581 in all, are:
+= -- 6681
+> -- 3963
 < -- 18
-+ -- 1602
-- -- 1372
-* -- 5302
-:= -- 11889
++ -- 1597
+- -- 1366
+* -- 5299
+:= -- 11877
 add.period$ -- 594
 call.type$ -- 200
-change.case$ -- 1256
+change.case$ -- 1253
 chr.to.int$ -- 0
 cite$ -- 214
-duplicate$ -- 2270
-empty$ -- 4919
-format.name$ -- 1372
-if$ -- 14035
+duplicate$ -- 2271
+empty$ -- 4926
+format.name$ -- 1366
+if$ -- 14030
 int.to.chr$ -- 0
 int.to.str$ -- 200
 missing$ -- 190
 newline$ -- 992
 num.names$ -- 396
-pop$ -- 1204
+pop$ -- 1199
 preamble$ -- 1
-purify$ -- 1067
+purify$ -- 1064
 quote$ -- 0
 skip$ -- 1667
 stack$ -- 0
-substring$ -- 4087
+substring$ -- 4100
 swap$ -- 364
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 776
 warning$ -- 14
-while$ -- 625
+while$ -- 626
 width$ -- 203
-write$ -- 2115
+write$ -- 2116
 (There were 50 error messages)
