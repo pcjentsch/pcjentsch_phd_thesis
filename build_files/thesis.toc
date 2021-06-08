@@ -39,14 +39,13 @@
 \contentsline {section}{\numberline {4.1}Introduction}{55}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Methods}{57}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Model Description}{57}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Derivation of Model Equations}{60}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Initial conditions}{62}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{63}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Parameters and simulation design}{64}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Results}{65}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Dynamical regimes}{65}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{67}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Discussion}{69}{section.4.6}%
+\contentsline {section}{\numberline {4.3}Initial conditions}{62}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{62}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Parameters and simulation design}{63}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Results}{64}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Dynamical regimes}{65}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{65}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Discussion}{68}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Conclusion}{75}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Summary of findings}{75}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Discussion}{77}{section.5.2}%

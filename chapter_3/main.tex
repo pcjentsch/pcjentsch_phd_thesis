@@ -27,11 +27,48 @@ Our model is based on a discrete-time model developed by Duncan et al.\cite{dunc
 
 Age structure is incorporated because beetles cannot effectively infest trees less than a certain diameter in size \cite{safranyik2003mountain, alfaro2003dendroecological}. Juveniles grow through the $K$ age categories,at a rate of one age class per year, with a  probability $(1-d)$ of surviving until the next year. Figure \ref{diagram} illustrates the cycle each category should move through in any particular year.  We define the following state variables: $j_{n,k}$ is the population of juvenile trees of age $k$ at year $n$, $J_n = \sum_{k = 0}^{K} j_{n,k}$, the total number of trees in the Juvenile class, $S_n$ is the population of susceptible trees at year $n$, $I_n$ is the population of infested trees at year $n$, and $F_n$ is the population of burned trees at year $n$.
 
+\begin{equation}
+j_{n+1, 1} = d J_n + I_{n-2} + F_n
+\label{juveniles}
+\end{equation}
+
+
+New juvenile trees are created each year according to equation \ref{juveniles}. The number of juveniles of age 1 is equal to the total number of juveniles that died last year, $d J_n =  d \sum_{k = 1}^{N} j_{n,k}$, plus the number of grey snags $I_{-2}$, plus the number of burnt snags (trees that burned the previous summer) $F_n$. 
+
 The severity of forest fire in year $n$ in the stand as a function of the previously unburned area is
 \begin{equation}
 P_n = T -\sum_{i=1}^{n}  F_i e^{-\kappa (n - i)}
 \end{equation}
 where the variable $\kappa$ determines the half-life of decaying fuel. In other words, we define the severity or size of a fire in the year $n$ as inversely proportional to the amount of land burned in recent seasons.
+
+
+The growth of juvenile trees is defined by equation \ref{juv_growth}. A fraction $1-d$ of juveniles from class $k-1$ grows into class $k$ juveniles, minus the trees in this class that burn, proportional to $P_n$. 
+
+\begin{equation}
+  j_{n+1, k} = (1-d) j_{n, k - 1} - \frac{\alpha_1}{T}P_n j_{n,k-1}, k = 2 ... K-1 ,K
+  \label{juv_growth}
+  \end{equation}
+  
+
+
+ The number of susceptibles in the spring of year $n+1$ is equal to the number of susceptibles in the spring of year $n$, plus the number of juveniles growing into mature trees ($(1 - d) j {n, K} $). We subtract the trees that were infested in the summer of year $n$, $I_n$, the infested \textit{and} burnt trees, $\frac{\alpha_3}{T} P_n I_n$, the trees that were only burnt, $\frac{\alpha_2}{T} P_n S_n$, and the juveniles from class $K$ that would have become mature if they had not caught fire, ($\frac{\alpha_2}{T} P_n (1-d) j_{n, K}$).
+
+\begin{equation}
+S_{n+1} = S_n + (1 - d) j_{n, K} - (I_n + \frac{\alpha_3}{T} P_n I_n) - \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right)
+\end{equation}
+
+
+\begin{equation}
+I_{n+1} = r_1 I_n e^{-\beta_1 (T - S_n - (1 - d) j_{n, K} + (I_n + \frac{\alpha_2}{T} P_n I_n) +  \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right) } - \frac{\alpha_3}{T} P_n I_n
+\end{equation}
+
+The model for infested trees is based on ricker-style dynamics, where $r_1$ is the reproduction rate of beetles, and the exponential term denotes the probability that each individual will find a susceptible tree. The number of infested trees burned is subtracted after reproduction, for simplicity. As in Duncan et al., we have $I_{n+1} = r_1 I_n e^{I_n + I_{n-1} + F_n + J_{n+1}}$, where the exponent is the number of current non-susceptible trees. From the conservation of tree-equivalents $T = I_n + I_{n-1} + F_{n} + J_{n+1} + S_{n+1}$, so the exponent is just $T - S_{n+1}$.
+
+\begin{equation}    
+  F_{n+1} =  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,K}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n 
+\end{equation}
+
+The burnt snags in the spring of year $n+1$ is equal to the sum of the number of burnt juveniles ($\frac{\alpha_1}{T} P_n \sum_i^{K-1} j_{n,K}$), susceptibles ($\frac{\alpha_2}{T}P_n(Sn  + (1-d) j_{n,K}) $), and infested ($ \frac{\alpha_3}{T}I_n P_n$).
 
 Then, our model is defined by:
 
@@ -47,7 +84,7 @@ Then, our model is defined by:
   \end{alignat}
 \end{subequations}
 \normalsize
-$\xi_n$ and $\gamma_n$ are normal random variates with zero mean and unit variance, drawn independently in year $n$}. The model conserves the total number of tree-equivalents, which is a tree, a snag, or an open space in the canopy where a tree will grow the next season. The conservation equation is $T = I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} $, which can also be seen as the left or right column in figure \ref{diagram}.A detailed explanation of these equations, and a proof that these equations conserves tree equivalents, appears in the Supplementary Information}. Descriptions of the variables can be found in Table \ref{params}.  Fire could have been modelled in a more complex way using a different timescale than seasonal beetle outbreaks, but we chose to simplify the modelling by matching the timestep of the pest outbreak cycles instead. Fire prevalence is also dependent on precipitation patterns, temperature, human activity, and other factors which operate on different time and spatial scales than our model. We assume this risk is roughly constant each year, and that it contributes to the environmental noise experienced by the system denoted by $\sigma_F$.
+$\xi_n$ and $\gamma_n$ are normal random variates with zero mean and unit variance, drawn independently in year $n$}. The model conserves the total number of tree-equivalents, which is a tree, a snag, or an open space in the canopy where a tree will grow the next season. The conservation equation is $T = I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} $, which can also be seen as the left or right column in figure \ref{diagram}. Descriptions of the variables can be found in Table \ref{params}.  Fire could have been modelled in a more complex way using a different timescale than seasonal beetle outbreaks, but we chose to simplify the modelling by matching the timestep of the pest outbreak cycles instead. Fire prevalence is also dependent on precipitation patterns, temperature, human activity, and other factors which operate on different time and spatial scales than our model. We assume this risk is roughly constant each year, and that it contributes to the environmental noise experienced by the system denoted by $\sigma_F$.
 
 \begin{figure}
     \begin{tikzpicture}
@@ -111,50 +148,6 @@ $\xi_n$ and $\gamma_n$ are normal random variates with zero mean and unit varian
 
 
 
-\section{Derivation of Model Equations}
-
-
-\begin{equation}
-j_{n+1, 1} = d J_n + I_{n-2} + F_n
-\label{juveniles}
-\end{equation}
-
-
-New juvenile trees are created each year according to equation \ref{juveniles}. The number of juveniles of age 1 is equal to the total number of juveniles that died last year, $d J_n =  d \sum_{k = 1}^{N} j_{n,k}$, plus the number of grey snags $I_{-2}$, plus the number of burnt snags (trees that burned the previous summer) $F_n$. 
-
-As mentioned in the main text, we use $P_n$ to be the severity of forest fire in year $n$. It is defined by an exponentially decaying sum over the unburnt forest area from previous years, so $P_n$ is not a state variable.  
-
-\begin{equation}
-  P_{n} = T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} 
-\end{equation}
-
-The growth of juvenile trees is defined by equation \ref{juv_growth}. A fraction $1-d$ of juveniles from class $k-1$ grows into class $k$ juveniles, minus the trees in this class that burn, proportional to $P_n$. 
-
-\begin{equation}
-  j_{n+1, k} = (1-d) j_{n, k - 1} - \frac{\alpha_1}{T}P_n j_{n,k-1}, k = 2 ... K-1 ,K
-  \label{juv_growth}
-  \end{equation}
-  
-
-
- The number of susceptibles in the spring of year $n+1$ is equal to the number of susceptibles in the spring of year $n$, plus the number of juveniles growing into mature trees ($(1 - d) j {n, K} $). We subtract the trees that were infested in the summer of year $n$, $I_n$, the infested \textit{and} burnt trees, $\frac{\alpha_3}{T} P_n I_n$, the trees that were only burnt, $\frac{\alpha_2}{T} P_n S_n$, and the juveniles from class $K$ that would have become mature if they had not caught fire, ($\frac{\alpha_2}{T} P_n (1-d) j_{n, K}$).
-
-\begin{equation}
-S_{n+1} = S_n + (1 - d) j_{n, K} - (I_n + \frac{\alpha_3}{T} P_n I_n) - \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right)
-\end{equation}
-
-
-\begin{equation}
-I_{n+1} = r_1 I_n e^{-\beta_1 (T - S_n - (1 - d) j_{n, K} + (I_n + \frac{\alpha_2}{T} P_n I_n) +  \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right) } - \frac{\alpha_3}{T} P_n I_n
-\end{equation}
-
-The model for infested trees is based on ricker-style dynamics, where $r_1$ is the reproduction rate of beetles, and the exponential term denotes the probability that each individual will find a susceptible tree. The number of infested trees burned is subtracted after reproduction, for simplicity. As in Duncan et al., we have $I_{n+1} = r_1 I_n e^{I_n + I_{n-1} + F_n + J_{n+1}}$, where the exponent is the number of current non-susceptible trees. From the conservation of tree-equivalents $T = I_n + I_{n-1} + F_{n} + J_{n+1} + S_{n+1}$, so the exponent is just $T - S_{n+1}$.
-
-\begin{equation}    
-  F_{n+1} =  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,K}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n 
-\end{equation}
-
-The burnt snags in the spring of year $n+1$ is equal to the sum of the number of burnt juveniles ($\frac{\alpha_1}{T} P_n \sum_i^{K-1} j_{n,K}$), susceptibles ($\frac{\alpha_2}{T}P_n(Sn  + (1-d) j_{n,K}) $), and infested ($ \frac{\alpha_3}{T}I_n P_n$).
 
 The following lemma demonstrates that the model equations preserve the total tree equivalent population present in the initial conditions. 
 
