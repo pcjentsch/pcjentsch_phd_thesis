@@ -71,9 +71,9 @@
 %\newcommand{\texorpdfstring}[2]{#1} % does nothing, but defines the command
 % Anything defined here may be redefined by packages added below...
 
-\usepackage{amsmath}
-\usepackage{amssymb}
 
+\usepackage{tikz}
+\usetikzlibrary{shapes.multipart,matrix,positioning,arrows}
 % This package allows if-then-else control structures.
 \usepackage{ifthen}
 \newboolean{PrintVersion}
@@ -81,7 +81,7 @@
 % CHANGE THIS VALUE TO "true" as necessary, to improve printed results for hard copies by overriding some options of the hyperref package, called below.
 
 %\usepackage{nomencl} % For a nomenclature (optional; available from ctan.org)
-\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
+\usepackage{amsmath,amssymb,amstext,amsthm} % Lots of math symbols and environments
 \usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver 
 
 % Hyperlinks make it very easy to navigate an electronic document.
@@ -160,6 +160,7 @@
 \input{glossaries}
 \makeglossaries
 
+\newtheorem{lemma}{Lemma}
 %======================================================================
 %   L O G I C A L    D O C U M E N T
 % The logical document contains the main content of your thesis.
@@ -225,5 +226,6 @@
 \addcontentsline{toc}{chapter}{Appendix}
 % Appendices are just more chapters, with different labeling (letters instead of numbers).
 \input{appendices/ch_1_appendix.tex}
+\input{appendices/ch_3_appendix.tex}
 %----------------------------------------------------------------------
 \end{document} % end of logical document

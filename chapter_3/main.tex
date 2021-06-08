@@ -7,9 +7,9 @@ Bark beetle outbreaks and forest fires have imposed severe ecological damage and
 
 \section{Introduction}
 
-Ecosystems have long been characterized by resilience in the face of large disturbances such as fire, storms, pathogens, and drought, which are often interacting. For example, the pine forests of western North America are highly adapted to both wildfires and bark beetle infestations. Many pine species, including lodgepole (Pinus contorta) and ponderosa (Pinus ponderosa) pine, depend on stand replacing fires to maintain healthy populations in their endemic range \cite{bentz2010climate}. 
+Ecosystems have long been characterized by resilience in the face of large disturbances such as fire, storms, pathogens, and drought, which are often interacting. For example, the pine forests of western North America are highly adapted to both wildfires and bark beetle infestations. Many pine species, including lodgepole (\textit{Pinus contorta}) and ponderosa (\textit{Pinus ponderosa}) pine, depend on stand replacing fires to maintain healthy populations in their endemic range \cite{bentz2010climate}. 
 
-Of the major natural processes influencing lodgepole pine forests, the two with the greatest potential for large scale disturbance are mountain pine beetle (MPB, Dendroctonus ponderosae) and fire \cite{kaufmann2008status}. It has been noted that "In western North America, insect outbreaks and wildfires are the two most ecologically and economically significant natural forest disturbances" \cite{meigs2016insect}. The MPB is a small insect endemic to the pine forests of western North America. MPB has recently attained previously unrecorded outbreak levels, probably due to anthropogenic factors \cite{bentz2010climate,safranyik2007mountain}.  British Columbia's Ministry of Forests estimates that British Columbia contains roughly 35 million acres of lodgepole pine forest (about 23\%), and slightly less ponderosa pine forest. They estimate that over the past 20 years, MPB has affected approximately 1.6 million acres of forest annually in British Columbia, more than forest fire and logging combined \cite{bc2010state}.
+Of the major natural processes influencing lodgepole pine forests, the two with the greatest potential for large scale disturbance are mountain pine beetle (MPB, \textit{Dendroctonus ponderosae}) and fire \cite{kaufmann2008status}. It has been noted that "In western North America, insect outbreaks and wildfires are the two most ecologically and economically significant natural forest disturbances" \cite{meigs2016insect}. The MPB is a small insect endemic to the pine forests of western North America. MPB has recently attained previously unrecorded outbreak levels, probably due to anthropogenic factors \cite{bentz2010climate,safranyik2007mountain}.  British Columbia's Ministry of Forests estimates that British Columbia contains roughly 35 million acres of lodgepole pine forest (about 23\%), and slightly less ponderosa pine forest. They estimate that over the past 20 years, MPB has affected approximately 1.6 million acres of forest annually in British Columbia, more than forest fire and logging combined \cite{bc2010state}.
 
 Ecological studies examining the relationship between MPB and wildfire damage are numerous, but have not reached a strong consensus in all aspects \cite{axelson2009influence,lynch2006influence, simard2011mountain, bradley2001effects,kaufmann2008status,meigs2016insect,agne2016fire,seidl2016spatial,JENKINS200816}. Lynch et al. \cite{lynch2006influence} used remote sensing data associated with the 1988 Yellowstone National Park fires to investigate the link between fire prevalence and beetle attack. They found that beetle attack initially lowered the probability of crown fire in a patch, but bark beetle activity significantly increases fire risk 13-16 years in the future. On the other hand, Siedl et al. \cite{seidl2016spatial} find that wildfire increases spatial variability in stands, and therefore reduces the susceptibility of the stand to beetle outbreak. To make things more complicated, some studies have found that measures of burn severity are positively correlated with beetle damage\cite{simard2011mountain, bradley2001effects}, although the results of Simard et al. \cite{simard2011mountain} have been disputed by others \cite{moran2012mountain}.
 
@@ -22,57 +22,230 @@ Whether fire suppression changes stand structure in a way that alters susceptibi
 
 \subsection{Model Description}
 
-Our model is based on a discrete-time model developed by Duncan et al.\cite{duncan2015model}, describing beetle-tree dynamics in a well-mixed, sufficiently large, single-species stand. We expand their model to include fire dynamics by introducing a category for burnt trees, implemented as a Kermack-McKendrick-style contagious process\cite{edelstein1988mathematical}. We also add stochastic forcing to both the infested category and the burnt category. The discrete-time dynamics are defined in terms of population size in the spring of year $n$. Trees killed by beetle infestation die over the course of a few years, becoming a snag (a dead or dying tree that remains standing), until they decompose enough that they no longer shade the forest floor. If a tree is infested in the summer of year $n$, its needles will turn red and it will be a "red snag" in the spring of year $n+1$. Then, in the spring of year $n+2$, a "grey snag" with grey needles. After this it will decay sufficiently that new juvenile trees can grow up in it's place, in year $n+3$. Wildfire also produces snags: a tree that is standing and shading the forest floor but no longer alive. We assume that wildfire clears the forest faster than MPB infections, so a tree that has been sufficiently affected by fire in the summer of year of $n$ becomes a snag in the spring of year $n+1$, and then the following spring, new juvenile trees come up in its place.  {We assume that the forest is at carrying capacity, so new trees can only come up at the locations where trees have died. The forest is assumed to be a monospecies lodgepole pine stand, which are common hosts of MPB in western Canada and the USA.}
+Our model is based on a discrete-time model developed by Duncan et al.\cite{duncan2015model}, describing beetle-tree dynamics in a well-mixed, sufficiently large, single-species stand. We expand their model to include fire dynamics by introducing a category for burned trees, implemented as a Kermack-McKendrick-style contagious process\cite{edelstein1988mathematical}. We also add stochastic forcing to both the infested category and the burned category. The discrete-time dynamics are defined in terms of population size in the spring of year $n$. Trees killed by beetle infestation die over the course of a few years, becoming a snag (a dead or dying tree that remains standing), until they decompose enough that they no longer shade the forest floor. If a tree is infested in the summer of year $n$, its needles will turn red and it will be a "red snag" in the spring of year $n+1$. Then, in the spring of year $n+2$, a "grey snag" with grey needles. After this it will decay sufficiently that new juvenile trees can grow up in it's place, in year $n+3$. Wildfire also produces snags: a tree that is standing and shading the forest floor but no longer alive. We assume that wildfire clears the forest faster than MPB infections, so a tree that has been sufficiently affected by fire in the summer of year of $n$ becomes a snag in the spring of year $n+1$, and then the following spring, new juvenile trees come up in its place. We assume that the forest is at carrying capacity, so new trees can only come up at the locations where trees have died. The forest is assumed to be a monospecies lodgepole pine stand, which are common hosts of MPB in western Canada and the USA.
 
 
- {Age structure is incorporated because beetles cannot effectively infest trees less than a certain diameter in size \cite{safranyik2003mountain, alfaro2003dendroecological}. Juveniles grow through the $K$ age categories, with a  probability $(1-d)$ of surviving until the next year. Figure \ref{diagram} illustrates the cycle each category should move through in any particular year.  We define the following state variables: $j_{n,k}$ is the population of juvenile trees of age $k$ at year $n$, $J_n = \sum_{k = 0}^{K} j_{n,k}$, the total number of trees in the Juvenile class, $S_n$ is the population of susceptible trees at year $n$, $I_n$ is the population of infested trees at year $n$, and $F_n$ is the population of burnt trees at year $n$.}
+Age structure is incorporated because beetles cannot effectively infest trees less than a certain diameter in size \cite{safranyik2003mountain, alfaro2003dendroecological}. Juveniles grow through the $K$ age categories,at a rate of one age class per year, with a  probability $(1-d)$ of surviving until the next year. Figure \ref{diagram} illustrates the cycle each category should move through in any particular year.  We define the following state variables: $j_{n,k}$ is the population of juvenile trees of age $k$ at year $n$, $J_n = \sum_{k = 0}^{K} j_{n,k}$, the total number of trees in the Juvenile class, $S_n$ is the population of susceptible trees at year $n$, $I_n$ is the population of infested trees at year $n$, and $F_n$ is the population of burned trees at year $n$.
 
- {The severity of forest fire in year $n$ in the stand as a function of the previously unburned area is
+The severity of forest fire in year $n$ in the stand as a function of the previously unburned area is
 \begin{equation}
 P_n = T -\sum_{i=1}^{n}  F_i e^{-\kappa (n - i)}
 \end{equation}
-where the variable $\kappa$ determines the half-life of decaying fuel. In other words, we define the severity or size of a fire in the year $n$ as inversely proportional to the amount of land burned in recent seasons.}
+where the variable $\kappa$ determines the half-life of decaying fuel. In other words, we define the severity or size of a fire in the year $n$ as inversely proportional to the amount of land burned in recent seasons.
 
-Our model is then defined by:
- {\small{
+Then, our model is defined by:
+
+\small
 \begin{subequations}
   \begin{alignat}{2}
-    j_{n+1, 1} &= d J_n + I_{n-2} + F_n \protect \label{eq1}\\
-    j_{n+1, k} &= (1-d) j_{n, k - 1} - (\frac{\alpha_1}{T}) P_n j_{n,k},\hspace{0.5cm} k = 2 ... K-1 ,K  \protect \label{eq2}\\
-    S_{n+1} &= S_n + (1 - d) j_{n, K} - (I_n + \frac{\alpha_3}{T} P_n I_n) - \frac{\alpha_2}{T}P_n \left( S_n + (1-d) j_{n, K}\right) - \sigma_F \gamma_n  \protect \label{eq3}\\
-    I_{n+1} &= r_1 I_n e^{-\beta_1 (T - S_{n+1})} - \frac{\alpha_3}{T} P_n I_n + \sigma_I \xi_n  \protect \label{eq4}\\
-    F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{i = 0}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,k}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n  \protect \label{eq5}\\
-    P_{n} &= T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} \label{eq6}\\
+    j_{n+1, 1} &= d J_n + I_{n-2} + F_{n} \protect \label{eq1}\\
+    j_{n+1, k} &= (1-d) j_{n, k - 1} - \frac{\alpha_1}{T} P_n j_{n,k-1  },\hspace{0.5cm} k = 2 ... K-1 ,K  \protect \label{eq2}\\
+    S_{n+1} &= S_n + (1 - d) j_{n, K} - \left(I_n + \frac{\alpha_2}{T} P_n I_n\right) - \frac{\alpha_2}{T}P_n \left( S_n + (1-d) j_{n, K}\right) - \sigma_F \gamma_n  \protect \label{eq3}\\
+    I_{n+1} &= r_1 I_n e^{-\beta_1 (T - S_{n+1})} - \frac{\alpha_2}{T} P_n I_n + \sigma_I \xi_n  \protect \label{eq4}\\
+    F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right) + \frac{\alpha_2}{T}I_n\right] + \sigma_F\gamma_n  \protect \label{eq5}\\
+    P_{n} &= T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} \label{eq6}
   \end{alignat}
 \end{subequations}
-}}
-A detailed derivation of these equations appears in the Supplementary Information. Descriptions of the variables can be found in Table \ref{params}.  {Fire could have been modelled in a more complex way using a different timescale than seasonal beetle outbreaks, but we chose to simplify the modelling by matching the timestep of the pest outbreak cycles instead. Fire prevalence is also dependent on precipitation patterns, temperature, human activity, and other factors which operate on different time and spatial scales than our model. We assume this risk is roughly constant each year, and that it contributes to the environmental noise experienced by the system denoted by $\sigma_F$.}
+\normalsize
+$\xi_n$ and $\gamma_n$ are normal random variates with zero mean and unit variance, drawn independently in year $n$}. The model conserves the total number of tree-equivalents, which is a tree, a snag, or an open space in the canopy where a tree will grow the next season. The conservation equation is $T = I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} $, which can also be seen as the left or right column in figure \ref{diagram}.A detailed explanation of these equations, and a proof that these equations conserves tree equivalents, appears in the Supplementary Information}. Descriptions of the variables can be found in Table \ref{params}.  Fire could have been modelled in a more complex way using a different timescale than seasonal beetle outbreaks, but we chose to simplify the modelling by matching the timestep of the pest outbreak cycles instead. Fire prevalence is also dependent on precipitation patterns, temperature, human activity, and other factors which operate on different time and spatial scales than our model. We assume this risk is roughly constant each year, and that it contributes to the environmental noise experienced by the system denoted by $\sigma_F$.
 
-\begin{figure*}
-\includegraphics[width = 0.75\textwidth]{chapter_3/table.jpg}
-\caption{Conceptual diagram of compartments (state variables) and transitions between compartments across seasons.  See main text and Table \ref{params} for definitions of variables and parameters.}
-\protect \label{diagram}
-\end{figure*}
+\begin{figure}
+    \begin{tikzpicture}
+    \matrix (A) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2cm,align=center}] at (0,1)
+    {
+        Grey snags, $I_{n-2}$\\
+        Red snags, $I_{n-1}$\\
+        Juvenile trees, $j_{n,k}$\\
+        Susceptible trees, $S_{n}$\\
+        Burned snags, $F_{n}$\\
+    };
+    \matrix (B) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2.5cm,align=center}] at (6,1)
+    {
+        Red snags\\
+        MPB Infestation\\
+        Growth\\
+        Survival\\
+        Burning\\
+        Open forest floor $ dJ_n + I_{n-2} + F_n$\\
+    };
+    \matrix (C) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2cm,align=center}] at (12,1)
+    {
+        Grey snags, $I_{n-1}$\\
+        Red snags, $I_{n}$\\
+        Juvenile trees, $j_{n+1,k+1}$\\
+        Susceptible trees, $S_{n+1}$\\
+        Burned snags, $F_{n+1}$\\
+        New growth, $j_{n+1,1}$\\
+    };
+    \draw[->] (A-1-1.east) -- ([yshift=0.2 cm]B-6-1.west);
+
+    \draw[->] (A-2-1.east) -- (B-1-1.west);
+
+    \draw[->] ([yshift=-0.2 cm]A-3-1.east) -- ([yshift=0.1 cm]B-6-1.west);
+    \draw[->] (A-3-1.east) -- (B-5-1.west);
+    \draw[->] ([yshift=0.2 cm]A-3-1.east) -- ([yshift=0.1 cm]B-3-1.west);
+
+    \draw[->] ([yshift=-0.2 cm]A-4-1.east) -- ([yshift=-0.1 cm]B-5-1.west);
+    \draw[->] (A-4-1.east) -- (B-4-1.west);
+    \draw[->] ([yshift=0.2 cm]A-4-1.east) -- ([yshift=-0.1 cm]B-2-1.west);
+
+    \draw[->] (A-5-1.east) -- ([yshift=-0.1 cm]B-6-1.west);
+    
+    \draw[->] (B-1-1.east) -- (C-1-1.west);
+    \draw[->] (B-2-1.east) -- (C-2-1.west);
+    \draw[->] (B-3-1.east) -- (C-3-1.west);
+    \draw[->] (B-4-1.east) -- (C-4-1.west);
+    \draw[->] (B-5-1.east) -- ([yshift=0.1 cm]C-5-1.west);
+    \draw[->] (B-6-1.east) -- (C-6-1.west);
+
+    
+
+
+    \node[above=0.01cm of A]{Spring of year $n$};
+    \node[above=0.01cm of B,text width=3cm,align=center]{Summer and Winter of year $n$};
+    \node[above=0.01cm of C,align=center]{Spring of year $n+1$};
+    \end{tikzpicture}
+  \label{diagram}
+  \caption{Conceptual diagram of compartments (state variables) and transitions between compartments across seasons.  See main text and Table \ref{params} for definitions of variables and parameters.}
+\end{figure}
+
+
+
+\section{Derivation of Model Equations}
+
+
+\begin{equation}
+j_{n+1, 1} = d J_n + I_{n-2} + F_n
+\label{juveniles}
+\end{equation}
+
+
+New juvenile trees are created each year according to equation \ref{juveniles}. The number of juveniles of age 1 is equal to the total number of juveniles that died last year, $d J_n =  d \sum_{k = 1}^{N} j_{n,k}$, plus the number of grey snags $I_{-2}$, plus the number of burnt snags (trees that burned the previous summer) $F_n$. 
+
+As mentioned in the main text, we use $P_n$ to be the severity of forest fire in year $n$. It is defined by an exponentially decaying sum over the unburnt forest area from previous years, so $P_n$ is not a state variable.  
+
+\begin{equation}
+  P_{n} = T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} 
+\end{equation}
+
+The growth of juvenile trees is defined by equation \ref{juv_growth}. A fraction $1-d$ of juveniles from class $k-1$ grows into class $k$ juveniles, minus the trees in this class that burn, proportional to $P_n$. 
+
+\begin{equation}
+  j_{n+1, k} = (1-d) j_{n, k - 1} - \frac{\alpha_1}{T}P_n j_{n,k-1}, k = 2 ... K-1 ,K
+  \label{juv_growth}
+  \end{equation}
+  
+
+
+ The number of susceptibles in the spring of year $n+1$ is equal to the number of susceptibles in the spring of year $n$, plus the number of juveniles growing into mature trees ($(1 - d) j {n, K} $). We subtract the trees that were infested in the summer of year $n$, $I_n$, the infested \textit{and} burnt trees, $\frac{\alpha_3}{T} P_n I_n$, the trees that were only burnt, $\frac{\alpha_2}{T} P_n S_n$, and the juveniles from class $K$ that would have become mature if they had not caught fire, ($\frac{\alpha_2}{T} P_n (1-d) j_{n, K}$).
+
+\begin{equation}
+S_{n+1} = S_n + (1 - d) j_{n, K} - (I_n + \frac{\alpha_3}{T} P_n I_n) - \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right)
+\end{equation}
+
+
+\begin{equation}
+I_{n+1} = r_1 I_n e^{-\beta_1 (T - S_n - (1 - d) j_{n, K} + (I_n + \frac{\alpha_2}{T} P_n I_n) +  \frac{\alpha_2}{T} P_n \left( S_n + (1-d) j_{n, K}\right) } - \frac{\alpha_3}{T} P_n I_n
+\end{equation}
+
+The model for infested trees is based on ricker-style dynamics, where $r_1$ is the reproduction rate of beetles, and the exponential term denotes the probability that each individual will find a susceptible tree. The number of infested trees burned is subtracted after reproduction, for simplicity. As in Duncan et al., we have $I_{n+1} = r_1 I_n e^{I_n + I_{n-1} + F_n + J_{n+1}}$, where the exponent is the number of current non-susceptible trees. From the conservation of tree-equivalents $T = I_n + I_{n-1} + F_{n} + J_{n+1} + S_{n+1}$, so the exponent is just $T - S_{n+1}$.
+
+\begin{equation}    
+  F_{n+1} =  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,K}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n 
+\end{equation}
+
+The burnt snags in the spring of year $n+1$ is equal to the sum of the number of burnt juveniles ($\frac{\alpha_1}{T} P_n \sum_i^{K-1} j_{n,K}$), susceptibles ($\frac{\alpha_2}{T}P_n(Sn  + (1-d) j_{n,K}) $), and infested ($ \frac{\alpha_3}{T}I_n P_n$).
+
+The following lemma demonstrates that the model equations preserve the total tree equivalent population present in the initial conditions. 
+
+\begin{lemma}
+  Let $I_{-1} + I_{-2} + F_{0} + J_{0} + S_{0} = T$. The equation $ I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} = T $ is true for all $n \geq 0$ under the evolution equations \ref{eq1}-\ref{eq6}.
+\end{lemma}
+\begin{proof}
+
+  First, notice that the only individuals leaving the Juvenile compartment $J_{n}$ are the surviving oldest juvenile age class $(1 - d) j_{n, K}$ and the sum of the trees burned from each juvenile age class (except the oldest), $\frac{\alpha_1}{T} P_n \sum_{k = 1}^{K-1} j_{n,k}$. The individuals entering the Juvenile compartment are the seedlings germinating in the canopy gaps created by the gray snags $I_{n-2}$ and the trees burned the previous summer, $F_n$. Therefore we have the following equation for the total number of juvenile trees $J_{n+1}$.
+
+  \begin{equation}
+    J_{n+1} = J_n - (1 - d) j_{n, K} + I_{n-2} + F_{n} - \frac{\alpha_1}{T} P_n \sum_{k = 1}^{K-1} j_{n,k} 
+  \end{equation} 
+
+
+  Then, proceed by induction. The base case, $I_{-1} + I_{-2} + F_{0} + J_{0} + S_{0} = T$,  is true by definition. For the inductive step, assume that $I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} = T$ is true, then we have:
+  \begin{subequations}
+    \begin{equation}
+    I_{n-1} + I_{n-2} + F_{n} + J_{n} + S_{n} + (1 - d) j_{n, K} - (1 - d) j_{n, K} = T\\
+    \end{equation}
+    \begin{align}
+    \implies J_{n}+ I_{n-2}+ F_{n} - (1 - d) j_{n, K} + I_{n-1} + S_{n} &+ (1 - d) j_{n, K}\nonumber\\ + F_{n+1} - \frac{\alpha_1}{T}  P_n \sum_{k = 1}^{K-1} j_{n,k} &- \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right)P_n \nonumber\\
+    & - \frac{\alpha_2}{T}I_n P_n  - \sigma_F\gamma_n  = T
+    \end{align}
+    where we use the definition of $F_{n+1}$. 
+
+    \begin{align}
+    \implies J_{n+1}+ I_{n-1} + S_{n} &+ (1 - d) j_{n, K}\nonumber + F_{n+1} - \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right)P_n\\ &- \frac{\alpha_2}{T}I_n P_n  - \sigma_F\gamma_n   = T\\
+    \end{align}
+    by definition of $J_{n+1}$. 
+
+
+    \begin{align}
+      \implies J_{n+1}+ I_{n-1} + S_{n} + (1 - d) j_{n, K} &+ F_{n+1}  \nonumber \\- \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right)P_n &- \frac{\alpha_2}{T}I_n P_n  - \sigma_F\gamma_n + I_n - I_n = T\\
+    \end{align}
+    \begin{equation}
+      \implies J_{n+1} + S_{n+1} + F_{n+1} + I_n + I_{n-1}   = T      
+    \end{equation}
+
+    where we obtain the conservation equation for the spring of year $n+1$ by definition of $S_{n+1}$. Therefore the inductive step is true, and the model equations conserve tree equivalents. \qed
+  \end{subequations}
+
+\end{proof}
+
+\section{Initial conditions}
+
+The initial conditions we use in the model are defined as follows.
+
+\begin{subequations}
+  \begin{alignat}{2}
+  I_0 &= 2000\\
+  I_{-1} &= 1000\\
+  I_{-2} &= 0\\
+  S_0 &= 108000\\
+  F_0 &= 1000\\
+  j_{0,k} &= 0,\hspace{0.5cm}  k = 1 ... K\\
+  \label{ic}
+  \end{alignat}
+\end{subequations}
+
+
+These conditions were chosen to provide reasonable representations of the system being modeled. The model appears to be robust to the choice of initial conditions and so the observations in the main text hold for any reasonable set of initial conditions. Note that $I_{-1} + I_{-2} + F_{0} + J_{0} + S_{0} = 110000 = T$, where $T$ is the parameter that determines the total number of stems, from the main text. 
+
+
+
+
 
 \subsection{Forest thinning protocol (FTP) and controlled burning protocol (CBP)}
 
 
-One of the MPB control methods is to thin the forest, or conduct controlled burns, to increase the overall resilience of the forest to outbreaks or wildfire.\cite{safranyik2001effects,sartwell1975,amman1998silvicultural}.  {In this section we modify our discrete process to include a control protocol, which is a simplified description of altering the structure of a growing stand to limit susceptibility to MPB. Define $\tau$ as the fraction of juvenile trees removed from the $m$ oldest juvenile age classes, each year. The removed trees are added to the youngest juvenile class, to model trees replaced by seedlings. Since it is not realistic to perform this every year, we also investigate the effect of performing this protocol every 5 years. We will refer to the preceding protocol as the \emph{forest thinning protocol (FTP)}.}
+One of the MPB control methods is to thin the forest, or conduct controlled burns, to increase the overall resilience of the forest to outbreaks or wildfire.\cite{safranyik2001effects,sartwell1975,amman1998silvicultural}. {In this section we modify our discrete process to include a control protocol, which is a simplified description of altering the structure of a growing stand to limit susceptibility to MPB. Define $\tau$ as the fraction of juvenile trees removed from the $m$ oldest juvenile age classes, each year. The removed trees are added to the youngest juvenile class, to model trees replaced by seedlings. Since it is not realistic to perform this every year, we also investigate the effect of performing this protocol every 5 years. We will refer to the preceding protocol as the \emph{forest thinning protocol (FTP)}.} 
 
-Let $$X_n = \arg \max_{S \subset [1,50]: |S| = m} \sum_{k \in S} j_n,k$$ be the set of $m$ largest juvenile age classes. Mathematically, for all age classes $k' \in X_n$, we change equation \ref{eq2} to equation \ref{ftp_eq2}. In order to thin the fraction $\tau$ of trees from each age class in $X_n$, we add the corresponding population to $j_{n,0}$.
-\begin{align}
-  j_{n+1,1} &= d J_n + I_{n-2} + F_n + \sigma_F \gamma_n \\ &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right)  \protect \label{ftp_eq1}
-\end{align}
+
 \begin{equation}
-  j_{n+1, k'} = (1-\tau)\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right),\hspace{0.5cm} k'\in X_n  \protect \label{ftp_eq2}
-\end{equation}
+  X_n = \arg \max_{S \subset [1,50]: |S| = m} \sum_{k \in S} j_{n,k}
+  \label{m_largest}
+\end{equation} 
 
-Controlled burning is modelled similarly, but instead we add the reduced age compartments to the $F$ compartment as shown in equation \ref{ftp_f_eq}. We will refer to this modification as the controlled burning protocol (CBP) in the text from here on.
+Let $X_n$ be the set of $m$ largest 
+  juvenile age classes defined as in equation \ref{m_largest}. Mathematically, for all age classes $k' \in X_n$, we change equation \ref{eq2} to equation \ref{ftp_eq2}. In order to thin the fraction $\tau$ of trees from each age class in $X_n$, we add the corresponding population to $j_{n,0}$.
 
-\begin{align}
-  F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{i = 0}^{K-1} j_{n,k} + \frac{\alpha_2}{T}( S_n + (1 - d)j_{n,k}) + \frac{\alpha_3}{T}I_n\right] + \sigma_F\gamma_n
-  \\ &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - (\frac{\alpha_1}{T}) F_n j_{n,k'}\right)\label{ftp_f_eq}
-\end{align}
+\begin{subequations}
+  \begin{alignat}{2}
+  j_{n+1,1} &= d J_n + I_{n-2} + F_n + \sigma_F \gamma_n \nonumber \\ &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - \frac{\alpha_1}{T} P_n j_{n,k'}\right)  \protect \label{ftp_eq1} \\
+  j_{n+1, k'} &= (1-\tau)\left((1-d) j_{n, k' - 1} - \frac{\alpha_1}{T} P_n j_{n,k' - 1}\right),\hspace{0.5cm} k'\in X_n  \protect \label{ftp_eq2} \\
+  F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{i = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right) + \frac{\alpha_2}{T}I_n\right] + \sigma_F\gamma_n \nonumber \\
+  &+ \tau\sum_{k' \in X_n}\left((1-d) j_{n, k' - 1} - \frac{\alpha_1}{T} P_n j_{n,k' - 1}\right) \label{ftp_f_eq}
+  \end{alignat}
+\end{subequations}
+
+Controlled burning is modelled similarly, but instead we add the reduced age compartments to the $F$ compartment as shown in equation \ref{ftp_f_eq}. We will refer to this modification as the controlled burning protocol (CBP) in the text from here on. We only consider removing juvenile trees because a tree removed before it is susceptible to MPB has the most potential effect on reducing MPB infestation size.
 
 \subsection{Parameters and simulation design}
 
@@ -92,8 +265,11 @@ Table \ref{params} contains a list of the parameters used in the model, their in
   $\kappa$& 0.1 & decay rate of fuel & - \\
   $T$ & 110,000 & total number of trees in stand & \cite{powell2009connecting} \\
   $K$ & 50 & number of juvenile generations & \cite{duncan2015model} \\
-  $\sigma_F$ & 20 & noise in burnt tree\\
+  $\sigma_F$ & 20 & noise in burned tree\\
   $\sigma_I$ & 20 & noise in infested tree\\
+  $m$ & 0 & number of age classes considered by FTP and CBP\\
+  $\tau$ & 0 & fraction of juvenile trees removed from the $m$  age classes with FTP and CBP\\
+
 \hline\noalign{\smallskip}
 \end{tabular}
  \protect \label{params}
@@ -103,11 +279,12 @@ Table \ref{params} contains a list of the parameters used in the model, their in
 To generate parameter planes, we simulated equations \ref{eq1}-\ref{eq6} across a grid of parameter values.  We conducted 100 simulations for each point on the parameter grid and computed the average outcome for that grid point.  We also recorded a representative sample of the resulting time series. We found the dominant period of the outbreaks by finding the frequency with maximum modulus via the discrete Fourier transform of the time series. In the deterministic case (with no noise), this frequency is the period of the periodic solution. When noise is added and the system becomes stochastic, there is no longer a clear periodic solution, but it is possible to estimate the mean of the distribution of the period by averaging the dominant frequency of the system at equilibrium. The period is assumed to be 1, corresponding to a (stochastic) steady state, if the smallest and largest values of the susceptible timeseries were sufficiently close together. The model and analysis of model output were coded in Julia. Throughout the results section, we mostly focus on the $\alpha_1,\alpha_2$ plane. We kept the remainder of the parameters constant as it was possible to set their values from empirical literature as described above.
 
 \section{Results}
-We first characterize the dynamical regimes of the model as a function of the burning rates $\alpha_1$, $\alpha_2$, and the decay rate $\kappa$. Then, we describe how the forest responds to the CBP described previously. Note that the susceptible class refers to mature trees, i.e., those large enough to be susceptible to infestation by MPB. Maximum outbreak sizes and fire season sizes are taken over a $500$ year period.
+We first characterize the dynamical regimes of the model as a function of the burning rates $\alpha_1$, $\alpha_2$, and the decay rate $\kappa$. Then, we describe how the forest responds to the FTP and CBP described previously. Note that the susceptible class refers to mature trees, i.e., those large enough to be susceptible to infestation by MPB. Maximum outbreak sizes and fire season sizes are taken over a $500$ year period.
 
 \subsection{Dynamical regimes}
 
 There are roughly two equilibrium dynamical regimes in the $\alpha_1, \alpha_2$ parameter plane, although the sizes of the equilibrium populations varies continuously with the parameters inside each dynamical regime. The shapes of these dynamical regimes are affected by the rate of fuel decay, $\kappa$. 
+
 \begin{figure}
   \includegraphics[width=\textwidth]{chapter_3/a1_a2_phase.pdf}
 \caption{Approximate dynamical regimes of the system, where $\alpha_1$ is the burning rate of juvenile trees, and $\alpha_2$ is the burning rate of susceptible (mature) trees. a) Average size of largest MPB population (over 500 years at equilibrium) b) Average frequency of MPB outbreaks at equilibrium c) Average size of largest fire season (over 500 years at equilibrium) d) Average frequency of severe fire seasons at equilibrium. The juvenile burning rate ($\alpha_1$) and susceptible burning rate ($\alpha_2$) control fire and MPB prevalence. Large $\alpha_1,\alpha_2$ implies low infestation and also more regularity in the fire regime. All other parameters were set to baseline values (Table \ref{params}).}  
@@ -115,11 +292,12 @@ There are roughly two equilibrium dynamical regimes in the $\alpha_1, \alpha_2$ 
 \end{figure}
 
 
-    As $\alpha_1, \alpha_2$ increase, the model displays larger, and more regular fires, and smaller MPB outbreaks (Figure \ref{dynamical_regimes}). When $\alpha_1, \alpha_2$ are small and not equal, years with severe fire seasons roughly follow the same period as MPB outbreaks. The variation in fire season size is more pronounced when $\alpha_1$ is either much larger or smaller than $\alpha_2$. The presence of large even-aged stands is determined by the size of the infestation outbreaks, since they can only affect sufficiently old (susceptible) trees (Figure \ref{z1}).
-    }
+    As $\alpha_1, \alpha_2$ increase, the model displays larger, and more frequent fires, and smaller MPB outbreaks (Figure \ref{dynamical_regimes}). When $\alpha_1, \alpha_2$ are small and not equal, years with severe fire seasons roughly follow the same period as MPB outbreaks  (Figure \ref{dynamical_regimes}b,d). The variation in fire season size is more pronounced when $\alpha_1$ is either much larger or smaller than $\alpha_2$. This is shown in by the unit period in Figure \ref{dynamical_regimes}d which signifies that the burned tree population is roughly constant and therefore recurs with period one. The presence of large stands with similar ages is determined by the size of the MPB outbreaks, since they mostly affect sufficiently old (susceptible) trees (Figure \ref{z1}a,b). This can been seen in the bump at $k  = 40$, which will age out of the juvenile age classes and become a large concentration of susceptible trees, triggering an mpb outbreak. Dead trees from this MPB outbreak clear canopy space for seedlings, which causes another large even-aged stand to arise, and the cycle repeats.
+
+    
     \begin{figure}
       \includegraphics[width=\textwidth]{chapter_3/z1_ts.pdf}
-      \caption{Time series of each state variable of a single realization where  $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$ , showing the regular outbreaks of pests, periodic shifts in fire prevalence, and uneven age distribution generated by MPB outbreaks. a) juvenile distribution at time $t=2050$ (note different x-axis), b) susceptible population after year $t$, c) infested tree population after year $t$, d) burned forest after year $t$. All other parameters were set to baseline values (Table \ref{params}).}
+      \caption{Time series of each state variable of a single realization where  $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$ , showing the regular outbreaks of pests, periodic shifts in fire prevalence, and uneven age distribution generated by MPB outbreaks. a) juvenile distribution at time $t=2050$ (note different x-axis), b) susceptible population after year $t$, c) infested tree population after year $t$, d) number of burned trees after year $t$. All other parameters were set to baseline values (Table \ref{params}).}
       \label{z1}
     \end{figure}
     
@@ -128,15 +306,10 @@ There are roughly two equilibrium dynamical regimes in the $\alpha_1, \alpha_2$ 
 The model predicts that the FTP described in section 2.2 (remove a fraction $\tau$ of trees in the $m$ oldest juvenile age classes each year) is an effective way to control MPB outbreaks, as long as control intensity parameters are sufficiently large. We consider trimming fractions $\tau$ up to $0.15$, and the number of age classes trimmed $m$ up to 8.
 
 
-The FTP reduces the size of MPB outbreaks differently depending on the values of $\alpha_1,\alpha_2$ (Figure \ref{trim_gain}). The parts of the parameter regime where thinning is most effective at reducing MPB outbreak sizes occur when $\alpha_2$ is large and $\alpha_1$ is small, where we see approximately 70\% smaller MPB outbreaks (Figure \ref{trim_gain}a). Generally, parameter ranges where MPB is more prevalent experience the largest reductions. With $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$, there is a reduction in maximum outbreak population of about 30\% when thinning the largest 8 stands by 15\% each year (SI Figure 1a). With $\alpha_1 = 0.01$, $\alpha_2 = 0.006$, MPB populations are already dampened by the fire regime, but MPB outbreak peak population sizes are reduced from roughly $1600$ infested trees to $800$ infested (SI Figure 1b). A similar practice conducted every five years is almost as effective as the yearly trimming (Figure \ref{trim_gain}b). Increasing the heterogeneity of the age distribution in this way always reduces MPB populations by some amount. If we apply the CBP instead (see Equation \ref{ftp_f_eq}), then controlled burns are largely effective with significant MPB populations, but can worsen outbreaks by up to 80\% in regions were the MPB outbreak size is already small (Figure \ref{trim_gain}c). 
+The FTP reduces the size of MPB outbreaks differently depending on the values of $\alpha_1,\alpha_2$ (Figure \ref{trim_gain}). The parts of the parameter regime where thinning is most effective at reducing MPB outbreak sizes occur when $\alpha_1$ is small, where we see approximately 70\% smaller MPB outbreaks (Figure \ref{trim_gain}a) for all considered values of $\alpha_2$. Generally, parameter ranges where MPB is more prevalent experience the largest reductions. With $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$, there is a reduction in maximum outbreak population of about 30\% when thinning the largest 8 stands by 15\% each year (SI Figure 1a)}. With $\alpha_1 = 0.01$, $\alpha_2 = 0.006$, MPB populations are already dampened by the fire regime, but MPB outbreak peak population sizes are reduced from roughly $1600$ infested trees to $800$ infested (SI Figure 1b). A similar practice conducted every five years is almost as effective as the yearly trimming (Figure \ref{trim_gain}b). Maximum MPB infestation sizes for FTP every 5 years and CBP are also in the SI Appendix}. Increasing the heterogeneity of the age distribution in this way always reduces MPB populations by some amount. If we apply the CBP instead (see Equation \ref{ftp_f_eq}), then controlled burns are largely effective with significant MPB populations, but can worsen outbreaks by up to 80\% in regions were the MPB outbreak size is already small (Figure \ref{trim_gain}c). 
 
 FTP, and to a lesser extent CBP, does not simply indirectly reduce the number of susceptible trees (and therefore available MPB hosts) but rather flattens the age distribution better to reduce the occurrence of large, even aged, stands. We compare the average susceptible population (Figure \ref{trim_susceptible}) with and without FTP/CBP and find that in large parts of the parameter regime, the susceptible population is unchanged or increased, despite MPB outbreak sizes being reduced in most areas. Figure \ref{trim_ts} shows a time-series at the same parameters as Figure \ref{z1}, except with FTP flattening, to show the flattening of the age distribution.
 
-\begin{figure}
-  \includegraphics[width=\textwidth]{chapter_3/a1_a2_trim_gain.pdf}
-  \caption{Percentage change in maximum MPB infestation size within 500 year period under a) FTP with $\tau = 0.15, m = 8$, b) CBP with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$, compared to no FTP. FTP is always effective at reducing MPB outbreaks, and CBP worsens them if the population of MPB is already low.}
-  \label{trim_gain}
-\end{figure}
 \begin{figure}
   \includegraphics[width=\textwidth]{chapter_3/z1_ftp.pdf}
   \caption{Time series showing realization of model under FTP with $\tau = 0.15$ fraction of $m = 8$ juvenile stands cleared, conducted each year, where  $\alpha_1 = 0.02$, $\alpha_2 = 0.0025$.  a) juvenile distribution at time $t=2050$ (note different x-axis), b) susceptible population after year $t$, c) infested tree population after year $t$, d) burned forest after year $t$.  Notice the flattening of the age distribution compared to the same parameters with no FTP (Figure \ref{z1})}
@@ -145,8 +318,14 @@ FTP, and to a lesser extent CBP, does not simply indirectly reduce the number of
 
 \begin{figure}
   \includegraphics[width=\textwidth]{chapter_3/a1_a2_trim_susceptible_loss.pdf}
-  \caption{Percentage change in average susceptible (mature) forest population compared to no FTP with  $\tau = 0.15, m = 8$, b) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$. FTP and CBP increase the average population of mature trees in many cases, in addition to reducing outbreak sizes.}
+  \caption{Percentage change in average susceptible (mature) forest population compared to no FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$. FTP and CBP increase the average population of mature trees in many cases, in addition to reducing outbreak sizes.}
   \label{trim_susceptible}
+\end{figure}
+
+\begin{figure}
+  \includegraphics[width=\textwidth]{chapter_3/a1_a2_trim_gain.pdf}
+  \caption{Percentage change in maximum MPB infestation size within 500 year period under FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$. FTP is always effective at reducing MPB outbreaks, and CBP worsens them if the population of MPB is already low.}
+  \label{trim_gain}
 \end{figure}
 \section{Discussion}
 
@@ -167,10 +346,26 @@ The dry pine forest ecosystem that we model in this paper is home to many verteb
 The primary goal of this paper was to build on work on the age structured models of beetle-infested stands\cite{duncan2015model} to a dynamical situation with a more complex disturbance regime that includes wildfire, a common feature of the forests inhabited by MPB. The modelling of fire spread is a very complex problem which is dependent on many variables which are not modelled here.  Moreover, the beetle infestation model we used was relatively simple, necessitating use of a simple fire model as well in order to retain tractability of the model. We opted for a simple approach derived from the compartmental modelling literature.The dynamics we see here are an average case, so a more sophisticated fire model would yield more detailed results. The assumed impact of fire on all age classes, and the mechanism through which we model fire spread could also be refined in future work. Snags are also not considered burnable material, which may have an effect on some of the dynamics. We chose not to include these to reduce the number of parameters, especially parameters for which we don't have empirically-derived values. Lastly, the parameters which we drew from Duncan et al. \cite{duncan2015model} were not tested for sensitivity, and therefore our findings could be affected by these values. 
 
 A number of other approaches that relax our simplifying assumptions could be explored in future research. Other models combine annual difference equations with continuous time intra-year equations \cite{strohm2016impacts,lynch2006influence,casagrandi1999minimal}. A continuous time summer phase is one way we could more accurately explicitly model a wildfire season. The FTP is straightforward and corroborates the findings of similar work with more complex mechanisms \cite{strohm2016impacts}. Nevertheless, our control strategies could be significantly more detailed and take into account fire-regimes and current susceptible population. Our goal was to illustrate that we can take advantage of the system dynamics by flattening the age distribution through burning a small percentage of juvenile trees, but more complex strategies might be more efficient. Spatial models would provide even more possibilities for control options. We did not explore the complex relationship between bark beetle emergence and temperature. MPB life-cycles are heavily regulated by temperature: warm years can cause more than one generation to emerge in a season, and severe cold can wipe out large populations. The higher precipitation and temperatures predicted by models of climate change imply conditions more conducive to MPB reproduction and therefore MPB outbreaks. Fire season intensity is also affected by temperature, and some evidence suggests that increasing temperatures and earlier snowmelts are probably creating worse fire seasons in this area \cite{westerling2006warming}. 
-\mdseries
+
 Serotinous forests will be subject to very different environmental regimes in coming decades that involve multiple stressors. We have demonstrated how a model can explore the impact of fire and control protocols on tree stand age structure and thus MPB outbreaks. Future models that account for multiple disturbance mechanisms could be useful for anticipating how forests will respond to novel environmental regimes in the rest of the twenty-first century. 
 
 
+\section*{Funding}
+This research was supported by an NSERC discovery grant to Chris T. Bauch and Madhur Anand.
+
+
+\section*{Conflicts of interest/Competing interests}
+The authors declare no competing interests.
+
+\section*{Availability of data and material}
+
+Not Applicable.
+
 \section*{Code availability}
+
 The source code for this work can be found at the author's public git repository: \url{https://git.uwaterloo.ca/pjentsch/fire-mitigates-bark-beetle-outbreaks-in-serotinous-forests}
+
+
+\section*{Authors' contributions}
+All authors conceived ideas for the study. PCJ designed and coded the model, performed analyses, created figures, and drafted the manuscript. All authors revised the manuscript
 
