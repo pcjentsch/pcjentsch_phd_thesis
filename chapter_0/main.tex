@@ -13,22 +13,35 @@ Compartmental models for the spread of infectious diseases are usually considere
     \label{SIR}
 \end{eqnarray}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-    \includegraphics[width=0.5\textwidth]{chapter_0/sir.pdf}
-    \caption{An infection modeled by an SIR model, with $\beta = 0.4$, $\gamma = 0.08$, $S(0) = 0.99$, and $I(t) = 0.01$.}
-    \label{SIR_plots}
-\end{wrapfigure}
+\begin{figure}
+    \begin{minipage}[c]{0.4\textwidth}
+        \begin{tikzpicture}[node distance=1.5cm, auto,
+            >=Latex, 
+            every node/.append style={align=center},
+            int/.style={draw, minimum size=0.5cm}]
+        
+        \node [int] (S)             {$S$};
+        \node [int, right=of S ] (I) {$I$};
+        \node [int, right=of I] (R) {$R$};
+        \path[->] (S) edge node {$ \beta S I$} (I);
+        \path[->] (I) edge node {$\gamma I$} (R);
+        \end{tikzpicture}
+        \caption{Diagram of population flow in an SIR model}
+        \label{SIR_diagram}
+    \end{minipage}\hfill
+    \begin{minipage}[c]{0.55\textwidth}
+        \includegraphics{chapter_0/sir.pdf}
+        \caption{An infection represented by an SIR model, with $\beta = 0.4$, $\gamma = 0.08$, $S(0) = 0.99$, and $I(t) = 0.01$.}
+        \label{SIR_plots}
+    \end{minipage}
+\end{figure}
 
 
-The SIR model describes a population undergoing an infection that confers complete immunity after one has been infected, under a great number of simplifying assumptions: each compartment is totally homogenous, the probability that an individual recovers is constant per unit time, and the law of mass action. The law of mass action assumes that each individual in the $I$ compartment has a uniform probability $\beta$ of infecting any given individual in the $S$ compartment per unit time. It follows that for each $I$ individual, $\beta S$ people are expected to be infected per unit time, and therefore the total number of infections is expected to be $\beta S I$, which is the term removed from the $S$ compartment and added to the $I$ compartment. Except during office icebreaker games, people do not mix homogeneously, so the assumption of homogeneity is a major drawback. Figure \ref{SIR_plots} shows the time evolution of equations \ref{SIR} with some representative parameters. Therefore, a common extension to this model is to add more structure, usually through further subdivision of the compartments.  
+The SIR model (Figures \ref{SIR_diagram},\ref{SIR_plots}) describes a population undergoing an infection that confers complete immunity after one has been infected, under a great number of simplifying assumptions: each compartment is totally homogenous, the probability that an individual recovers is constant per unit time, and the law of mass action. The law of mass action assumes that each individual in the $I$ compartment has a uniform probability $\beta$ of infecting any given individual in the $S$ compartment per unit time. It follows that for each $I$ individual, $\beta S$ people are expected to be infected per unit time, and therefore the total number of infections is expected to be $\beta S I$, which is the term removed from the $S$ compartment and added to the $I$ compartment. However, except during office icebreaker games, people do not mix homogeneously, so the assumption of homogeneity is a major drawback. Therefore, a common extension to this model is to add more structure, usually through further subdivision of the compartments \cite{hethcote2000mathematics}. For example, heterogeneity primarily dependent on population age can be represented by a chain of compartments \cite{hethcote1997age}. This idea can be also taken to its continuum limit yielding a system of hyperbolic partial differential equations \cite{anderson1985vaccination} which describe the evolution of a continuous age distribution. Spatial heterogeneity in host populations can be treated with reaction diffusion equations \cite{rass2003spatial}, but it can also be represented by systems of ordinary differential equations connected in a network, sometimes called a metapopulation model \cite{house2008deterministic,levins1969some,colizza2007invasion, nowzari2016analysis}. In contrast to a continuum of hosts distributed through space, this network formulation represents homogenously mixed groups that exchange hosts or infections with other homogenous groups. The popularity of this approach is probably due to their ability to easily represent different spatial topologies, and its resemblance to modern population patterns as tight communities of individuals connected by transport \cite{ball2015seven}. From the initial work on these models, the invention of computers and numerical integration methods have enabled researchers to get useful results from even the most complex elaborations on this theme. 
 
-
-
-
-From the initial work on these models, the invention of computers and numerical integration methods have enabled researchers to get useful results from even the most complex elaborations on this theme. 
 \section{Sars-CoV-2}
 
-Compartmental models have been invaluable in modeling the spread of Sars-CoV-2 \cite{thompson2020epidemiological}. It is difficult to overstate the damage and loss of life that the ongoing COVID-19 pandemic has caused or exacerbated in the past year \cite{miller2020disease,who2021impact}. The first human case of Sars-CoV-2 occurred in late 2019 in central China, almost certainly transmitted from an animal host, very likely a bat \cite{andersen2020proximal,rasmussen2021origins,zhu2020novel}. The virus soon spread throughout the world, and was declared a pandemic by the World Health Organization (WHO), on March 11th, 2020 \cite{who2020announces}. In the intervening months, people around the world endured various levels of non-pharmaceutical interventions (NPIs), such as compulsory face masks, distancing protocols, stay-at-home orders, and workplace closures. Government policy on NPIs has ranged from comprehensive quarantine procedures (in e.g. New Zealand, South Korea, Singapore, Vietnam) to almost nothing at all (United States, Sweden). In the outcomes of the aforementioned countries, empirical research, and modelling studies, NPIs have been shown to be an effective method for the control of COVID-19 \cite{anderson2020estimating,flaxman2020estimating,ferguson2020report,demirguc2020sooner}. 
+Compartmental models have been invaluable in modeling the spread of Sars-CoV-2 \cite{thompson2020epidemiological}. It is difficult to overstate the damage and loss of life that the ongoing COVID-19 pandemic has caused or exacerbated in the past year \cite{miller2020disease,who2021impact}. The first human case of Sars-CoV-2 occurred in late 2019 in central China, almost certainly transmitted from an animal host, very likely a bat \cite{andersen2020proximal,rasmussen2021origins,zhu2020novel}. The virus soon spread throughout the world, and was declared a pandemic by the World Health Organization (WHO), on March 11th, 2020 \cite{who2020announces}. In the intervening months, people around the world endured various levels of non-pharmaceutical interventions (NPIs), such as compulsory face masks, distancing protocols, stay-at-home orders, and workplace closures. Government policy on NPIs has ranged from comprehensive quarantine procedures (in e.g. New Zealand, South Korea, Singapore, Vietnam) to almost nothing at all (e.g. some of the United States, Sweden, Brazil). In the outcomes of the aforementioned countries, empirical research, and modelling studies, NPIs have been shown to be an effective method for the control of COVID-19 \cite{anderson2020estimating,flaxman2020estimating,ferguson2020report,demirguc2020sooner}. 
 
 
 

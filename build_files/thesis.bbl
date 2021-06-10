@@ -82,6 +82,11 @@ Roy~M Anderson, B~Anderson, and Robert~M May.
 \newblock {\em Infectious diseases of humans: dynamics and control}.
 \newblock Oxford university press, 1992.
 
+\bibitem{anderson1985vaccination}
+Roy~M Anderson and Robert~M May.
+\newblock Vaccination and herd immunity to infectious diseases.
+\newblock {\em Nature}, 318(6044):323--329, 1985.
+
 \bibitem{anderson2020estimating}
 Sean~C Anderson, Andrew~M Edwards, Madi Yerlanov, Nicola Mulberry, Jessica
   Stockdale, Sarafa~A Iyaniwura, Rebeca~C Falcao, Michael~C Otterstatter,
@@ -118,6 +123,13 @@ Jodi~N Axelson, Ren{\'e}~I Alfaro, and Brad~C Hawkes.
   impacted by mountain pine beetle epidemics and fires in central british
   columbia.
 \newblock {\em The Forestry Chronicle}, 86(1):87--99, 2010.
+
+\bibitem{ball2015seven}
+Frank Ball, Tom Britton, Thomas House, Valerie Isham, Denis Mollison, Lorenzo
+  Pellis, and Gianpaolo~Scalia Tomba.
+\newblock Seven challenges for metapopulation models of epidemics, including
+  households models.
+\newblock {\em Epidemics}, 10:63--67, 2015.
 
 \bibitem{barlow2014modelling}
 Lee-Ann Barlow, Jacob Cecile, Chris~T Bauch, and Madhur Anand.
@@ -311,6 +323,11 @@ Nakul Chitnis, Jim~M Cushing, and JM~Hyman.
 \newblock Bifurcation analysis of a mathematical model for malaria
   transmission.
 \newblock {\em SIAM Journal on Applied Mathematics}, 67(1):24--45, 2006.
+
+\bibitem{colizza2007invasion}
+Vittoria Colizza and Alessandro Vespignani.
+\newblock Invasion threshold in heterogeneous metapopulation networks.
+\newblock {\em Physical review letters}, 99(14):148701, 2007.
 
 \bibitem{corbie2021vaccine}
 Giselle Corbie-Smith.
@@ -517,6 +534,16 @@ Daniel~A Herms and Deborah~G McCullough.
   ecology, impacts, and management.
 \newblock {\em Annual review of entomology}, 59:13--30, 2014.
 
+\bibitem{hethcote1997age}
+Herbert~W Hethcote.
+\newblock An age-structured model for pertussis transmission.
+\newblock {\em Mathematical biosciences}, 145(2):89--136, 1997.
+
+\bibitem{hethcote2000mathematics}
+Herbert~W Hethcote.
+\newblock The mathematics of infectious diseases.
+\newblock {\em SIAM review}, 42(4):599--653, 2000.
+
 \bibitem{hilton2020estimation}
 Joe Hilton and Matt~J Keeling.
 \newblock Estimation of country-level basic reproductive ratios for novel
@@ -543,6 +570,11 @@ Alexandra~B Hogan, Peter Winskill, Oliver~J Watson, Patrick~GT Walker, Charles
   public health impact of a vaccine against sars-cov-2: a mathematical
   modelling analysis.
 \newblock {\em Vaccine}, 2021.
+
+\bibitem{house2008deterministic}
+Thomas House and Matt~J Keeling.
+\newblock Deterministic epidemic models with explicit household structure.
+\newblock {\em Mathematical biosciences}, 213(1):29--39, 2008.
 
 \bibitem{innes2013impact}
 Clinton Innes, Madhur Anand, and Chris~T Bauch.
@@ -670,6 +702,12 @@ Shernita~L Lee and Ana~M Tameru.
 \newblock A mathematical model of human papillomavirus (hpv) in the united
   states and its impact on cervical cancer.
 \newblock {\em Journal of Cancer}, 3:262, 2012.
+
+\bibitem{levins1969some}
+Richard Levins.
+\newblock Some demographic and genetic consequences of environmental
+  heterogeneity for biological control.
+\newblock {\em American Entomologist}, 15(3):237--240, 1969.
 
 \bibitem{lewis2010structured}
 Mark~A Lewis, William Nelson, and Cailin Xu.
@@ -804,6 +842,12 @@ Andrea~R Norris and Kathy Martin.
   red-breasted nuthatches.
 \newblock {\em The Journal of Wildlife Management}, 72(3):733--737, 2008.
 
+\bibitem{nowzari2016analysis}
+Cameron Nowzari, Victor~M Preciado, and George~J Pappas.
+\newblock Analysis and control of epidemics: A survey of spreading processes on
+  complex networks.
+\newblock {\em IEEE Control Systems Magazine}, 36(1):26--46, 2016.
+
 \bibitem{publichealthontario}
 {{O}ntario {A}gency for {H}ealth {P}rotection and {P}romotion ({P}ublic
   {H}ealth {O}ntario)}.
@@ -935,6 +979,11 @@ Christopher Rackauckas and Qing Nie.
 Angela~L Rasmussen.
 \newblock On the origins of sars-cov-2.
 \newblock {\em Nature Medicine}, 27(1):9--9, 2021.
+
+\bibitem{rass2003spatial}
+Linda Rass, MA~Lifshits, and John Radcliffe.
+\newblock {\em Spatial deterministic epidemics}.
+\newblock American Mathematical Soc., 2003.
 
 \bibitem{reid2017}
 Nick Reid.

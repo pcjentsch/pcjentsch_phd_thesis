@@ -16,11 +16,8 @@ prob = ODEProblem(f, u0,[0.0,80.0],p)
 ts = solve(prob,Tsit5())
 
 pgfplotsx()
-
-
-pgfplotsx()
 default(dpi = 300)
 default(framestyle = :box)
 
-p = plot(ts; label = [" \$S(t) \$" " \$I(t) \$" " \$R(t) \$"], xlabel = "time, \$t\$", ylabel = "Population proportion", size = (300,200))
+p = plot(ts; label = [" \$S(t) \$" " \$I(t) \$" " \$R(t) \$"], xlabel = "time, \$t\$", ylabel = "Pop. proportion", size = (250,150))
 savefig(p,"figures_code/sir.pdf")
