@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  11 JUN 2021 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  11 JUN 2021 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,7 +1261,7 @@ Option `H' ignored and `p' used.
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.227   \midrule
+l.228   \midrule
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1269,10 +1269,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\OT1/cmr/m/n/6 Threshold in ac-tive re-ported cases for
+ []
+
 ! Undefined control sequence.
 <recently read> \bottomrule 
                             
-l.288   \bottomrule
+l.289   \bottomrule
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1280,44 +1285,39 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (63.40509pt too wide) in paragraph at lines 225--291
-[][]
- []
-
 <chapter_1/plot_model.pdf, id=1257, 406.584pt x 280.09143pt>
 File: chapter_1/plot_model.pdf Graphic file (type pdf)
 <use chapter_1/plot_model.pdf>
-Package pdftex.def Info: chapter_1/plot_model.pdf  used on input line 299.
+Package pdftex.def Info: chapter_1/plot_model.pdf  used on input line 300.
 (pdftex.def)             Requested size: 460.72124pt x 317.4014pt.
 <chapter_1/ts_plot.pdf, id=1260, 791.84229pt x 742.38457pt>
 File: chapter_1/ts_plot.pdf Graphic file (type pdf)
 <use chapter_1/ts_plot.pdf>
-Package pdftex.def Info: chapter_1/ts_plot.pdf  used on input line 305.
+Package pdftex.def Info: chapter_1/ts_plot.pdf  used on input line 306.
 (pdftex.def)             Requested size: 460.72124pt x 431.95403pt.
 
-LaTeX Warning: Float too large for page by 11.78734pt on input line 308.
+LaTeX Warning: Float too large for page by 11.78734pt on input line 309.
 
 <chapter_1/main_text_ts_1.pdf, id=1263, 517.19426pt x 290.88673pt>
 File: chapter_1/main_text_ts_1.pdf Graphic file (type pdf)
 <use chapter_1/main_text_ts_1.pdf>
-Package pdftex.def Info: chapter_1/main_text_ts_1.pdf  used on input line 311.
+Package pdftex.def Info: chapter_1/main_text_ts_1.pdf  used on input line 312.
 (pdftex.def)             Requested size: 460.72124pt x 259.12361pt.
 <chapter_1/vaccination_by_mortality_small.pdf, id=1266, 517.56863pt x 375.75883
 pt>
 File: chapter_1/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use chapter_1/vaccination_by_mortality_small.pdf>
 Package pdftex.def Info: chapter_1/vaccination_by_mortality_small.pdf  used on 
-input line 318.
+input line 319.
 (pdftex.def)             Requested size: 460.72124pt x 334.48738pt.
 <chapter_1/bivariate_heatmap.pdf, id=1269, 370.65779pt x 448.02179pt>
 File: chapter_1/bivariate_heatmap.pdf Graphic file (type pdf)
 <use chapter_1/bivariate_heatmap.pdf>
 Package pdftex.def Info: chapter_1/bivariate_heatmap.pdf  used on input line 32
-3.
+4.
 (pdftex.def)             Requested size: 460.72124pt x 556.88118pt.
 ! Undefined control sequence.
-l.324 \captions
+l.325 \captions
                {Best of four strategies depends on shutdown threshold T and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1326,12 +1326,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Float too large for page by 95.38118pt on input line 326.
+LaTeX Warning: Float too large for page by 95.38118pt on input line 327.
 
 <chapter_1/histograms.pdf, id=1271, 507.29123pt x 303.74477pt>
 File: chapter_1/histograms.pdf Graphic file (type pdf)
 <use chapter_1/histograms.pdf>
-Package pdftex.def Info: chapter_1/histograms.pdf  used on input line 329.
+Package pdftex.def Info: chapter_1/histograms.pdf  used on input line 330.
 (pdftex.def)             Requested size: 460.72124pt x 275.86125pt.
 [24
 
@@ -1521,53 +1521,59 @@ Overfull \hbox (0.95805pt too wide) in paragraph at lines 218--218
  []
 
 [65]
-Overfull \hbox (172.24362pt too wide) in paragraph at lines 249--269
-[][]
+Underfull \hbox (badness 1694) in paragraph at lines 262--262
+[]|\OT1/cmr/m/n/12 total num-ber of trees in
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 267--268
+[]|\OT1/cmr/m/n/12 fraction of ju-ve-nile trees
  []
 
 [66] [67]
 <chapter_3/a1_a2_phase.pdf, id=2036, 453.64783pt x 310.14468pt>
 File: chapter_3/a1_a2_phase.pdf Graphic file (type pdf)
 <use chapter_3/a1_a2_phase.pdf>
-Package pdftex.def Info: chapter_3/a1_a2_phase.pdf  used on input line 282.
+Package pdftex.def Info: chapter_3/a1_a2_phase.pdf  used on input line 285.
 (pdftex.def)             Requested size: 460.72124pt x 314.99464pt.
-<chapter_3/z1_ts.pdf, id=2043, 432.96555pt x 418.56172pt>
+[68] [69 <./chapter_3/a1_a2_phase.pdf>]
+<chapter_3/z1_ts.pdf, id=2090, 432.96555pt x 418.56172pt>
 File: chapter_3/z1_ts.pdf Graphic file (type pdf)
 <use chapter_3/z1_ts.pdf>
-Package pdftex.def Info: chapter_3/z1_ts.pdf  used on input line 292.
+Package pdftex.def Info: chapter_3/z1_ts.pdf  used on input line 295.
 (pdftex.def)             Requested size: 460.72124pt x 445.41689pt.
 ! Too many }'s.
-l.302 ...{beetle_pop_yearly}-\ref{CBP_five_years}}
+l.305 ...{beetle_pop_yearly}-\ref{CBP_five_years}}
                                                   . Increasing the heterogen...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[68] [69 <./chapter_3/a1_a2_phase.pdf>] [70 <./chapter_3/z1_ts.pdf>]
-<chapter_3/z1_ftp.pdf, id=2129, 432.96555pt x 418.55974pt>
+[70] [71 <./chapter_3/z1_ts.pdf>]
+<chapter_3/z1_ftp.pdf, id=2133, 432.96555pt x 418.55974pt>
 File: chapter_3/z1_ftp.pdf Graphic file (type pdf)
 <use chapter_3/z1_ftp.pdf>
-Package pdftex.def Info: chapter_3/z1_ftp.pdf  used on input line 307.
+Package pdftex.def Info: chapter_3/z1_ftp.pdf  used on input line 310.
 (pdftex.def)             Requested size: 460.72124pt x 445.41476pt.
-<chapter_3/a1_a2_trim_susceptible_loss.pdf, id=2132, 663.0692pt x 258.54591pt>
+<chapter_3/a1_a2_trim_susceptible_loss.pdf, id=2136, 663.0692pt x 258.54591pt>
 File: chapter_3/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use chapter_3/a1_a2_trim_susceptible_loss.pdf>
 Package pdftex.def Info: chapter_3/a1_a2_trim_susceptible_loss.pdf  used on inp
-ut line 313.
+ut line 316.
 (pdftex.def)             Requested size: 460.72124pt x 179.64351pt.
-<chapter_3/a1_a2_trim_gain.pdf, id=2133, 645.1292pt x 257.0453pt>
+<chapter_3/a1_a2_trim_gain.pdf, id=2137, 645.1292pt x 257.0453pt>
 File: chapter_3/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use chapter_3/a1_a2_trim_gain.pdf>
-Package pdftex.def Info: chapter_3/a1_a2_trim_gain.pdf  used on input line 319.
+Package pdftex.def Info: chapter_3/a1_a2_trim_gain.pdf  used on input line 322.
 
 (pdftex.def)             Requested size: 460.72124pt x 183.57027pt.
-[71] [72 <./chapter_3/z1_ftp.pdf>] [73 <./chapter_3/a1_a2_trim_susceptible_loss
-.pdf> <./chapter_3/a1_a2_trim_gain.pdf>] [74] [75]
-Overfull \hbox (61.47902pt too wide) in paragraph at lines 359--360
+[72] [73 <./chapter_3/z1_ftp.pdf>] [74 <./chapter_3/a1_a2_trim_susceptible_loss
+.pdf> <./chapter_3/a1_a2_trim_gain.pdf>] [75] [76]
+Overfull \hbox (61.47902pt too wide) in paragraph at lines 362--363
 \OT1/cmtt/m/n/12 git . uwaterloo . ca / pjentsch / fire-[]mitigates-[]bark-[]be
 etle-[]outbreaks-[]in-[]serotinous-[]forests$[][] 
  []
 
-[76]) (./chapter_4/main.tex [77]
+) (./chapter_4/main.tex [77]
 Chapter 5.
 [78
 
@@ -2220,7 +2226,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  28449 strings out of 478994
  526141 string characters out of 5864751
- 1012614 words of memory out of 5000000
+ 1015664 words of memory out of 5000000
  44789 multiletter control sequences out of 15000+600000
  414299 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2244,7 +2250,7 @@ type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (154 pages, 14418371 bytes).
+Output written on thesis.pdf (154 pages, 14418570 bytes).
 PDF statistics:
  3783 PDF objects out of 4296 (max. 8388607)
  3135 compressed objects within 32 object streams

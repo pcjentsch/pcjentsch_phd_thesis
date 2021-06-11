@@ -42,10 +42,10 @@
 \contentsline {section}{\numberline {4.3}Initial conditions}{65}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Forest thinning protocol (FTP) and controlled burning protocol (CBP)}{65}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Parameters and simulation design}{66}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Results}{67}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Results}{68}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Dynamical regimes}{68}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{68}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Discussion}{71}{section.4.5}%
+\contentsline {subsection}{\numberline {4.4.2}Impact of forest thinning protocol (FTP) and controlled burning protocol (CBP)}{70}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Discussion}{72}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Conclusion}{78}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Summary of findings}{78}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Discussion}{80}{section.5.2}%
