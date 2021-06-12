@@ -101,6 +101,12 @@ Michael~A Andrews and Chris~T Bauch.
   disease-behaviour interactions.
 \newblock {\em PLoS computational biology}, 11(6):e1004291, 2015.
 
+\bibitem{anyane2020racial}
+Adjoa Anyane-Yeboa, Toshiro Sato, and Atsushi Sakuraba.
+\newblock Racial disparities in covid-19 deaths reveal harsh truths about
+  structural inequality in america.
+\newblock {\em Journal of internal medicine}, 288(4):479--480, 2020.
+
 \bibitem{arno1980forest}
 Stephen~F Arno.
 \newblock Forest fire history in the northern rockies.
@@ -530,6 +536,12 @@ WILLIAM~HEATON Hamer.
   persistency of type}.
 \newblock Bedford Press, 1906.
 
+\bibitem{harris2020civil}
+Angela~P Harris and Aysha Pamukcu.
+\newblock The civil rights of health: A new approach to challenging structural
+  inequality.
+\newblock {\em UCLA L. Rev.}, 67:758, 2020.
+
 \bibitem{henderson2013carrot}
 Kirsten~A Henderson, Madhur Anand, and Chris~T Bauch.
 \newblock Carrot or stick? modelling how landowner behavioural responses can
@@ -585,6 +597,14 @@ Alexandra~B Hogan, Peter Winskill, Oliver~J Watson, Patrick~GT Walker, Charles
   public health impact of a vaccine against sars-cov-2: a mathematical
   modelling analysis.
 \newblock {\em Vaccine}, 2021.
+
+\bibitem{horse2021structural}
+Aggie J~Yellow Horse, Tse-Chuan Yang, and Kimberly~R Huyser.
+\newblock Structural inequalities established the architecture for covid-19
+  pandemic among native americans in arizona: a geographically weighted
+  regression perspective.
+\newblock {\em Journal of Racial and Ethnic Health Disparities}, pages 1--11,
+  2021.
 
 \bibitem{house2008deterministic}
 Thomas House and Matt~J Keeling.
@@ -1000,6 +1020,11 @@ Christopher Rackauckas and Qing Nie.
   for solving differential equations in julia.
 \newblock {\em Journal of Open Research Software}, 5(1), 2017.
 
+\bibitem{rahman2018constructing}
+K~Sabeel Rahman.
+\newblock Constructing and contesting structural inequality.
+\newblock {\em Critical Analysis of Law}, 5, 2018.
+
 \bibitem{rasmussen2021origins}
 Angela~L Rasmussen.
 \newblock On the origins of sars-cov-2.
@@ -1020,6 +1045,11 @@ Nick Reid.
 Timothy~C Reluga.
 \newblock Game theory of social distancing in response to an epidemic.
 \newblock {\em PLoS Comput Biol}, 6(5):e1000793, 2010.
+
+\bibitem{royce2018poverty}
+Edward Royce.
+\newblock {\em Poverty and power: The problem of structural inequality}.
+\newblock Rowman \& Littlefield, 2018.
 
 \bibitem{eab_penny_photo}
 Howard Russell.
@@ -1210,6 +1240,12 @@ Frederik Verelst, Lander Willem, and Philippe Beutels.
 \newblock Behavioural change models for infectious disease transmission: a
   systematic review (2010--2015).
 \newblock {\em Journal of The Royal Society Interface}, 13(125):20160820, 2016.
+
+\bibitem{wang2020health}
+Yuanyuan Wang, Bailin Pan, Ye~Liu, Amanda Wilson, Jianjun Ou, and Runsen Chen.
+\newblock Health care and mental health challenges for transgender individuals
+  during the covid-19 pandemic.
+\newblock {\em The Lancet Diabetes \& Endocrinology}, 8(7):564--565, 2020.
 
 \bibitem{wang2016statistical}
 Zhen Wang, Chris~T Bauch, Samit Bhattacharyya, Alberto d'Onofrio, Piero
