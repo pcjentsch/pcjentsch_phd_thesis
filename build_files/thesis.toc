@@ -49,7 +49,7 @@
 \contentsline {chapter}{\numberline {5}Conclusion}{78}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Summary of findings}{78}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Discussion}{80}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations and future work}{81}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Concluding comments}{83}{section.5.4}%
-\contentsline {chapter}{\textbf {References}}{84}{section*.12}%
-\contentsline {chapter}{Appendix}{105}{appendix*.14}%
+\contentsline {section}{\numberline {5.3}Limitations and future work}{82}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Concluding comments}{84}{section.5.4}%
+\contentsline {chapter}{\textbf {References}}{85}{section*.12}%
+\contentsline {chapter}{Appendix}{106}{appendix*.14}%
