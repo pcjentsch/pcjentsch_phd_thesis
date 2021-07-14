@@ -1,0 +1,21 @@
+\begin{thebibliography}{}
+
+\bibitem[Bubar et~al., 2020]{bubar2020model}
+Bubar, K.~M., Kissler, S.~M., Lipsitch, M., Cobey, S., Grad, Y., and Larremore,
+  D.~B. (2020).
+\newblock Model-informed {COVID}-19 vaccine prioritization strategies by age
+  and serostatus.
+\newblock {\em medRxiv}.
+
+\bibitem[Buckner et~al., 2020]{hoyt2020vaccine}
+Buckner, J.~H., Chowell, G.~H., and Springborn, M.~R. (2020).
+\newblock Optimal dynamic prioritization of scarce {COVID}-19 vaccines.
+\newblock {\em medRxiv}.
+
+\bibitem[Prem et~al., 2017]{prem2017projecting}
+Prem, K., Cook, A.~R., and Jit, M. (2017).
+\newblock Projecting social contact matrices in 152 countries using contact
+  surveys and demographic data.
+\newblock {\em PLoS computational biology}, 13(9):e1005697.
+
+\end{thebibliography}

@@ -1,0 +1,314 @@
+\documentclass{beamer}
+\usepackage{diagbox}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[utf8]{inputenc}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif}
+\setbeamertemplate{frametitle}
+      {\begin{flushleft}\smallskip
+       \insertframetitle\par
+       \smallskip\end{flushleft}}
+    \setbeamertemplate{itemize item}{$\bullet$}
+    \setbeamertemplate{navigation symbols}{}
+    \setbeamertemplate{footline}[text line]{%
+        \hfill\strut{%
+            \scriptsize\sf\color{black!60}%
+            \quad\insertframenumber
+        }%
+        \hfill
+    }
+\usecolortheme{orchid}
+
+%Information to be included in the title page:
+\title{Prioritizing COVID-19 vaccination in changing social and epidemiological landscapes}
+\author{Peter C. Jentsch, Chris T. Bauch, Madhur Anand}
+\institute{University Of Waterloo}
+\date{2021}
+\begin{document}
+
+\frame{
+    \titlepage
+    
+\footnotesize
+\centering{Slides and script available at \url{https://git.uwaterloo.ca/pjentsch/smb_epi_talk.git}}
+    
+}
+
+\begin{frame}{Studying COVID-19 vaccination}
+    \begin{itemize}
+        \item Model-based analyses are exploring which group should be the first to get the vaccine \cite{bubar2020model,hoyt2020vaccine}.
+        \item The epidemiological landscape will change throughout the remainder of the pandemic
+        \item Perception of risk due to the virus, and therefore perception of benefit of physical distancing, also fluctuates 
+        \item The group to vaccinate first, to most reduce mortality, is a function of this landscape
+        % \item Though many wealthy countries have already begun vaccination, many will not see significant doses of the vaccine for months/years, particularly in the global south \cite{mullard2020covid}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Social responses to the pandemic}
+\begin{columns}
+    \begin{column}{\textwidth}
+    \begin{itemize}
+        \item Non-pharmaceutical interventions (NPIs) can have a significant impact on SARS-CoV-2 transmission 
+        \item Pandemic waves are a creation of the population response to a pathogen
+        \item Important to model the incentive structures informing population response
+    \end{itemize}
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Compartmental model overview}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+        \small
+        Disease Compartments
+            \begin{itemize}
+                \item[$S(t)$] : Susceptible
+                \item[$S_2(t)$] : Vaccinated but still susceptible
+                \item[$V(t)$] : Vaccinated and immune 
+                \item[$E(t)$] : Exposed 
+                \item[$P(t)$] : Pre-symptomatic
+                \item[$I_a(T)$] : Infectious and asymptomatic
+                \item[$I_s(t)$] : Infectious and symptomatic
+                \item[$R(t)$] : Recovered 
+            \end{itemize}
+        \vspace{0.1cm}
+        Social compartments
+        \begin{itemize}
+            \item[$x(t)$] : Uses NPIs
+            \item[$1 - x(t)$] : Does not use NPIs
+        \end{itemize}
+
+        \end{column}
+
+        \begin{column}{0.4\textwidth}
+            \small
+
+
+            \begin{figure}
+                \begin{tikzpicture}[node distance=1cm, auto,
+                    >=Latex, 
+                    every node/.append style={align=center},
+                    int/.style={draw, minimum size=0.5cm}]
+                
+                   \node [int] (S)             {$S$};
+                   \node [int, below=of S] (E) {$E$};
+                   \node [int, below=of E] (P) {$P$};
+                   \node [int, below=of P, xshift=-20pt] (I_a) {$I_a$};
+                   \node [int, below=of P, xshift=20pt] (I_s) {$I_s$};;
+                   \node [int, below=of I_a, xshift=20pt] (R) {$R$};
+                   \node [int, left=of S , xshift=-20pt] (S_2) {$S_2$};
+                   \node [int, below=of S_2,yshift =0pt] (V) {$V$};
+                   \path[->] (S) edge node[align=center] {} (E); %$r \rho_i  s(t)\left[(1 - \epsilon_P x(t))(C^H + C^O) + C^W(t) + C^S(t)\right]$\\$(I_s + I_a + P) - \tau$
+                   \path[->] (E) edge node {} (P); %$\sigma_0$
+                   \path[->] (P) edge node {} (I_a); %$\eta \sigma_1$
+                   \path[->] (P) edge node {} (I_s); %$(1 - \eta) \sigma_1$
+                   \path[->] (I_a) edge node {} (R); %$\gamma_a$
+                   \path[->] (I_s) edge node {} (R); %$\gamma_s$
+                   
+                   \path[->] (S) edge node {} (S_2); %$v_{T} \frac{S(t)}{N - V(t)}$
+                   \path[->] (S) edge node {} (V); %$v_{T} \frac{S(t)}{N - V(t)}$
+
+                   \node [int, left=of I_a] (dist)             {$x$};
+                   \node [int, below=of dist] (nodist) {$1-x$};
+                   \path[->] (dist) edge [bend left] node {} (nodist); %$\displaystyle (1 - x)\left(\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i}) - c x \right)$
+                   \path[->] (nodist) edge [bend left] node {} (dist);
+                \end{tikzpicture}
+                \caption{Compartments}
+            \end{figure}
+
+        \end{column}
+
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Incorporating age-structure}
+
+    \begin{itemize}
+        \item Age is an important factor in determining COVID-19 outcomes
+        \item Different age groups exhibit different contact patterns
+        \item Lockdowns affect age groups differently (work vs. school)
+        \item Each disease compartment is further divided into 16 age compartments
+        \item Interactions between age compartments defined by contact matrices
+    \end{itemize}
+
+    \begin{figure}
+        \includegraphics[width=\textwidth]{contact_matrices.pdf}
+        \caption{Contact matrices for Canada, mean contacts per day. Data from \cite{prem2017projecting}.}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{Game theory as a model of NPI adoption}
+        \begin{table}
+        \footnotesize
+        \begin{tabular}{ |c|c| c| } \hline
+            \diagbox[width = 7em, height = 2em]{P1}{P2} &use NPI& don't use NPI   \\ \hline
+            use NPI & \diagbox[width = 13em, height = 8em]{low risk,\\ NPIs unpleasant}{low risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{med risk,\\ NPIs unpleasant} {med risk}\\ \hline 
+            don't use NPI & \diagbox[width = 13em, height = 8em]{med risk}{med risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{high risk}{high risk}   \\ \hline
+        \end{tabular}
+        \caption{NPI adoption as a two-player game (between P1 and P2)}
+    \end{table}
+\end{frame}
+\begin{frame}{Replicator equation for population games}
+        Population dynamics under a population game can be approximated by the replicator equation
+        \begin{equation}
+            \frac{d x}{d t} = \sigma x ( 1 - x)(-p(x,t))
+        \end{equation}
+         
+        where
+
+        \begin{itemize}
+            \item $x(t)$ is the fraction of population using NPIs
+            \item $p(x,t)$ is the payoff function
+            \item $\sigma$ is the rate of population response
+        \end{itemize}
+\end{frame}
+
+\begin{frame}{Our model of NPI usage}
+
+    The full equation for $x(t)$, in this model, is given by
+
+    \begin{equation}{}
+        \frac{d x}{dt} = \sigma x (1 - x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x) 
+    \end{equation}
+
+    \begin{itemize}
+
+    \item The term $p_{ul}(1-2 x)$ accounts for outside influence, where $p_{ul}$ is small.
+    
+    \item $\alpha_i$ denotes the fraction of cases ascertained through testing.
+    
+    \item $N_i$ is the population in age compartment $i$, $\sum_{i=1}^{16} N_i$ is the total population. 
+    \item $x(t)$ interacts with the infection dynamics by reducing the fraction of "home" and "other" contacts contributing to the infection rate
+    \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Lockdown mechanics}
+    \begin{itemize}
+        \item There have been a few government-initiated lockdowns in Ontario, affecting schools and workplaces
+        
+        \item Implemented in the model by reducing the contribution of the "work" and "school" contact matrices to the infection rate
+        
+        \item Assume the government will initiate a partial or complete shutdown of workplaces and schools when the observed cases exceed some threshold $T$
+        \item We express $T$ as a percentage of the peak active cases during the first wave of the pandemic
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Vaccination mechanics}
+    \begin{itemize}
+        \item Implemented as an impulsive process, where we have $\psi$ vaccines available per day
+        \item The fraction of the $\psi$ people in age group $i$ that are immunized against severe disease is $\nu_{D_i}$
+        \item The fraction immunized against disease \emph{and} transmission is $\nu_{T_i}$
+        \item The allocation of vaccines to each age group $i$ is referred to as the vaccination strategy
+        \item Leftover vaccines are allocated uniformly to remaining non-empty compartments.
+        \item We also assume that some vaccines are "wasted" on people who are already recovered or infected, by modifying the vaccination per compartment by $\frac{S_i(t)}{N_i - V_i}$.
+    \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Parameterization}
+    \begin{itemize}
+        \item We used an approximate bayesian method to fit the model to case data from Ontario, Canada from March 12 to Nov 12, 2020.
+        \item $x(t)$, proportion of people using NPIs was fit to google mobility data for Ontario
+        \item Also fit the population seroprevalence to a point estimate from June 2020 for Ontario
+        \item Provincial shutdowns (school and workplace) that occurred in Ontario were also implemented at their respective dates
+        \item The efficacy of work shutdowns were fit to google mobility to account for work that could not be moved to remote
+        \item Results were evaluated with 400 points sampled from the posterior distributions from this method 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Parameterization}
+    \includegraphics[width=\textwidth]{plot_model.pdf}
+\end{frame}
+
+\begin{frame}{Results}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            We compare four vaccination strategies
+            \begin{itemize}
+                \item $>60$ first
+                \item $<20$ first
+                \item Uniform
+                \item Contact-based
+            \end{itemize}
+            with respect to reduction in cumulative mortality after 5 years.
+        \end{column}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width = \textwidth]{leading_eigenvector.pdf}
+            \caption{  The contact-based strategy is the normalized leading eigenvector of the sum of the contact matrices}
+        \end{figure}
+
+      
+        \end{column}
+
+    \end{columns}
+
+
+\end{frame}
+\begin{frame}{Results}
+            \begin{figure}
+                \includegraphics[width = 0.75\textwidth]{vaccination_by_mortality_small.pdf}
+                
+                \caption{Percentage reduction in cumulative mortality due to COVID-19 after 5 years with respect to $psi$, expressed as a percentage of the total population per week. Here $v_{D_i} = v_{T_i} = 0.75 $, shutdown at $200\%$ of first wave. Percentage reductions are relative to no vaccination. }
+            \end{figure}
+\end{frame}
+\begin{frame}{}
+    \includegraphics[width = \textwidth]{main_text_ts_1.pdf}
+\end{frame}
+\begin{frame}{}
+    \includegraphics[width = \textwidth]{main_text_ts_2.pdf}
+\end{frame}
+
+
+\begin{frame}{Results}
+    \begin{figure}
+        \includegraphics[height = 0.7\textheight]{bivariate_heatmap.pdf}
+        
+        \caption{Each parameter pair is colored according to the strategy that prevents most deaths on average, over all realizations of the model.}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Results}
+\begin{figure}
+    \includegraphics[width = \textwidth]{histograms.pdf}
+    \caption{Histogram of no. recovered at vaccination begin date, according to best strategy for that realization, over all parameter values in sensitivity analysis. Vertical lines are the median.}
+\end{figure}
+\end{frame}
+\begin{frame}{Discussion}
+    \begin{itemize}
+        \item We described an age structured compartmental model of Sars-CoV-2 infection and vaccination coupled to a social model 
+        \item Showed that sometimes transmission interrupting strategies can be more effective
+        \item Depends on the pre-existing immunity in the population
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    \bibliographystyle{apalike}
+    \bibliography{ref}
+\end{frame}
+\begin{frame}{Model Equations}
+
+    \tiny
+        \begin{eqnarray}
+            \frac{dS^1_i}{dt} &= & - r \rho_i s(t) S^1_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j} + P_j}{N_j}\right) - \tau S^1_i  \label{S1eqn} \\
+            \frac{dS^2_i}{dt} &= & - r \rho_i s(t) S^2_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right)  - \tau S^2_i  \label{S2eqn} \\
+            \frac{dE_i}{dt} &= &  r_i s(t) (S^1_i + S^2_i) \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right) - \sigma_0 E_i + \tau (S^1_i + S^2_i)\label{Eeqn} \\
+            \frac{dP_i}{dt} &= & \sigma_0 E_i - \sigma_1 P_i \label{Peqn} \\
+            \frac{dI_{a_i}}{dt} &= & \eta \sigma_1 E_i - \gamma_a I_{a_i}\label{Ieqn} \\
+            \frac{dI_{s_i}}{dt} &= & (1 - \eta) \sigma_1 E_i - \gamma_s I_{s_i} \label{Ieqn} \\
+            \frac{dR_i}{dt} &= & \gamma_a I_{a_i} + \gamma_s I_{s_i}  \label{Reqn} \\
+            \frac{dx}{dt} &= &\kappa x (1-x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x)  \label{xeqn_new}\\
+    C_{ij}(t,x) &= & C^W_{ij}(t) + C^S_{ij}(t) + (1 - \epsilon_P x )\left({C}^O_{ij} + {C}^H_{ij}\right)
+        \end{eqnarray}
+    \end{frame}
+\end{document}
+
