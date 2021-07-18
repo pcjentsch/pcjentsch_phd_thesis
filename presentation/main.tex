@@ -37,31 +37,23 @@
 \centering{Supervised by Chris T. Bauch and Madhur Anand}
 }
 
-\begin{frame}{Introduction}
-    \begin{columns}
-        \begin{column}{0.6\textwidth}
-            \begin{itemize}
-                \item asdf
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.4\textwidth}
-            \begin{itemize}
-                \item asdf
-            \end{itemize}
-        \end{column}
-    \end{columns}
-\end{frame}
 
-\begin{frame}{Chapter 1}
-    
-\end{frame}
-\begin{frame}{Studying COVID-19 vaccination}
+\begin{frame}{First Project}
     \begin{itemize}
-        \item Model-based analyses are exploring which group should be the first to get the vaccine \cite{bubar2020model,hoyt2020vaccine}.
-        \item The epidemiological landscape will change throughout the remainder of the pandemic
-        \item Perception of risk due to the virus, and therefore perception of benefit of physical distancing, also fluctuates 
-        \item The group to vaccinate first, to most reduce mortality, is a function of this landscape
+        \item Epidemiological landscape and population beliefs about the usage of non-pharmaceutical interventions (NPIs) help determine outcomes
+        \item Population age distribution is a key factor in both NPI usage and COVID-19 mortality
+        \item Model-based analyses were exploring which groups should be prioritized in vaccination\cite{bubar2020model,hoyt2020vaccine}.
     \end{itemize}
+    Research question: how to prioritize vaccination rollout in a population, taking both age distribution and social dynamics into account? 
+\end{frame}
+\begin{frame}
+
+    Outline of project
+    \begin{enumerate}
+        \item Describe age-structured compartmental model of COVID-19 infection in a population, coupled to model of social distancing dynamics. 
+        \item Fit model to data from Ontario, Canada
+        \item Evaluate outcomes from different vaccination strategies, comparing vaccination of vulnerable populations vs vaccination of susceptible populations
+    \end{enumerate}
 \end{frame}
 \begin{frame}{Compartmental model overview}
     \begin{columns}
@@ -180,13 +172,39 @@
 \end{frame}
 
 
-\begin{frame}{Chapter 2}
-    policy modelling
+\begin{frame}{Project 2}
+    \begin{columns}
+        \begin{column}{0.6\textwidth}
+            \begin{itemize}
+                \item Invasive forest pests cause incredible damage to ecosystems and lumber resources
+                
+                \item Evidence shows that movement of firewood is a major long distance vector
+                
+                \item Education and awareness is a major way we try to reduce this vector
+            \end{itemize}
+
+
+            Research question: how does educating a population on the issue compare to other methods of reducing the spread of pests ?
+
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \includegraphics[width=\textwidth]{Emerald_ash_borer_penny.jpg}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
-\begin{frame}{Invasive species}
-    
+\begin{frame}{Outline of project}
+    \begin{enumerate}
+    \item Adapt a model such as Barlow et al. (CITE) to a larger, more realistic network
+    \item Use model to compare three possible prevention measures
+    \begin{itemize}
+        \item Education/awareness
+        \item Inspection of moved firewood
+        \item Quarantine of highly susceptible forest patches
+    \end{itemize}
+    \item Assess measures across a range of parameter values and time horizons 
+    \end{enumerate}
 \end{frame}
 
 \begin{frame}{Model}
@@ -261,7 +279,24 @@
     \end{figure}
 \end{frame}
 \begin{frame}{Chapter 3}
+    \begin{itemize}
+        \item Wildfire and bark beetles are disturbances integral to coniferous forest ecosystems in the western cordillera of North America
+        \item Bark beetle outbreaks have always been destructive, but seem to be worse in recent decades
+        \item Literature on causal relationship between bark beetle outbreaks and wildfire is extensive but inconclusive
+        \item Existing modelling of these two coupled disturbances is sparse
+    \end{itemize}
+    Research question: Can stand structure explain key relationships between these two disturbances?
+\end{frame}
 
+\begin{frame}{Project Outline}
+
+    \begin{itemize}
+        \item Extend existing model of Duncan et al. to include wildfires 
+        \item Explore parameter regime of extended model
+        \item Introduce forest stand thinning procedures to reduce MPB outbreaks
+        \item Show that these stand thinning procedures are able to work because of aforementioned heterogeneity 
+    \end{itemize}
+    
 \end{frame}
 
 \begin{frame}{Model}
