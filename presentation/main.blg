@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: master_bibliography.bib
+I was expecting a `,' or a `}'---line 1312 of file master_bibliography.bib
+ : 
+ : @article{emery2020contribution,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1367 of file master_bibliography.bib
+ : 
+ : %       title  = "Cumulative total number of {COVID}-19 cases in the United States by report date.  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1375 of file master_bibliography.bib
+ : 
+ : %       title  = "Americans Step Up Their Social Distancing Even Further.  https://news.gallup.com/opinion/gallup/298310/americans-step-social-distancing-even-further.aspx",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3056 of file master_bibliography.bib
+ : @article{kaufmann2008status
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3231 of file master_bibliography.bib
+ : @article{seidl2016spatial
+ :                          ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3566 of file master_bibliography.bib
+ :   
+ :   url={https://nationalpost.com/news/canada/theyre-heroes-how-covid-19-vaccine-hunters-help-canadians-find-appointments},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in kaufmann2008status
+You've used 4 entries,
+            1935 wiz_defined-function locations,
+            492 strings with 4569 characters,
+and the built_in function-call counts, 1658 in all, are:
+= -- 157
+> -- 87
+< -- 2
++ -- 32
+- -- 30
+* -- 122
+:= -- 291
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 34
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 72
+empty$ -- 93
+format.name$ -- 35
+if$ -- 326
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 22
+num.names$ -- 12
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 68
+swap$ -- 22
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 1
+while$ -- 9
+width$ -- 0
+write$ -- 49
+(There were 6 error messages)

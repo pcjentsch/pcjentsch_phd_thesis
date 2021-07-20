@@ -1,0 +1,132 @@
+\documentclass{article}
+
+
+
+\begin{document}
+
+\section{}
+Beginning with the first project. The background to this chapter is that we wanted to construct a model of Sars-CoV-2 spread that accounted for behavioural dynamics. Population sentiment towards the use of many non-pharmeceutical interventions can majorly affect the transmission rate, as we saw in some countries that were able to keep cases in the single or double digits with a combination of mask usage, contact tracing, and physical distancing.
+
+An important aspect to COVID-19 infection, especially at the beginning of pandemic was it's effect on the elderly. Ontario long term care homes especially were severely affected, but the risk of symptoms, hospitalization and death increase dramatically with age. 
+
+Age also affects how NPIs and lockdowns affect the population. For instance, School shutdowns and stay at home orders can dramatically decrease transmission in children, but not transmission in adults.  
+
+The COVID-19 vaccine rollout has already occurred, but at this point in the pandemic it was far off on the horizon. The question was how to prioritize groups receiving the vaccine. Due to the aforementioned mortality in the elderly, age structuring the compartments seemed like a good way to approach that. 
+
+
+\section{}
+
+Our research questions were something like, what can we say about vaccination strategies that focus on highly connected individuals versus strategies that focus on highly susceptible individuals in terms of their effect in reducing mortality?
+
+At this point in the pandemic there were many unknowns about how the vaccine rollout would work, and what the social and epidemiological landscape would look like when it happened, so we wanted to be able to answer this question with respect to a bunch of the relevant parameters.
+
+
+\section{}
+
+The flow of this chapter starts with roughly describing our model due to time constraints, fitting the model to data, and then evaluating the vaccination strategies over various parameters.
+
+
+\section{}
+To give an overview of the structure of our model, we used a compartmental impulsive differential equation model of the infection with compartments outlined here. This is coupled to a simple social model of the adoption of NPIs within the population.
+
+The population goes through the following states: Susceptible, Vaccinated but still susceptible (since evidence has shown that most vaccines in development are not perfectly effective), vaccinated and immune, exposed, pre-symptomatic, infectious and asymptomatic, infectious and symptomatic, and recovered. These disease compartments are also age structured, that is each disease compartment is further divided into 16 compartments, where each compartment represents a five year age group, except the oldest compartment.
+
+Each person in the population is also assumed to either use NPIs or not, and so we denote the fraction of people using NPIs by the state variable $x(t)$.
+
+
+\section{}
+
+We compare the reduction in total deaths, cumulative mortality, after five years from the beginning of the pandemic, under each vaccination strategy.
+
+The strategies are oldest first, youngest first, vaccinating everyone at the same rate, and a contact-based strategy, where the ratios are given by the normalized leading eigenvector of the contact matrices. A plot of this strategy is shown in the figure here. The "oldest first" strategy targets a vulnerable age group while the other three strategies are designed to interrupt transmission.
+
+
+\section{}
+We used a method called approximate bayesian computation to fit the model to case data from Ontario, Canada. The beginning of the fitting window is the first day on which Ontario recorded more than 50 cases, March 12.
+
+The proportion of people using NPIs, $x(t)$ was fit to google mobility data. They have a dataset that measures the percentage change in baseline of visits to recreational and retail destinations, and we use that as a proxy for $x(t)$.
+
+Of course, workplaces cannot be completely moved to remote, so we used googles data for the percentage of workplaces filled under baseline to measure this.
+
+We sampled 400 particles from the posterior distributions obtained through this process to perform the simulations used for the results.  
+
+\section{}
+
+
+Ok now onto the results. This plot shows the percentage reduction in mortality, relative to no vaccination, for each of the four strategies as a function of the vaccination rate psi, expressed as a percentage of the total population per week. We considered two dates for the onset of vaccination, the first of January 2021, and the first of september. These correspond to the end dates of a two-dose course of vaccination lasting two weeks. We are also assuming a baseline efficacy of 75\% against both disease and transmissibility.
+
+We identify a few regimes for model dynamics from this plot. If the vaccine is available soon and the vaccination rate is relatively high (over 1\% per week), we see the the oldest first strategy reduces mortality the most. However, if the vaccination rate is about \%0.5 per week, then contact-based and other transmission-interrupting strategies are best.
+
+If the vaccine is available later, then for low vaccination rates, the oldest first strategy is best, but for vaccination rates above 1.5\%, transmission-interrupting strategies become optimal again. As the vaccination rate increases more, the strategies converge as everyone is either infected or vaccinated too quickly for there to be much difference.
+
+We see the youngest first strategy performs very poorly. The under-performance of the youngest first strategy occurs because in populations with strong age-assortative mixing, the indirect benefits of vaccination are “wasted" if vaccination is first concentrated in specific age groups before being extended to the rest of the population.
+
+The relative performance of the strategies in these three regimes is generally unchanged across the full range of values for the shutdown threshold.
+
+For context, 
+(10,350 vaccines per day currently)/(population of ontario) * 100 * 7 = \%0.507 per week 
+
+\section{}
+
+In the next two slides we show timeseries plots of the model regimes identified previously.
+
+
+(a) timely vaccination prevents third wave
+
+(b) partial vaccination and indirect protection help during the third wave
+
+\section[Slide]{}
+
+(c) partial vaccination and indirect protection help during the third wave
+
+(d) slow and late vaccination fails to prevent third wave.
+
+\section{}
+
+We also performed a parameter plane sensitivity analysis over all combinations of shutdown threshold capital T, and vaccination rate psi. This plot shows the strategy that reduces mortality the most over all realizations Generally vaccinating vulnerable is the best strategy most often, and we see that the shutdown threshold does not affect that very much. 
+
+\section{}
+
+To generate these histogram plots we took parameter plane from the previous slide, and grouped each of the solutions based on which strategy performed best for that parameter set. Then the groups were organized into a histogram based on the number of recovered people at vaccination start date. Vertical lines denote the median of the distribution in each subplot.
+
+This shows that broadly, more pre-existing natural immunity causes transmission interrupting strategies to be more effective.
+
+\section{}
+
+So to sum up, in this chapter we develop a compartmental population model of the virus transmission and vaccination, coupled to a simple population-level social model. We showed that there are times when transmission interrupting strategies can be more effective, depending on the level of pre-existing immunity, or recovered people. This is only the main results we focused on, the remainder are covered in the thesis, including varying vaccine efficacy and also introducing a second social equation to account for vaccine refusal dynamics.
+
+There are also a few things that I want to point out as well that we did not account for. The efficacy of the oldest first strategy definitely has a lot to do with the high mortality rate of older people, particular those over 80, and in particular Ontario had some very severe outbreaks in Long-term-care homes.
+
+We are also assuming that immunity does not wane at all, which has not been established for this virus.
+
+\section{}
+
+My next project was this model of invasive forest pests spreading throughout Eastern Canada. In addition to Chris and Madhur, Denys Yemshanov, from the Great Lakes Forestry Centre, also helped supervise my work on this project. 
+
+Invasive forest pests cause a ton of damage, both ecological and financial, to woodlots and forests each year. We have good evidence which shows that many of these pests, including the extremely destructive Emerald Ash Borer, can be transported very long distances in untreated firewood. This long distance transport greatly increases the rate at which pests can spread throughout the landscape.
+
+We use education and awareness campaigns to discourage people from transporting firewood. 
+
+
+\section{}
+
+Our research questions in writing this chapter were to ask, which methods are effective in reducing forest pest spread? \\
+\vspace{0.5cm}
+When is each method most effective with respect to pest attributes? 
+
+To address these questions we used data obtained from park reservation systems by the canadian forest service that show the rough frequency of recreational camping trips. We network was used in an adaption of a metapopulation model by Barlow et al.
+
+We used this model to compare three strategies for reducing the spread of a pest as a function of pest-specific information, over a given period of time, since none of these strategies can eradicate a pest in our model.
+
+
+\section{}
+
+The model studied, shown here, was a compartmental metapopulation model where each forest patch is modeling as a well-mixed population of hosts through which the pest spreads. This is coupled to a replicator equation which express the dynamics for the proportion of people in a given patch who buy firewood locally. Firewood is imported to patches at a rate proportional to the travel network, and from there the pest spread within a patch according to the infestation rate $A$. The parameter $I_a$ creates a small threshold effect, so the level of pest needed for a positive growth rate needs to be larger when pest population is small. 
+
+\section{}
+
+
+
+\section{}
+
+\end{document}

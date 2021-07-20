@@ -2,6 +2,7 @@
 \usepackage{diagbox}
 \usepackage{tikz}
 \usepackage{amsmath}
+\usepackage{cite}
 \usepackage{graphicx}
 \usetikzlibrary{arrows.meta,positioning}
 \usetikzlibrary{shapes.multipart,matrix,positioning,arrows,arrows.meta}
@@ -37,14 +38,13 @@
 \centering{Supervised by Chris T. Bauch and Madhur Anand}
 }
 
-
-\begin{frame}{First Project}
+\section{First Project}
+\begin{frame}{Background}
     \begin{itemize}
-        \item Epidemiological landscape and population beliefs about the usage of non-pharmaceutical interventions (NPIs) help determine outcomes
+        \item Population beliefs about the usage of non-pharmaceutical interventions (NPIs) can have a major effective on the epidemic landscape
         \item Population age distribution is a key factor in both NPI usage and COVID-19 mortality
-        \item Model-based analyses were exploring which groups should be prioritized in vaccination\cite{bubar2020model,hoyt2020vaccine}.
+        \item Vaccine rollout important to reducing mortality in the long term \cite{bubar2020model,hoyt2020vaccine}
     \end{itemize}
-    Research question: how to prioritize vaccination rollout in a population, taking both age distribution and social dynamics into account? 
 \end{frame}
 \begin{frame}
 
@@ -123,17 +123,31 @@
 \end{frame}
 
 
-\begin{frame}{Parameterization}
-    \begin{itemize}
-        \item We used an approximate bayesian method to fit the model to case data from Ontario, Canada from March 12 to Nov 12, 2020.
-        \item $x(t)$, proportion of people using NPIs was fit to google mobility data for Ontario
-        \item Also fit the population seroprevalence to a point estimate from June 2020 for Ontario
-        \item Provincial shutdowns (school and workplace) that occurred in Ontario were also implemented at their respective dates
-        \item The efficacy of work shutdowns were fit to google mobility to account for work that could not be moved to remote
-        \item Results were evaluated with 400 points sampled from the posterior distributions from this method 
-    \end{itemize}
-\end{frame}
 
+
+\begin{frame}{Vaccination strategies}
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            We compare four vaccination strategies
+            \begin{itemize}
+                \item $>60$ first
+                \item $<20$ first
+                \item Uniform
+                \item Contact-based
+            \end{itemize}
+            with respect to reduction in cumulative mortality after 5 years.
+        \end{column}
+        \begin{column}{0.5\textwidth}
+        \begin{figure}
+            \includegraphics[width = \textwidth]{leading_eigenvector.pdf}
+            \caption{  The contact-based strategy is the normalized leading eigenvector of the sum of the contact matrices}
+        \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+\begin{frame}{Parameterization}
+    \includegraphics[width=\textwidth]{covid/plot_model.pdf}
+\end{frame}
 \begin{frame}{Results}
             \begin{figure}
                 \includegraphics[width = 0.75\textwidth]{covid/vaccination_by_mortality_small.pdf}
@@ -163,7 +177,7 @@
     \caption{Histogram of no. recovered at vaccination begin date, according to best strategy for that realization, over all parameter values in sensitivity analysis. Vertical lines are the median.}
 \end{figure}
 \end{frame}
-\begin{frame}{Discussion}
+\begin{frame}{Chapter Conclusion}
     \begin{itemize}
         \item We described an age structured compartmental model of Sars-CoV-2 infection and vaccination coupled to a social model 
         \item Showed that sometimes transmission interrupting strategies can be more effective
@@ -182,17 +196,16 @@
                 
                 \item Education and awareness is a major way we try to reduce this vector
             \end{itemize}
-
-
-            Research question: how does educating a population on the issue compare to other methods of reducing the spread of pests ?
-
         \end{column}
         \begin{column}{0.4\textwidth}
-            \includegraphics[width=\textwidth]{Emerald_ash_borer_penny.jpg}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{Emerald_ash_borer_penny.jpg}
+                \caption{an Emerald Ash Borer, which devastated Ash populations in North America}                
+            \end{figure}
+
         \end{column}
     \end{columns}
 \end{frame}
-
 
 \begin{frame}{Outline of project}
     \begin{enumerate}
@@ -278,6 +291,14 @@
         \caption{Average total infested trees ($T(t)$) after 5, 10 and 15 years (panels a), b), and c) respectively), assuming the quarantine begins one year after the pest is introduced.}
     \end{figure}
 \end{frame}
+
+\begin{frame}{Discussion}
+    \begin{itemize}
+        \item Firewood inspection not likely to be effective in implementation
+        \item Education, represented as social incentives, are able to decrease infection in the short term, but dependent on pest-specific parameters
+        \item Patch quarantine can be effective if sufficiently many patches are isolated, and the pest is detected early 
+    \end{itemize}
+\end{frame}
 \begin{frame}{Chapter 3}
     \begin{itemize}
         \item Wildfire and bark beetles are disturbances integral to coniferous forest ecosystems in the western cordillera of North America
@@ -285,16 +306,23 @@
         \item Literature on causal relationship between bark beetle outbreaks and wildfire is extensive but inconclusive
         \item Existing modelling of these two coupled disturbances is sparse
     \end{itemize}
-    Research question: Can stand structure explain key relationships between these two disturbances?
 \end{frame}
 
+\begin{frame}{Research questions}
+    
+    How do changes in fire prevalence affect MPB dynamics?   \\
+    \vspace{0.5cm}
+    How can we exploit stand structure to dampen MPB outbreaks? \\
+    \vspace{0.5cm}
+    Can we create a simple model that replicates major features of the Fire-MPB system?
+\end{frame}
 \begin{frame}{Project Outline}
 
     \begin{itemize}
         \item Extend existing model of Duncan et al. to include wildfires 
         \item Explore parameter regime of extended model
         \item Introduce forest stand thinning procedures to reduce MPB outbreaks
-        \item Show that these stand thinning procedures are able to work because of aforementioned heterogeneity 
+        \item Show that these stand thinning procedures are able to work due to increased stand heterogeneity 
     \end{itemize}
     
 \end{frame}
@@ -332,14 +360,19 @@
         \includegraphics[width=\textwidth]{mpb/a1_a2_trim_gain.pdf}
         \caption{Percentage change in maximum MPB infestation size within 500 year period under FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
     \end{figure}
-\end{frame}
+\end{frame} 
 
-\begin{frame}{Conclusion}
-    
+
+\begin{frame}{Chapter Conclusion}
+    \begin{itemize}
+        \item We show that increasing fire prevalence is able to dampen MPB outbreaks by increasing stand heterogeneity 
+        \item Stand heterogeneity can also be increased through forest thinning or prescribed burning, which also dampens MPB outbreaks.
+        \item These results are consistent with ecological evidence \cite{seidl2016spatial,kaufmann2008status}
+    \end{itemize}
 \end{frame}
 \begin{frame}
     \bibliographystyle{apalike}
-    \bibliography{ref}
+    \bibliography{master_bibliography}
 \end{frame}
 
 
