@@ -8,26 +8,22 @@
 \usetikzlibrary{shapes.multipart,matrix,positioning,arrows,arrows.meta}
 \usepackage[utf8]{inputenc}
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
-\usefonttheme{serif}
-\setbeamertemplate{frametitle}
-      {\begin{flushleft}\smallskip
-       \insertframetitle\par
-       \smallskip\end{flushleft}}
-    \setbeamertemplate{itemize item}{$\bullet$}
-    \setbeamertemplate{navigation symbols}{}
-    \setbeamertemplate{footline}[text line]{%
-        \hfill\strut{%
-            \scriptsize\sf\color{black!60}%
-            \quad\insertframenumber
-        }%
-        \hfill
-    }
-\usecolortheme{orchid}
+\usetheme{Madrid}
 
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\secname\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
 %Information to be included in the title page:
 \title{Coupled models of structured contagion processes in human-environment systems}
 \author{Peter C. Jentsch}
-\institute{Department of Applied Mathematics, University Of Waterloo}
+\institute[]{Department of Applied Mathematics, University Of Waterloo}
 \date{2021}
 \begin{document}
 
@@ -186,6 +182,11 @@
 \end{frame}
 
 
+
+
+
+\section{Second Project}
+
 \begin{frame}{Project 2}
     \begin{columns}
         \begin{column}{0.6\textwidth}
@@ -241,22 +242,27 @@
         
 \end{frame}
 
+\begin{frame}{}    
+
+    We use $T_i(t)$, computed from equation 5 to be the total number of infested trees in patch $i$ up to time $t$. 
+
+    \begin{equation}
+        \frac{dT_i}{dt}= A S_i (I_i+ B_i)\theta_k(I_i - I_a)
+        \label{sum_eqn}
+    \end{equation}
+
+    Define $T(t) = \frac{1}{N} \sum_{i=1}^N T_i(t)$ to be the average total number of infested trees up to $t$.
+\end{frame}
 
 
 \begin{frame}{Data}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-        \begin{itemize}
-            \item sdf
-        \end{itemize}
-        \end{column}
-        \begin{column}{0.55\textwidth}
-            \begin{figure}
-                \includegraphics[width=\textwidth]{firewood/core_graph_plot.png}
-            \end{figure}
-        \end{column}
-    \end{columns}
+
+    \begin{figure}
+        \includegraphics[width=0.7\textwidth]{firewood/core_graph_plot.png}
+        \caption{Travel network used to weight edges in firewood transport network}
+    \end{figure}
 \end{frame}
+
 
 \begin{frame}{Results}
     \begin{figure}
@@ -299,6 +305,8 @@
         \item Patch quarantine can be effective if sufficiently many patches are isolated, and the pest is detected early 
     \end{itemize}
 \end{frame}
+
+\section{Third Project}
 \begin{frame}{Chapter 3}
     \begin{itemize}
         \item Wildfire and bark beetles are disturbances integral to coniferous forest ecosystems in the western cordillera of North America
@@ -376,24 +384,24 @@
 \end{frame}
 
 
-\begin{frame}{Model Equations}
-
-    \tiny
-        \begin{eqnarray}
-            \frac{dS^1_i}{dt} &= & - r \rho_i s(t) S^1_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j} + P_j}{N_j}\right) - \tau S^1_i  \label{S1eqn} \\
-            \frac{dS^2_i}{dt} &= & - r \rho_i s(t) S^2_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right)  - \tau S^2_i  \label{S2eqn} \\
-            \frac{dE_i}{dt} &= &  r_i s(t) (S^1_i + S^2_i) \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right) - \sigma_0 E_i + \tau (S^1_i + S^2_i)\label{Eeqn} \\
-            \frac{dP_i}{dt} &= & \sigma_0 E_i - \sigma_1 P_i \label{Peqn} \\
-            \frac{dI_{a_i}}{dt} &= & \eta \sigma_1 P_i - \gamma_a I_{a_i}\label{Ieqn} \\
-            \frac{dI_{s_i}}{dt} &= & (1 - \eta) \sigma_1 P_i - \gamma_s I_{s_i} \label{Ieqn} \\
-            \frac{dR_i}{dt} &= & \gamma_a I_{a_i} + \gamma_s I_{s_i}  \label{Reqn} \\
-            \frac{dx}{dt} &= &\kappa x (1-x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x)  \label{xeqn_new}\\
-    C_{ij}(t,x) &= & C^W_{ij}(t) + C^S_{ij}(t) + (1 - \epsilon_P x )\left({C}^O_{ij} + {C}^H_{ij}\right)
-        \end{eqnarray}
-    \end{frame}
 \end{document}
 
 
+% \begin{frame}{Model Equations}
+
+%     \tiny
+%         \begin{eqnarray}
+%             \frac{dS^1_i}{dt} &= & - r \rho_i s(t) S^1_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j} + P_j}{N_j}\right) - \tau S^1_i  \label{S1eqn} \\
+%             \frac{dS^2_i}{dt} &= & - r \rho_i s(t) S^2_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right)  - \tau S^2_i  \label{S2eqn} \\
+%             \frac{dE_i}{dt} &= &  r_i s(t) (S^1_i + S^2_i) \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right) - \sigma_0 E_i + \tau (S^1_i + S^2_i)\label{Eeqn} \\
+%             \frac{dP_i}{dt} &= & \sigma_0 E_i - \sigma_1 P_i \label{Peqn} \\
+%             \frac{dI_{a_i}}{dt} &= & \eta \sigma_1 P_i - \gamma_a I_{a_i}\label{Ieqn} \\
+%             \frac{dI_{s_i}}{dt} &= & (1 - \eta) \sigma_1 P_i - \gamma_s I_{s_i} \label{Ieqn} \\
+%             \frac{dR_i}{dt} &= & \gamma_a I_{a_i} + \gamma_s I_{s_i}  \label{Reqn} \\
+%             \frac{dx}{dt} &= &\kappa x (1-x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x)  \label{xeqn_new}\\
+%     C_{ij}(t,x) &= & C^W_{ij}(t) + C^S_{ij}(t) + (1 - \epsilon_P x )\left({C}^O_{ij} + {C}^H_{ij}\right)
+%         \end{eqnarray}
+%     \end{frame}
 % \begin{frame}{Studying COVID-19 vaccination}
 %     \begin{itemize}
 %         \item Model-based analyses are exploring which group should be the first to get the vaccine \cite{bubar2020model,hoyt2020vaccine}.

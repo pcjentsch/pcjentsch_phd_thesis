@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  19 JUL 2021 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  20 JUL 2021 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -740,31 +740,31 @@ File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks48
 \inpenc@posthook=\toks49
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count334
 \l__pdf_internal_box=\box102
 ) (/home/peterj/Projects/thesis/presentation/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -774,14 +774,14 @@ LaTeX Font Info:    ... okay on input line 32.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -819,7 +819,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 28.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -829,9 +829,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -849,229 +849,409 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 No file main.nav.
+
+Overfull \hbox (96.1768pt too wide) in paragraph at lines 28--28
+ [][][][]  
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation `bubar2020model' on page 2 undefined on input line 48.
-
-
-LaTeX Warning: Citation `hoyt2020vaccine' on page 2 undefined on input line 48.
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [2
 
-] [3
+]
 
-] [4
+LaTeX Warning: Citation `bubar2020model' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation `hoyt2020vaccine' on page 3 undefined on input line 44.
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
 
 ]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 Missing character: There is no ; in font nullfont!
 
-Overfull \vbox (5.53413pt too high) detected at line 130
+Overfull \vbox (1.72266pt too high) detected at line 119
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [5
 
 ]
-<leading_eigenvector.pdf, id=54, 237.09377pt x 157.05775pt>
+<leading_eigenvector.pdf, id=188, 237.09377pt x 157.05775pt>
 File: leading_eigenvector.pdf Graphic file (type pdf)
 <use leading_eigenvector.pdf>
-Package pdftex.def Info: leading_eigenvector.pdf  used on input line 154.
-(pdftex.def)             Requested size: 153.64493pt x 101.78436pt.
- [6
+Package pdftex.def Info: leading_eigenvector.pdf  used on input line 143.
+(pdftex.def)             Requested size: 171.14764pt x 113.37865pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
 
  </home/peterj/Projects/thesis/presentation/leading_eigenvector.pdf>]
-<covid/plot_model.pdf, id=78, 406.584pt x 280.09143pt>
+<covid/plot_model.pdf, id=233, 406.584pt x 280.09143pt>
 File: covid/plot_model.pdf Graphic file (type pdf)
 <use covid/plot_model.pdf>
-Package pdftex.def Info: covid/plot_model.pdf  used on input line 157.
-(pdftex.def)             Requested size: 307.28987pt x 211.69638pt.
- [7
+Package pdftex.def Info: covid/plot_model.pdf  used on input line 146.
+(pdftex.def)             Requested size: 342.2953pt x 235.81369pt.
+
+Overfull \vbox (6.7431pt too high) detected at line 146
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
 
  </home/peterj/Projects/thesis/presentation/covid/plot_model.pdf>]
-<covid/vaccination_by_mortality_small.pdf, id=113, 517.56863pt x 375.7528pt>
+<covid/vaccination_by_mortality_small.pdf, id=290, 517.56863pt x 375.7528pt>
 File: covid/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use covid/vaccination_by_mortality_small.pdf>
-Package pdftex.def Info: covid/vaccination_by_mortality_small.pdf  used on input line 164.
-(pdftex.def)             Requested size: 230.46739pt x 167.31554pt.
+Package pdftex.def Info: covid/vaccination_by_mortality_small.pdf  used on input line 153.
+(pdftex.def)             Requested size: 256.72147pt x 186.37949pt.
 
-Overfull \vbox (21.25644pt too high) detected at line 164
+Overfull \vbox (27.3089pt too high) detected at line 153
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [8
 
  </home/peterj/Projects/thesis/presentation/covid/vaccination_by_mortality_small.pdf>]
-<covid/main_text_ts_1.pdf, id=142, 517.19426pt x 290.88475pt>
+<covid/main_text_ts_1.pdf, id=340, 517.19426pt x 290.88475pt>
 File: covid/main_text_ts_1.pdf Graphic file (type pdf)
 <use covid/main_text_ts_1.pdf>
-Package pdftex.def Info: covid/main_text_ts_1.pdf  used on input line 167.
-(pdftex.def)             Requested size: 307.28987pt x 172.82779pt.
- [9
+Package pdftex.def Info: covid/main_text_ts_1.pdf  used on input line 156.
+(pdftex.def)             Requested size: 342.2953pt x 192.51715pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
 
  </home/peterj/Projects/thesis/presentation/covid/main_text_ts_1.pdf>]
-<covid/main_text_ts_2.pdf, id=175, 517.19426pt x 308.76154pt>
+<covid/main_text_ts_2.pdf, id=394, 517.19426pt x 308.76154pt>
 File: covid/main_text_ts_2.pdf Graphic file (type pdf)
 <use covid/main_text_ts_2.pdf>
-Package pdftex.def Info: covid/main_text_ts_2.pdf  used on input line 170.
-(pdftex.def)             Requested size: 307.28987pt x 183.44919pt.
- [10
+Package pdftex.def Info: covid/main_text_ts_2.pdf  used on input line 159.
+(pdftex.def)             Requested size: 342.2953pt x 204.34859pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
 
  </home/peterj/Projects/thesis/presentation/covid/main_text_ts_2.pdf>]
-<covid/bivariate_heatmap.pdf, id=207, 370.65779pt x 448.02179pt>
+<covid/bivariate_heatmap.pdf, id=447, 370.65779pt x 448.02179pt>
 File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
 <use covid/bivariate_heatmap.pdf>
-Package pdftex.def Info: covid/bivariate_heatmap.pdf  used on input line 179.
-(pdftex.def)             Requested size: 151.6087pt x 183.25682pt.
+Package pdftex.def Info: covid/bivariate_heatmap.pdf  used on input line 168.
+(pdftex.def)             Requested size: 150.85083pt x 182.33519pt.
 
-Overfull \vbox (3.14217pt too high) detected at line 179
+Overfull \vbox (1.20905pt too high) detected at line 168
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [11
 
  </home/peterj/Projects/thesis/presentation/covid/bivariate_heatmap.pdf>]
-<covid/histograms.pdf, id=235, 560.45683pt x 303.7498pt>
+<covid/histograms.pdf, id=496, 560.45683pt x 303.7498pt>
 File: covid/histograms.pdf Graphic file (type pdf)
 <use covid/histograms.pdf>
-Package pdftex.def Info: covid/histograms.pdf  used on input line 186.
-(pdftex.def)             Requested size: 307.28987pt x 166.5438pt.
- [12
+Package pdftex.def Info: covid/histograms.pdf  used on input line 175.
+(pdftex.def)             Requested size: 342.2953pt x 185.51884pt.
 
- </home/peterj/Projects/thesis/presentation/covid/histograms.pdf>] [13
+Overfull \vbox (14.44826pt too high) detected at line 175
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+ </home/peterj/Projects/thesis/presentation/covid/histograms.pdf>]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
 
 ]
-<Emerald_ash_borer_penny.jpg, id=278, 1541.76pt x 1504.62125pt>
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+]
+<Emerald_ash_borer_penny.jpg, id=618, 1541.76pt x 1504.62125pt>
 File: Emerald_ash_borer_penny.jpg Graphic file (type jpg)
 <use Emerald_ash_borer_penny.jpg>
-Package pdftex.def Info: Emerald_ash_borer_penny.jpg  used on input line 215.
-(pdftex.def)             Requested size: 122.91406pt x 119.93594pt.
- [14
+Package pdftex.def Info: Emerald_ash_borer_penny.jpg  used on input line 209.
+(pdftex.def)             Requested size: 136.91603pt x 133.59633pt.
 
- </home/peterj/Projects/thesis/presentation/Emerald_ash_borer_penny.jpg>] [15
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-] [16
+[15
+
+ </home/peterj/Projects/thesis/presentation/Emerald_ash_borer_penny.jpg>]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
 
 ]
-Overfull \hbox (1.59853pt too wide) detected at line 256
-[] \OT1/cmr/m/n/9 = [] + [] \OMS/cmsy/m/n/9 ^^@ [][] []
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [17
 
 ]
-<firewood/core_graph_plot.png, id=306, 844.8363pt x 597.432pt>
-File: firewood/core_graph_plot.png Graphic file (type png)
-<use firewood/core_graph_plot.png>
-Package pdftex.def Info: firewood/core_graph_plot.png  used on input line 273.
-(pdftex.def)             Requested size: 169.01036pt x 119.51163pt.
- [18
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
- </home/peterj/Projects/thesis/presentation/firewood/core_graph_plot.png>]
-<firewood/ct_v_ce_plane.png, id=314, 1734.48pt x 578.16pt>
-File: firewood/ct_v_ce_plane.png Graphic file (type png)
-<use firewood/ct_v_ce_plane.png>
-Package pdftex.def Info: firewood/ct_v_ce_plane.png  used on input line 280.
-(pdftex.def)             Requested size: 307.28987pt x 102.42342pt.
- [19
-
- </home/peterj/Projects/thesis/presentation/firewood/ct_v_ce_plane.png>]
-<firewood/p1.jpg, id=322, 963.6pt x 542.025pt>
-File: firewood/p1.jpg Graphic file (type jpg)
-<use firewood/p1.jpg>
-Package pdftex.def Info: firewood/p1.jpg  used on input line 287.
-(pdftex.def)             Requested size: 307.28987pt x 172.84778pt.
- [20
-
- </home/peterj/Projects/thesis/presentation/firewood/p1.jpg>]
-<firewood/A_v_time.png, id=328, 1228.59pt x 578.16pt>
-File: firewood/A_v_time.png Graphic file (type png)
-<use firewood/A_v_time.png>
-Package pdftex.def Info: firewood/A_v_time.png  used on input line 294.
-(pdftex.def)             Requested size: 307.28987pt x 144.6014pt.
- [21
-
- </home/peterj/Projects/thesis/presentation/firewood/A_v_time.png>]
-<firewood/A_v_ct_v_d_marginal_gain.png, id=336, 2168.1pt x 578.16pt>
-File: firewood/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
-<use firewood/A_v_ct_v_d_marginal_gain.png>
-Package pdftex.def Info: firewood/A_v_ct_v_d_marginal_gain.png  used on input line 301.
-(pdftex.def)             Requested size: 307.28987pt x 81.93872pt.
- [22
-
- </home/peterj/Projects/thesis/presentation/firewood/A_v_ct_v_d_marginal_gain.png>]
-<firewood/node_quarantine_plot_1.0.png, id=343, 1734.48pt x 578.16pt>
-File: firewood/node_quarantine_plot_1.0.png Graphic file (type png)
-<use firewood/node_quarantine_plot_1.0.png>
-Package pdftex.def Info: firewood/node_quarantine_plot_1.0.png  used on input line 307.
-(pdftex.def)             Requested size: 307.28987pt x 102.42342pt.
- [23
-
- </home/peterj/Projects/thesis/presentation/firewood/node_quarantine_plot_1.0.png>] [24
-
-] [25
-
-] [26
-
-] [27
+[18
 
 ]
-Overfull \hbox (16.73798pt too wide) detected at line 356
-[]
+<firewood/core_graph_plot.png, id=736, 844.8363pt x 597.432pt>
+File: firewood/core_graph_plot.png Graphic file (type png)
+<use firewood/core_graph_plot.png>
+Package pdftex.def Info: firewood/core_graph_plot.png  used on input line 264.
+(pdftex.def)             Requested size: 239.60567pt x 169.43121pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+ </home/peterj/Projects/thesis/presentation/firewood/core_graph_plot.png>]
+<firewood/ct_v_ce_plane.png, id=767, 1734.48pt x 578.16pt>
+File: firewood/ct_v_ce_plane.png Graphic file (type png)
+<use firewood/ct_v_ce_plane.png>
+Package pdftex.def Info: firewood/ct_v_ce_plane.png  used on input line 272.
+(pdftex.def)             Requested size: 342.2953pt x 114.09491pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
+
+ </home/peterj/Projects/thesis/presentation/firewood/ct_v_ce_plane.png>]
+<firewood/p1.jpg, id=795, 963.6pt x 542.025pt>
+File: firewood/p1.jpg Graphic file (type jpg)
+<use firewood/p1.jpg>
+Package pdftex.def Info: firewood/p1.jpg  used on input line 279.
+(pdftex.def)             Requested size: 342.2953pt x 192.54013pt.
+
+Overfull \vbox (11.41399pt too high) detected at line 279
+ []
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+ </home/peterj/Projects/thesis/presentation/firewood/p1.jpg>]
+<firewood/A_v_time.png, id=822, 1228.59pt x 578.16pt>
+File: firewood/A_v_time.png Graphic file (type png)
+<use firewood/A_v_time.png>
+Package pdftex.def Info: firewood/A_v_time.png  used on input line 286.
+(pdftex.def)             Requested size: 342.2953pt x 161.08089pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+ </home/peterj/Projects/thesis/presentation/firewood/A_v_time.png>]
+<firewood/A_v_ct_v_d_marginal_gain.png, id=850, 2168.1pt x 578.16pt>
+File: firewood/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
+<use firewood/A_v_ct_v_d_marginal_gain.png>
+Package pdftex.def Info: firewood/A_v_ct_v_d_marginal_gain.png  used on input line 293.
+(pdftex.def)             Requested size: 342.2953pt x 91.2724pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
+
+ </home/peterj/Projects/thesis/presentation/firewood/A_v_ct_v_d_marginal_gain.png>]
+<firewood/node_quarantine_plot_1.0.png, id=879, 1734.48pt x 578.16pt>
+File: firewood/node_quarantine_plot_1.0.png Graphic file (type png)
+<use firewood/node_quarantine_plot_1.0.png>
+Package pdftex.def Info: firewood/node_quarantine_plot_1.0.png  used on input line 299.
+(pdftex.def)             Requested size: 342.2953pt x 114.09491pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+ </home/peterj/Projects/thesis/presentation/firewood/node_quarantine_plot_1.0.png>]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[27
+
+]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [28
 
 ]
-<mpb/a1_a2_phase.pdf, id=383, 453.64783pt x 310.14468pt>
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[29
+
+]
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[30
+
+]
+<mpb/a1_a2_phase.pdf, id=1082, 453.64783pt x 310.14468pt>
 File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
 <use mpb/a1_a2_phase.pdf>
-Package pdftex.def Info: mpb/a1_a2_phase.pdf  used on input line 364.
-(pdftex.def)             Requested size: 215.10196pt x 147.05997pt.
- [29
+Package pdftex.def Info: mpb/a1_a2_phase.pdf  used on input line 358.
+(pdftex.def)             Requested size: 239.60567pt x 163.81273pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[31
 
  </home/peterj/Projects/thesis/presentation/mpb/a1_a2_phase.pdf>]
-<mpb/a1_a2_trim_susceptible_loss.pdf, id=429, 663.0692pt x 258.54591pt>
+<mpb/a1_a2_trim_susceptible_loss.pdf, id=1151, 663.0692pt x 258.54591pt>
 File: mpb/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_susceptible_loss.pdf>
-Package pdftex.def Info: mpb/a1_a2_trim_susceptible_loss.pdf  used on input line 370.
-(pdftex.def)             Requested size: 307.28987pt x 119.8202pt.
- [30
+Package pdftex.def Info: mpb/a1_a2_trim_susceptible_loss.pdf  used on input line 364.
+(pdftex.def)             Requested size: 342.2953pt x 133.46626pt.
 
- </home/peterj/Projects/thesis/presentation/mpb/a1_a2_trim_susceptible_loss.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=461, 645.1292pt x 257.0453pt>
-File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
-<use mpb/a1_a2_trim_gain.pdf>
-Package pdftex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 377.
-(pdftex.def)             Requested size: 307.28987pt x 122.43509pt.
- [31
-
- </home/peterj/Projects/thesis/presentation/mpb/a1_a2_trim_gain.pdf>]
-
-LaTeX Warning: Citation `seidl2016spatial' on page 32 undefined on input line 386.
-
-
-LaTeX Warning: Citation `kaufmann2008status' on page 32 undefined on input line 386.
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [32
 
-]
-No file main.bbl.
+ </home/peterj/Projects/thesis/presentation/mpb/a1_a2_trim_susceptible_loss.pdf>]
+<mpb/a1_a2_trim_gain.pdf, id=1204, 645.1292pt x 257.0453pt>
+File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
+<use mpb/a1_a2_trim_gain.pdf>
+Package pdftex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 371.
+(pdftex.def)             Requested size: 342.2953pt x 136.3824pt.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [33
 
-] [34
+ </home/peterj/Projects/thesis/presentation/mpb/a1_a2_trim_gain.pdf>]
 
-pdfTeX warning (ext4): destination with the same identifier (name{Ieqn}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.407     \end{frame}
-                     ]
+LaTeX Warning: Citation `seidl2016spatial' on page 34 undefined on input line 380.
+
+
+LaTeX Warning: Citation `kaufmann2008status' on page 34 undefined on input line 380.
+
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[34
+
+]
+No file main.bbl.
+
+Overfull \hbox (96.1768pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[35
+
+]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -1095,21 +1275,21 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C06A7003FA94E2ED5A4FD20E98196AE9;111.
+(rerunfilecheck)             After:  451F747AFC7371DD3037F57A78442A78;338.
  ) 
 Here is how much of TeX's memory you used:
- 25683 strings out of 478994
- 502006 string characters out of 5864751
- 812040 words of memory out of 5000000
- 42517 multiletter control sequences out of 15000+600000
- 412814 words of font info for 64 fonts, out of 8000000 for 9000
+ 25879 strings out of 478994
+ 508496 string characters out of 5864751
+ 819274 words of memory out of 5000000
+ 42705 multiletter control sequences out of 15000+600000
+ 414039 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,12n,132p,470b,1271s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /home/peterj/Projects/thesis/presentation/main.pdf (34 pages, 6004675 bytes).
+ 131i,15n,132p,470b,1271s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on /home/peterj/Projects/thesis/presentation/main.pdf (35 pages, 6041486 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 87 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1398 PDF objects out of 1440 (max. 8388607)
+ 1194 compressed objects within 12 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
