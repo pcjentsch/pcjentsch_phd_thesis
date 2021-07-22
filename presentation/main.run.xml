@@ -54,9 +54,9 @@
       <file>blx-dm.def</file>
       <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
-      <file>blx-case-expl3.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
+      <file>blx-natbib.def</file>
       <file>standard.bbx</file>
       <file>authoryear.bbx</file>
       <file>authoryear.cbx</file>
@@ -85,7 +85,7 @@
       <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>ref.bib</file>
+      <file>master_bibliography</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

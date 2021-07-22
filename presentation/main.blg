@@ -1,23 +1,24 @@
 This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: apalike.bst
-Database file #1: master_bibliography.bib
-I was expecting a `,' or a `}'---line 1312 of file master_bibliography.bib
- : 
- : @article{emery2020contribution,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1367 of file master_bibliography.bib
- : 
- : %       title  = "Cumulative total number of {COVID}-19 cases in the United States by report date.  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1375 of file master_bibliography.bib
- : 
- : %       title  = "Americans Step Up Their Social Distancing Even Further.  https://news.gallup.com/opinion/gallup/298310/americans-step-social-distancing-even-further.aspx",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: master_bibliography.bib
 Repeated entry---line 3056 of file master_bibliography.bib
  : @article{kaufmann2008status
  :                            ,
@@ -31,46 +32,48 @@ I was expecting a `,' or a `}'---line 3566 of file master_bibliography.bib
  :   url={https://nationalpost.com/news/canada/theyre-heroes-how-covid-19-vaccine-hunters-help-canadians-find-appointments},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty journal in kaufmann2008status
-You've used 4 entries,
-            1935 wiz_defined-function locations,
-            492 strings with 4569 characters,
-and the built_in function-call counts, 1658 in all, are:
-= -- 157
-> -- 87
-< -- 2
-+ -- 32
-- -- 30
-* -- 122
-:= -- 291
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 34
-chr.to.int$ -- 4
-cite$ -- 5
-duplicate$ -- 72
-empty$ -- 93
-format.name$ -- 35
-if$ -- 326
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 22
-num.names$ -- 12
-pop$ -- 36
+Biblatex version: 3.16
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+You've used 5 entries,
+            6393 wiz_defined-function locations,
+            1222 strings with 9849 characters,
+and the built_in function-call counts, 40521 in all, are:
+= -- 3311
+> -- 641
+< -- 238
++ -- 940
+- -- 216
+* -- 2912
+:= -- 4440
+add.period$ -- 0
+call.type$ -- 5
+change.case$ -- 171
+chr.to.int$ -- 42
+cite$ -- 8
+duplicate$ -- 3567
+empty$ -- 3619
+format.name$ -- 350
+if$ -- 8488
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 182
+num.names$ -- 303
+pop$ -- 1580
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 201
 quote$ -- 0
-skip$ -- 69
+skip$ -- 1116
 stack$ -- 0
-substring$ -- 68
-swap$ -- 22
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 24
-warning$ -- 1
-while$ -- 9
+substring$ -- 6368
+swap$ -- 804
+text.length$ -- 140
+text.prefix$ -- 4
+top$ -- 1
+type$ -- 158
+warning$ -- 0
+while$ -- 525
 width$ -- 0
-write$ -- 49
-(There were 6 error messages)
+write$ -- 178
+(There were 3 error messages)

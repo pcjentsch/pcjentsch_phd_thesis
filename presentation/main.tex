@@ -2,8 +2,9 @@
 \usepackage{diagbox}
 \usepackage{tikz}
 \usepackage{amsmath}
-\usepackage{cite}
 \usepackage{graphicx}
+\usepackage[natbib=true,style=authoryear,backend=bibtex,useprefix=true]{biblatex}
+\addbibresource{master_bibliography}
 \usetikzlibrary{arrows.meta,positioning}
 \usetikzlibrary{shapes.multipart,matrix,positioning,arrows,arrows.meta}
 \usepackage[utf8]{inputenc}
@@ -146,7 +147,7 @@
 \end{frame}
 \begin{frame}{Results}
             \begin{figure}
-                \includegraphics[width = 0.75\textwidth]{covid/vaccination_by_mortality_small.pdf}
+                \includegraphics[width = 0.65\textwidth]{covid/vaccination_by_mortality_small.pdf}
                 
                 \caption{Percentage reduction in cumulative mortality due to COVID-19 after 5 years with respect to $psi$, expressed as a percentage of the total population per week. Here $v_{D_i} = v_{T_i} = 0.75 $, shutdown at $200\%$ of first wave. Percentage reductions are relative to no vaccination. }
             \end{figure}
@@ -375,12 +376,11 @@
     \begin{itemize}
         \item We show that increasing fire prevalence is able to dampen MPB outbreaks by increasing stand heterogeneity 
         \item Stand heterogeneity can also be increased through forest thinning or prescribed burning, which also dampens MPB outbreaks.
-        \item These results are consistent with ecological evidence \cite{seidl2016spatial,kaufmann2008status}
+        \item These results are consistent with ecological evidence \citet{seidl2016spatial,kaufmann2008status}
     \end{itemize}
 \end{frame}
-\begin{frame}
-    \bibliographystyle{apalike}
-    \bibliography{master_bibliography}
+\begin{frame}[t,allowframebreaks]
+    \printbibliography
 \end{frame}
 
 

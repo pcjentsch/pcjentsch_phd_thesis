@@ -1,27 +1,185 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Bubar et~al., 2020]{bubar2020model}
-Bubar, K.~M., Kissler, S.~M., Lipsitch, M., Cobey, S., Grad, Y., and Larremore,
-  D.~B. (2020).
-\newblock Model-informed {COVID}-19 vaccine prioritization strategies by age
-  and serostatus.
-\newblock {\em medRxiv}.
+\datalist[entry]{nyt/global//global/global}
+  \entry{bubar2020model}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BKM}{%
+         family={Bubar},
+         familyi={B\bibinitperiod},
+         given={Kate\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KSM}{%
+         family={Kissler},
+         familyi={K\bibinitperiod},
+         given={Stephen\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lipsitch},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cobey},
+         familyi={C\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Grad},
+         familyi={G\bibinitperiod},
+         given={Yonatan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LDB}{%
+         family={Larremore},
+         familyi={L\bibinitperiod},
+         given={Daniel\bibnamedelima B},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory Press}%
+    }
+    \strng{namehash}{BKM+1}
+    \strng{fullhash}{BKMKSMLMCSGYLDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Model-informed {COVID}-19 vaccine prioritization strategies
+  by age and serostatus}
+    \field{journaltitle}{medRxiv}
+    \field{year}{2020}
+  \endentry
 
-\bibitem[Buckner et~al., 2020]{hoyt2020vaccine}
-Buckner, J.~H., Chowell, G.~H., and Springborn, M.~R. (2020).
-\newblock Optimal dynamic prioritization of scarce {COVID}-19 vaccines.
-\newblock {\em medRxiv}.
+  \entry{hoyt2020vaccine}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJH}{%
+         family={Buckner},
+         familyi={B\bibinitperiod},
+         given={Jack\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CGH}{%
+         family={Chowell},
+         familyi={C\bibinitperiod},
+         given={Gerardo\bibnamedelima H},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SMR}{%
+         family={Springborn},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory Press}%
+    }
+    \strng{namehash}{BJHCGHSMR1}
+    \strng{fullhash}{BJHCGHSMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Optimal Dynamic Prioritization of Scarce {COVID}-19 Vaccines}
+    \field{journaltitle}{medRxiv}
+    \field{year}{2020}
+  \endentry
 
-\bibitem[Kaufmann et~al., 2008]{kaufmann2008status}
-Kaufmann, M.~R. et~al. (2008).
-\newblock The status of our scientific understanding of lodgepole pine and
-  mountain pine beetles: a focus on forest ecology and fire behavior.
+  \entry{kaufmann2008status}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=KMR}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Merrill\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Colorado State University. Libraries}%
+    }
+    \strng{namehash}{KMR+1}
+    \strng{fullhash}{KMR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{The status of our scientific understanding of lodgepole pine
+  and mountain pine beetles: a focus on forest ecology and fire behavior}
+    \field{year}{2008}
+  \endentry
 
-\bibitem[Seidl et~al., 2016]{seidl2016spatial}
-Seidl, R., Donato, D.~C., Raffa, K.~F., and Turner, M.~G. (2016).
-\newblock Spatial variability in tree regeneration after wildfire delays and
-  dampens future bark beetle outbreaks.
-\newblock {\em Proceedings of the National Academy of Sciences}, page
-  201615263.
-
-\end{thebibliography}
+  \entry{seidl2016spatial}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SR}{%
+         family={Seidl},
+         familyi={S\bibinitperiod},
+         given={Rupert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DDC}{%
+         family={Donato},
+         familyi={D\bibinitperiod},
+         given={Daniel\bibnamedelima C},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RKF}{%
+         family={Raffa},
+         familyi={R\bibinitperiod},
+         given={Kenneth\bibnamedelima F},
+         giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=TMG}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Monica\bibnamedelima G},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Acad Sciences}%
+    }
+    \strng{namehash}{SR+1}
+    \strng{fullhash}{SRDDCRKFTMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{201615263}
+    \field{title}{Spatial variability in tree regeneration after wildfire
+  delays and dampens future bark beetle outbreaks}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput
