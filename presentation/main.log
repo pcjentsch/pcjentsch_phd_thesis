@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  22 JUL 2021 11:16
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  22 JUL 2021 11:24
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1074,7 +1074,9 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeHannover.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (/usr/share
+/texmf-dist/tex/latex/beamer/beamerthemeHannover.sty (/usr/share/texmf-dist/tex
+/latex/beamer/beamerouterthemesidebar.sty
 \beamer@sidebarwidth=\dimen320
 \beamer@headheight=\dimen321
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty) (/usr/s
@@ -1088,31 +1090,31 @@ File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
 ) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+0.
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -1168,7 +1170,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1178,13 +1180,51 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count464
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 
 \openout6 = main.out
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  TU/lmr/b/n --> TU/lmr/b/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 30.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -1241,19 +1281,19 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 (./main.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1261,26 +1301,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
-[5
+] [5
 
 Missing character: There is no ; (U+003B) in font nullfont!
 ]
-Overfull \hbox (10.60544pt too wide) in paragraph at lines 133--133
+Overfull \hbox (13.57545pt too wide) in paragraph at lines 134--134
  [] 
  []
 
 [6
 
 ]
-<leading_eigenvector.pdf, id=245, 237.09378pt x 157.05777pt>
+<leading_eigenvector.pdf, id=244, 237.09378pt x 157.05777pt>
 File: leading_eigenvector.pdf Graphic file (type pdf)
 <use leading_eigenvector.pdf>
-Package luatex.def Info: leading_eigenvector.pdf  used on input line 154.
+Package luatex.def Info: leading_eigenvector.pdf  used on input line 155.
 (luatex.def)             Requested size: 145.3713pt x 96.30356pt.
 [7
 
@@ -1288,7 +1323,7 @@ Package luatex.def Info: leading_eigenvector.pdf  used on input line 154.
 <covid/plot_model.pdf, id=296, 406.584pt x 280.09142pt>
 File: covid/plot_model.pdf Graphic file (type pdf)
 <use covid/plot_model.pdf>
-Package luatex.def Info: covid/plot_model.pdf  used on input line 157.
+Package luatex.def Info: covid/plot_model.pdf  used on input line 158.
 (luatex.def)             Requested size: 290.74263pt x 200.29802pt.
 [8
 
@@ -1297,7 +1332,7 @@ Package luatex.def Info: covid/plot_model.pdf  used on input line 157.
 File: covid/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use covid/vaccination_by_mortality_small.pdf>
 Package luatex.def Info: covid/vaccination_by_mortality_small.pdf  used on inpu
-t line 164.
+t line 165.
 (luatex.def)             Requested size: 188.98093pt x 137.19736pt.
 [9
 
@@ -1305,7 +1340,7 @@ t line 164.
 <covid/main_text_ts_1.pdf, id=418, 517.19423pt x 290.88474pt>
 File: covid/main_text_ts_1.pdf Graphic file (type pdf)
 <use covid/main_text_ts_1.pdf>
-Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 167.
+Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 168.
 (luatex.def)             Requested size: 290.74263pt x 163.52017pt.
 [10
 
@@ -1313,7 +1348,7 @@ Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 167.
 <covid/main_text_ts_2.pdf, id=478, 517.19423pt x 308.76154pt>
 File: covid/main_text_ts_2.pdf Graphic file (type pdf)
 <use covid/main_text_ts_2.pdf>
-Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 170.
+Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 171.
 (luatex.def)             Requested size: 290.74263pt x 173.56956pt.
 [11
 
@@ -1321,10 +1356,10 @@ Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 170.
 <covid/bivariate_heatmap.pdf, id=540, 370.65778pt x 448.0218pt>
 File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
 <use covid/bivariate_heatmap.pdf>
-Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 179.
+Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 180.
 (luatex.def)             Requested size: 155.8675pt x 188.40181pt.
 
-Overfull \vbox (1.16006pt too high) detected at line 179
+Overfull \vbox (11.58449pt too high) detected at line 180
  []
 
 [12
@@ -1333,7 +1368,7 @@ Overfull \vbox (1.16006pt too high) detected at line 179
 <covid/histograms.pdf, id=596, 560.45686pt x 303.7498pt>
 File: covid/histograms.pdf Graphic file (type pdf)
 <use covid/histograms.pdf>
-Package luatex.def Info: covid/histograms.pdf  used on input line 186.
+Package luatex.def Info: covid/histograms.pdf  used on input line 187.
 (luatex.def)             Requested size: 290.74263pt x 157.57538pt.
 [13
 
@@ -1345,15 +1380,22 @@ Package luatex.def Info: covid/histograms.pdf  used on input line 186.
 <Emerald_ash_borer_penny.jpg, id=724, 1541.76pt x 1504.62125pt>
 File: Emerald_ash_borer_penny.jpg Graphic file (type jpg)
 <use Emerald_ash_borer_penny.jpg>
-Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 220.
+Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 221.
 (luatex.def)             Requested size: 116.29527pt x 113.48456pt.
 [16
 
 <./Emerald_ash_borer_penny.jpg>] [17
 
 ]
-Overfull \hbox (10.6632pt too wide) detected at line 254
+Overfull \hbox (11.6614pt too wide) detected at line 255
 [] \OT1/cmr/m/n/9 = [] + [] \OMS/cmsy/m/n/9 ^^@ [][] []
+ []
+
+
+Overfull \hbox (2.12036pt too wide) detected at line 255
+[] \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 \TU/lmr/m/it/9 L[]\OT1/cmr/m/n/9 (\TU/lmr/
+m/n/9 1 \OMS/cmsy/m/n/9 ^^@ \TU/lmr/m/it/9 L[]\OT1/cmr/m/n/9 )([] + [] + [])[][
+]
  []
 
 [18
@@ -1361,52 +1403,52 @@ Overfull \hbox (10.6632pt too wide) detected at line 254
 ] [19
 
 ]
-<firewood/core_graph_plot.png, id=862, 844.8363pt x 597.432pt>
+<firewood/core_graph_plot.png, id=863, 844.8363pt x 597.432pt>
 File: firewood/core_graph_plot.png Graphic file (type png)
 <use firewood/core_graph_plot.png>
-Package luatex.def Info: firewood/core_graph_plot.png  used on input line 275.
+Package luatex.def Info: firewood/core_graph_plot.png  used on input line 276.
 (luatex.def)             Requested size: 203.51895pt x 143.91533pt.
 [20
 
 <./firewood/core_graph_plot.png>]
-<firewood/ct_v_ce_plane.png, id=895, 1734.48pt x 578.16pt>
+<firewood/ct_v_ce_plane.png, id=896, 1734.48pt x 578.16pt>
 File: firewood/ct_v_ce_plane.png Graphic file (type png)
 <use firewood/ct_v_ce_plane.png>
-Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 283.
+Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 284.
 (luatex.def)             Requested size: 290.74263pt x 96.90967pt.
 [21
 
 <./firewood/ct_v_ce_plane.png>]
-<firewood/p1.jpg, id=929, 963.6pt x 542.025pt>
+<firewood/p1.jpg, id=930, 963.6pt x 542.025pt>
 File: firewood/p1.jpg Graphic file (type jpg)
 <use firewood/p1.jpg>
-Package luatex.def Info: firewood/p1.jpg  used on input line 290.
+Package luatex.def Info: firewood/p1.jpg  used on input line 291.
 (luatex.def)             Requested size: 290.74263pt x 163.54332pt.
 [22
 
 <./firewood/p1.jpg>]
-<firewood/A_v_time.png, id=962, 1228.59pt x 578.16pt>
+<firewood/A_v_time.png, id=963, 1228.59pt x 578.16pt>
 File: firewood/A_v_time.png Graphic file (type png)
 <use firewood/A_v_time.png>
-Package luatex.def Info: firewood/A_v_time.png  used on input line 297.
+Package luatex.def Info: firewood/A_v_time.png  used on input line 298.
 (luatex.def)             Requested size: 290.74263pt x 136.82039pt.
 [23
 
 <./firewood/A_v_time.png>]
-<firewood/A_v_ct_v_d_marginal_gain.png, id=995, 2168.1pt x 578.16pt>
+<firewood/A_v_ct_v_d_marginal_gain.png, id=996, 2168.1pt x 578.16pt>
 File: firewood/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use firewood/A_v_ct_v_d_marginal_gain.png>
 Package luatex.def Info: firewood/A_v_ct_v_d_marginal_gain.png  used on input l
-ine 304.
+ine 305.
 (luatex.def)             Requested size: 290.74263pt x 77.52773pt.
 [24
 
 <./firewood/A_v_ct_v_d_marginal_gain.png>]
-<firewood/node_quarantine_plot_1.0.png, id=1028, 1734.48pt x 578.16pt>
+<firewood/node_quarantine_plot_1.0.png, id=1029, 1734.48pt x 578.16pt>
 File: firewood/node_quarantine_plot_1.0.png Graphic file (type png)
 <use firewood/node_quarantine_plot_1.0.png>
 Package luatex.def Info: firewood/node_quarantine_plot_1.0.png  used on input l
-ine 310.
+ine 311.
 (luatex.def)             Requested size: 290.74263pt x 96.90967pt.
 [25
 
@@ -1419,34 +1461,34 @@ ine 310.
 ] [29
 
 ]
-Overfull \hbox (33.28522pt too wide) detected at line 353
+Overfull \hbox (23.82404pt too wide) detected at line 354
 []
  []
 
 [30
 
 ]
-<mpb/a1_a2_phase.pdf, id=1229, 453.64783pt x 310.1447pt>
+<mpb/a1_a2_phase.pdf, id=1231, 453.64783pt x 310.1447pt>
 File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
 <use mpb/a1_a2_phase.pdf>
-Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 361.
+Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 362.
 (luatex.def)             Requested size: 203.51895pt x 139.1379pt.
 [31
 
 <./mpb/a1_a2_phase.pdf>]
-<mpb/a1_a2_trim_susceptible_loss.pdf, id=1308, 663.06921pt x 258.54593pt>
+<mpb/a1_a2_trim_susceptible_loss.pdf, id=1310, 663.06921pt x 258.54593pt>
 File: mpb/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_susceptible_loss.pdf>
 Package luatex.def Info: mpb/a1_a2_trim_susceptible_loss.pdf  used on input lin
-e 367.
+e 368.
 (luatex.def)             Requested size: 290.74263pt x 113.36604pt.
 [32
 
 <./mpb/a1_a2_trim_susceptible_loss.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1371, 645.1292pt x 257.04532pt>
+<mpb/a1_a2_trim_gain.pdf, id=1373, 645.1292pt x 257.04532pt>
 File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_gain.pdf>
-Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 374.
+Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 375.
 (luatex.def)             Requested size: 290.74263pt x 115.84189pt.
 [33
 
@@ -1456,10 +1498,7 @@ Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 374.
 
 ] [36
 
-]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 405.
-[37
+] [37
 
 </usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [38
 
@@ -1483,41 +1522,42 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34241 strings out of 478531
+ 34262 strings out of 478531
  100000,1373583 words of node,token memory allocated
- 6623 words of node memory still in use:
-   31 hlist, 6 vlist, 5 rule, 40 disc, 3 local_par, 130 glue, 35 kern, 34 penalt
-y, 493 glyph, 133 attribute, 74 glue_spec, 133 attribute_list, 7 write, 3 pdf_de
-st, 34 pdf_colorstack nodes
-   avail lists: 2:1943,3:1352,4:294,5:397,6:96,7:3900,8:76,9:1304,10:15,11:263
- 52439 multiletter control sequences out of 65536+600000
- 79 fonts using 7097231 bytes
+ 9068 words of node memory still in use:
+   39 hlist, 6 vlist, 6 rule, 60 disc, 4 local_par, 176 glue, 53 kern, 47 penalt
+y, 705 glyph, 171 attribute, 74 glue_spec, 171 attribute_list, 8 write, 4 pdf_de
+st, 44 pdf_colorstack nodes
+   avail lists: 2:1865,3:1338,4:284,5:392,6:93,7:2860,8:73,9:1273,10:15,11:181
+ 52460 multiletter control sequences out of 65536+600000
+ 82 fonts using 7491975 bytes
  131i,15n,125p,1853b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share
-/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf></usr/share/texmf-dist
-/fonts/opentype/public/lm/lmsans9-oblique.otf></usr/share/texmf-dist/fonts/opent
-ype/public/lm/lmsans8-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/l
-m/lmsans9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-r
-egular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf>
-</usr/share/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (38 pages, 6166806 bytes).
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
+e/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share/texmf-dis
+t/fonts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf-dist/fonts/ope
+ntype/public/lm/lmroman10-italic.otf></usr/share/texmf-dist/fonts/opentype/publi
+c/lm/lmroman9-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman
+7-italic.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-italic.otf
+></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/shar
+e/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf-dis
+t/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/op
+entype/public/lm/lmroman12-regular.otf></usr/share/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman6-regular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (38 pages, 6144947 bytes).
 
-PDF statistics: 1709 PDF objects out of 1728 (max. 8388607)
- 1483 compressed objects within 15 object streams
+PDF statistics: 1725 PDF objects out of 1728 (max. 8388607)
+ 1490 compressed objects within 15 object streams
  100 named destinations out of 1000 (max. 131072)
  48 words of extra memory for PDF output out of 10000 (max. 100000000)
 
