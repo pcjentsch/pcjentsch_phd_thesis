@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  21 JUL 2021 23:20
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  22 JUL 2021 11:16
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1074,7 +1074,11 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeHannover.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
+\beamer@sidebarwidth=\dimen320
+\beamer@headheight=\dimen321
+) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeseahorse.sty) (/usr/s
+hare/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty))
 \@quotelevel=\count455
 \@quotereset=\count456
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
@@ -1117,14 +1121,14 @@ LaTeX Font Info:    ... okay on input line 29.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95pt, 342.29536pt, 10.95pt)
+* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.29536pt
+* \textwidth=290.74263pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31999pt
-* \evensidemargin=-61.31999pt
+* \oddsidemargin=-13.04362pt
+* \evensidemargin=-13.04362pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1146,13 +1150,13 @@ LaTeX Font Info:    ... okay on input line 29.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count458
-\scratchdimen=\dimen320
+\scratchdimen=\dimen322
 \scratchbox=\box103
 \nofMPsegments=\count459
 \nofMParguments=\count460
 \everyMPshowfont=\toks51
 \MPscratchCnt=\count461
-\MPscratchDim=\dimen321
+\MPscratchDim=\dimen323
 \MPnumerator=\count462
 \makeMPintoPDFobject=\count463
 \everyMPtoPDFconversion=\toks52
@@ -1239,413 +1243,225 @@ Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
-(./main.nav)
-Overfull \hbox (96.17549pt too wide) in paragraph at lines 29--29
- [][][][]  
- []
+(./main.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[2
+] [2
 
 ]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
-[3
-
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[4
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
-.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \vbox (1.84233pt too high) detected at line 120
- []
+) [3
 
+] [4
 
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 120.
 [5
 
 Missing character: There is no ; (U+003B) in font nullfont!
 ]
-<leading_eigenvector.pdf, id=215, 237.09378pt x 157.05777pt>
-File: leading_eigenvector.pdf Graphic file (type pdf)
-<use leading_eigenvector.pdf>
-Package luatex.def Info: leading_eigenvector.pdf  used on input line 144.
-(luatex.def)             Requested size: 171.14767pt x 113.37866pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (10.60544pt too wide) in paragraph at lines 133--133
+ [] 
  []
 
 [6
 
-<./leading_eigenvector.pdf>]
-<covid/plot_model.pdf, id=261, 406.584pt x 280.09142pt>
-File: covid/plot_model.pdf Graphic file (type pdf)
-<use covid/plot_model.pdf>
-Package luatex.def Info: covid/plot_model.pdf  used on input line 147.
-(luatex.def)             Requested size: 342.29536pt x 235.81367pt.
-
-Overfull \vbox (6.74721pt too high) detected at line 147
- []
-
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+]
+<leading_eigenvector.pdf, id=245, 237.09378pt x 157.05777pt>
+File: leading_eigenvector.pdf Graphic file (type pdf)
+<use leading_eigenvector.pdf>
+Package luatex.def Info: leading_eigenvector.pdf  used on input line 154.
+(luatex.def)             Requested size: 145.3713pt x 96.30356pt.
 [7
 
+<./leading_eigenvector.pdf>]
+<covid/plot_model.pdf, id=296, 406.584pt x 280.09142pt>
+File: covid/plot_model.pdf Graphic file (type pdf)
+<use covid/plot_model.pdf>
+Package luatex.def Info: covid/plot_model.pdf  used on input line 157.
+(luatex.def)             Requested size: 290.74263pt x 200.29802pt.
+[8
+
 <./covid/plot_model.pdf>]
-<covid/vaccination_by_mortality_small.pdf, id=322, 517.56863pt x 375.7528pt>
+<covid/vaccination_by_mortality_small.pdf, id=360, 517.56863pt x 375.7528pt>
 File: covid/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use covid/vaccination_by_mortality_small.pdf>
 Package luatex.def Info: covid/vaccination_by_mortality_small.pdf  used on inpu
-t line 154.
-(luatex.def)             Requested size: 222.48988pt x 161.52467pt.
-
-Overfull \vbox (2.5682pt too high) detected at line 154
- []
-
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[8
-
-<./covid/vaccination_by_mortality_small.pdf>]
-<covid/main_text_ts_1.pdf, id=375, 517.19423pt x 290.88474pt>
-File: covid/main_text_ts_1.pdf Graphic file (type pdf)
-<use covid/main_text_ts_1.pdf>
-Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 157.
-(luatex.def)             Requested size: 342.29536pt x 192.51714pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+t line 164.
+(luatex.def)             Requested size: 188.98093pt x 137.19736pt.
 [9
 
-<./covid/main_text_ts_1.pdf>]
-<covid/main_text_ts_2.pdf, id=432, 517.19423pt x 308.76154pt>
-File: covid/main_text_ts_2.pdf Graphic file (type pdf)
-<use covid/main_text_ts_2.pdf>
-Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 160.
-(luatex.def)             Requested size: 342.29536pt x 204.34859pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./covid/vaccination_by_mortality_small.pdf>]
+<covid/main_text_ts_1.pdf, id=418, 517.19423pt x 290.88474pt>
+File: covid/main_text_ts_1.pdf Graphic file (type pdf)
+<use covid/main_text_ts_1.pdf>
+Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 167.
+(luatex.def)             Requested size: 290.74263pt x 163.52017pt.
 [10
 
-<./covid/main_text_ts_2.pdf>]
-<covid/bivariate_heatmap.pdf, id=488, 370.65778pt x 448.0218pt>
-File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
-<use covid/bivariate_heatmap.pdf>
-Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 169.
-(luatex.def)             Requested size: 150.85081pt x 182.34123pt.
-
-Overfull \vbox (1.33476pt too high) detected at line 169
- []
-
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./covid/main_text_ts_1.pdf>]
+<covid/main_text_ts_2.pdf, id=478, 517.19423pt x 308.76154pt>
+File: covid/main_text_ts_2.pdf Graphic file (type pdf)
+<use covid/main_text_ts_2.pdf>
+Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 170.
+(luatex.def)             Requested size: 290.74263pt x 173.56956pt.
 [11
 
-<./covid/bivariate_heatmap.pdf>]
-<covid/histograms.pdf, id=542, 560.45686pt x 303.7498pt>
-File: covid/histograms.pdf Graphic file (type pdf)
-<use covid/histograms.pdf>
-Package luatex.def Info: covid/histograms.pdf  used on input line 176.
-(luatex.def)             Requested size: 342.29536pt x 185.51884pt.
+<./covid/main_text_ts_2.pdf>]
+<covid/bivariate_heatmap.pdf, id=540, 370.65778pt x 448.0218pt>
+File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
+<use covid/bivariate_heatmap.pdf>
+Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 179.
+(luatex.def)             Requested size: 155.8675pt x 188.40181pt.
 
-Overfull \vbox (14.56238pt too high) detected at line 176
- []
-
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \vbox (1.16006pt too high) detected at line 179
  []
 
 [12
 
-<./covid/histograms.pdf>]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./covid/bivariate_heatmap.pdf>]
+<covid/histograms.pdf, id=596, 560.45686pt x 303.7498pt>
+File: covid/histograms.pdf Graphic file (type pdf)
+<use covid/histograms.pdf>
+Package luatex.def Info: covid/histograms.pdf  used on input line 186.
+(luatex.def)             Requested size: 290.74263pt x 157.57538pt.
 [13
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
+<./covid/histograms.pdf>] [14
 
-[14
+] [15
 
 ]
-<Emerald_ash_borer_penny.jpg, id=671, 1541.76pt x 1504.62125pt>
+<Emerald_ash_borer_penny.jpg, id=724, 1541.76pt x 1504.62125pt>
 File: Emerald_ash_borer_penny.jpg Graphic file (type jpg)
 <use Emerald_ash_borer_penny.jpg>
-Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 210.
-(luatex.def)             Requested size: 136.91605pt x 133.59633pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[15
-
-<./Emerald_ash_borer_penny.jpg>]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 220.
+(luatex.def)             Requested size: 116.29527pt x 113.48456pt.
 [16
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[17
+<./Emerald_ash_borer_penny.jpg>] [17
 
 ]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (10.6632pt too wide) detected at line 254
+[] \OT1/cmr/m/n/9 = [] + [] \OMS/cmsy/m/n/9 ^^@ [][] []
  []
 
 [18
 
+] [19
+
 ]
-<firewood/core_graph_plot.png, id=796, 844.8363pt x 597.432pt>
+<firewood/core_graph_plot.png, id=862, 844.8363pt x 597.432pt>
 File: firewood/core_graph_plot.png Graphic file (type png)
 <use firewood/core_graph_plot.png>
-Package luatex.def Info: firewood/core_graph_plot.png  used on input line 265.
-(luatex.def)             Requested size: 239.6057pt x 169.43121pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[19
-
-<./firewood/core_graph_plot.png>]
-<firewood/ct_v_ce_plane.png, id=825, 1734.48pt x 578.16pt>
-File: firewood/ct_v_ce_plane.png Graphic file (type png)
-<use firewood/ct_v_ce_plane.png>
-Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 273.
-(luatex.def)             Requested size: 342.29536pt x 114.09491pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+Package luatex.def Info: firewood/core_graph_plot.png  used on input line 275.
+(luatex.def)             Requested size: 203.51895pt x 143.91533pt.
 [20
 
-<./firewood/ct_v_ce_plane.png>]
-<firewood/p1.jpg, id=854, 963.6pt x 542.025pt>
-File: firewood/p1.jpg Graphic file (type jpg)
-<use firewood/p1.jpg>
-Package luatex.def Info: firewood/p1.jpg  used on input line 280.
-(luatex.def)             Requested size: 342.29536pt x 192.54013pt.
-
-Overfull \vbox (11.53366pt too high) detected at line 280
- []
-
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./firewood/core_graph_plot.png>]
+<firewood/ct_v_ce_plane.png, id=895, 1734.48pt x 578.16pt>
+File: firewood/ct_v_ce_plane.png Graphic file (type png)
+<use firewood/ct_v_ce_plane.png>
+Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 283.
+(luatex.def)             Requested size: 290.74263pt x 96.90967pt.
 [21
 
-<./firewood/p1.jpg>]
-<firewood/A_v_time.png, id=884, 1228.59pt x 578.16pt>
-File: firewood/A_v_time.png Graphic file (type png)
-<use firewood/A_v_time.png>
-Package luatex.def Info: firewood/A_v_time.png  used on input line 287.
-(luatex.def)             Requested size: 342.29536pt x 161.08089pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./firewood/ct_v_ce_plane.png>]
+<firewood/p1.jpg, id=929, 963.6pt x 542.025pt>
+File: firewood/p1.jpg Graphic file (type jpg)
+<use firewood/p1.jpg>
+Package luatex.def Info: firewood/p1.jpg  used on input line 290.
+(luatex.def)             Requested size: 290.74263pt x 163.54332pt.
 [22
 
+<./firewood/p1.jpg>]
+<firewood/A_v_time.png, id=962, 1228.59pt x 578.16pt>
+File: firewood/A_v_time.png Graphic file (type png)
+<use firewood/A_v_time.png>
+Package luatex.def Info: firewood/A_v_time.png  used on input line 297.
+(luatex.def)             Requested size: 290.74263pt x 136.82039pt.
+[23
+
 <./firewood/A_v_time.png>]
-<firewood/A_v_ct_v_d_marginal_gain.png, id=913, 2168.1pt x 578.16pt>
+<firewood/A_v_ct_v_d_marginal_gain.png, id=995, 2168.1pt x 578.16pt>
 File: firewood/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use firewood/A_v_ct_v_d_marginal_gain.png>
 Package luatex.def Info: firewood/A_v_ct_v_d_marginal_gain.png  used on input l
-ine 294.
-(luatex.def)             Requested size: 342.29536pt x 91.2724pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[23
+ine 304.
+(luatex.def)             Requested size: 290.74263pt x 77.52773pt.
+[24
 
 <./firewood/A_v_ct_v_d_marginal_gain.png>]
-<firewood/node_quarantine_plot_1.0.png, id=942, 1734.48pt x 578.16pt>
+<firewood/node_quarantine_plot_1.0.png, id=1028, 1734.48pt x 578.16pt>
 File: firewood/node_quarantine_plot_1.0.png Graphic file (type png)
 <use firewood/node_quarantine_plot_1.0.png>
 Package luatex.def Info: firewood/node_quarantine_plot_1.0.png  used on input l
-ine 300.
-(luatex.def)             Requested size: 342.29536pt x 114.09491pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[24
-
-<./firewood/node_quarantine_plot_1.0.png>]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+ine 310.
+(luatex.def)             Requested size: 290.74263pt x 96.90967pt.
 [25
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
+<./firewood/node_quarantine_plot_1.0.png>] [26
 
-[26
+] [27
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [28
 
-[27
+] [29
 
 ]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[28
-
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[29
-
-]
-<mpb/a1_a2_phase.pdf, id=1128, 453.64783pt x 310.1447pt>
-File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
-<use mpb/a1_a2_phase.pdf>
-Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 351.
-(luatex.def)             Requested size: 239.6057pt x 163.81274pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (33.28522pt too wide) detected at line 353
+[]
  []
 
 [30
 
+]
+<mpb/a1_a2_phase.pdf, id=1229, 453.64783pt x 310.1447pt>
+File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
+<use mpb/a1_a2_phase.pdf>
+Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 361.
+(luatex.def)             Requested size: 203.51895pt x 139.1379pt.
+[31
+
 <./mpb/a1_a2_phase.pdf>]
-<mpb/a1_a2_trim_susceptible_loss.pdf, id=1201, 663.06921pt x 258.54593pt>
+<mpb/a1_a2_trim_susceptible_loss.pdf, id=1308, 663.06921pt x 258.54593pt>
 File: mpb/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_susceptible_loss.pdf>
 Package luatex.def Info: mpb/a1_a2_trim_susceptible_loss.pdf  used on input lin
-e 357.
-(luatex.def)             Requested size: 342.29536pt x 133.46626pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[31
-
-<./mpb/a1_a2_trim_susceptible_loss.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1262, 645.1292pt x 257.04532pt>
-File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
-<use mpb/a1_a2_trim_gain.pdf>
-Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 364.
-(luatex.def)             Requested size: 342.29536pt x 136.3824pt.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+e 367.
+(luatex.def)             Requested size: 290.74263pt x 113.36604pt.
 [32
 
-<./mpb/a1_a2_trim_gain.pdf>]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+<./mpb/a1_a2_trim_susceptible_loss.pdf>]
+<mpb/a1_a2_trim_gain.pdf, id=1371, 645.1292pt x 257.04532pt>
+File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
+<use mpb/a1_a2_trim_gain.pdf>
+Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 374.
+(luatex.def)             Requested size: 290.74263pt x 115.84189pt.
 [33
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
+<./mpb/a1_a2_trim_gain.pdf>] [34
 
-[34
+] [35
 
-]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[35
+] [36
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 395.
-
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[36
-
-</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Overfull \hbox (96.17549pt too wide) has occurred while \output is active
- [][][][]  
- []
-
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 405.
 [37
+
+</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [38
 
 
 ]
@@ -1667,40 +1483,41 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34366 strings out of 478531
+ 34241 strings out of 478531
  100000,1373583 words of node,token memory allocated
- 7429 words of node memory still in use:
-   58 hlist, 6 vlist, 10 rule, 40 disc, 3 local_par, 151 glue, 35 kern, 32 penal
-ty, 493 glyph, 196 attribute, 74 glue_spec, 196 attribute_list, 7 write, 39 pdf_
-literal, 3 pdf_dest, 36 pdf_colorstack nodes
-   avail lists: 1:2,2:1811,3:1282,4:323,5:425,6:83,7:3717,8:68,9:1244,10:17,11:2
-57
- 52557 multiletter control sequences out of 65536+600000
- 75 fonts using 6570415 bytes
+ 6623 words of node memory still in use:
+   31 hlist, 6 vlist, 5 rule, 40 disc, 3 local_par, 130 glue, 35 kern, 34 penalt
+y, 493 glyph, 133 attribute, 74 glue_spec, 133 attribute_list, 7 write, 3 pdf_de
+st, 34 pdf_colorstack nodes
+   avail lists: 2:1943,3:1352,4:294,5:397,6:96,7:3900,8:76,9:1304,10:15,11:263
+ 52439 multiletter control sequences out of 65536+600000
+ 79 fonts using 7097231 bytes
  131i,15n,125p,1853b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share
 /texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf></usr/share/texmf-dist
-/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf-dist/fonts/opent
-ype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/l
-m/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-
-regular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (37 pages, 6161692 bytes).
+/fonts/opentype/public/lm/lmsans9-oblique.otf></usr/share/texmf-dist/fonts/opent
+ype/public/lm/lmsans8-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/l
+m/lmsans9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-r
+egular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf>
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (38 pages, 6166806 bytes).
 
-PDF statistics: 1565 PDF objects out of 1728 (max. 8388607)
- 1321 compressed objects within 14 object streams
- 98 named destinations out of 1000 (max. 131072)
- 298 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1709 PDF objects out of 1728 (max. 8388607)
+ 1483 compressed objects within 15 object streams
+ 100 named destinations out of 1000 (max. 131072)
+ 48 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -9,7 +9,7 @@
 \usetikzlibrary{shapes.multipart,matrix,positioning,arrows,arrows.meta}
 \usepackage[utf8]{inputenc}
 \usefonttheme{professionalfonts} % using non standard fonts for beamer
-\usetheme{Madrid}
+\usetheme{Hannover}
 
 \AtBeginSection[]{
   \begin{frame}
@@ -54,9 +54,9 @@
 \end{frame}
 \begin{frame}{Compartmental model overview}
     \begin{columns}
-        \begin{column}{0.6\textwidth}
-        \footnotesize
-        Disease Compartments
+        \begin{column}{0.4\textwidth}
+        \scriptsize
+        \textit{Disease Compartments}
             \begin{itemize}
                 \item[$S_i(t)$] : Susceptible
                 \item[$S_{2,i}(t)$] : Vaccinated but still susceptible
@@ -70,7 +70,7 @@
         \tiny{where $i = 1 ... 16$} comprises age structure\\
         \footnotesize
         \vspace{0.1cm}
-        Social compartments
+        \textit{Social compartments}
         \begin{itemize}
             \item[$x(t)$] : Uses NPIs
             \item[$1 - x(t)$] : Does not use NPIs
@@ -83,7 +83,7 @@
 
 
             \begin{figure}
-                \begin{tikzpicture}[node distance=1cm, auto,
+                \begin{tikzpicture}[node distance=0.8cm, auto,
                     >=Latex, 
                     every node/.append style={align=center},
                     int/.style={draw, minimum size=0.5cm}]
@@ -120,7 +120,17 @@
 \end{frame}
 
 
-
+\begin{frame}{Game theory as a model of NPI adoption}
+    \begin{table}
+    \footnotesize
+    \begin{tabular}{ |c|c| c| } \hline
+        \diagbox[width = 7em, height = 2em]{P1}{P2} &use NPI& don't use NPI   \\ \hline
+        use NPI & \diagbox[width = 13em, height = 8em]{low risk,\\ NPIs unpleasant}{low risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{med risk,\\ NPIs unpleasant} {med risk}\\ \hline 
+        don't use NPI & \diagbox[width = 13em, height = 8em]{med risk}{med risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{high risk}{high risk}   \\ \hline
+    \end{tabular}
+    \caption{NPI adoption as a two-player game (between P1 and P2)}
+\end{table}
+\end{frame}
 
 \begin{frame}{Vaccination strategies}
     \begin{columns}
