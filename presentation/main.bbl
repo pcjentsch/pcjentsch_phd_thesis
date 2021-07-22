@@ -17,6 +17,94 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{axelson2009influence}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AJN}{%
+         family={Axelson},
+         familyi={A\bibinitperiod},
+         given={Jodi\bibnamedelima N},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=ARI}{%
+         family={Alfaro},
+         familyi={A\bibinitperiod},
+         given={Ren{\'e}\bibnamedelima I},
+         giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=HBC}{%
+         family={Hawkes},
+         familyi={H\bibinitperiod},
+         given={Brad\bibnamedelima C},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AJNARIHBC1}
+    \strng{fullhash}{AJNARIHBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{9}
+    \field{pages}{1874\bibrangedash 1882}
+    \field{title}{Influence of fire and mountain pine beetle on the dynamics of
+  lodgepole pine stands in British Columbia, Canada}
+    \field{volume}{257}
+    \field{journaltitle}{Forest Ecology and Management}
+    \field{year}{2009}
+  \endentry
+
+  \entry{barlow2014modelling}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BLA}{%
+         family={Barlow},
+         familyi={B\bibinitperiod},
+         given={Lee-Ann},
+         giveni={L\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cecile},
+         familyi={C\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BCT}{%
+         family={Bauch},
+         familyi={B\bibinitperiod},
+         given={Chris\bibnamedelima T},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Anand},
+         familyi={A\bibinitperiod},
+         given={Madhur},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science}%
+    }
+    \strng{namehash}{BLA+1}
+    \strng{fullhash}{BLACJBCTAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{e90511}
+    \field{title}{Modelling interactions between forest pest invasions and
+  human decisions regarding firewood transport restrictions}
+    \field{volume}{9}
+    \field{journaltitle}{PloS one}
+    \field{year}{2014}
+  \endentry
+
   \entry{bubar2020model}{article}{}
     \name{author}{6}{}{%
       {{hash=BKM}{%
@@ -110,6 +198,54 @@
     \field{year}{2020}
   \endentry
 
+  \entry{duncan2015model}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DJP}{%
+         family={Duncan},
+         familyi={D\bibinitperiod},
+         given={Jacob\bibnamedelima P},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PJA}{%
+         family={Powell},
+         familyi={P\bibinitperiod},
+         given={James\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GLF}{%
+         family={Gordillo},
+         familyi={G\bibinitperiod},
+         given={Luis\bibnamedelima F},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Eason},
+         familyi={E\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{DJP+1}
+    \strng{fullhash}{DJPPJAGLFEJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{7}
+    \field{pages}{1256\bibrangedash 1284}
+    \field{title}{A model for mountain pine beetle outbreaks in an
+  age-structured forest: Predicting severity and outbreak-recovery cycle
+  period}
+    \field{volume}{77}
+    \field{journaltitle}{Bulletin of mathematical biology}
+    \field{year}{2015}
+  \endentry
+
   \entry{kaufmann2008status}{article}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -135,6 +271,53 @@
     \field{title}{The status of our scientific understanding of lodgepole pine
   and mountain pine beetles: a focus on forest ecology and fire behavior}
     \field{year}{2008}
+  \endentry
+
+  \entry{koch2014using}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KFH}{%
+         family={Koch},
+         familyi={K\bibinitperiod},
+         given={Frank\bibnamedelima H},
+         giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={Yemshanov},
+         familyi={Y\bibinitperiod},
+         given={Denys},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HRA}{%
+         family={Haack},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima A},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MRD}{%
+         family={Magarey},
+         familyi={M\bibinitperiod},
+         given={Roger\bibnamedelima D},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Public Library of Science}%
+    }
+    \strng{namehash}{KFH+1}
+    \strng{fullhash}{KFHYDHRAMRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{7}
+    \field{pages}{e102105}
+    \field{title}{Using a network model to assess risk of forest pest spread
+  via recreational travel}
+    \field{volume}{9}
+    \field{journaltitle}{PloS one}
+    \field{year}{2014}
   \endentry
 
   \entry{seidl2016spatial}{article}{}
