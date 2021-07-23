@@ -320,6 +320,31 @@
     \field{year}{2014}
   \endentry
 
+  \entry{peterson1999contagious}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PGD}{%
+         family={Peterson},
+         familyi={P\bibinitperiod},
+         given={Garry\bibnamedelima D},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PGD1}
+    \strng{fullhash}{PGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Contagious disturbance and ecological resilience}
+    \list{institution}{1}{%
+      {State University System of Florida}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{1999}
+  \endentry
+
   \entry{seidl2016spatial}{article}{}
     \name{author}{4}{}{%
       {{hash=SR}{%

@@ -47,11 +47,11 @@ Repeated entry---line 3231 of file master_bibliography.bib
  : @article{seidl2016spatial
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3339 of file master_bibliography.bib
+Repeated entry---line 3347 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3566 of file master_bibliography.bib
+I was expecting a `,' or a `}'---line 3574 of file master_bibliography.bib
  :   
  :   url={https://nationalpost.com/news/canada/theyre-heroes-how-covid-19-vaccine-hunters-help-canadians-find-appointments},
 (Error may have been on previous line)
@@ -59,45 +59,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 9 entries,
+You've used 10 entries,
             6393 wiz_defined-function locations,
-            1250 strings with 10786 characters,
-and the built_in function-call counts, 79186 in all, are:
-= -- 6459
-> -- 1157
-< -- 407
-+ -- 1820
-- -- 395
-* -- 5982
-:= -- 8660
+            1255 strings with 10911 characters,
+and the built_in function-call counts, 84840 in all, are:
+= -- 6870
+> -- 1270
+< -- 466
++ -- 1915
+- -- 419
+* -- 6327
+:= -- 9091
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 285
+call.type$ -- 10
+change.case$ -- 330
 chr.to.int$ -- 42
-cite$ -- 16
-duplicate$ -- 7107
-empty$ -- 7172
-format.name$ -- 711
-if$ -- 16425
+cite$ -- 18
+duplicate$ -- 7659
+empty$ -- 7722
+format.name$ -- 764
+if$ -- 17700
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 360
-num.names$ -- 545
-pop$ -- 3102
+newline$ -- 385
+num.names$ -- 623
+pop$ -- 3441
 preamble$ -- 1
-purify$ -- 347
+purify$ -- 394
 quote$ -- 0
-skip$ -- 1998
+skip$ -- 2258
 stack$ -- 0
-substring$ -- 12615
-swap$ -- 1619
-text.length$ -- 254
-text.prefix$ -- 8
+substring$ -- 13269
+swap$ -- 1783
+text.length$ -- 279
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 294
+type$ -- 327
 warning$ -- 0
-while$ -- 1019
+while$ -- 1064
 width$ -- 0
-write$ -- 352
+write$ -- 376
 (There were 9 error messages)

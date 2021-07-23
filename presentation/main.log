@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  22 JUL 2021 11:24
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  23 JUL 2021 17:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1299,208 +1299,220 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
-] [4
+]
+<pendulum.png, id=145, 1284.8pt x 2062.70625pt>
+File: pendulum.png Graphic file (type png)
+<use pendulum.png>
+Package luatex.def Info: pendulum.png  used on input line 60.
+(luatex.def)             Requested size: 116.29527pt x 186.70567pt.
+[4
 
-] [5
+<./pendulum.png>] [5
+
+] [6
+
+] [7
+
+] [8
 
 Missing character: There is no ; (U+003B) in font nullfont!
 ]
-Overfull \hbox (13.57545pt too wide) in paragraph at lines 134--134
+Overfull \hbox (13.57545pt too wide) in paragraph at lines 157--157
  [] 
  []
 
-[6
+[9
 
 ]
-<leading_eigenvector.pdf, id=244, 237.09378pt x 157.05777pt>
+<leading_eigenvector.pdf, id=355, 237.09378pt x 157.05777pt>
 File: leading_eigenvector.pdf Graphic file (type pdf)
 <use leading_eigenvector.pdf>
-Package luatex.def Info: leading_eigenvector.pdf  used on input line 155.
+Package luatex.def Info: leading_eigenvector.pdf  used on input line 178.
 (luatex.def)             Requested size: 145.3713pt x 96.30356pt.
-[7
+[10
 
 <./leading_eigenvector.pdf>]
-<covid/plot_model.pdf, id=296, 406.584pt x 280.09142pt>
+<covid/plot_model.pdf, id=408, 406.584pt x 280.09142pt>
 File: covid/plot_model.pdf Graphic file (type pdf)
 <use covid/plot_model.pdf>
-Package luatex.def Info: covid/plot_model.pdf  used on input line 158.
+Package luatex.def Info: covid/plot_model.pdf  used on input line 181.
 (luatex.def)             Requested size: 290.74263pt x 200.29802pt.
-[8
+[11
 
 <./covid/plot_model.pdf>]
-<covid/vaccination_by_mortality_small.pdf, id=360, 517.56863pt x 375.7528pt>
+<covid/vaccination_by_mortality_small.pdf, id=474, 517.56863pt x 375.7528pt>
 File: covid/vaccination_by_mortality_small.pdf Graphic file (type pdf)
 <use covid/vaccination_by_mortality_small.pdf>
 Package luatex.def Info: covid/vaccination_by_mortality_small.pdf  used on inpu
-t line 165.
+t line 188.
 (luatex.def)             Requested size: 188.98093pt x 137.19736pt.
-[9
-
-<./covid/vaccination_by_mortality_small.pdf>]
-<covid/main_text_ts_1.pdf, id=418, 517.19423pt x 290.88474pt>
-File: covid/main_text_ts_1.pdf Graphic file (type pdf)
-<use covid/main_text_ts_1.pdf>
-Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 168.
-(luatex.def)             Requested size: 290.74263pt x 163.52017pt.
-[10
-
-<./covid/main_text_ts_1.pdf>]
-<covid/main_text_ts_2.pdf, id=478, 517.19423pt x 308.76154pt>
-File: covid/main_text_ts_2.pdf Graphic file (type pdf)
-<use covid/main_text_ts_2.pdf>
-Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 171.
-(luatex.def)             Requested size: 290.74263pt x 173.56956pt.
-[11
-
-<./covid/main_text_ts_2.pdf>]
-<covid/bivariate_heatmap.pdf, id=540, 370.65778pt x 448.0218pt>
-File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
-<use covid/bivariate_heatmap.pdf>
-Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 180.
-(luatex.def)             Requested size: 155.8675pt x 188.40181pt.
-
-Overfull \vbox (11.58449pt too high) detected at line 180
- []
-
 [12
 
-<./covid/bivariate_heatmap.pdf>]
-<covid/histograms.pdf, id=596, 560.45686pt x 303.7498pt>
-File: covid/histograms.pdf Graphic file (type pdf)
-<use covid/histograms.pdf>
-Package luatex.def Info: covid/histograms.pdf  used on input line 187.
-(luatex.def)             Requested size: 290.74263pt x 157.57538pt.
+<./covid/vaccination_by_mortality_small.pdf>]
+<covid/main_text_ts_1.pdf, id=533, 517.19423pt x 290.88474pt>
+File: covid/main_text_ts_1.pdf Graphic file (type pdf)
+<use covid/main_text_ts_1.pdf>
+Package luatex.def Info: covid/main_text_ts_1.pdf  used on input line 191.
+(luatex.def)             Requested size: 290.74263pt x 163.52017pt.
 [13
 
-<./covid/histograms.pdf>] [14
+<./covid/main_text_ts_1.pdf>]
+<covid/main_text_ts_2.pdf, id=594, 517.19423pt x 308.76154pt>
+File: covid/main_text_ts_2.pdf Graphic file (type pdf)
+<use covid/main_text_ts_2.pdf>
+Package luatex.def Info: covid/main_text_ts_2.pdf  used on input line 194.
+(luatex.def)             Requested size: 290.74263pt x 173.56956pt.
+[14
 
-] [15
+<./covid/main_text_ts_2.pdf>]
+<covid/bivariate_heatmap.pdf, id=656, 370.65778pt x 448.0218pt>
+File: covid/bivariate_heatmap.pdf Graphic file (type pdf)
+<use covid/bivariate_heatmap.pdf>
+Package luatex.def Info: covid/bivariate_heatmap.pdf  used on input line 203.
+(luatex.def)             Requested size: 155.8675pt x 188.40181pt.
 
-]
-<Emerald_ash_borer_penny.jpg, id=724, 1541.76pt x 1504.62125pt>
-File: Emerald_ash_borer_penny.jpg Graphic file (type jpg)
-<use Emerald_ash_borer_penny.jpg>
-Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 221.
-(luatex.def)             Requested size: 116.29527pt x 113.48456pt.
+Overfull \vbox (11.58449pt too high) detected at line 203
+ []
+
+[15
+
+<./covid/bivariate_heatmap.pdf>]
+<covid/histograms.pdf, id=713, 560.45686pt x 303.7498pt>
+File: covid/histograms.pdf Graphic file (type pdf)
+<use covid/histograms.pdf>
+Package luatex.def Info: covid/histograms.pdf  used on input line 210.
+(luatex.def)             Requested size: 290.74263pt x 157.57538pt.
 [16
 
-<./Emerald_ash_borer_penny.jpg>] [17
+<./covid/histograms.pdf>] [17
+
+] [18
 
 ]
-Overfull \hbox (11.6614pt too wide) detected at line 255
+<Emerald_ash_borer_penny.jpg, id=844, 1541.76pt x 1504.62125pt>
+File: Emerald_ash_borer_penny.jpg Graphic file (type jpg)
+<use Emerald_ash_borer_penny.jpg>
+Package luatex.def Info: Emerald_ash_borer_penny.jpg  used on input line 244.
+(luatex.def)             Requested size: 116.29527pt x 113.48456pt.
+[19
+
+<./Emerald_ash_borer_penny.jpg>] [20
+
+]
+Overfull \hbox (11.6614pt too wide) detected at line 278
 [] \OT1/cmr/m/n/9 = [] + [] \OMS/cmsy/m/n/9 ^^@ [][] []
  []
 
 
-Overfull \hbox (2.12036pt too wide) detected at line 255
+Overfull \hbox (2.12036pt too wide) detected at line 278
 [] \OT1/cmr/m/n/9 = \OML/cmm/m/it/9 \TU/lmr/m/it/9 L[]\OT1/cmr/m/n/9 (\TU/lmr/
 m/n/9 1 \OMS/cmsy/m/n/9 ^^@ \TU/lmr/m/it/9 L[]\OT1/cmr/m/n/9 )([] + [] + [])[][
 ]
  []
 
-[18
-
-] [19
-
-]
-<firewood/core_graph_plot.png, id=863, 844.8363pt x 597.432pt>
-File: firewood/core_graph_plot.png Graphic file (type png)
-<use firewood/core_graph_plot.png>
-Package luatex.def Info: firewood/core_graph_plot.png  used on input line 276.
-(luatex.def)             Requested size: 203.51895pt x 143.91533pt.
-[20
-
-<./firewood/core_graph_plot.png>]
-<firewood/ct_v_ce_plane.png, id=896, 1734.48pt x 578.16pt>
-File: firewood/ct_v_ce_plane.png Graphic file (type png)
-<use firewood/ct_v_ce_plane.png>
-Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 284.
-(luatex.def)             Requested size: 290.74263pt x 96.90967pt.
 [21
 
-<./firewood/ct_v_ce_plane.png>]
-<firewood/p1.jpg, id=930, 963.6pt x 542.025pt>
-File: firewood/p1.jpg Graphic file (type jpg)
-<use firewood/p1.jpg>
-Package luatex.def Info: firewood/p1.jpg  used on input line 291.
-(luatex.def)             Requested size: 290.74263pt x 163.54332pt.
-[22
+] [22
 
-<./firewood/p1.jpg>]
-<firewood/A_v_time.png, id=963, 1228.59pt x 578.16pt>
-File: firewood/A_v_time.png Graphic file (type png)
-<use firewood/A_v_time.png>
-Package luatex.def Info: firewood/A_v_time.png  used on input line 298.
-(luatex.def)             Requested size: 290.74263pt x 136.82039pt.
+]
+<firewood/core_graph_plot.png, id=988, 844.8363pt x 597.432pt>
+File: firewood/core_graph_plot.png Graphic file (type png)
+<use firewood/core_graph_plot.png>
+Package luatex.def Info: firewood/core_graph_plot.png  used on input line 299.
+(luatex.def)             Requested size: 203.51895pt x 143.91533pt.
 [23
 
+<./firewood/core_graph_plot.png>]
+<firewood/ct_v_ce_plane.png, id=1022, 1734.48pt x 578.16pt>
+File: firewood/ct_v_ce_plane.png Graphic file (type png)
+<use firewood/ct_v_ce_plane.png>
+Package luatex.def Info: firewood/ct_v_ce_plane.png  used on input line 307.
+(luatex.def)             Requested size: 290.74263pt x 96.90967pt.
+[24
+
+<./firewood/ct_v_ce_plane.png>]
+<firewood/p1.jpg, id=1056, 963.6pt x 542.025pt>
+File: firewood/p1.jpg Graphic file (type jpg)
+<use firewood/p1.jpg>
+Package luatex.def Info: firewood/p1.jpg  used on input line 314.
+(luatex.def)             Requested size: 290.74263pt x 163.54332pt.
+[25
+
+<./firewood/p1.jpg>]
+<firewood/A_v_time.png, id=1090, 1228.59pt x 578.16pt>
+File: firewood/A_v_time.png Graphic file (type png)
+<use firewood/A_v_time.png>
+Package luatex.def Info: firewood/A_v_time.png  used on input line 321.
+(luatex.def)             Requested size: 290.74263pt x 136.82039pt.
+[26
+
 <./firewood/A_v_time.png>]
-<firewood/A_v_ct_v_d_marginal_gain.png, id=996, 2168.1pt x 578.16pt>
+<firewood/A_v_ct_v_d_marginal_gain.png, id=1124, 2168.1pt x 578.16pt>
 File: firewood/A_v_ct_v_d_marginal_gain.png Graphic file (type png)
 <use firewood/A_v_ct_v_d_marginal_gain.png>
 Package luatex.def Info: firewood/A_v_ct_v_d_marginal_gain.png  used on input l
-ine 305.
+ine 328.
 (luatex.def)             Requested size: 290.74263pt x 77.52773pt.
-[24
+[27
 
 <./firewood/A_v_ct_v_d_marginal_gain.png>]
-<firewood/node_quarantine_plot_1.0.png, id=1029, 1734.48pt x 578.16pt>
+<firewood/node_quarantine_plot_1.0.png, id=1158, 1734.48pt x 578.16pt>
 File: firewood/node_quarantine_plot_1.0.png Graphic file (type png)
 <use firewood/node_quarantine_plot_1.0.png>
 Package luatex.def Info: firewood/node_quarantine_plot_1.0.png  used on input l
-ine 311.
+ine 334.
 (luatex.def)             Requested size: 290.74263pt x 96.90967pt.
-[25
+[28
 
-<./firewood/node_quarantine_plot_1.0.png>] [26
+<./firewood/node_quarantine_plot_1.0.png>] [29
 
-] [27
+] [30
 
-] [28
+] [31
 
-] [29
+] [32
 
 ]
-Overfull \hbox (23.82404pt too wide) detected at line 354
+Overfull \hbox (23.82404pt too wide) detected at line 377
 []
  []
 
-[30
+[33
 
 ]
-<mpb/a1_a2_phase.pdf, id=1231, 453.64783pt x 310.1447pt>
+<mpb/a1_a2_phase.pdf, id=1367, 453.64783pt x 310.1447pt>
 File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
 <use mpb/a1_a2_phase.pdf>
-Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 362.
+Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 385.
 (luatex.def)             Requested size: 203.51895pt x 139.1379pt.
-[31
+[34
 
 <./mpb/a1_a2_phase.pdf>]
-<mpb/a1_a2_trim_susceptible_loss.pdf, id=1310, 663.06921pt x 258.54593pt>
+<mpb/a1_a2_trim_susceptible_loss.pdf, id=1446, 663.06921pt x 258.54593pt>
 File: mpb/a1_a2_trim_susceptible_loss.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_susceptible_loss.pdf>
 Package luatex.def Info: mpb/a1_a2_trim_susceptible_loss.pdf  used on input lin
-e 368.
+e 391.
 (luatex.def)             Requested size: 290.74263pt x 113.36604pt.
-[32
+[35
 
 <./mpb/a1_a2_trim_susceptible_loss.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1373, 645.1292pt x 257.04532pt>
+<mpb/a1_a2_trim_gain.pdf, id=1510, 645.1292pt x 257.04532pt>
 File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_gain.pdf>
-Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 375.
+Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 398.
 (luatex.def)             Requested size: 290.74263pt x 115.84189pt.
-[33
+[36
 
-<./mpb/a1_a2_trim_gain.pdf>] [34
+<./mpb/a1_a2_trim_gain.pdf>] [37
 
-] [35
+] [38
 
-] [36
+] [39
 
-] [37
+] [40
 
-</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [38
+</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [41
 
 
 ]
@@ -1515,21 +1527,21 @@ Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 375.
 \openout9 = main.snm
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 875DB010EDEEBE35CE1338B38F0C372E;431.
+(rerunfilecheck)             Checksum: 9D950DA8A970969385C8DB17CEB2BE77;534.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 34262 strings out of 478531
+ 34296 strings out of 478531
  100000,1373583 words of node,token memory allocated
- 9068 words of node memory still in use:
-   39 hlist, 6 vlist, 6 rule, 60 disc, 4 local_par, 176 glue, 53 kern, 47 penalt
-y, 705 glyph, 171 attribute, 74 glue_spec, 171 attribute_list, 8 write, 4 pdf_de
-st, 44 pdf_colorstack nodes
-   avail lists: 2:1865,3:1338,4:284,5:392,6:93,7:2860,8:73,9:1273,10:15,11:181
- 52460 multiletter control sequences out of 65536+600000
+ 10613 words of node memory still in use:
+   45 hlist, 6 vlist, 7 rule, 74 disc, 5 local_par, 205 glue, 58 kern, 56 penalt
+y, 833 glyph, 201 attribute, 74 glue_spec, 201 attribute_list, 9 write, 5 pdf_de
+st, 54 pdf_colorstack nodes
+   avail lists: 2:1826,3:1334,4:282,5:391,6:95,7:2915,8:75,9:1284,10:15,11:188
+ 52482 multiletter control sequences out of 65536+600000
  82 fonts using 7491975 bytes
  131i,15n,125p,1853b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
@@ -1554,10 +1566,10 @@ pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (38 pages, 6144947 bytes).
+Output written on main.pdf (41 pages, 6246563 bytes).
 
-PDF statistics: 1725 PDF objects out of 1728 (max. 8388607)
- 1490 compressed objects within 15 object streams
- 100 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1870 PDF objects out of 2073 (max. 8388607)
+ 1628 compressed objects within 17 object streams
+ 108 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
