@@ -36,6 +36,7 @@
 \centering{Supervised by Chris T. Bauch and Madhur Anand}
 }
 
+\setbeamerfont{frametitle}{size=\small}
 \section{Introduction}
 \begin{frame}{Contagious processes}
     \begin{itemize}
@@ -44,23 +45,21 @@
         \item Current situation has thrust the importance of modeling infections into popular consciousness 
     \end{itemize}
 \end{frame}
+
 \begin{frame}{Coupled systems}
     \begin{columns}
-        \begin{column}[]{0.65\textwidth}
+        \begin{column}[]{\textwidth}
             \begin{itemize}
                 \item Coupling can often dramatically affect stability, e.g. coupled oscillators
                 \item Human-environment systems focus on dynamics of humanity and the environment viewed as a whole
-                \item My thesis attemps to show that this perspective provides useful answers to important problems
+                \item This perspective provides useful answers to important problems
             \end{itemize}
         \end{column}
-        \begin{column}[]{0.3\textwidth}
-            \begin{figure}
-                \includegraphics[width=\textwidth]{pendulum.png}
-                \caption{Kapitza's pendulum\\
-                 \scriptsize{\textit{Source: Chris Burks}}}                
-            \end{figure}
-
-        \end{column}
+        % \begin{column}[]{0.3\textwidth}
+        %     \begin{figure}
+        %         \includegraphics[width=\textwidth]{pendulum.png}
+        %     \end{figure}
+        % \end{column}
     \end{columns}
 \end{frame}
 
@@ -398,20 +397,30 @@
         \caption{ \footnotesize Increasing burning rates $\alpha_1$,$\alpha_2$ reduce MPB outbreak size, cause stability in fire regimes. Panels: a) Average size of largest MPB population, b) Average frequency of MPB outbreaks, c) Average size of largest fire season, d) Average frequency of severe fire seasons. All measured at equilibrium. }
     \end{figure}
 \end{frame}
+\begin{frame}{Results}
+    \begin{columns}
+        \begin{column}[]{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{mpb/z1_ts.pdf}
+                \caption{\small Without FTP, $\alpha_1 = 0.02,  \alpha_2 = 0.0025$, large even aged stands visible in juvenile age distribution (top panel).}
+            \end{figure}
+        \end{column}
+        \begin{column}[]{0.5\textwidth}
+            \begin{figure}
+                \includegraphics[width=\textwidth]{mpb/z1_ftp.pdf}
+                \caption{\small With FTP, $\alpha_1 = 0.02, \alpha_2 = 0.0025$, $\tau = 0.15, m = 8$, with greater heterogeneity in juvenile age structure (top panel).}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
 
 
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{mpb/a1_a2_trim_gain.pdf}
-        \caption{FTP most effective with small   a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
+        \caption{FTP most effective with small $\alpha_1$, CBP most effective with small $\alpha_1, \alpha_2$.  a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
     \end{figure}
 \end{frame} 
-\begin{frame}{Results}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{mpb/a1_a2_trim_susceptible_loss.pdf}
-        \caption{Percentage change in average susceptible (mature) forest population compared to no FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
-    \end{figure}
-\end{frame}
 
 \begin{frame}{Chapter Conclusion}
     \begin{itemize}
@@ -423,12 +432,11 @@
 
 
 \begin{frame}{Overall conclusion}
-    
 \begin{itemize}
-    \item Chapter 1: developed a disease-behaviour model of COVID-19 to address questions about vaccine prioritization
-    \item Chapter 2: we used a socio-ecological model of forest pest spread to compare the efficacy of measures to prevent invasive pest spread
-    \item Chapter 3: we created a model of coupled MPB and wildfire dynamics to shed light on the stand dynamics of this ecosystem 
-\end{itemize}
+    \item Three models of coupled human-environment systems
+    \item Compared methods of mitigation for respective coupled infectious processes
+    \item Results obtained from these answer a gap identified in literature
+\end{itemize} a
 \end{frame}
 
 
