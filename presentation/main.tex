@@ -39,7 +39,7 @@
 \section{Introduction}
 \begin{frame}{Contagious processes}
     \begin{itemize}
-        \item A contagious process is one that is able to propagate itself through a set of hosts (\citet{peterson1999contagious})
+        \item A contagious process is one that is able to propagate itself through a set of hosts %(\citet{peterson1999contagious})
         \item Contagious processes shape our lives in many important ways
         \item Current situation has thrust the importance of modeling infections into popular consciousness 
     \end{itemize}
@@ -48,9 +48,9 @@
     \begin{columns}
         \begin{column}[]{0.65\textwidth}
             \begin{itemize}
-                \item Coupling can often dramatically affect stability, e.g. Kapitza's pendulum 
+                \item Coupling can often dramatically affect stability, e.g. coupled oscillators
                 \item Human-environment systems focus on dynamics of humanity and the environment viewed as a whole
-                \item My thesis demonstrates that this perspective provides useful answers to important problems
+                \item My thesis attemps to show that this perspective provides useful answers to important problems
             \end{itemize}
         \end{column}
         \begin{column}[]{0.3\textwidth}
@@ -176,41 +176,51 @@
         \begin{column}{0.5\textwidth}
         \begin{figure}
             \includegraphics[width = \textwidth]{leading_eigenvector.pdf}
-            \caption{  The contact-based strategy is the normalized leading eigenvector of the sum of the contact matrices}
+            \caption{\textbf{Vaccine allocation by age in the contact-based vaccination strategy}. Computed as the normalized leading eigenvector of the sum of the contact matrices.}
         \end{figure}
         \end{column}
     \end{columns}
 \end{frame}
 \begin{frame}{Parameterization}
-    \includegraphics[width=\textwidth]{covid/plot_model.pdf}
+    \begin{figure}
+    \includegraphics[width=0.9\textwidth]{covid/plot_model.pdf}
+    \caption{Model parameterization used, physical distancing matches reported cases.}
+    \end{figure}
 \end{frame}
 \begin{frame}{Results}
             \begin{figure}
-                \includegraphics[width = 0.65\textwidth]{covid/vaccination_by_mortality_small.pdf}
+                \includegraphics[width = 0.85\textwidth]{covid/vaccination_by_mortality_small.pdf}
+
                 
-                \caption{Percentage reduction in cumulative mortality due to COVID-19 after 5 years with respect to $\psi$, expressed as a percentage of the total population per week. Here $v_{D_i} = v_{T_i} = 0.75 $, shutdown at $200\%$ of first wave. Percentage reductions are relative to no vaccination. }
+                \caption{Percentage reduction in mortality for four strategies depends on vaccination start date and the vaccination rate.} %Percentage reduction in cumulative mortality due to COVID-19 after 5 years with respect to $\psi$, expressed as a percentage of the total population per week. Here $v_{D_i} = v_{T_i} = 0.75 $, shutdown at $200\%$ of first wave. Percentage reductions are relative to no vaccination. }
             \end{figure}
 \end{frame}
 \begin{frame}{}
+    \begin{figure}
     \includegraphics[width = \textwidth]{covid/main_text_ts_1.pdf}
+    \caption{(a) timely vaccination prevents third wave, (b) partial vaccination and indirect protection help during the third wave}
+    \end{figure}
 \end{frame}
 \begin{frame}{}
+    \begin{figure}
     \includegraphics[width = \textwidth]{covid/main_text_ts_2.pdf}
+    \caption{c) with a later start date but higher vaccination rate, partial vaccination and indirect protection help during the third wave as in b), (d) slow and late vaccination fails to prevent third wave.}
+    \end{figure}
 \end{frame}
 
 
 \begin{frame}{Results}
     \begin{figure}
-        \includegraphics[height = 0.7\textheight]{covid/bivariate_heatmap.pdf}
+        \includegraphics[height = 0.6\textheight]{covid/bivariate_heatmap.pdf}
         
-        \caption{Each parameter pair is colored according to the strategy that prevents most deaths on average, over all realizations of the model.}
+        \caption{\small Later start to vaccination favours transmission-interrupting strategies for moderate vaccination rates. Each parameter pair is colored according to the strategy that prevents most deaths on average, over all realizations of the model.}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Results}
 \begin{figure}
     \includegraphics[width = \textwidth]{covid/histograms.pdf}
-    \caption{Histogram of no. recovered at vaccination begin date, according to best strategy for that realization, over all parameter values in sensitivity analysis. Vertical lines are the median.}
+    \caption{\small More pre-existing natural immunity makes transmission-interrupting strategies more effective. Histogram of no. recovered at vaccination begin date, according to best strategy for that realization, over all parameter values in sensitivity analysis. Vertical lines are the median.}
 \end{figure}
 \end{frame}
 \begin{frame}{Chapter Conclusion}
@@ -307,34 +317,34 @@
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{firewood/ct_v_ce_plane.png}
-        \caption{Total number of infested trees per node over 5 (a), 10 (b), and 20 (c) years}
+        \caption{Neither increasing $U$ nor $C_e$ are effective at long time scales. Total number of infested trees per node over 5 (a), 10 (b), and 20 (c) years}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{firewood/p1.jpg}
-        \caption{Efficacy of social incentives on infestation after time $T$. Inset graph shows an example of cross-section along the line $f = 0.11$}
+        \caption{\small The influence of infestation on transport strategy, $f$, can hinder the intervention by public outreach, in the long-term (after approximately 20 years). Efficacy of social incentives on infestation after time $T$. Inset graph shows an example of cross-section along the line $f = 0.11$}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{firewood/A_v_time.png}
-        \caption{Efficacy of social incentives on infestation after time period $T$ with respect to $A$, the intra-patch infestation parameter.}
+        \caption{Increasing U becomes ineffective over time if $A$ is sufficiently large. Efficacy of social incentives on infestation after time period $T$ with respect to $A$, the intra-patch infestation parameter.}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{firewood/A_v_ct_v_d_marginal_gain.png}
-        \caption{Efficacy of social incentives on infestation after time $T$ intra-patch spreading rate $A$, affects infestation outcomes.}
+        \caption{The social incentive to not transport firewood, $U$, is more effective with lower pest spread rates. Efficacy of social incentives on infestation after time $T$ intra-patch spreading rate $A$, affects infestation outcomes.}
     \end{figure}
 \end{frame}
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{firewood/node_quarantine_plot_1.0.png}
-        \caption{Average total infested trees ($T(t)$) after 5, 10 and 15 years (panels a), b), and c) respectively), assuming the quarantine begins one year after the pest is introduced.}
+        \caption{Quarantine needs to include many patches for long term effects. Average total infested trees ($T(t)$) after 5, 10 and 15 years (panels a), b), and c) respectively), assuming the quarantine begins one year after the pest is introduced.}
     \end{figure}
 \end{frame}
 
@@ -385,23 +395,23 @@
     \begin{figure}
         \includegraphics[width=0.7\textwidth]{mpb/a1_a2_phase.pdf}
         
-        \caption{\footnotesize Panels: a) Average size of largest MPB population, b) Average frequency of MPB outbreaks, c) Average size of largest fire season, d) Average frequency of severe fire seasons. All measured at equilibrium. }
+        \caption{ \footnotesize Increasing burning rates $\alpha_1$,$\alpha_2$ reduce MPB outbreak size, cause stability in fire regimes. Panels: a) Average size of largest MPB population, b) Average frequency of MPB outbreaks, c) Average size of largest fire season, d) Average frequency of severe fire seasons. All measured at equilibrium. }
     \end{figure}
 \end{frame}
+
+
+\begin{frame}{Results}
+    \begin{figure}
+        \includegraphics[width=\textwidth]{mpb/a1_a2_trim_gain.pdf}
+        \caption{FTP most effective with small   a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
+    \end{figure}
+\end{frame} 
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=\textwidth]{mpb/a1_a2_trim_susceptible_loss.pdf}
         \caption{Percentage change in average susceptible (mature) forest population compared to no FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
     \end{figure}
 \end{frame}
-
-\begin{frame}{Results}
-    \begin{figure}
-        \includegraphics[width=\textwidth]{mpb/a1_a2_trim_gain.pdf}
-        \caption{Percentage change in maximum MPB infestation size within 500 year period under FTP with a) $\tau = 0.15, m = 8$, b) with $\tau = 0.15, m = 8$ applied every 5 years, c) controlled burning with $\tau = 0.15, m = 8$,  with respect to burning rates $\alpha_1,\alpha_2$.}
-    \end{figure}
-\end{frame} 
-
 
 \begin{frame}{Chapter Conclusion}
     \begin{itemize}
