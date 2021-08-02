@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  2 AUG 2021 14:09
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  2 AUG 2021 14:50
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1475,38 +1475,38 @@ ine 348.
 ] [32
 
 ]
-Overfull \hbox (23.82404pt too wide) detected at line 391
-[]
+Overfull \hbox (3.87761pt too wide) in paragraph at lines 451--451
+[][] 
  []
 
 [33
 
 ]
-<mpb/a1_a2_phase.pdf, id=1364, 453.64783pt x 310.1447pt>
+<mpb/a1_a2_phase.pdf, id=1361, 453.64783pt x 310.1447pt>
 File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
 <use mpb/a1_a2_phase.pdf>
-Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 399.
+Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 458.
 (luatex.def)             Requested size: 203.51895pt x 139.1379pt.
 [34
 
 <./mpb/a1_a2_phase.pdf>]
-<mpb/z1_ts.pdf, id=1443, 432.96556pt x 418.56174pt>
+<mpb/z1_ts.pdf, id=1440, 432.96556pt x 418.56174pt>
 File: mpb/z1_ts.pdf Graphic file (type pdf)
 <use mpb/z1_ts.pdf>
-Package luatex.def Info: mpb/z1_ts.pdf  used on input line 415.
+Package luatex.def Info: mpb/z1_ts.pdf  used on input line 474.
 (luatex.def)             Requested size: 145.3713pt x 140.53358pt.
-<mpb/z1_ftp.pdf, id=1444, 432.96556pt x 418.55974pt>
+<mpb/z1_ftp.pdf, id=1441, 432.96556pt x 418.55974pt>
 File: mpb/z1_ftp.pdf Graphic file (type pdf)
 <use mpb/z1_ftp.pdf>
-Package luatex.def Info: mpb/z1_ftp.pdf  used on input line 415.
+Package luatex.def Info: mpb/z1_ftp.pdf  used on input line 474.
 (luatex.def)             Requested size: 145.3713pt x 140.53291pt.
 [35
 
 <./mpb/z1_ts.pdf><./mpb/z1_ftp.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1530, 647.59842pt x 272.07045pt>
+<mpb/a1_a2_trim_gain.pdf, id=1527, 647.59842pt x 272.07045pt>
 File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_gain.pdf>
-Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 423.
+Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 482.
 (luatex.def)             Requested size: 290.74263pt x 122.14412pt.
 [36
 
@@ -1540,16 +1540,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34291 strings out of 478531
+ 34484 strings out of 478531
  100000,1373583 words of node,token memory allocated
- 9068 words of node memory still in use:
-   39 hlist, 6 vlist, 6 rule, 60 disc, 4 local_par, 176 glue, 53 kern, 47 penalt
-y, 705 glyph, 171 attribute, 74 glue_spec, 171 attribute_list, 8 write, 4 pdf_de
+ 9055 words of node memory still in use:
+   38 hlist, 6 vlist, 6 rule, 60 disc, 4 local_par, 176 glue, 53 kern, 47 penalt
+y, 705 glyph, 170 attribute, 74 glue_spec, 170 attribute_list, 8 write, 4 pdf_de
 st, 44 pdf_colorstack nodes
-   avail lists: 2:1885,3:1344,4:292,5:396,6:96,7:2915,8:75,9:1291,10:15,11:188
- 52476 multiletter control sequences out of 65536+600000
+   avail lists: 2:1966,3:1449,4:292,5:396,6:102,7:2915,8:75,9:1282,10:15,11:188
+ 52674 multiletter control sequences out of 65536+600000
  83 fonts using 7623663 bytes
- 131i,15n,125p,1853b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,16n,125p,1853b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
 e/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share/texmf-dis
 t/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf-dist/fonts/opent
@@ -1564,19 +1564,21 @@ ype/public/lm/lmroman10-regular.otf></usr/share/texmf-dist/fonts/opentype/public
 n6-regular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (41 pages, 6203228 bytes).
+ts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb>
+Output written on main.pdf (41 pages, 6215191 bytes).
 
-PDF statistics: 1899 PDF objects out of 2073 (max. 8388607)
- 1650 compressed objects within 17 object streams
- 107 named destinations out of 1000 (max. 131072)
+PDF statistics: 1902 PDF objects out of 2073 (max. 8388607)
+ 1651 compressed objects within 17 object streams
+ 102 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 

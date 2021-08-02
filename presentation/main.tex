@@ -376,20 +376,79 @@
     
 \end{frame}
 
-\begin{frame}{Model}
-    \begin{subequations}
-        \footnotesize
-        \begin{alignat}{2}
-          j_{n+1, 1} &= d J_n + I_{n-2} + F_{n} \protect \label{eq1}\\
-          j_{n+1, k} &= (1-d) j_{n, k - 1} - \frac{\alpha_1}{T} P_n j_{n,k-1  },\hspace{0.5cm} k = 2 ... K-1 ,K  \protect \label{eq2}\\
-          S_{n+1} &= S_n + (1 - d) j_{n, K} - \left(I_n + \frac{\alpha_2}{T} P_n I_n\right) - \frac{\alpha_2}{T}P_n \left( S_n + (1-d) j_{n, K}\right) - \sigma_F \gamma_n  \protect \label{eq3}\\
-          I_{n+1} &= r_1 I_n e^{-\beta_1 (T - S_{n+1})} - \frac{\alpha_2}{T} P_n I_n + \sigma_I \xi_n  \protect \label{eq4}\\
-          F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right) + \frac{\alpha_2}{T}I_n\right] + \sigma_F\gamma_n  \protect \label{eq5}\\
-          P_{n} &= T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} \label{eq6}
-        \end{alignat}
-      \end{subequations}
-\end{frame}
+% \begin{frame}{Model}
+%     \begin{subequations}
+%         \footnotesize
+%         \begin{alignat}{2}
+%           j_{n+1, 1} &= d J_n + I_{n-2} + F_{n} \protect \label{eq1}\\
+%           j_{n+1, k} &= (1-d) j_{n, k - 1} - \frac{\alpha_1}{T} P_n j_{n,k-1  },\hspace{0.5cm} k = 2 ... K-1 ,K  \protect \label{eq2}\\
+%           S_{n+1} &= S_n + (1 - d) j_{n, K} - \left(I_n + \frac{\alpha_2}{T} P_n I_n\right) - \frac{\alpha_2}{T}P_n \left( S_n + (1-d) j_{n, K}\right) - \sigma_F \gamma_n  \protect \label{eq3}\\
+%           I_{n+1} &= r_1 I_n e^{-\beta_1 (T - S_{n+1})} - \frac{\alpha_2}{T} P_n I_n + \sigma_I \xi_n  \protect \label{eq4}\\
+%           F_{n+1} &=  P_n \left[\frac{\alpha_1}{T} \sum_{k = 1}^{K-1} j_{n,k} + \frac{\alpha_2}{T}\left( S_n + (1 - d)j_{n,K}\right) + \frac{\alpha_2}{T}I_n\right] + \sigma_F\gamma_n  \protect \label{eq5}\\
+%           P_{n} &= T - \sum_{i=1}^{n}  F_i e^{-\kappa (n - i)} \label{eq6}
+%         \end{alignat}
+%       \end{subequations}
+% \end{frame}
 
+\begin{frame}
+    \begin{tikzpicture}
+        \tiny
+        \matrix (A) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2cm,align=center}] at (0,1)
+        {
+            Grey snags, $I_{n-2}$\\
+            Red snags, $I_{n-1}$\\
+            Juvenile trees, $j_{n,k}$\\
+            Susceptible trees, $S_{n}$\\
+            Burned snags, $F_{n}$\\
+        };
+        \matrix (B) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2.5cm,align=center}] at (4,1)
+        {
+            Red snags\\
+            MPB Infestation\\
+            Growth\\
+            Survival\\
+            Burning\\
+            Open forest floor $ dJ_n + I_{n-2} + F_n$\\
+        };
+        \matrix (C) [matrix of nodes,nodes={draw, minimum size=.65cm, text width=2cm,align=center}] at (8,1)
+        {
+            Grey snags, $I_{n-1}$\\
+            Red snags, $I_{n}$\\
+            Juvenile trees, $j_{n+1,k+1}$\\
+            Susceptible trees, $S_{n+1}$\\
+            Burned snags, $F_{n+1}$\\
+            New growth, $j_{n+1,1}$\\
+        };
+        \draw[->] (A-1-1.east) -- ([yshift=0.2 cm]B-6-1.west);
+    
+        \draw[->] (A-2-1.east) -- (B-1-1.west);
+    
+        \draw[->] ([yshift=-0.2 cm]A-3-1.east) -- ([yshift=0.1 cm]B-6-1.west);
+        \draw[->] (A-3-1.east) -- (B-5-1.west);
+        \draw[->] ([yshift=0.2 cm]A-3-1.east) -- ([yshift=0.1 cm]B-3-1.west);
+    
+        \draw[->] ([yshift=-0.2 cm]A-4-1.east) -- ([yshift=-0.1 cm]B-5-1.west);
+        \draw[->] (A-4-1.east) -- (B-4-1.west);
+        \draw[->] ([yshift=0.2 cm]A-4-1.east) -- ([yshift=-0.1 cm]B-2-1.west);
+    
+        \draw[->] (A-5-1.east) -- ([yshift=-0.1 cm]B-6-1.west);
+        
+        \draw[->] (B-1-1.east) -- (C-1-1.west);
+        \draw[->] (B-2-1.east) -- (C-2-1.west);
+        \draw[->] (B-3-1.east) -- (C-3-1.west);
+        \draw[->] (B-4-1.east) -- (C-4-1.west);
+        \draw[->] (B-5-1.east) -- ([yshift=0.1 cm]C-5-1.west);
+        \draw[->] (B-6-1.east) -- (C-6-1.west);
+    
+        
+    
+    
+        \node[above=0.01cm of A]{Spring of year $n$};
+        \node[above=0.01cm of B,text width=3cm,align=center]{Summer and Winter of year $n$};
+        \node[above=0.01cm of C,align=center]{Spring of year $n+1$};
+        \end{tikzpicture}
+      \label{diagram}
+\end{frame}
 \begin{frame}{Results}
     \begin{figure}
         \includegraphics[width=0.7\textwidth]{mpb/a1_a2_phase.pdf}
