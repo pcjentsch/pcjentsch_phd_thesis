@@ -145,28 +145,89 @@ We used this model to compare three strategies for reducing the spread of a pest
 
 The model studied, shown here, was a compartmental metapopulation model where each forest patch is modeling as a well-mixed population of hosts through which the pest spreads. This is coupled to a replicator equation which express the dynamics for the proportion of people in a given patch who buy firewood locally. Firewood is imported to patches at a rate proportional to the travel network, and from there the pest spread within a patch according to the infestation rate $A$. The parameter $I_a$ creates a small threshold effect, so the level of pest needed for a positive growth rate needs to be larger when pest population is small. 
 
+Parameters were estimated by trying to match aspects of epidemic curves from the EAB infestation, but there is a lot of uncertainty especially in the behavior dynamics. 
+
+\section{}
+
+We will use the variable big-$T(t)$ as a major metric of performance. This variable measures the cumulative tree infections up until time little-t, defined as in eqn 5.
+
 \section{}
 
 This is a plot of the network data we use to weight the between-patch firewood import terms. The data, obtained from park reservation systems by the canadian forest service, shows the rough frequency of recreational camping trips.
 
 \section{}
 
+Here we show that generally it is tricky to get effective long-term protection with interception or social incentives. There is an interesting threshold effect, primarily in $U$. Since I have been told I am allowed to critique my own work, in the paper we conclude that this threshold is unattainable. While that is certainly true for $C_t$ as infested firewood is extremely difficult to intercept, I do not think it is obvious for $U$ since we have no benchmark of the effect of education policy on $U$.
 
-
-
-\section{}
-
-In this plot 
+% In fact, based on timeseries estimates, $U = 4$ is probably achieveable, given that corresponds to only a  
 
 
 \section{}
+
+Many results in this chapter are expressed as changes in the marginal benefit of U. That is, fix $t_0$, and given $T(t_0)$ as a function of $U$ we construct a simple linear approximation around these points, and plot the resulting slope. This gives us a linear approximation in the marginal benefit of $U$, as shown in the inset plot. The justification for this is primarily that we are interested in how changes in $U$ will affect outcomes, not in it's value. From my experiments, this linear approximation is mostly reflective of the trend, but it is certainly capable of hiding interesting nonlinearities in the dynamics that might affect outcomes.  
+
+This plot shows that the influence of infestation on transport strategy can dramatically hinder public outreach if it is low. 
+
+\section{}
+
+Again we look at marginal returns in U, and show that it becomes ineffective with large enough infestation rates. With low enough infestation rates however, it is quite effective. I suspect we would see this line shift up with an increase in the social learning rate $\sigma$.
+
+\section{}
+
+Here I am plotting the marginal returns in $U$ with respect to both inter and intra path infestation rates. As you might expect the story is that fast spread rapidly outpaces the ability of the population to react to it fast enough. 
+
+\section{}
+
+Lastly we discuss the comparison to patch quarantine. This is huge topic, but for our implementation we took isolated some number of nodes with the highest betweenness centrality, that is the nodes with the most shortest paths going through them, from the rest of the network for time delta-t, starting one year after detection of the pest.
+
+Again we see a strong threshold effect, but we really need a massive, long quarantine to see lasting effects after 20 years. This is of course assuming there are no leaky patches, which is definitely not the case in practice.
+
+\section{}
+
+The conclusion that we draw from this model is that fire-wood interception methods are not at all effective, and that education and quarantine are marginally effective in the prevention of pest spread, depending on specific pest parameters. I think we have seen that not just with EAB but with all number of invasive species, transmission limiting methods are just not going to be very effective because there are always leaks and a few leak is often all it takes. 
+
+\section{}
+
+This chapter is about a coupled model of fire and MPB. Our research questions for this project were something like:
+
 How do changes in fire prevalence affect MPB dynamics?   \\
 \vspace{0.5cm}
 How can we exploit stand structure to dampen MPB outbreaks? \\
 \vspace{0.5cm}
 Can we create a simple model that replicates major features of the Fire-MPB system?
 
+\section{}
+
+The MPB model I chose to begin was the model of Duncan and coauthors, partially for its dynamical simplicity, and I was also just very interested in discrete time dynamics at that point. I think I quickly learned that they get completely analytically intractable very fast. We extended this model with a simple model of the number of trees burned in year, and looked at how this changed the dynamics.
+
+From these dynamics I found that this method of modeling fire beetle systems, even in this simple formulation, matched a lot of observations made by ecologists about heterogeneity in stand structure. I added a section on methods that take advantage of the importance of heterogeneity to control MPB outbreaks.
+
+
+
+\section{}
+
+Here are the model equations\dots
+
+
+\section{}
+
+Increasing the burning rates of juvenile and susceptible classes reduces MPB outbreaks almost completely, although they still exist as a small endemic population.
+
+It also stabilizes fire dynamics to reduce fire years, as seen in panel d).
+
+\section{}
+
+Here we see timeseries of the model dynamics with and without the aforementioned trimming protocol, known as FTP. FTP works by cutting down the $m$ largest juvenile age classes by the fraction $tau$.
+
+The top panel is a snapshot of the juvenile age distribution at a fixed time, the other panels are timeseries of the model states. You can see that FTP really flattens the age distribution, and at a glance the size of wildfires each year is not much higher, while MPB outbreaks are noticeably smaller on average.  
+
+
+\section{}
+
+Here we make this conclusion solid by averaging outbreak sizes over the ranges of $\alpha_1$ and $\alpha_2$, respectively. In panel a) that the percent reduction in MPB size is consistent through most of the space, in panel b) we show that it is still effective if conducted every 5 years. We also tested a analog of controlled burning, and it is effective if burning rates are low but wildly ineffective if they are larger. Note also that this we are removing only $15$ of the top 8 juvenile classes, which is not very much, although doing this with precision in practice is probably not possible. 
+
 \section{} 
+
 We developed three simple models of coupled human-environment systems. The simplicity of these models allowed us to understand them using computational techniques. In particular, we can use these models to compare methods of mitigation for coupled infectious processes.The results obtained from these analyses are novel.
 % \begin{itemize}
 %     \item Chapter 1: developed a disease-behaviour model of COVID-19 to address questions about vaccine prioritization
