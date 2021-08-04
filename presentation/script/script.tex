@@ -7,14 +7,16 @@
 
 \section{}
 
-We can define a contagious process as the dynamical description of something propagating through a population of hosts. This general notion is probably very old, but in ecology there is the idea of a "contagious disturbance" introduced (as far as I can tell) by Peterson in his PhD thesis which I find helpful. Peterson defines a contagious disturbance as a disturbance where it's extent is determined endogenously as a function of the system, in contrast to a non-contagious disturbance whose extent is determined exogenously.
+We can define a contagious process as the dynamical description of something propagating through a population of hosts. 
 
-A great deal of things can be described as a contagious, or equivalently an infectious process: predator-prey systems, humans spreading throughout the earth, opinions spreading throughout a population, and beneficial alleles throughout the genome of a species.
+% This general notion is probably very old, but in ecology there is the idea of a "contagious disturbance" introduced (as far as I can tell) by Peterson in his PhD thesis which I find helpful. Peterson defines a contagious disturbance as a disturbance where it's extent is determined endogenously as a function of the system, in contrast to a non-contagious disturbance whose extent is determined exogenously.
+
+A great deal of things can be described as a contagious, or equivalently an infectious process: humans spreading throughout the earth, opinions spreading throughout a population, and beneficial alleles throughout the genome of a species.
 
 Our current situation has made the importance of understanding contagious processes extremely clear to more people than ever before.
 
 \section{}
-Due to their complexity, many of these infectious systems are studied in isolation. However, coupling is often fundamental to the story. Take for example, the kuramoto model of coupled oscillators. These are coupled periodic oscillators that exhibit spontaneous synchronization if their coupling is strong enough. While humanity's impact on the environment is the subject of over a century of scholarship, and the impact of the environment on humanity has an even longer history, the treatment of humanity and our environment as a coupled system, one that feeds back into itself, is relatively new. Advances in numerical computing have brought understanding of many of these systems within our reach. There are many problems that are better addressed from this perspective, and in this presentation and thesis I hope to provide some examples of that. 
+Due to their complexity, many of these infectious systems are studied in isolation. However, coupling is often fundamental to the story. Take for example, the kuramoto model, which are coupled periodic oscillators that exhibit spontaneous synchronization if their coupling is strong enough. While humanity's impact on the environment is the subject of over a century of scholarship, and the impact of the environment on humanity has an even longer history, the treatment of humanity and our environment as a coupled system, one that feeds back into itself, is relatively new. Advances in numerical computing have brought understanding of many of these systems within our reach. There are many problems that are better addressed from this perspective, and in this presentation and thesis I hope to provide some examples of that. 
 
 \section{}
 Beginning with the first project. The background to this chapter is that we wanted to construct a model of Sars-CoV-2 spread that accounted for behavioural dynamics. Population sentiment towards the use of many non-pharmeceutical interventions can majorly affect the transmission rate, as we saw in some countries that were able to keep cases in the single or double digits with a combination of mask usage, contact tracing, and physical distancing.
@@ -28,7 +30,7 @@ The COVID-19 vaccine rollout has already occurred, but at this point in the pand
 
 \section{}
 
-Our research questions were something like, what can we say about vaccination strategies that focus on highly connected individuals versus strategies that focus on highly susceptible individuals in terms of their effect in reducing mortality?
+Our research questions were something like, what can we say about vaccination strategies that focus on highly connected individuals versus strategies that focus on highly susceptible individuals in terms of their effect in reducing mortality.
 
 At this point in the pandemic there were many unknowns about how the vaccine rollout would work, and what the social and epidemiological landscape would look like when it happened, so we wanted to be able to answer this question with respect to a bunch of the relevant parameters.
 
@@ -71,6 +73,8 @@ The proportion of people using NPIs, $x(t)$ was fit to google mobility data. The
 Of course, workplaces cannot be completely moved to remote, so we used googles data for the percentage of workplaces filled under baseline to measure this.
 
 We sampled 400 particles from the posterior distributions obtained through this process to perform the simulations used for the results.  
+
+The coupled aspect of our model is important here as without the feedback of falling cases causing drops in transmission rates due to lower NPI usage, the data is difficult to fit, even with seasonality. This can be seen in appendix of Chapter 1 where we show the model fit without social distancing dynamics. 
 
 \section{}
 
@@ -184,7 +188,7 @@ Again we see a strong threshold effect, but we really need a massive, long quara
 
 \section{}
 
-The conclusion that we draw from this model is that fire-wood interception methods are not at all effective, and that education and quarantine are marginally effective in the prevention of pest spread, depending on specific pest parameters. I think we have seen that not just with EAB but with all number of invasive species, transmission limiting methods are just not going to be very effective because there are always leaks and a few leak is often all it takes. 
+The conclusion that we draw from this model is that fire-wood interception methods are not effective, and that education and quarantine are marginally effective in the prevention of pest spread, depending on specific pest parameters. I think we have seen that not just with EAB but with all number of invasive species, transmission limiting methods are just not going to be very effective because there are always leaks and a few leak is often all it takes. 
 
 \section{}
 
@@ -196,11 +200,7 @@ How can we exploit stand structure to dampen MPB outbreaks? \\
 \vspace{0.5cm}
 Can we create a simple model that replicates major features of the Fire-MPB system?
 
-\section{}
-
 The MPB model I chose to begin was the model of Duncan and coauthors, partially for its dynamical simplicity, and I was also just very interested in discrete time dynamics at that point. I think I quickly learned that they get completely analytically intractable very fast. We extended this model with a simple model of the number of trees burned in year, and looked at how this changed the dynamics.
-
-From these dynamics I found that this method of modeling fire beetle systems, even in this simple formulation, matched a lot of observations made by ecologists about heterogeneity in stand structure. I added a section on methods that take advantage of the importance of heterogeneity to control MPB outbreaks.
 
 
 
@@ -225,6 +225,13 @@ The top panel is a snapshot of the juvenile age distribution at a fixed time, th
 \section{}
 
 Here we make this conclusion solid by averaging outbreak sizes over the ranges of $\alpha_1$ and $\alpha_2$, respectively. In panel a) that the percent reduction in MPB size is consistent through most of the space, in panel b) we show that it is still effective if conducted every 5 years. We also tested a analog of controlled burning, and it is effective if burning rates are low but wildly ineffective if they are larger. Note also that this we are removing only $15$ of the top 8 juvenile classes, which is not very much, although doing this with precision in practice is probably not possible. 
+
+\section{}
+
+
+This method of modeling fire beetle systems is able to match observations made by ecologists about heterogeneity in stand structure with a simple model of MPB and wildfire. 
+
+The stand thinning process is an effective way to increase resilience of the forest to MPB outbreaks. 
 
 \section{} 
 

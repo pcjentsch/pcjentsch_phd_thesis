@@ -494,7 +494,7 @@
 
 \begin{frame}{Overall conclusion}
 \begin{itemize}
-    \item Three models of coupled human-environment systems
+    \item Coupled human-environment systems introduced new modeling possibilities
     \item Compared methods of mitigation for respective coupled infectious processes
     \item Results obtained from these answer a gap identified in literature
 \end{itemize}
@@ -516,21 +516,20 @@
 \end{document}
 
 
-% \begin{frame}{Model Equations}
-
-%     \tiny
-%         \begin{eqnarray}
-%             \frac{dS^1_i}{dt} &= & - r \rho_i s(t) S^1_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j} + P_j}{N_j}\right) - \tau S^1_i  \label{S1eqn} \\
-%             \frac{dS^2_i}{dt} &= & - r \rho_i s(t) S^2_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right)  - \tau S^2_i  \label{S2eqn} \\
-%             \frac{dE_i}{dt} &= &  r_i s(t) (S^1_i + S^2_i) \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right) - \sigma_0 E_i + \tau (S^1_i + S^2_i)\label{Eeqn} \\
-%             \frac{dP_i}{dt} &= & \sigma_0 E_i - \sigma_1 P_i \label{Peqn} \\
-%             \frac{dI_{a_i}}{dt} &= & \eta \sigma_1 P_i - \gamma_a I_{a_i}\label{Ieqn} \\
-%             \frac{dI_{s_i}}{dt} &= & (1 - \eta) \sigma_1 P_i - \gamma_s I_{s_i} \label{Ieqn} \\
-%             \frac{dR_i}{dt} &= & \gamma_a I_{a_i} + \gamma_s I_{s_i}  \label{Reqn} \\
-%             \frac{dx}{dt} &= &\kappa x (1-x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x)  \label{xeqn_new}\\
-%     C_{ij}(t,x) &= & C^W_{ij}(t) + C^S_{ij}(t) + (1 - \epsilon_P x )\left({C}^O_{ij} + {C}^H_{ij}\right)
-%         \end{eqnarray}
-%     \end{frame}
+\begin{frame}{Model Equations}
+    \tiny
+        \begin{eqnarray}
+            \frac{dS^1_i}{dt} &= & - r \rho_i s(t) S^1_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j} + P_j}{N_j}\right) - \tau S^1_i  \label{S1eqn} \\
+            \frac{dS^2_i}{dt} &= & - r \rho_i s(t) S^2_i \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right)  - \tau S^2_i  \label{S2eqn} \\
+            \frac{dE_i}{dt} &= &  r_i s(t) (S^1_i + S^2_i) \sum_{j=1}^{16} C_{ij}(t) \left(\frac{I_{s_j} + I_{a_j}+ P_j}{N_j}\right) - \sigma_0 E_i + \tau (S^1_i + S^2_i)\label{Eeqn} \\
+            \frac{dP_i}{dt} &= & \sigma_0 E_i - \sigma_1 P_i \label{Peqn} \\
+            \frac{dI_{a_i}}{dt} &= & \eta \sigma_1 P_i - \gamma_a I_{a_i}\label{Ieqn} \\
+            \frac{dI_{s_i}}{dt} &= & (1 - \eta) \sigma_1 P_i - \gamma_s I_{s_i} \label{Ieqn} \\
+            \frac{dR_i}{dt} &= & \gamma_a I_{a_i} + \gamma_s I_{s_i}  \label{Reqn} \\
+            \frac{dx}{dt} &= &\kappa x (1-x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x)  \label{xeqn_new}\\
+    C_{ij}(t,x) &= & C^W_{ij}(t) + C^S_{ij}(t) + (1 - \epsilon_P x )\left({C}^O_{ij} + {C}^H_{ij}\right)
+        \end{eqnarray}
+    \end{frame}
 % \begin{frame}{Studying COVID-19 vaccination}
 %     \begin{itemize}
 %         \item Model-based analyses are exploring which group should be the first to get the vaccine \cite{bubar2020model,hoyt2020vaccine}.
@@ -572,18 +571,6 @@
 %     \end{figure}
 % \end{frame}
 
-
-% \begin{frame}{Game theory as a model of NPI adoption}
-%         \begin{table}
-%         \footnotesize
-%         \begin{tabular}{ |c|c| c| } \hline
-%             \diagbox[width = 7em, height = 2em]{P1}{P2} &use NPI& don't use NPI   \\ \hline
-%             use NPI & \diagbox[width = 13em, height = 8em]{low risk,\\ NPIs unpleasant}{low risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{med risk,\\ NPIs unpleasant} {med risk}\\ \hline 
-%             don't use NPI & \diagbox[width = 13em, height = 8em]{med risk}{med risk,\\ NPIs unpleasant} &  \diagbox[width = 13em, height = 8em]{high risk}{high risk}   \\ \hline
-%         \end{tabular}
-%         \caption{NPI adoption as a two-player game (between P1 and P2)}
-%     \end{table}
-% \end{frame}
 % \begin{frame}{Replicator equation for population games}
 %         Population dynamics under a population game can be approximated by the replicator equation
 %         \begin{equation}
@@ -599,25 +586,25 @@
 %         \end{itemize}
 % \end{frame}
 
-% \begin{frame}{Our model of NPI usage}
+\begin{frame}{Our model of NPI usage}
 
-%     The full equation for $x(t)$, in this model, is given by
+    The full equation for $x(t)$, in this model, is given by
 
-%     \begin{equation}{}
-%         \frac{d x}{dt} = \sigma x (1 - x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x) 
-%     \end{equation}
+    \begin{equation}{}
+        \frac{d x}{dt} = \sigma x (1 - x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x) 
+    \end{equation}
 
-%     \begin{itemize}
+    \begin{itemize}
 
-%     \item The term $p_{ul}(1-2 x)$ accounts for outside influence, where $p_{ul}$ is small.
+    \item The term $p_{ul}(1-2 x)$ accounts for outside influence, where $p_{ul}$ is small.
     
-%     \item $\alpha_i$ denotes the fraction of cases ascertained through testing.
+    \item $\alpha_i$ denotes the fraction of cases ascertained through testing.
     
-%     \item $N_i$ is the population in age compartment $i$, $\sum_{i=1}^{16} N_i$ is the total population. 
-%     \item $x(t)$ interacts with the infection dynamics by reducing the fraction of "home" and "other" contacts contributing to the infection rate
-%     \end{itemize}
+    \item $N_i$ is the population in age compartment $i$, $\sum_{i=1}^{16} N_i$ is the total population. 
+    \item $x(t)$ interacts with the infection dynamics by reducing the fraction of "home" and "other" contacts contributing to the infection rate
+    \end{itemize}
 
-% \end{frame}
+\end{frame}
 
 
 % \begin{frame}{Lockdown mechanics}
