@@ -70,7 +70,7 @@ The strategies are oldest first, youngest first, vaccinating everyone at the sam
 
 
 \section{}
-We used a method called approximate bayesian computation to fit the model to case data from Ontario, Canada. The beginning of the fitting window is the first day on which Ontario recorded more than 50 cases, March 12.
+Approximate bayesian computation was used estimate the posteriors of the parameters using case data from Ontario, Canada.
 
 The proportion of people using NPIs, $x(t)$ was fit to google mobility data. They have a dataset that measures the percentage change in baseline of visits to recreational and retail destinations, and we use that as a proxy for $x(t)$.
 
@@ -221,9 +221,18 @@ The key aspect of MPB dynamics that this, and most other models, incorporate is 
 We extended this model with a simple model of the number of trees burned in year. I will discuss this more on the equations slide.
 \section{}
 
-This is a plot of model states,;
+This is a plot of model states.
 
 explain snags
+
+note weird indexing
+
+$I_n$ is the trees that will be infested in after the spring of year $n$
+
+$F_n$ is the trees that are burnt snags before the spring of year $n$, so they were burned in year $n-1$.
+
+
+
 
 \section{}
 
