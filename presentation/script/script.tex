@@ -16,10 +16,16 @@ A great deal of things can be described as a contagious, or equivalently an infe
 Our current situation has made the importance of understanding contagious processes extremely clear to more people than ever before.
 
 \section{}
-Due to their complexity, many of these infectious systems are studied in isolation. However, coupling is often fundamental to the story. Take for example, the kuramoto model, which are coupled periodic oscillators that exhibit spontaneous synchronization if their coupling is strong enough. While humanity's impact on the environment is the subject of over a century of scholarship, and the impact of the environment on humanity has an even longer history, the treatment of humanity and our environment as a coupled system, one that feeds back into itself, is relatively new. Advances in numerical computing have brought understanding of many of these systems within our reach. There are many problems that are better addressed from this perspective, and in this presentation and thesis I hope to provide some examples of that. 
+Due to their complexity, many of these infectious systems are studied in isolation. However, coupling is often fundamental to the story. Take for example, the kuramoto model, which are coupled periodic oscillators that exhibit spontaneous synchronization if their coupling is strong enough. 
+
+While humanity's impact on the environment is the subject of over a century of scholarship, and the impact of the environment on humanity has an even longer history, the treatment of humanity and our environment as a coupled system, one that feeds back into itself, is relatively new. 
+
+There are many problems that are better addressed from this perspective, and in this presentation and thesis I hope to provide some examples of that. 
 
 \section{}
-Beginning with the first project. The background to this chapter is that we wanted to construct a model of Sars-CoV-2 spread that accounted for behavioural dynamics. Population sentiment towards the use of many non-pharmeceutical interventions can majorly affect the transmission rate, as we saw in some countries that were able to keep cases in the single or double digits with a combination of mask usage, contact tracing, and physical distancing.
+Beginning with the first project. The background to this chapter is that we wanted to construct a model of Sars-CoV-2 spread that accounted for behavioural dynamics. 
+
+Population sentiment towards the use of many non-pharmeceutical interventions can majorly affect the transmission rate, as we saw in some countries that were able to keep cases in the single or double digits with a combination of mask usage, contact tracing, and physical distancing.
 
 An important aspect to COVID-19 infection, especially at the beginning of pandemic was it's effect on the elderly. Ontario long term care homes especially were severely affected, but the risk of symptoms, hospitalization and death increase dramatically with age. 
 
@@ -30,39 +36,37 @@ The COVID-19 vaccine rollout has already occurred, but at this point in the pand
 
 \section{}
 
-Our research questions were something like, what can we say about vaccination strategies that focus on highly connected individuals versus strategies that focus on highly susceptible individuals in terms of their effect in reducing mortality.
-
-At this point in the pandemic there were many unknowns about how the vaccine rollout would work, and what the social and epidemiological landscape would look like when it happened, so we wanted to be able to answer this question with respect to a bunch of the relevant parameters.
+At the point in the pandemic where we conducted this research, there were many unknowns about how the vaccine rollout would work, and what the social and epidemiological landscape would look like when it happened, so we wanted to be able to answer this question with respect to a bunch of the relevant parameters.
 
 
-\section{}
+For this chapter I will describe our model, briefly how we fit it to data, and then the results where we compare outcomes for different vaccinations strategies as a function of key parameters.
 
-The flow of this chapter starts with roughly describing our model due to time constraints, fitting the model to data, and then evaluating the vaccination strategies over various parameters.
 
 
 \section{}
+
 To give an overview of the structure of our model, we used a compartmental impulsive differential equation model of the infection with compartments outlined here. This is coupled to a simple social model of the adoption of NPIs within the population.
 
 The population goes through the following states: Susceptible, Vaccinated but still susceptible (since evidence has shown that most vaccines in development are not perfectly effective), vaccinated and immune, exposed, pre-symptomatic, infectious and asymptomatic, infectious and symptomatic, and recovered. These disease compartments are also age structured, that is each disease compartment is further divided into 16 compartments, where each compartment represents a five year age group, except the oldest compartment.
 
-Each person in the population is also assumed to either use NPIs or not, and so we denote the fraction of people using NPIs by the state variable $x(t)$.
+Each person in the population is also assumed to either use NPIs or not, and so we denote the proportion of people using NPIs by the state variable $x(t)$.
 
 
 
 \section{}
-The adoption of NPIs can be viewed in game theoretical framework as a prisoners dilemma. Here is the payoff matrix between two "players", where each has the choice to use or not use NPIs. 
+In this project we incorporate feedback between the population and the infection, by modeling the adoption of NPIs in a game theoretical framework. Here is the payoff matrix between two "players", where each has the choice to use or not use NPIs. 
 
 We see that we experience the lowest risk of infection when both players are using NPIs. However, it can be beneficial for one player to "defect", because they get the benefit of not social distancing while enjoying a lower risk of infection, than if nobody social distanced. In this sense they are free-riding off the protection from others.
 
-We model the use of NPIs as a population game, where each person is "playing" against the average behaviour of the population. $x(t)$ affects the disease compartments by modifying the contribution of the home and other contact matrices to the overall infection rate.
+Under this model, we are all playing this game, all the time with everyone. Therefore we model the use of NPIs as a population game, where each person is "playing" against the average behaviour of the population.
+
+We couple the fraction of people using NPIs, $x(t)$,  to the disease dynamics by modifying the infection rate proportional to $x(t)$.
 
 \section{}
 
+In our analysis, we compare the reduction in  cumulative mortality after five years from the beginning of the pandemic, between each vaccination strategy.
 
-
-We compare the reduction in total deaths, cumulative mortality, after five years from the beginning of the pandemic, under each vaccination strategy.
-
-The strategies are oldest first, youngest first, vaccinating everyone at the same rate, and a contact-based strategy, where the ratios are given by the normalized leading eigenvector of the contact matrices. A plot of this strategy is shown in the figure here. The "oldest first" strategy targets a vulnerable age group while the other three strategies are designed to interrupt transmission.
+The strategies are oldest first, youngest first, vaccinating everyone at the same rate, and a contact-based strategy, where the ratios are given by the normalized leading eigenvector of the contact matrices. A plot of this strategy is shown in the figure here. The "oldest first" strategy protect a vulnerable age group while the other three strategies are designed to interrupt transmission.
 
 
 \section{}
@@ -79,15 +83,15 @@ The coupled aspect of our model is important here as without the feedback of fal
 \section{}
 
 
-Ok now onto the results. This plot shows the percentage reduction in mortality, relative to no vaccination, for each of the four strategies as a function of the vaccination rate psi, expressed as a percentage of the total population per week. We considered two dates for the onset of vaccination, the first of January 2021, and the first of september. These correspond to the end dates of a two-dose course of vaccination lasting two weeks. We are also assuming a baseline efficacy of 75\% against both disease and transmissibility.
+Ok now onto the results. This plot shows the percentage reduction in mortality, relative to no vaccination, for each of the four strategies as a function of the vaccination rate psi, expressed as a percentage of the total population per week. We considered two dates for the onset of vaccination, the first of January 2021, and the first of september. These correspond to the end dates of a two-dose course of vaccination. We are also assuming a baseline efficacy of 75\% against both disease and transmissibility.
 
-We identify a few regimes for model dynamics from this plot. If the vaccine is available soon and the vaccination rate is relatively high (over 1\% per week), we see the the oldest first strategy reduces mortality the most. However, if the vaccination rate is about \%0.5 per week, then contact-based and other transmission-interrupting strategies are best.
+We identify a few regimes for model dynamics from this plot. If the vaccine is available soon and the vaccination rate is not low (over 1\% per week), we see the the oldest first strategy reduces mortality the most. However, if the vaccination rate is about \%0.5 per week, then contact-based and other transmission-interrupting strategies are best.
 
-If the vaccine is available later, then for low vaccination rates, the oldest first strategy is best, but for vaccination rates above 1.5\%, transmission-interrupting strategies become optimal again. As the vaccination rate increases more, the strategies converge as everyone is either infected or vaccinated too quickly for there to be much difference.
+If the vaccine is available later, then for low vaccination rates, the oldest first strategy is best, but for vaccination rates above 1.0   \%, transmission-interrupting strategies become optimal again. As the vaccination rate increases more, the strategies converge as everyone is either infected or vaccinated too quickly for there to be much difference.
 
-We see the youngest first strategy performs very poorly. The under-performance of the youngest first strategy occurs because in populations with strong age-assortative mixing, the indirect benefits of vaccination are “wasted" if vaccination is first concentrated in specific age groups before being extended to the rest of the population.
+% We see the youngest first strategy performs very poorly. The under-performance of the youngest first strategy occurs because in populations with strong age-assortative mixing, the indirect benefits of vaccination are “wasted" if vaccination is first concentrated in specific age groups before being extended to the rest of the population.
 
-The relative performance of the strategies in these three regimes is generally unchanged across the full range of values for the shutdown threshold.
+% The relative performance of the strategies in these three regimes is generally unchanged across the full range of values for the shutdown threshold.
 
 For context, 
 (10,350 vaccines per day currently)/(population of ontario) * 100 * 7 = \%0.507 per week 
@@ -109,29 +113,37 @@ In the next two slides we show timeseries plots of the model regimes identified 
 
 \section{}
 
-We also performed a parameter plane sensitivity analysis over all combinations of shutdown threshold capital T, and vaccination rate psi. This plot shows the strategy that reduces mortality the most over all realizations Generally vaccinating vulnerable is the best strategy most often, and we see that the shutdown threshold does not affect that very much. 
+We also performed a parameter plane sensitivity analysis over all combinations of shutdown threshold capital T, and vaccination rate psi. This plot shows the strategy that reduces mortality the most over all realizations.Generally vaccinating vulnerable is the best strategy most often, and we see that the shutdown threshold does not affect that very much. 
 
+Mention \%0.5 column loss
 \section{}
 
 To generate these histogram plots we took parameter plane from the previous slide, and grouped each of the solutions based on which strategy performed best for that parameter set. Then the groups were organized into a histogram based on the number of recovered people at vaccination start date. Vertical lines denote the median of the distribution in each subplot.
 
-This shows that broadly, more pre-existing natural immunity causes transmission interrupting strategies to be more effective.
-
 \section{}
 
-So to sum up, in this chapter we develop a compartmental population model of the virus transmission and vaccination, coupled to a simple population-level social model. We showed that there are times when transmission interrupting strategies can be more effective, depending on the level of pre-existing immunity, or recovered people. This is only the main results we focused on, the remainder are covered in the thesis, including varying vaccine efficacy and also introducing a second social equation to account for vaccine refusal dynamics.
+So to sum up, in this chapter we develop a compartmental population model of the virus transmission and vaccination, coupled to a simple population-level social model. 
+
+
+We showed that there are times when transmission interrupting strategies can be more effective, depending on the level of pre-existing immunity, or recovered people. 
+
+Broadly, more pre-existing natural immunity causes transmission interrupting strategies to be more effective.
+
+This is only the main results we focused on, the remainder are covered in the thesis, including varying vaccine efficacy and also introducing a second social equation to account for vaccine refusal dynamics.
 
 There are also a few things that I want to point out as well that we did not account for. The efficacy of the oldest first strategy definitely has a lot to do with the high mortality rate of older people, particular those over 80, and in particular Ontario had some very severe outbreaks in Long-term-care homes.
 
-We are also assuming that immunity does not wane at all, which has not been established for this virus.
+We are assuming that immunity does not wane at all, and that vaccination rate is constant, which is a big assumption as we have seen in Ontario for instance.
+
+
 
 \section{}
 
-My next project was this model of invasive forest pests spreading throughout Eastern Canada. In addition to Chris and Madhur, Denys Yemshanov, from the Great Lakes Forestry Centre, also helped supervise my work on this project. 
+My next project was this model of invasive forest pests spreading throughout Eastern Canada. In addition to Professor Bauch and Professor Anand, Dr. Denys Yemshanov, from the Great Lakes Forestry Centre, also helped supervise my work on this project. 
 
 Invasive forest pests cause a ton of damage, both ecological and financial, to woodlots and forests each year. We have good evidence which shows that many of these pests, including the extremely destructive Emerald Ash Borer, can be transported very long distances in untreated firewood. This long distance transport greatly increases the rate at which pests can spread throughout the landscape.
 
-We use education and awareness campaigns to discourage people from transporting firewood. 
+Education and awareness campaigns are one of the major tools to prevent the spread of untreated firewood. 
 
 
 \section{}
@@ -142,14 +154,15 @@ When is each method most effective with respect to pest attributes?
 
 To address these questions we adapted a metapopulation model by Barlow et al. to work over a larger network and include additional possibilities for interventions.
 
-We used this model to compare three strategies for reducing the spread of a pest as a function of pest-specific information, over a given period of time, since none of these strategies can eradicate a pest in our model.
+We used this model to compare three strategies for reducing the spread of a pest as a function of pest-specific information, over a given period of time.
 
+Since we wanted to include things like education and awareness campaigns in our model, we needed to use a coupled model with social dynamics. 
 
 \section{}
 
-The model studied, shown here, was a compartmental metapopulation model where each forest patch is modeling as a well-mixed population of hosts through which the pest spreads. This is coupled to a replicator equation which express the dynamics for the proportion of people in a given patch who buy firewood locally. Firewood is imported to patches at a rate proportional to the travel network, and from there the pest spread within a patch according to the infestation rate $A$. The parameter $I_a$ creates a small threshold effect, so the level of pest needed for a positive growth rate needs to be larger when pest population is small. 
+The model studied, shown here, was a compartmental metapopulation model where each forest patch is modeled as a well-mixed population of hosts through which the pest spreads. This is coupled to a replicator equation which expresses the dynamics for the proportion of people in a given patch who buy firewood locally. Firewood is moved between patches at a rate proportional to the weight on the corresponding travel network edge, and from there the pest spread within a patch according to the infestation rate $A$. The parameters $I_a$ and $\gamma$ create a small threshold effect, so the level of pest needed for a positive growth rate needs to be larger when pest population is small. 
 
-Parameters were estimated by trying to match aspects of epidemic curves from the EAB infestation, but there is a lot of uncertainty especially in the behavior dynamics. 
+Parameters were estimated by trying to match aspects of epidemic curves from the EAB infestation, but there is a lot of uncertainty in this model specification especially in the behavior dynamics. 
 
 \section{}
 
@@ -157,11 +170,11 @@ We will use the variable big-$T(t)$ as a major metric of performance. This varia
 
 \section{}
 
-This is a plot of the network data we use to weight the between-patch firewood import terms. The data, obtained from park reservation systems by the canadian forest service, shows the rough frequency of recreational camping trips.
+This is a plot of the network data we use to weight the between-patch firewood import terms. The data, obtained from park reservation systems by the canadian forest service, shows the rough frequency of recreational park use trips.
 
 \section{}
 
-Here we show that generally it is tricky to get effective long-term protection with interception or social incentives. There is an interesting threshold effect, primarily in $U$. Since I have been told I am allowed to critique my own work, in the paper we conclude that this threshold is unattainable. While that is certainly true for $C_t$ as infested firewood is extremely difficult to intercept, I do not think it is obvious for $U$ since we have no benchmark of the effect of education policy on $U$.
+Here we show that generally it is tricky to get effective long-term protection with interception of firewood or social incentives. There is an interesting threshold effect, primarily in $U$. In the paper we conclude that this threshold is unattainable. While that is certainly true for $C_e$ as infested firewood is extremely difficult to intercept, I do not think it is obvious for $U$ since we have no real benchmark of the effect of education policy on $U$.
 
 % In fact, based on timeseries estimates, $U = 4$ is probably achieveable, given that corresponds to only a  
 
@@ -170,7 +183,7 @@ Here we show that generally it is tricky to get effective long-term protection w
 
 Many results in this chapter are expressed as changes in the marginal benefit of U. That is, fix $t_0$, and given $T(t_0)$ as a function of $U$ we construct a simple linear approximation around these points, and plot the resulting slope. This gives us a linear approximation in the marginal benefit of $U$, as shown in the inset plot. The justification for this is primarily that we are interested in how changes in $U$ will affect outcomes, not in it's value. From my experiments, this linear approximation is mostly reflective of the trend, but it is certainly capable of hiding interesting nonlinearities in the dynamics that might affect outcomes.  
 
-This plot shows that the influence of infestation on transport strategy can dramatically hinder public outreach if it is low. 
+This plot shows that small $f$, which controls the influence of infestation on transport strategy, can dramatically hinder public outreach.
 
 \section{}
 
@@ -188,25 +201,44 @@ Again we see a strong threshold effect, but we really need a massive, long quara
 
 \section{}
 
-The conclusion that we draw from this model is that fire-wood interception methods are not effective, and that education and quarantine are marginally effective in the prevention of pest spread, depending on specific pest parameters. I think we have seen that not just with EAB but with all number of invasive species, transmission limiting methods are just not going to be very effective because there are always leaks and a few leak is often all it takes. 
+The conclusion that we draw from this model is that fire-wood interception methods are not effective, and that education and quarantine are marginally effective in the prevention of pest spread, depending on specific pest parameters. I think we have seen that not just with EAB but with all number of invasive species, transmission limiting methods are just not going to be very effective because there are always leaks and a few leaks is often all it takes. 
 
 \section{}
 
-This chapter is about a coupled model of fire and MPB. Our research questions for this project were something like:
+In contrast to the previous chapter, which discussed invasive species. Here we study an endemic pest and disturbance system, Mountain Pine Beetle and wildfire. 
 
-How do changes in fire prevalence affect MPB dynamics?   \\
-\vspace{0.5cm}
-How can we exploit stand structure to dampen MPB outbreaks? \\
-\vspace{0.5cm}
-Can we create a simple model that replicates major features of the Fire-MPB system?
+This was my first research project as a graduate student, initially it was the subject of my masters until I transferred to the PhD program. We spent quite a long time reworking it in revisions, partially due to work on the COVID-19 model, but also there were some issues with the model that had to be worked out. It was not published when the thesis was submitted but it is now.  
 
-The MPB model I chose to begin was the model of Duncan and coauthors, partially for its dynamical simplicity, and I was also just very interested in discrete time dynamics at that point. I think I quickly learned that they get completely analytically intractable very fast. We extended this model with a simple model of the number of trees burned in year, and looked at how this changed the dynamics.
-
+The background is that these two disturbances, while natural features of dry pine forests in the central cordillera of North America, are generally more prevalent than in the 19th and 20th century. This is at least partially due to a warming climate, but there has been some scholarship that suggests that modern silviculture is also at fault. 
 
 
 \section{}
 
-Here are the model equations\dots
+The MPB model I chose to begin was the model of Duncan and coauthors, partially for its dynamical simplicity, and I was very interested in discrete time dynamics at that point.
+
+The key aspect of MPB dynamics that this, and most other models, incorporate is that young trees are not susceptible. Our model assumes a lower bound for susceptibility at 50 years of age. These forests tend to have very large soil seed banks, so new trees are assumed to occupy any open canopy space.  
+
+We extended this model with a simple model of the number of trees burned in year. I will discuss this more on the equations slide.
+\section{}
+
+This is a plot of model states,;
+
+explain snags
+
+\section{}
+
+I will do a quick overview of the model equations.
+
+This model conserves forest floor space. This equation determines new trees coming up in the place of trees that have previously burned or been infested. We also assume Juveniles die at some rate d per year. 
+
+Susceptibles in the next year will be the susceptibles from the current year, plus the oldest juveniles, minus the trees which are burned, infested, or both.
+
+
+$P_n$ is the fire severity, which we assume is proportional to the total land area $T$, minus the total number of trees burned from preceding years, decaying by an exponential term controlled by $\kappa$.
+
+This $max$ function is not present in the chapter, and for the parameter ranges we consider it is not needed, but I think it should be included.
+
+We add noise to both the infested and burnt trees compartments as well.
 
 
 \section{}
@@ -233,9 +265,10 @@ This method of modeling fire beetle systems is able to match observations made b
 
 The stand thinning process is an effective way to increase resilience of the forest to MPB outbreaks. 
 
-\section{} 
+In retrospect, the MPB attack threshold is not as sharp as we model it, and it tends to decrease as a function of the MPB density. Larger populations will attack and kill smaller trees, and even less desirable hosts. In addition, it would have been interesting to model the fire dynamics within each summer as a continuous process.  
+\section{Conclusion} 
 
-We developed three simple models of coupled human-environment systems. The simplicity of these models allowed us to understand them using computational techniques. We show in each chapter how the dynamical feedback obtained from the coupling let us answer novel questions about the systems.
+We developed three simple models of coupled human-environment systems. We show in each chapter how the dynamical feedback obtained from the coupling let us answer novel questions about the systems.
 % \begin{itemize}
 %     \item Chapter 1: developed a disease-behaviour model of COVID-19 to address questions about vaccine prioritization
 %     \item Chapter 2: we used a socio-ecological model of forest pest spread to compare the efficacy of measures to prevent invasive pest spread
