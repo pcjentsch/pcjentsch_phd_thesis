@@ -27,11 +27,10 @@ Beginning with the first project. The background to this chapter is that we want
 
 Population sentiment towards the use of many non-pharmeceutical interventions can majorly affect the transmission rate, as we saw in some countries that were able to keep cases in the single or double digits with a combination of mask usage, contact tracing, and physical distancing.
 
-An important aspect to COVID-19 infection, especially at the beginning of pandemic was it's effect on the elderly. Ontario long term care homes especially were severely affected, but the risk of symptoms, hospitalization and death increase dramatically with age. 
 
 Age also affects how NPIs and lockdowns affect the population. For instance, School shutdowns and stay at home orders can dramatically decrease transmission in children, but not transmission in adults.  
 
-The COVID-19 vaccine rollout has already occurred, but at this point in the pandemic it was far off on the horizon. The question was how to prioritize groups receiving the vaccine. Due to the aforementioned mortality in the elderly, age structuring the compartments seemed like a good way to approach that. 
+The COVID-19 vaccine rollout has already occurred, but at this point in the pandemic it was far off on the horizon, and the question was how to prioritize groups receiving the vaccine.
 
 
 \section{}
@@ -47,7 +46,12 @@ For this chapter I will describe our model, briefly how we fit it to data, and t
 
 To give an overview of the structure of our model, we used a compartmental impulsive differential equation model of the infection with compartments outlined here. This is coupled to a simple social model of the adoption of NPIs within the population.
 
-The population goes through the following states: Susceptible, Vaccinated but still susceptible (since evidence has shown that most vaccines in development are not perfectly effective), vaccinated and immune, exposed, pre-symptomatic, infectious and asymptomatic, infectious and symptomatic, and recovered. These disease compartments are also age structured, that is each disease compartment is further divided into 16 compartments, where each compartment represents a five year age group, except the oldest compartment.
+The population goes through the following states: Susceptible, Vaccinated but still susceptible (since evidence has shown that most vaccines in development are not perfectly effective), vaccinated and immune, exposed, pre-symptomatic, infectious and asymptomatic, infectious and symptomatic, and recovered. 
+
+
+An important aspect to COVID-19 infection, especially at the beginning of pandemic was it's effect on the elderly. Ontario long term care homes especially were severely affected, but the risk of symptoms, hospitalization and death increase dramatically with age. Therefore, the disease compartments are also age structured, that is each disease compartment is further divided into 16 compartments, where each compartment represents a five year age group, except the oldest compartment.
+
+
 
 Each person in the population is also assumed to either use NPIs or not, and so we denote the proportion of people using NPIs by the state variable $x(t)$.
 
