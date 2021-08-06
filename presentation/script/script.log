@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  6 AUG 2021 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  6 AUG 2021 01:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -57,7 +57,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 57.
- [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (/home/peterj/Projects/thesis/presentation/script/script.aux) ) 
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+Overfull \hbox (14.02405pt too wide) in paragraph at lines 292--298
+\OT1/cmr/m/n/12 To con-clude, we de-vel-oped three mod-els of cou-pled human-environment
+ []
+
+[12] (/home/peterj/Projects/thesis/presentation/script/script.aux) ) 
 Here is how much of TeX's memory you used:
  402 strings out of 478994
  7374 string characters out of 5864751
@@ -67,7 +72,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  44i,5n,50p,749b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/peterj/Projects/thesis/presentation/script/script.pdf (12 pages, 96783 bytes).
+Output written on /home/peterj/Projects/thesis/presentation/script/script.pdf (12 pages, 96766 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

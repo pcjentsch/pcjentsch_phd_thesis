@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1628222677 "/home/peterj/Projects/thesis/presentation/script/script.tex" "/home/peterj/Projects/thesis/presentation/script/script.pdf" "script" 1628222677
-  "/home/peterj/Projects/thesis/presentation/script/script.aux" 1628222677 3252 a33dbd5ff35c3fff947007fb7e2791d1 ""
-  "/home/peterj/Projects/thesis/presentation/script/script.tex" 1628222671 20955 0735864103a08bb1b4592afefc196dda ""
+["pdflatex"] 1628226566 "/home/peterj/Projects/thesis/presentation/script/script.tex" "/home/peterj/Projects/thesis/presentation/script/script.pdf" "script" 1628226566
+  "/home/peterj/Projects/thesis/presentation/script/script.aux" 1628226566 3342 af925274c624abd92e78ea61ec5514ab ""
+  "/home/peterj/Projects/thesis/presentation/script/script.tex" 1628226559 20955 5426122628be89ff3f392ec49b3aa5ba ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1617738065 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1617738065 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1617738065 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -26,11 +26,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1621823245 5042091 e5b6f96046b6255cde6f56d334402ceb ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1621823232 2812673 d74a10ad25c1f2d69cd4bb4761fa38cc ""
-  "script.aux" 1628222677 3252 a33dbd5ff35c3fff947007fb7e2791d1 "pdflatex"
-  "script.tex" 1628222671 20955 0735864103a08bb1b4592afefc196dda ""
+  "script.aux" 1628226566 3342 af925274c624abd92e78ea61ec5514ab "pdflatex"
+  "script.tex" 1628226559 20955 5426122628be89ff3f392ec49b3aa5ba ""
   (generated)
+  "script.pdf"
   "/home/peterj/Projects/thesis/presentation/script/script.pdf"
   "/home/peterj/Projects/thesis/presentation/script/script.log"
   "script.log"
-  "script.pdf"
   "script.aux"

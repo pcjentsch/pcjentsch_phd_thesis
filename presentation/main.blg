@@ -31,6 +31,10 @@ Repeated entry---line 2703 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2723 of file master_bibliography.bib
+ : @article{bentz2010climate
+ :                          ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3056 of file master_bibliography.bib
  : @article{kaufmann2008status
  :                            ,
@@ -47,6 +51,10 @@ Repeated entry---line 3231 of file master_bibliography.bib
  : @article{seidl2016spatial
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3276 of file master_bibliography.bib
+ : @article{bentz2010climate
+ :                          ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3347 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
@@ -59,45 +67,51 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 9 entries,
+Too many commas in name 1 of "American Institute of Biological Sciences Circulation, AIBS, 1313 Dolley Madison Blvd., Suite 402, McLean, VA 22101. USA" for entry bentz2010climate
+while executing---line 2813 of file biblatex.bst
+Too many commas in name 1 of "American Institute of Biological Sciences Circulation, AIBS, 1313 Dolley Madison Blvd., Suite 402, McLean, VA 22101. USA" for entry bentz2010climate
+while executing---line 2813 of file biblatex.bst
+Too many commas in name 1 of "American Institute of Biological Sciences Circulation, AIBS, 1313 Dolley Madison Blvd., Suite 402, McLean, VA 22101. USA" for entry bentz2010climate
+while executing---line 2813 of file biblatex.bst
+You've used 10 entries,
             6393 wiz_defined-function locations,
-            1250 strings with 10786 characters,
-and the built_in function-call counts, 79186 in all, are:
-= -- 6459
-> -- 1157
-< -- 407
-+ -- 1820
-- -- 395
-* -- 5982
-:= -- 8660
+            1259 strings with 11244 characters,
+and the built_in function-call counts, 102494 in all, are:
+= -- 8707
+> -- 1413
+< -- 543
++ -- 2400
+- -- 459
+* -- 7678
+:= -- 11234
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 285
+call.type$ -- 10
+change.case$ -- 410
 chr.to.int$ -- 42
-cite$ -- 16
-duplicate$ -- 7107
-empty$ -- 7172
-format.name$ -- 711
-if$ -- 16425
+cite$ -- 18
+duplicate$ -- 8985
+empty$ -- 9162
+format.name$ -- 852
+if$ -- 21275
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 360
-num.names$ -- 545
-pop$ -- 3102
+newline$ -- 436
+num.names$ -- 702
+pop$ -- 3564
 preamble$ -- 1
-purify$ -- 347
+purify$ -- 490
 quote$ -- 0
-skip$ -- 1998
+skip$ -- 2525
 stack$ -- 0
-substring$ -- 12615
-swap$ -- 1619
-text.length$ -- 254
-text.prefix$ -- 8
+substring$ -- 17231
+swap$ -- 1990
+text.length$ -- 285
+text.prefix$ -- 9
 top$ -- 1
-type$ -- 294
+type$ -- 328
 warning$ -- 0
-while$ -- 1019
+while$ -- 1290
 width$ -- 0
-write$ -- 352
-(There were 9 error messages)
+write$ -- 427
+(There were 14 error messages)

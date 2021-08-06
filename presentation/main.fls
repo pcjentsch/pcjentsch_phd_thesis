@@ -1535,6 +1535,11 @@ INPUT /usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /home/peterj/Projects/thesis/presentation/plague_doctor.png
+INPUT /home/peterj/Projects/thesis/presentation/plague_doctor.png
+INPUT /home/peterj/Projects/thesis/presentation/plague_doctor.png
+INPUT /home/peterj/Projects/thesis/presentation/plague_doctor.png
+INPUT /home/peterj/Projects/thesis/presentation/plague_doctor.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm

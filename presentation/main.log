@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  6 AUG 2021 00:42
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  6 AUG 2021 01:09
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1500,42 +1500,38 @@ Overfull \hbox (23.82404pt too wide) detected at line 480
 
 [35
 
+] [36
+
 ]
-<mpb/a1_a2_phase.pdf, id=1475, 453.64783pt x 310.1447pt>
+<mpb/a1_a2_phase.pdf, id=1512, 453.64783pt x 310.1447pt>
 File: mpb/a1_a2_phase.pdf Graphic file (type pdf)
 <use mpb/a1_a2_phase.pdf>
-Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 487.
+Package luatex.def Info: mpb/a1_a2_phase.pdf  used on input line 496.
 (luatex.def)             Requested size: 203.51895pt x 139.1379pt.
-[36
-
-<./mpb/a1_a2_phase.pdf>]
-<mpb/z1_ts.pdf, id=1555, 432.96556pt x 418.56174pt>
-File: mpb/z1_ts.pdf Graphic file (type pdf)
-<use mpb/z1_ts.pdf>
-Package luatex.def Info: mpb/z1_ts.pdf  used on input line 503.
-(luatex.def)             Requested size: 145.3713pt x 140.53358pt.
-<mpb/z1_ftp.pdf, id=1556, 432.96556pt x 418.55974pt>
-File: mpb/z1_ftp.pdf Graphic file (type pdf)
-<use mpb/z1_ftp.pdf>
-Package luatex.def Info: mpb/z1_ftp.pdf  used on input line 503.
-(luatex.def)             Requested size: 145.3713pt x 140.53291pt.
-
-Overfull \vbox (4.10626pt too high) detected at line 503
- []
-
 [37
 
-<./mpb/z1_ts.pdf><./mpb/z1_ftp.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1643, 647.59842pt x 272.07045pt>
-File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
-<use mpb/a1_a2_trim_gain.pdf>
-Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 511.
-(luatex.def)             Requested size: 290.74263pt x 122.14412pt.
+<./mpb/a1_a2_phase.pdf>]
+<mpb/z1_ts.pdf, id=1591, 432.96556pt x 418.56174pt>
+File: mpb/z1_ts.pdf Graphic file (type pdf)
+<use mpb/z1_ts.pdf>
+Package luatex.def Info: mpb/z1_ts.pdf  used on input line 512.
+(luatex.def)             Requested size: 145.3713pt x 140.53358pt.
+<mpb/z1_ftp.pdf, id=1592, 432.96556pt x 418.55974pt>
+File: mpb/z1_ftp.pdf Graphic file (type pdf)
+<use mpb/z1_ftp.pdf>
+Package luatex.def Info: mpb/z1_ftp.pdf  used on input line 512.
+(luatex.def)             Requested size: 145.3713pt x 140.53291pt.
 [38
 
-<./mpb/a1_a2_trim_gain.pdf>] [39
+<./mpb/z1_ts.pdf><./mpb/z1_ftp.pdf>]
+<mpb/a1_a2_trim_gain.pdf, id=1678, 647.59842pt x 272.07045pt>
+File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
+<use mpb/a1_a2_trim_gain.pdf>
+Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 520.
+(luatex.def)             Requested size: 290.74263pt x 122.14412pt.
+[39
 
-] [40
+<./mpb/a1_a2_trim_gain.pdf>] [40
 
 ] [41
 
@@ -1543,10 +1539,15 @@ Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 511.
 
 ] [43
 
-</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [44
+] [44
+
+</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [45
 
 
-] [45
+] [46
+
+
+] [47
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'Ieqn'
@@ -1566,20 +1567,24 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4821AFB92742D02FB2044E0B3A1BC934;627.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 34540 strings out of 478531
+ 34552 strings out of 478531
  100000,1373583 words of node,token memory allocated
  10618 words of node memory still in use:
    313 hlist, 40 vlist, 16 rule, 1 disc, 3 local_par, 54 math, 270 glue, 114 ker
 n, 28 penalty, 378 glyph, 257 attribute, 74 glue_spec, 257 attribute_list, 20 wr
 ite, 8 pdf_dest, 28 pdf_colorstack nodes
-   avail lists: 2:1842,3:1460,4:316,5:335,6:112,7:3136,8:78,9:1034,10:15,11:251
- 52704 multiletter control sequences out of 65536+600000
+   avail lists: 2:1843,3:1460,4:316,5:336,6:114,7:3381,8:78,9:1034,10:15,11:250
+ 52711 multiletter control sequences out of 65536+600000
  83 fonts using 7623663 bytes
  131i,16n,125p,1853b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
@@ -1599,18 +1604,19 @@ n6-regular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (45 pages, 14810521 bytes).
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (47 pages, 14822483 bytes).
 
-PDF statistics: 2100 PDF objects out of 2487 (max. 8388607)
- 1840 compressed objects within 19 object streams
- 124 named destinations out of 1000 (max. 131072)
+PDF statistics: 2174 PDF objects out of 2487 (max. 8388607)
+ 1910 compressed objects within 20 object streams
+ 129 named destinations out of 1000 (max. 131072)
  64 words of extra memory for PDF output out of 10000 (max. 100000000)
 
