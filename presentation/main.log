@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  4 AUG 2021 23:38
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  5 AUG 2021 17:51
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1560,16 +1560,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 34522 strings out of 478531
+ 34525 strings out of 478531
  100000,1373583 words of node,token memory allocated
  7328 words of node memory still in use:
    88 hlist, 14 vlist, 6 rule, 34 disc, 8 local_par, 24 math, 174 glue, 49 kern,
  32 penalty, 449 glyph, 126 attribute, 74 glue_spec, 126 attribute_list, 4 write
 , 28 pdf_colorstack nodes
    avail lists: 2:2080,3:1474,4:308,5:401,6:104,7:3149,8:84,9:1279,10:15,11:214
- 52693 multiletter control sequences out of 65536+600000
+ 52695 multiletter control sequences out of 65536+600000
  83 fonts using 7623663 bytes
  131i,16n,125p,1853b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+warning  (pdf backend): unreferenced destination with name 'Navigation45'
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
 e/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share/texmf-dis
 t/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf-dist/fonts/opent
@@ -1595,10 +1597,10 @@ are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (44 pages, 6245524 bytes).
+Output written on main.pdf (44 pages, 6246398 bytes).
 
-PDF statistics: 2016 PDF objects out of 2073 (max. 8388607)
- 1760 compressed objects within 18 object streams
- 121 named destinations out of 1000 (max. 131072)
+PDF statistics: 2017 PDF objects out of 2073 (max. 8388607)
+ 1761 compressed objects within 18 object streams
+ 122 named destinations out of 1000 (max. 131072)
  56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
