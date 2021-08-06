@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  5 AUG 2021 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  6 AUG 2021 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -43,112 +43,34 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (12.65866pt too wide) in paragraph at lines 44--45
-\OT1/cmr/m/n/17.28 we used a com-part-men-tal im-pul-sive dif-fer-en-tial equa-
+Overfull \hbox (4.5757pt too wide) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 Population sen-ti-ment to-wards the use of many non-pharmeceutical
  []
 
+[1
 
-Overfull \hbox (3.52278pt too wide) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/17.28 The pop-u-la-tion goes through the fol-low-ing states:
- []
-
-
-Overfull \hbox (0.18805pt too wide) in paragraph at lines 46--47
-\OT1/cmr/m/n/17.28 im-mune, ex-posed, pre-symptomatic, in-fec-tious and
- []
-
-[3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 57.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 57.
- [4] [5]
-Overfull \hbox (12.1186pt too wide) in paragraph at lines 83--84
-[]\OT1/cmr/m/n/17.28 Of course, work-places can-not be com-pletely moved
- []
-
-[6] [7]
-Overfull \hbox (78.9122pt too wide) in paragraph at lines 104--106
-[]\OT1/cmr/m/n/17.28 For con-text, (10,350 vac-cines per day cur-rently)/(population
- []
-
-[8] [9]
-Overfull \hbox (36.23344pt too wide) in paragraph at lines 133--134
-\OT1/cmr/m/n/17.28 mis-sion and vac-ci-na-tion, cou-pled to a sim-ple population-
- []
-
-
-Overfull \hbox (19.70457pt too wide) in paragraph at lines 138--139
-[]\OT1/cmr/m/n/17.28 Broadly, more pre-existing nat-u-ral im-mu-nity causes
- []
-
-
-Overfull \hbox (19.85957pt too wide) in paragraph at lines 147--148
-\OT1/cmr/m/n/17.28 Dr. Denys Yemshanov, from the Great Lakes Forestry
- []
-
-
-Overfull \hbox (18.2169pt too wide) in paragraph at lines 147--148
-\OT1/cmr/m/n/17.28 Cen-tre, also helped su-per-vise my work on this project. 
- []
-
-[10]
-Overfull \hbox (0.15477pt too wide) in paragraph at lines 149--150
-\OT1/cmr/m/n/17.28 de-struc-tive Emer-ald Ash Borer, can be trans-ported
- []
-
-[11]
-Overfull \hbox (9.32008pt too wide) in paragraph at lines 160--161
-[]\OT1/cmr/m/n/17.28 To ad-dress these ques-tions we adapted a metapop-
- []
-
-[12] [13]
-Overfull \hbox (10.64624pt too wide) in paragraph at lines 189--190
-\OT1/cmr/m/n/17.28 Many re-sults in this chap-ter are ex-pressed as changes
- []
-
-[14] [15]
-Overfull \hbox (24.17517pt too wide) in paragraph at lines 209--210
-\OT1/cmr/m/n/17.28 tive, and that ed-u-ca-tion and quar-an-tine are marginally
- []
-
-[16] [17] [18]
-Overfull \hbox (4.50192pt too wide) in paragraph at lines 260--261
-[]\OT1/cmr/m/n/17.28 It also sta-bi-lizes fire dy-nam-ics to re-duce fire years,
- []
-
-[19]
-Overfull \hbox (4.37646pt too wide) in paragraph at lines 266--267
-\OT1/cmr/m/n/17.28 higher, while MPB out-breaks are no-tice-ably smaller
- []
-
-
-Overfull \hbox (9.1379pt too wide) in paragraph at lines 276--277
-\OT1/cmr/m/n/17.28 het-ero-gene-ity in stand struc-ture with a sim-ple model
- []
-
-[20]
-Overfull \hbox (14.40604pt too wide) in paragraph at lines 283--289
-\OT1/cmr/m/n/17.28 We de-vel-oped three sim-ple mod-els of cou-pled human-
- []
-
-[21] (/home/peterj/Projects/thesis/presentation/script/script.aux) ) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 57.
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (/home/peterj/Projects/thesis/presentation/script/script.aux) ) 
 Here is how much of TeX's memory you used:
- 393 strings out of 478994
- 7312 string characters out of 5864751
- 293820 words of memory out of 5000000
- 17956 multiletter control sequences out of 15000+600000
- 405862 words of font info for 35 fonts, out of 8000000 for 9000
+ 402 strings out of 478994
+ 7374 string characters out of 5864751
+ 295820 words of memory out of 5000000
+ 17960 multiletter control sequences out of 15000+600000
+ 406771 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,5n,50p,749b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /home/peterj/Projects/thesis/presentation/script/script.pdf (21 pages, 92891 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on /home/peterj/Projects/thesis/presentation/script/script.pdf (12 pages, 96783 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

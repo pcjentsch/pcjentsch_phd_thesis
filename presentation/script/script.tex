@@ -223,7 +223,7 @@ The MPB model I chose to begin was the model of Duncan and coauthors, partially 
 
 The key aspect of MPB dynamics that this, and most other models, incorporate is that young trees are not susceptible. Our model assumes a lower bound for susceptibility at 50 years of age. These forests tend to have very large soil seed banks, so new trees are assumed to occupy any open canopy space.  
 
-We extended this model with a simple model of the number of trees burned in year. I will discuss this more on the equations slide.
+We extended this model in a few ways. To couple wildfire dynamics we included another difference equation describing the number of trees burned each year. I will discuss this more on the equations slide.
 \section{}
 
 This is a plot of model states.
@@ -241,12 +241,11 @@ $F_n$ is the trees that are burnt snags before the spring of year $n$, so they w
 
 \section{}
 
-I will do a quick overview of the model equations.
+Here are the model equations, I just want to focus on a few specific things. 
 
-This model conserves forest floor space. This equation determines new trees coming up in the place of trees that have previously burned or been infested. We also assume Juveniles die at some rate d per year. 
+% Susceptibles in the next year will be the susceptibles from the current year, plus the oldest juveniles, minus the trees which are burned, infested, or both.
 
-Susceptibles in the next year will be the susceptibles from the current year, plus the oldest juveniles, minus the trees which are burned, infested, or both.
-
+notice $I_n$ ricker model
 
 $P_n$ is the fire severity, which we assume is proportional to the total land area $T$, minus the total number of trees burned from preceding years, decaying by an exponential term controlled by $\kappa$.
 

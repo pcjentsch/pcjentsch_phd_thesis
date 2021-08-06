@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  5 AUG 2021 23:20
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  5 AUG 2021 23:59
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1481,7 +1481,7 @@ ine 368.
 ] [33
 
 ]
-Overfull \hbox (3.87761pt too wide) in paragraph at lines 455--455
+Overfull \hbox (10.9908pt too wide) in paragraph at lines 455--455
 [][] 
  []
 
@@ -1566,7 +1566,7 @@ Here is how much of LuaTeX's memory you used:
    313 hlist, 40 vlist, 16 rule, 1 disc, 3 local_par, 54 math, 270 glue, 114 ker
 n, 28 penalty, 378 glyph, 257 attribute, 74 glue_spec, 257 attribute_list, 20 wr
 ite, 8 pdf_dest, 28 pdf_colorstack nodes
-   avail lists: 2:1822,3:1462,4:308,5:335,6:109,7:3094,8:76,9:1018,10:15,11:247
+   avail lists: 2:1822,3:1456,4:308,5:335,6:109,7:3094,8:76,9:1018,10:15,11:247
  52693 multiletter control sequences out of 65536+600000
  83 fonts using 7623663 bytes
  131i,16n,125p,1853b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1595,7 +1595,7 @@ are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (44 pages, 6246310 bytes).
+Output written on main.pdf (44 pages, 6246254 bytes).
 
 PDF statistics: 2016 PDF objects out of 2073 (max. 8388607)
  1760 compressed objects within 18 object streams
