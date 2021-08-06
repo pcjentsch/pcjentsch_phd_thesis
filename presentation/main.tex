@@ -159,6 +159,27 @@
 \end{table}
 \end{frame}
 
+\begin{frame}{Our model of NPI usage}
+
+    The full equation for $x(t)$, in this model, is given by
+
+    \begin{equation}{}
+        \frac{d x}{dt} = \sigma x (1 - x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x) 
+    \end{equation}
+
+    \begin{itemize}
+
+    \item The term $p_{ul}(1-2 x)$ accounts for outside influence, where $p_{ul}$ is small.
+    
+    \item $\alpha_i$ denotes the fraction of cases ascertained through testing.
+    
+    \item $N_i$ is the population in age compartment $i$, $\sum_{i=1}^{16} N_i$ is the total population.
+
+    \item $x(t)$ interacts with the infection dynamics by reducing the fraction of contacts contributing to the infection rate
+    \end{itemize}
+
+\end{frame}
+
 \begin{frame}{Vaccination strategies}
     \begin{columns}
         \begin{column}{0.5\textwidth}
@@ -524,25 +545,7 @@
         \end{eqnarray}
     \end{frame}
 
-\begin{frame}{Our model of NPI usage}
 
-    The full equation for $x(t)$, in this model, is given by
-
-    \begin{equation}{}
-        \frac{d x}{dt} = \sigma x (1 - x) \left(\frac{\sum_{i=1}^{16}\alpha_i(I_{a_i} + I_{s_i})}{\sum_{i=1}^{16} N_i} - c x\right) + p_{ul}(1-2 x) 
-    \end{equation}
-
-    \begin{itemize}
-
-    \item The term $p_{ul}(1-2 x)$ accounts for outside influence, where $p_{ul}$ is small.
-    
-    \item $\alpha_i$ denotes the fraction of cases ascertained through testing.
-    
-    \item $N_i$ is the population in age compartment $i$, $\sum_{i=1}^{16} N_i$ is the total population. 
-    \item $x(t)$ interacts with the infection dynamics by reducing the fraction of "home" and "other" contacts contributing to the infection rate
-    \end{itemize}
-
-\end{frame}
 
 % \begin{frame}{2.2.11, Model extension for vaccine efficacy against disease only}
 %     Parameters determining probability a vaccinated individual is immune to:
