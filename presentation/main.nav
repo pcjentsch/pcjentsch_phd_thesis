@@ -179,33 +179,43 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {39}{39}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{0}{10}{40/40}{}{0}}
+\headcommand {\beamer@sectionpages {31}{39}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {31}{39}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Conclusion}{40}{Conclusion}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{40/40}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {40}{40}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {4}{0}{11}{41/41}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{41/41}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {41}{41}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {31}{41}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {31}{41}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{References}{42}{References}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{0}{42/42}{}{0}}
+\headcommand {\slideentry {5}{0}{3}{42/42}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {42}{42}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{0}{42/43}{}{0}}
+\headcommand {\beamer@sectionpages {40}{42}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {42}{43}}
+\headcommand {\beamer@subsectionpages {40}{42}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{1}{44/44}{}{0}}
+\headcommand {\sectionentry {6}{References}{43}{References}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {1}{44}}
-\headcommand {\beamer@subsectionpages {31}{44}}
-\headcommand {\beamer@sectionpages {31}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\gdef \inserttotalframenumber {44}}
+\headcommand {\slideentry {6}{0}{0}{43/43}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{43}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{0}{43/44}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{45/45}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {40}{45}}
+\headcommand {\beamer@sectionpages {40}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\gdef \inserttotalframenumber {45}}

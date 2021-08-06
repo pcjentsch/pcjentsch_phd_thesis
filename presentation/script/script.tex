@@ -262,7 +262,10 @@ It also stabilizes fire dynamics to reduce fire years, as seen in panel d).
 
 \section{}
 
-Here we see timeseries of the model dynamics with and without the aforementioned trimming protocol, known as FTP. FTP works by cutting down the $m$ largest juvenile age classes by the fraction $tau$.
+
+Here we see timeseries of the model dynamics with and without the forest trimming protocol, which I also call FTP. FTP is a method of taking advantage of the sensitivity to heterogeneity in the model by removing a small number of stems from the largest juvenile age classes.    
+
+Specifically, FTP works by cutting down the $m$ largest juvenile age classes by the fraction $tau$.
 
 The top panel is a snapshot of the juvenile age distribution at a fixed time, the other panels are timeseries of the model states. You can see that FTP really flattens the age distribution, and at a glance the size of wildfires each year is not much higher, while MPB outbreaks are noticeably smaller on average.  
 
@@ -276,9 +279,8 @@ Here we make this conclusion solid by averaging outbreak sizes over the ranges o
 
 This method of modeling fire beetle systems is able to match observations made by ecologists about heterogeneity in stand structure with a simple model of MPB and wildfire. 
 
-The stand thinning process is an effective way to increase resilience of the forest to MPB outbreaks. 
-
-In retrospect, the MPB attack threshold is not as sharp as we model it, and it tends to decrease as a function of the MPB density. Larger populations will attack and kill smaller trees, and even less desirable hosts. In addition, it would have been interesting to model the fire dynamics within each summer as a continuous process.  
+We also show that this stand thinning process is an effective way to increase resilience of the forest to MPB outbreaks. 
+  
 \section{Conclusion} 
 
 We developed three simple models of coupled human-environment systems. We show in each chapter how the dynamical feedback obtained from the coupling let us answer novel questions about the systems.
