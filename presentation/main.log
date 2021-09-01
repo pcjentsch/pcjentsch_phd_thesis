@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  6 AUG 2021 01:09
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.5.23)  6 AUG 2021 08:07
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1524,7 +1524,7 @@ Package luatex.def Info: mpb/z1_ftp.pdf  used on input line 512.
 [38
 
 <./mpb/z1_ts.pdf><./mpb/z1_ftp.pdf>]
-<mpb/a1_a2_trim_gain.pdf, id=1678, 647.59842pt x 272.07045pt>
+<mpb/a1_a2_trim_gain.pdf, id=1679, 647.59842pt x 272.07045pt>
 File: mpb/a1_a2_trim_gain.pdf Graphic file (type pdf)
 <use mpb/a1_a2_trim_gain.pdf>
 Package luatex.def Info: mpb/a1_a2_trim_gain.pdf  used on input line 520.
@@ -1567,24 +1567,20 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4821AFB92742D02FB2044E0B3A1BC934;627.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 34552 strings out of 478531
+ 34554 strings out of 478531
  100000,1373583 words of node,token memory allocated
  10618 words of node memory still in use:
    313 hlist, 40 vlist, 16 rule, 1 disc, 3 local_par, 54 math, 270 glue, 114 ker
 n, 28 penalty, 378 glyph, 257 attribute, 74 glue_spec, 257 attribute_list, 20 wr
 ite, 8 pdf_dest, 28 pdf_colorstack nodes
    avail lists: 2:1843,3:1460,4:316,5:336,6:114,7:3381,8:78,9:1034,10:15,11:250
- 52711 multiletter control sequences out of 65536+600000
+ 52713 multiletter control sequences out of 65536+600000
  83 fonts using 7623663 bytes
  131i,16n,125p,1853b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/shar
@@ -1613,7 +1609,7 @@ onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (47 pages, 14822483 bytes).
+Output written on main.pdf (47 pages, 14822410 bytes).
 
 PDF statistics: 2174 PDF objects out of 2487 (max. 8388607)
  1910 compressed objects within 20 object streams
