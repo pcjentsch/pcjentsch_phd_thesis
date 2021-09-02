@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  2 SEP 2021 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  2 SEP 2021 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,23 +919,23 @@ Chapter 1.
 <chapter_0/sir.pdf, id=570, 210.37697pt x 107.08406pt>
 File: chapter_0/sir.pdf Graphic file (type pdf)
 <use chapter_0/sir.pdf>
-Package pdftex.def Info: chapter_0/sir.pdf  used on input line 35.
+Package pdftex.def Info: chapter_0/sir.pdf  used on input line 34.
 (pdftex.def)             Requested size: 210.37643pt x 107.08379pt.
 [2 <./chapter_0/sir.pdf>] [3] [4] [5]
 <chapter_0/Emerald_ash_borer_penny.jpg, id=701, 1541.76pt x 1504.62125pt>
 File: chapter_0/Emerald_ash_borer_penny.jpg Graphic file (type jpg)
 <use chapter_0/Emerald_ash_borer_penny.jpg>
 Package pdftex.def Info: chapter_0/Emerald_ash_borer_penny.jpg  used on input l
-ine 91.
+ine 90.
 (pdftex.def)             Requested size: 207.32315pt x 202.31155pt.
 <chapter_0/Pine_Beetle_in_Manning_Park.jpg, id=703, 491.436pt x 368.577pt>
 File: chapter_0/Pine_Beetle_in_Manning_Park.jpg Graphic file (type jpg)
 <use chapter_0/Pine_Beetle_in_Manning_Park.jpg>
 Package pdftex.def Info: chapter_0/Pine_Beetle_in_Manning_Park.jpg  used on inp
-ut line 97.
+ut line 96.
 (pdftex.def)             Requested size: 207.32315pt x 155.49303pt.
 
-Underfull \hbox (badness 1655) in paragraph at lines 98--98
+Underfull \hbox (badness 1655) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 in Man-ning Park, British Columbia,
  []
 
@@ -2242,7 +2242,7 @@ sfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (151 pages, 14736942 bytes).
+Output written on thesis.pdf (151 pages, 14736929 bytes).
 PDF statistics:
  3601 PDF objects out of 4296 (max. 8388607)
  2947 compressed objects within 30 object streams
