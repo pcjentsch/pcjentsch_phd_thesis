@@ -200,6 +200,11 @@ Alan~A Berryman, Nils~Chr Stenseth, and David~J Wollkind.
 \newblock Metastability of forest ecosystems infested by bark beetles.
 \newblock {\em Population Ecology}, 26(1):13--29, 1984.
 
+\bibitem{bezanson2012julia}
+Jeff Bezanson, Stefan Karpinski, Viral~B Shah, and Alan Edelman.
+\newblock Julia: A fast dynamic language for technical computing.
+\newblock {\em arXiv preprint arXiv:1209.5145}, 2012.
+
 \bibitem{bogart2021covid}
 Laura~M Bogart, Bisola~O Ojikutu, Keshav Tyagi, David~J Klein, Matt~G Mutchler,
   Lu~Dong, Sean~J Lawrence, Damone~R Thomas, and Sarah Kellman.
@@ -1291,6 +1296,12 @@ Toby Wise, Tomislav~Damir Zbozinek, Giorgia Michelini, Cindy~C Hagan, et~al.
 \newblock Changes in risk perception and protective behavior during the first
   week of the {COVID}-19 pandemic in the {United States}.
 \newblock 2020.
+
+\bibitem{wu2006reducing}
+Joseph~T Wu, Steven Riley, Christophe Fraser, and Gabriel~M Leung.
+\newblock Reducing the impact of the next influenza pandemic using
+  household-based public health interventions.
+\newblock {\em PLoS medicine}, 3(9):e361, 2006.
 
 \bibitem{yaya2020ethnic}
 Sanni Yaya, Helena Yeboah, Carlo~Handy Charles, Akaninyene Otu, and Ronald
