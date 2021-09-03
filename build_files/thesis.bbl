@@ -460,6 +460,12 @@ Linton~C Freeman.
 \newblock A set of measures of centrality based on betweenness.
 \newblock {\em Sociometry}, pages 35--41, 1977.
 
+\bibitem{frieden2020identifying}
+Thomas~R Frieden and Christopher~T Lee.
+\newblock Identifying and interrupting superspreading events—implications for
+  control of severe acute respiratory syndrome coronavirus 2.
+\newblock {\em Emerging infectious diseases}, 26(6):1059, 2020.
+
 \bibitem{funk2009spread}
 Sebastian Funk, Erez Gilad, Chris Watkins, and Vincent~AA Jansen.
 \newblock The spread of awareness and its impact on epidemic outbreaks.
@@ -725,6 +731,14 @@ The Lancet.
 \newblock The plight of essential workers during the covid-19 pandemic.
 \newblock {\em Lancet (London, England)}, 395(10237):1587, 2020.
 
+\bibitem{lau2020characterizing}
+Max~SY Lau, Bryan Grenfell, Michael Thomas, Michael Bryan, Kristin Nelson, and
+  Ben Lopman.
+\newblock Characterizing superspreading events and age-specific infectiousness
+  of sars-cov-2 transmission in georgia, usa.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  117(36):22430--22435, 2020.
+
 \bibitem{lauer2020incubation}
 Stephen~A Lauer, Kyra~H Grantz, Qifang Bi, Forrest~K Jones, Qulu Zheng,
   Hannah~R Meredith, Andrew~S Azman, Nicholas~G Reich, and Justin Lessler.
@@ -811,6 +825,12 @@ Heather~J Lynch, Roy~A Renkin, Robert~L Crabtree, and Paul~R Moorcroft.
 \newblock The influence of previous mountain pine beetle (dendroctonus
   ponderosae) activity on the 1988 yellowstone fires.
 \newblock {\em Ecosystems}, 9(8):1318--1327, 2006.
+
+\bibitem{malamud2005characterizing}
+Bruce~D Malamud, James~DA Millington, and George~LW Perry.
+\newblock Characterizing wildfire regimes in the united states.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  102(13):4694--4699, 2005.
 
 \bibitem{MALIK2020100495}
 Amyn~A. Malik, SarahAnn~M. McFadden, Jad Elharake, and Saad~B. Omer.

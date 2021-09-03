@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
-Reallocated field_info (elt_size=8) to 10129 items from 5000.
+Reallocated field_info (elt_size=8) to 10198 items from 5000.
 Database file #1: master_bibliography.bib
 Warning--entry type for "nrcaneab" isn't style-file defined
 --line 296 of file master_bibliography.bib
@@ -225,7 +225,7 @@ Repeated entry---line 3356 of file master_bibliography.bib
  : @article{duncan2015model
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 3583 of file master_bibliography.bib
+I was expecting a `,' or a `}'---line 3614 of file master_bibliography.bib
  :   
  :   url={https://nationalpost.com/news/canada/theyre-heroes-how-covid-19-vaccine-hunters-help-canadians-find-appointments},
 (Error may have been on previous line)
@@ -248,45 +248,45 @@ Warning--empty journal in school_closure
 Warning--empty journal in kaufmann2008status
 Warning--empty publisher in safranyik2001effects
 Warning--empty journal in wise2020changes
-You've used 223 entries,
+You've used 226 entries,
             2118 wiz_defined-function locations,
-            1663 strings with 48877 characters,
-and the built_in function-call counts, 76827 in all, are:
-= -- 7389
-> -- 4330
+            1679 strings with 49546 characters,
+and the built_in function-call counts, 77995 in all, are:
+= -- 7503
+> -- 4394
 < -- 18
-+ -- 1748
-- -- 1488
-* -- 5842
-:= -- 13129
-add.period$ -- 663
-call.type$ -- 223
-change.case$ -- 1381
++ -- 1773
+- -- 1510
+* -- 5944
+:= -- 13326
+add.period$ -- 672
+call.type$ -- 226
+change.case$ -- 1401
 chr.to.int$ -- 0
-cite$ -- 237
-duplicate$ -- 2512
-empty$ -- 5477
-format.name$ -- 1488
-if$ -- 15481
+cite$ -- 240
+duplicate$ -- 2545
+empty$ -- 5561
+format.name$ -- 1510
+if$ -- 15714
 int.to.chr$ -- 0
-int.to.str$ -- 223
-missing$ -- 213
-newline$ -- 1107
-num.names$ -- 442
-pop$ -- 1315
+int.to.str$ -- 226
+missing$ -- 216
+newline$ -- 1122
+num.names$ -- 448
+pop$ -- 1329
 preamble$ -- 1
-purify$ -- 1171
+purify$ -- 1188
 quote$ -- 0
-skip$ -- 1824
+skip$ -- 1846
 stack$ -- 0
-substring$ -- 4555
-swap$ -- 383
+substring$ -- 4650
+swap$ -- 386
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 864
+type$ -- 876
 warning$ -- 14
-while$ -- 703
-width$ -- 226
-write$ -- 2362
+while$ -- 714
+width$ -- 229
+write$ -- 2395
 (There were 57 error messages)
