@@ -10,18 +10,18 @@
 \contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Model Overview}{14}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Structure and parameterisation}{14}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Model Equations}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Vaccination process}{19}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Model Equations}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Vaccination process}{18}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Differences between parameters in the first and second wave}{19}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Case under-ascertainment}{20}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Case under-ascertainment}{19}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Baseline transmission rate}{20}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Disease progression parameters}{21}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.7}Disease progression parameters}{20}{subsection.2.2.7}%
 \contentsline {subsection}{\numberline {2.2.8}Initial conditions}{21}{subsection.2.2.8}%
-\contentsline {subsection}{\numberline {2.2.9}Particle filtering}{22}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.9}Particle filtering}{21}{subsection.2.2.9}%
 \contentsline {subsection}{\numberline {2.2.10}Vaccination refusal dynamics}{22}{subsection.2.2.10}%
-\contentsline {subsection}{\numberline {2.2.11}Model extension for vaccine efficacy against disease only}{23}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.11}Model extension for vaccine efficacy against disease only}{22}{subsection.2.2.11}%
 \contentsline {subsection}{\numberline {2.2.12}Vaccine scenarios}{23}{subsection.2.2.12}%
-\contentsline {section}{\numberline {2.3}Results}{24}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Results}{23}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Discussion}{34}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Go big or go home: a model-based assessment of general strategies to slow the spread of forest pests via infested firewood}{37}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{37}{section.3.1}%
@@ -29,11 +29,11 @@
 \contentsline {section}{\numberline {3.3}Materials and methods}{41}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Pest Spread Model}{41}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Social Dynamics Model}{43}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Patch-quarantine strategies}{45}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.3}Patch-quarantine strategies}{46}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Parameterization }{47}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Assessing intervention efficacy}{49}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Results}{49}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Conclusion}{54}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Conclusion}{56}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Acknowledgements}{58}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Fire Mitigates Bark Beetle Outbreaks in Serotinous Forests }{59}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%

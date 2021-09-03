@@ -6,8 +6,8 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces MPB-killed lodgepole pines in Manning Park, British Columbia, Canada \cite {mpb_manning_park}}}{7}{figure.1.5}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Compartments of the model, each block consists of 16 sub-compartments representing age structure.}}{15}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Population age distribution of Ontario, interpolated to 16 age classes \cite {ontario_census}.}}{24}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Case fatality of COVID-19 by age, $mu$, interpolated to 16 age classes \cite {publichealthontario}.}}{24}{figure.2.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Population age distribution of Ontario, interpolated to 16 age classes \cite {ontario_census}.}}{25}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Case fatality of COVID-19 by age, $mu$, interpolated to 16 age classes \cite {publichealthontario}.}}{25}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces A proxy for adherence to NPIs mirrors COVID-19 case reports in both data and model.}}{26}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Social and epidemiological dynamics interact to determine pandemic waves and vaccine strategy effectiveness.}}{27}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Three model regimes: (a) timely vaccination prevents third wave, (b,c) partial vaccination and indirect protection help during the third wave, and (d) slow and late vaccination fails to prevent third wave.}}{28}{figure.2.6}%

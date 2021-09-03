@@ -80,7 +80,7 @@ We replace the individual costs of $C_t, C_l$ with the net utility value $U = C_
 A term $B_i$ is introduced to represent the amount of local firewood available in patch $i$. For simplicity, we assume that the tree mortality rate at a patch $i$ is only caused by infestation, so the mortality rate is the same as the death rate of the infested trees
 \begin{equation}
 \label{b_eqn_1}
-\frac{d B_i}{dt} = \underbrace{-\gamma B_i}_{\text{Decay of fallen wood}} + \underbrace{d\sum_{j = 1, j\neq i}^N P_{i,j} (1 - C_e) (1 - L_j)I_j}_{\text{Import of fallen wood}}
+\frac{d B_i}{dt} = \underbrace{-\gamma B_i}_{\text{Decay of fallen wood}} + \underbrace{d (1 - C_e) \sum_{j = 1, j\neq i}^N P_{i,j}  (1 - L_j)I_j}_{\text{Import of fallen wood}}
 \end{equation}
 
 Because the infested wood imported into patch $i$ in Eq \ref{b_eqn_1} must come from another patch in the system, we subtract the corresponding term for leaving wood, $d\sum_{j = 1, j\neq i}^N P_{j,i} (1 - C_e) (1 - L_i)I_i$  from Eq \ref{i_eqn} which describes the rate of change of infested population in a patch $i$. Using the notation in equations (\ref{s_eqn}, \ref{i_eqn}, \ref{b_eqn}, \ref{l_eqn}), we formulate the problem of buying firewood locally vs. transporting it from other potentially infested locations as follows: 
@@ -106,14 +106,11 @@ Table \ref{t1} lists the model notation.
 
 
 
-\begin{table}[!ht]
-\scriptsize{
-
-\begin{tabular}{| p{0.05\linewidth} | p{0.25\linewidth} | p{0.2\linewidth}  | p{0.3\linewidth} |}
-\hline
-  Name &  Default Value,
+\begin{table}
+\footnotesize
+\begin{tabular}{ p{0.05\linewidth} | p{0.25\linewidth} | p{0.3\linewidth}  | p{0.35\linewidth}}
+  Name &  Default Value, (Range explored) & Units  & Interpretation \\
   \hline
-(Range explored) & Units  & Interpretation \\
   $N$ & 2250  & 
 Patches &Number of patches in the network \\
   $S_i$ & Site specific & Trees  & Number of susceptible trees in patch $i$\\
@@ -143,9 +140,9 @@ Utility per capita & Strength of social norms\\
 Strategy changes per capita per year  & Rate of social learning\\
   $P_{i,j}$ & See below & 
 Unitless &  Fraction of trips that go from $j$ to $i$ each year.\\
-  $d$ & 0.1 [0.05, 0.3] & 
+  $d$ & 0.1, [0.05, 0.3] & 
 Logs per year & Rate of transmission of infested firewood between patches\\
-  $I_a$ & 1 [0.5, 5] & 
+  $I_a$ & 1, [0.5, 5] & 
 Trees & Value at which transmission rate of pest is halved due to density dependence \\
   $k$ & 1 & 
 Unitless & Steepness of sigmoid function\\
@@ -155,12 +152,11 @@ Patches & Set of patches to be quarantined \\
 Years & Length of quarantine \\
   $t_0 $ & 0, [0, 5] & 
 Years  & Time between initial infestation and patch quarantine\\
-  \hline
-\end{tabular}}
+\end{tabular}
 \caption{Parameters and default values}
 \label{t1}
 \end{table}
-
+\normalsize
 \subsection{Patch-quarantine strategies}
 
 
